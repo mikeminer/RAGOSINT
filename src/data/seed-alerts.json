@@ -1,0 +1,41 @@
+[
+  {
+    "id": "seed-pnrr-monitor",
+    "title": "Monitor PNRR: bandi e avvisi pubblici",
+    "summary": "Voce dimostrativa usata solo se le fonti remote non rispondono. Rappresenta un avviso PNRR da classificare, indicizzare e distribuire via RSS.",
+    "url": "https://www.italiadomani.gov.it/it/opportunita/bandi-amministrazioni-titolari.html",
+    "channel": "bandi",
+    "sourceId": "seed",
+    "sourceName": "Seed locale",
+    "publishedAt": "2026-06-18T00:00:00.000Z",
+    "tags": ["pnrr", "bandi", "monitoraggio"],
+    "kind": "bando",
+    "score": 72
+  },
+  {
+    "id": "seed-guri-gare",
+    "title": "Gazzetta Ufficiale: contratti pubblici e gare",
+    "summary": "Voce dimostrativa per il canale GURI S5, utile a testare alert, report e feed RSS anche in assenza di rete.",
+    "url": "https://www.gazzettaufficiale.it/30giorni/contratti",
+    "channel": "bandi",
+    "sourceId": "seed",
+    "sourceName": "Seed locale",
+    "publishedAt": "2026-06-17T00:00:00.000Z",
+    "tags": ["gare", "appalti", "guri"],
+    "kind": "gara",
+    "score": 64
+  },
+  {
+    "id": "seed-normativa-guri",
+    "title": "Gazzetta Ufficiale: aggiornamenti normativi",
+    "summary": "Voce dimostrativa per il canale normativa, utile a testare il feed separato per leggi, decreti e provvedimenti ufficiali.",
+    "url": "https://www.gazzettaufficiale.it/30giorni/serie_generale",
+    "channel": "normativa",
+    "sourceId": "seed",
+    "sourceName": "Seed locale",
+    "publishedAt": "2026-06-18T00:00:00.000Z",
+    "tags": ["normativa", "guri", "leggi", "decreti"],
+    "kind": "normativa",
+    "score": 68
+  }
+]
