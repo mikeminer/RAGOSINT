@@ -179,6 +179,32 @@ export default async function Home() {
           </div>
 
           <div className="rounded-md border border-black/10 bg-white p-4 shadow-sm">
+            <div className="flex items-center gap-2 text-[#075e54]">
+              <Scale size={17} aria-hidden="true" />
+              <h2 className="text-base font-semibold text-black">Feed normativa</h2>
+            </div>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {[
+                "AI Act / GPAI",
+                "NIS2 / ACN",
+                "Privacy / GDPR",
+                "PA digitale",
+                "Accessibilita",
+                "Documenti digitali",
+                "DORA",
+                "MiCA / AML",
+              ].map((item) => (
+                <span key={item} className="rounded-md border border-black/10 bg-[#f7f7f4] px-2 py-1 text-xs font-medium text-black/70">
+                  {item}
+                </span>
+              ))}
+            </div>
+            <p className="mt-4 text-sm leading-6 text-black/60">
+              Ogni alert prova a trasformare la novita in impatto: chi e&apos; colpito, cosa deve fare, entro quando, rischio e opportunita.
+            </p>
+          </div>
+
+          <div className="rounded-md border border-black/10 bg-white p-4 shadow-sm">
             <h2 className="text-base font-semibold">Obsidian brain</h2>
             <div className="mt-4 grid gap-2">
               <DownloadLink href="/api/brain.zip" label="Vault completa" />

@@ -78,9 +78,9 @@ function readmeNote(result: CollectResult, generated: string) {
     "",
     "## API operative",
     "",
-    "- Ricerca semantica: https://rssmonitorbandi.vercel.app/api/semantic?q=pnrr&channel=bandi",
-    "- Vector store JSON: https://rssmonitorbandi.vercel.app/api/vector-store?channel=all",
-    "- Notifica Slack: https://rssmonitorbandi.vercel.app/api/notify/slack?channel=all",
+    "- Ricerca semantica: https://ragosint.vercel.app/api/semantic?q=pnrr&channel=bandi",
+    "- Vector store JSON: https://ragosint.vercel.app/api/vector-store?channel=all",
+    "- Notifica Slack: https://ragosint.vercel.app/api/notify/slack?channel=all",
     "",
     "## Flusso",
     "",
@@ -119,9 +119,9 @@ function dashboardNote(result: CollectResult, generated: string) {
     "",
     "## Ricerca semantica",
     "",
-    "- [PNRR e digitale](https://rssmonitorbandi.vercel.app/api/semantic?q=pnrr%20digitale&channel=all)",
-    "- [Gare ICT e cloud](https://rssmonitorbandi.vercel.app/api/semantic?q=gara%20cloud%20software&channel=bandi)",
-    "- [Normativa contratti pubblici](https://rssmonitorbandi.vercel.app/api/semantic?q=contratti%20pubblici&channel=normativa)",
+    "- [PNRR e digitale](https://ragosint.vercel.app/api/semantic?q=pnrr%20digitale&channel=all)",
+    "- [Gare ICT e cloud](https://ragosint.vercel.app/api/semantic?q=gara%20cloud%20software&channel=bandi)",
+    "- [Normativa contratti pubblici](https://ragosint.vercel.app/api/semantic?q=contratti%20pubblici&channel=normativa)",
   ].join("\n");
 }
 
@@ -136,8 +136,30 @@ function channelNote(channel: Channel, alerts: Alert[]) {
     "",
     `Alert: ${alerts.length}`,
     "",
+    ...channelScope(channel),
+    "",
     ...alerts.slice(0, 120).map((alert) => `- [[${channelFolder(alert.channel)}/${alertFileName(alert)}|${escapePipes(alert.title)}]]`),
   ].join("\n");
+}
+
+function channelScope(channel: Channel) {
+  if (channel === "bandi") {
+    return [
+      "## Scope",
+      "",
+      "- Bandi, gare, PNRR, appalti pubblici, MEPA, ANAC, enti territoriali, universita, ASL, EuroHPC e AI Factories.",
+      "- Estrazione operativa: scadenze, importi, CIG, CUP, requisiti e beneficiari.",
+    ];
+  }
+
+  return [
+    "## Scope",
+    "",
+    "- AI Act, GPAI, IA nella PA, privacy/GDPR, data breach, biometria e provvedimenti del Garante.",
+    "- NIS2, cybersecurity, ACN, PA digitale, Piano Triennale, CAD, accessibilita, conservazione, eIDAS.",
+    "- DORA, MiCA, crypto, AML e finanza digitale.",
+    "- Lettura operativa: chi e' colpito, cosa deve fare, entro quando, rischio e opportunita.",
+  ];
 }
 
 function sourcesIndex(sources: Source[]) {
@@ -331,7 +353,7 @@ function fieldList(label: string, values: string[]) {
 }
 
 function semanticSearchUrl(alert: Alert) {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://rssmonitorbandi.vercel.app";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://ragosint.vercel.app";
   const query = encodeURIComponent(`${alert.title} ${alert.tags.slice(0, 4).join(" ")}`);
   return `${siteUrl.replace(/\/$/, "")}/api/semantic?q=${query}&channel=${alert.channel}`;
 }

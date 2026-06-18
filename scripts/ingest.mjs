@@ -66,6 +66,50 @@ const HTML_SIGNAL_TERMS = [
   "avviso",
   "avvisi",
   "pnrr",
+  "ai act",
+  "regolamento ue 2024/1689",
+  "general-purpose ai",
+  "gpai",
+  "high-risk ai",
+  "sistemi ad alto rischio",
+  "linee guida",
+  "consultazione pubblica",
+  "provvedimento",
+  "sanzione",
+  "garante",
+  "gdpr",
+  "privacy",
+  "data breach",
+  "biometria",
+  "riconoscimento facciale",
+  "videosorveglianza",
+  "nis2",
+  "nis 2",
+  "cybersicurezza",
+  "cybersecurity",
+  "incident response",
+  "piano triennale",
+  "cad",
+  "interoperabilita",
+  "accessibilita",
+  "accessibility",
+  "european accessibility act",
+  "conservazione",
+  "documento informatico",
+  "eidas",
+  "spid",
+  "anpr",
+  "send",
+  "dora",
+  "resilienza operativa digitale",
+  "ict risk",
+  "incident reporting",
+  "mica",
+  "crypto-asset",
+  "casp",
+  "stablecoin",
+  "antiriciclaggio",
+  "aml",
   "cig",
   "cup",
   "affidamento",
@@ -165,7 +209,7 @@ async function fetchSource(source) {
   const response = await fetch(source.url, {
     headers: {
       accept: "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
-      "user-agent": "ragosint/0.1 (+https://rssmonitorbandi.vercel.app)",
+      "user-agent": "ragosint/0.1 (+https://ragosint.vercel.app)",
     },
     signal: AbortSignal.timeout(20000),
   });
@@ -185,7 +229,7 @@ async function fetchHtmlSource(source) {
   const response = await fetch(source.url, {
     headers: {
       accept: "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
-      "user-agent": "ragosint/0.1 (+https://rssmonitorbandi.vercel.app)",
+      "user-agent": "ragosint/0.1 (+https://ragosint.vercel.app)",
     },
     signal: AbortSignal.timeout(20000),
   });
@@ -526,12 +570,21 @@ function inferTags(text, sourceTags) {
   const rules = {
     normativa: ["legge", "decreto", "delibera", "regolamento", "ordinanza", "provvedimento"],
     privacy: ["privacy", "gdpr", "protezione dei dati", "garante"],
+    "data-breach": ["data breach", "violazione dei dati", "incident notification", "notifica violazione"],
     lavoro: ["lavoro", "contratto collettivo", "inps", "inail"],
     tributi: ["tribut", "agenzia delle entrate", "imposta", "fiscale"],
     pnrr: ["pnrr", "next generation eu", "missione", "m1c", "m2c", "m3c", "m4c", "m5c", "m6c"],
     digitale: ["digitale", "digitalizzazione", "cloud", "software", "piattaforma", "dati", "interoperabilita"],
+    "pa-digitale": ["pubblica amministrazione", "pa digitale", "piano triennale", "cad", "spid", "anpr", "app io", "pagoPA", "send"],
+    accessibilita: ["accessibilita", "accessibility", "european accessibility act", "servizi digitali accessibili"],
+    "documenti-digitali": ["conservazione", "documento informatico", "gestione documentale", "protocollo informatico", "pec", "domicilio digitale", "eidas"],
     cyber: ["cyber", "sicurezza informatica", "security", "soc"],
+    nis2: ["nis2", "nis 2", "direttiva nis", "soggetti essenziali", "soggetti importanti", "incident response"],
     ai: ["intelligenza artificiale", "artificial intelligence", "machine learning"],
+    "ai-act": ["ai act", "regolamento ue 2024/1689", "regulation (eu) 2024/1689", "gpai", "general-purpose ai", "high-risk ai", "sistemi ad alto rischio"],
+    dora: ["dora", "digital operational resilience act", "resilienza operativa digitale", "ict risk", "ict third-party"],
+    mica: ["mica", "markets in crypto-assets", "crypto asset", "crypto-asset", "casp", "stablecoin", "asset-referenced token"],
+    aml: ["antiriciclaggio", "anti-money laundering", "aml", "travel rule", "uif", "oam"],
     gare: ["gara", "appalto", "affidamento", "procedura aperta"],
     scadenza: ["scadenza", "termine", "presentazione domande"],
     comuni: ["comune", "comuni", "enti locali", "provincia"],
@@ -597,6 +650,9 @@ function score(text, tags, kind, channel) {
   if (tags.includes("normativa")) value += 10;
   if (tags.includes("pnrr")) value += 20;
   if (tags.includes("digitale") || tags.includes("cyber") || tags.includes("ai")) value += 18;
+  if (tags.includes("ai-act") || tags.includes("nis2") || tags.includes("dora") || tags.includes("mica")) value += 22;
+  if (tags.includes("pa-digitale") || tags.includes("accessibilita") || tags.includes("documenti-digitali")) value += 14;
+  if (tags.includes("privacy") || tags.includes("data-breach") || tags.includes("aml")) value += 12;
   if (tags.includes("eurohpc") || tags.includes("ai-factories") || tags.includes("it4lia") || tags.includes("eu-funding")) {
     value += 24;
   }

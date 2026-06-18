@@ -6,7 +6,7 @@ import { createZip } from "@/lib/zip";
 export async function rssResponse(channel: ChannelFilter = "all") {
   const limit = channel === "normativa" ? 120 : 220;
   const result = await collectAlerts({ channel, limit });
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://rssmonitorbandi.vercel.app";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://ragosint.vercel.app";
 
   return new Response(buildRssFeed(result, siteUrl), {
     headers: {

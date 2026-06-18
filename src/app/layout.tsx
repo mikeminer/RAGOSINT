@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://rssmonitorbandi.vercel.app"),
+  metadataBase: new URL("https://ragosint.vercel.app"),
   title: "RAGOSINT",
   description: "Pipeline OSINT/RAG-ready per normativa italiana, bandi, gare d'appalto e opportunita PNRR.",
   openGraph: {
     title: "RAGOSINT",
     description: "Due feed RSS e una knowledge base Obsidian da fonti pubbliche italiane.",
-    url: "https://rssmonitorbandi.vercel.app",
+    url: "https://ragosint.vercel.app",
     siteName: "RAGOSINT",
     locale: "it_IT",
     type: "website",
