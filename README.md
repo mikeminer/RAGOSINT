@@ -10,6 +10,21 @@ Il progetto non e' solo scraping: recupera fonti ufficiali, le normalizza, le in
 - Bandi: `/feed/bandi.xml`
 - Aggregato: `/feed.xml`
 
+## Obsidian brain scaricabile
+
+Vercel genera una vault Obsidian completa in formato ZIP. Scaricala, estraila e apri la cartella con Obsidian per visualizzare grafo, tag, backlink, fonti e cluster.
+
+- Brain completo: `/api/brain.zip`
+- Brain normativa: `/api/brain/normativa.zip`
+- Brain bandi: `/api/brain/bandi.zip`
+
+Ogni ZIP contiene:
+
+- note Markdown per alert, fonti, tag e canali;
+- frontmatter YAML;
+- link interni `[[...]]` per il grafo Obsidian;
+- configurazione `.obsidian/` con grafo e plugin base.
+
 API equivalenti:
 
 - `/api/rss/normativa`
@@ -45,9 +60,10 @@ flowchart LR
   B --> C[Normalizer]
   C --> D[Deduplica + scoring]
   D --> E[Knowledge JSON]
-  D --> F[Brain Obsidian]
+  D --> F[Obsidian vault ZIP]
   D --> G[RSS feed]
-  G --> H[Vercel]
+  F --> H[Vercel download]
+  G --> I[Vercel feed]
 ```
 
 ## Knowledge base
@@ -63,6 +79,8 @@ Lo script di ingest genera:
 - `brain/RAGOSINT - Normativa.md`
 
 `data/knowledge/index.json` contiene chunk gia' pronti per un retriever vettoriale.
+
+La vault scaricabile viene invece generata runtime da `src/lib/obsidian.ts` e compressa da `src/lib/zip.ts`, senza database e senza storage persistente.
 
 ## Avvio locale
 

@@ -3,6 +3,7 @@ import {
   ArrowUpRight,
   Briefcase,
   Database,
+  Download,
   FileText,
   GitBranch,
   Radar,
@@ -42,6 +43,13 @@ export default async function Home() {
             <div className="flex flex-wrap gap-2">
               <FeedButton href="/feed/normativa.xml" label="Normativa" />
               <FeedButton href="/feed/bandi.xml" label="Bandi" />
+              <a
+                className="inline-flex h-10 items-center gap-2 rounded-md border border-white/20 px-3 text-sm font-medium hover:bg-white/10"
+                href="/api/brain.zip"
+              >
+                <Download size={16} aria-hidden="true" />
+                Brain
+              </a>
               <a
                 className="inline-flex h-10 items-center gap-2 rounded-md border border-white/20 px-3 text-sm font-medium hover:bg-white/10"
                 href="/api/report"
@@ -107,8 +115,18 @@ export default async function Home() {
       <section className="mx-auto grid max-w-7xl gap-8 px-5 py-8 sm:px-8 lg:grid-cols-[1fr_360px] lg:px-10">
         <div className="space-y-6">
           <div className="grid gap-3 md:grid-cols-2">
-            <ChannelPanel result={normativaResult} href="/feed/normativa.xml" icon={<Scale size={18} aria-hidden="true" />} />
-            <ChannelPanel result={bandiResult} href="/feed/bandi.xml" icon={<Briefcase size={18} aria-hidden="true" />} />
+            <ChannelPanel
+              result={normativaResult}
+              href="/feed/normativa.xml"
+              brainHref="/api/brain/normativa.zip"
+              icon={<Scale size={18} aria-hidden="true" />}
+            />
+            <ChannelPanel
+              result={bandiResult}
+              href="/feed/bandi.xml"
+              brainHref="/api/brain/bandi.zip"
+              icon={<Briefcase size={18} aria-hidden="true" />}
+            />
           </div>
 
           <div className="flex items-end justify-between gap-4">
@@ -137,6 +155,15 @@ export default async function Home() {
               <PipelineItem icon={<GitBranch size={16} aria-hidden="true" />} title="Normalizza" text="Deduplica, tagga e assegna score operativo." />
               <PipelineItem icon={<Database size={16} aria-hidden="true" />} title="Indicizza" text="Genera JSON chunk-ready e brain Obsidian." />
               <PipelineItem icon={<Rss size={16} aria-hidden="true" />} title="Distribuisce" text="Pubblica alert, report e feed su Vercel." />
+            </div>
+          </div>
+
+          <div className="rounded-md border border-black/10 bg-white p-4 shadow-sm">
+            <h2 className="text-base font-semibold">Obsidian brain</h2>
+            <div className="mt-4 grid gap-2">
+              <DownloadLink href="/api/brain.zip" label="Vault completa" />
+              <DownloadLink href="/api/brain/normativa.zip" label="Solo normativa" />
+              <DownloadLink href="/api/brain/bandi.zip" label="Solo bandi" />
             </div>
           </div>
 
@@ -211,7 +238,17 @@ function Metric({ label, value, icon }: { label: string; value: string; icon: Re
   );
 }
 
-function ChannelPanel({ result, href, icon }: { result: CollectResult; href: string; icon: React.ReactNode }) {
+function ChannelPanel({
+  result,
+  href,
+  brainHref,
+  icon,
+}: {
+  result: CollectResult;
+  href: string;
+  brainHref: string;
+  icon: React.ReactNode;
+}) {
   return (
     <section className="rounded-md border border-black/10 bg-white p-4 shadow-sm">
       <div className="flex items-start justify-between gap-4">
@@ -222,10 +259,16 @@ function ChannelPanel({ result, href, icon }: { result: CollectResult; href: str
             {result.stats.totalAlerts} alert da {result.stats.activeSources} fonti
           </p>
         </div>
-        <a className="inline-flex items-center gap-2 rounded-md bg-[#101312] px-3 py-2 text-sm font-semibold text-white hover:bg-[#25312d]" href={href}>
-          RSS
-          <ArrowUpRight size={15} aria-hidden="true" />
-        </a>
+        <div className="flex flex-wrap gap-2">
+          <a className="inline-flex items-center gap-2 rounded-md bg-[#101312] px-3 py-2 text-sm font-semibold text-white hover:bg-[#25312d]" href={href}>
+            RSS
+            <ArrowUpRight size={15} aria-hidden="true" />
+          </a>
+          <a className="inline-flex items-center gap-2 rounded-md border border-black/10 px-3 py-2 text-sm font-semibold text-[#101312] hover:bg-[#f2f2ed]" href={brainHref}>
+            ZIP
+            <Download size={15} aria-hidden="true" />
+          </a>
+        </div>
       </div>
       <div className="mt-4 flex flex-wrap gap-2">
         {result.stats.topTags.slice(0, 5).map((item) => (
@@ -235,6 +278,15 @@ function ChannelPanel({ result, href, icon }: { result: CollectResult; href: str
         ))}
       </div>
     </section>
+  );
+}
+
+function DownloadLink({ href, label }: { href: string; label: string }) {
+  return (
+    <a className="inline-flex items-center justify-between rounded-md border border-black/10 px-3 py-2 text-sm font-semibold hover:border-[#36d399]" href={href}>
+      <span>{label}</span>
+      <Download size={15} aria-hidden="true" />
+    </a>
   );
 }
 
