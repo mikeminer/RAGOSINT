@@ -1,8 +1,28 @@
 # RAGOSINT
 
-RAGOSINT e' una pipeline OSINT/RAG-ready per un gruppo di ingegneri che vuole trasformare fonti pubbliche italiane in intelligence operativa.
+[![Live MVP](https://img.shields.io/badge/Live%20MVP-rssmonitorbandi.vercel.app-16a34a?style=for-the-badge)](https://rssmonitorbandi.vercel.app/)
+[![RSS Bandi](https://img.shields.io/badge/RSS-bandi%20%2B%20gare%20%2B%20PNRR-f59e0b?style=for-the-badge)](https://rssmonitorbandi.vercel.app/feed/bandi.xml)
+[![Obsidian Brain](https://img.shields.io/badge/Obsidian-brain%20download-7c3aed?style=for-the-badge)](https://rssmonitorbandi.vercel.app/api/brain.zip)
 
-Il progetto non e' solo scraping: recupera fonti ufficiali, le normalizza, le indicizza, le organizza semanticamente in un brain Obsidian e pubblica aggiornamenti consultabili come alert, report e feed RSS su Vercel.
+## Minimum Viable Product
+
+**Live MVP:** https://rssmonitorbandi.vercel.app/
+
+RAGOSINT e' un sistema operativo OSINT/RAG per trasformare fonti pubbliche italiane in intelligence operativa: monitora normativa, bandi, gare d'appalto e PNRR, estrae segnali utili, pubblica due feed RSS e genera un brain Obsidian scaricabile per esplorare il grafo locale.
+
+Questo non e' un semplice scraper: e' una pipeline viva che recupera fonti ufficiali, normalizza i contenuti, estrae scadenze/importi/CIG/CUP/requisiti/beneficiari, costruisce un vector store e rende tutto consultabile come feed, report, API semantica e vault Obsidian.
+
+Provalo subito:
+
+- MVP live: https://rssmonitorbandi.vercel.app/
+- Feed bandi: https://rssmonitorbandi.vercel.app/feed/bandi.xml
+- Feed normativa: https://rssmonitorbandi.vercel.app/feed/normativa.xml
+- Brain Obsidian: https://rssmonitorbandi.vercel.app/api/brain.zip
+- Ricerca semantica: https://rssmonitorbandi.vercel.app/api/semantic?q=pnrr%20cloud&channel=bandi
+
+## Visione
+
+RAGOSINT e' una pipeline OSINT/RAG-ready per un gruppo di ingegneri che vuole trasformare fonti pubbliche italiane in intelligence operativa.
 
 ## Canali RSS
 
