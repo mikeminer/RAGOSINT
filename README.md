@@ -4,6 +4,7 @@
 [![RSS Bandi](https://img.shields.io/badge/RSS-bandi%20%2B%20gare%20%2B%20PNRR-f59e0b?style=for-the-badge)](https://rssmonitorbandi.vercel.app/feed/bandi.xml)
 [![RSS Normativa](https://img.shields.io/badge/RSS-normativa%20italiana-2563eb?style=for-the-badge)](https://rssmonitorbandi.vercel.app/feed/normativa.xml)
 [![Obsidian Brain](https://img.shields.io/badge/Obsidian-brain%20download-7c3aed?style=for-the-badge)](https://rssmonitorbandi.vercel.app/api/brain.zip)
+[![License MIT](https://img.shields.io/badge/License-MIT-111827?style=for-the-badge)](LICENSE)
 
 ## Minimum Viable Product
 
@@ -209,6 +210,12 @@ NEXT_PUBLIC_SITE_URL=https://rssmonitorbandi.vercel.app
 ```
 
 `vercel.json` contiene un cron giornaliero su `/api/refresh`, compatibile con il piano Hobby gratuito.
+
+## Licenza
+
+RAGOSINT e' rilasciato con licenza MIT. Puoi forkare, modificare, riusare e distribuire liberamente il progetto, mantenendo la nota di copyright e la licenza nei lavori derivati.
+
+Vedi [LICENSE](LICENSE).
 
 ## Roadmap
 
