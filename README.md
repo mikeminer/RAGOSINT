@@ -2,6 +2,7 @@
 
 [![Live MVP](https://img.shields.io/badge/Live%20MVP-rssmonitorbandi.vercel.app-16a34a?style=for-the-badge)](https://rssmonitorbandi.vercel.app/)
 [![RSS Bandi](https://img.shields.io/badge/RSS-bandi%20%2B%20gare%20%2B%20PNRR-f59e0b?style=for-the-badge)](https://rssmonitorbandi.vercel.app/feed/bandi.xml)
+[![RSS Normativa](https://img.shields.io/badge/RSS-normativa%20italiana-2563eb?style=for-the-badge)](https://rssmonitorbandi.vercel.app/feed/normativa.xml)
 [![Obsidian Brain](https://img.shields.io/badge/Obsidian-brain%20download-7c3aed?style=for-the-badge)](https://rssmonitorbandi.vercel.app/api/brain.zip)
 
 ## Minimum Viable Product
@@ -19,6 +20,14 @@ Provalo subito:
 - Feed normativa: https://rssmonitorbandi.vercel.app/feed/normativa.xml
 - Brain Obsidian: https://rssmonitorbandi.vercel.app/api/brain.zip
 - Ricerca semantica: https://rssmonitorbandi.vercel.app/api/semantic?q=pnrr%20cloud&channel=bandi
+
+## Brain Obsidian esportabile
+
+Il sistema genera una vault Obsidian completa in ZIP: scarichi il brain, lo apri in locale e navighi il grafo di bandi, normativa, fonti e tag.
+
+[Scarica il brain Obsidian](https://rssmonitorbandi.vercel.app/api/brain.zip)
+
+![RAGOSINT brain esportabile in Obsidian](docs/assets/ragosint-obsidian-brain-graph.png)
 
 ## Visione
 
