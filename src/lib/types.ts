@@ -14,6 +14,7 @@ export type Source = {
   trust: "official" | "institutional" | "community";
   enabled: boolean;
   tags: string[];
+  timeoutMs?: number;
 };
 
 export type AlertKind = "bando" | "gara" | "pnrr" | "avviso" | "esito" | "news" | "normativa";

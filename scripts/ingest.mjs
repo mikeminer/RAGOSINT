@@ -160,6 +160,7 @@ const HTML_SIGNAL_TERMS = [
 ];
 const VECTOR_SIZE = 256;
 const STOPWORDS = new Set(["che", "con", "del", "della", "delle", "degli", "dei", "per", "nel", "nella", "sono", "alla", "alle", "gli", "una", "uno", "sul", "sulla", "the", "and", "for"]);
+const DEFAULT_FETCH_TIMEOUT_MS = 20000;
 
 const enabledSources = sources.filter((source) => source.enabled);
 const settled = await Promise.allSettled(enabledSources.map(fetchSource));
@@ -226,7 +227,7 @@ async function fetchSource(source) {
       accept: "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
       "user-agent": "ragosint/0.1 (+https://ragosint.vercel.app)",
     },
-    signal: AbortSignal.timeout(20000),
+    signal: AbortSignal.timeout(fetchTimeoutMs(source)),
   });
 
   if (!response.ok) {
@@ -246,7 +247,7 @@ async function fetchHtmlSource(source) {
       accept: "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
       "user-agent": "ragosint/0.1 (+https://ragosint.vercel.app)",
     },
-    signal: AbortSignal.timeout(20000),
+    signal: AbortSignal.timeout(fetchTimeoutMs(source)),
   });
 
   if (!response.ok) {
@@ -269,6 +270,10 @@ async function fetchHtmlSource(source) {
       source,
     ),
   ];
+}
+
+function fetchTimeoutMs(source) {
+  return source.timeoutMs ?? DEFAULT_FETCH_TIMEOUT_MS;
 }
 
 function normalizeItem(item, source) {

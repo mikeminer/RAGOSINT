@@ -439,7 +439,8 @@
     "cadence": "periodica",
     "trust": "official",
     "enabled": true,
-    "tags": ["pnrr", "cultura", "digitale", "patrimonio", "bandi"]
+    "tags": ["pnrr", "cultura", "digitale", "patrimonio", "bandi"],
+    "timeoutMs": 30000
   },
   {
     "id": "eu-digital-strategy-funding",

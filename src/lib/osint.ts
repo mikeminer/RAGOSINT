@@ -138,6 +138,8 @@ const HTML_SIGNAL_TERMS = [
   "digital europe",
 ];
 
+const DEFAULT_FETCH_TIMEOUT_MS = 20_000;
+
 export function getSources(channel: ChannelFilter = "all"): Source[] {
   const allSources = sources as Source[];
   if (channel === "all") {
@@ -300,7 +302,7 @@ async function fetchSource(source: Source): Promise<Alert[]> {
         "user-agent": "ragosint/0.1 (+https://ragosint.vercel.app)",
       },
       next: { revalidate: 3600 },
-      signal: AbortSignal.timeout(12000),
+      signal: AbortSignal.timeout(fetchTimeoutMs(source)),
     });
 
     if (!response.ok) {
@@ -325,7 +327,7 @@ async function fetchHtmlSource(source: Source): Promise<Alert[]> {
       "user-agent": "ragosint/0.1 (+https://ragosint.vercel.app)",
     },
     next: { revalidate: 3600 },
-    signal: AbortSignal.timeout(12000),
+    signal: AbortSignal.timeout(fetchTimeoutMs(source)),
   });
 
   if (!response.ok) {
@@ -352,6 +354,10 @@ function parseRss(xml: string, source: Source): Alert[] {
   return rawItems
     .map((item) => normalizeRssItem(item as Record<string, unknown>, source))
     .filter((alert): alert is Alert => Boolean(alert));
+}
+
+function fetchTimeoutMs(source: Source) {
+  return source.timeoutMs ?? DEFAULT_FETCH_TIMEOUT_MS;
 }
 
 function normalizeRssItem(item: Record<string, unknown>, source: Source): Alert | null {
