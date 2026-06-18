@@ -40,6 +40,52 @@ RAGOSINT e' una pipeline OSINT/RAG-ready per un gruppo di ingegneri che vuole tr
 - Bandi: `/feed/bandi.xml`
 - Aggregato: `/feed.xml`
 
+## Aggiornamento feed RSS
+
+I feed RSS si aggiornano automaticamente, ma il progetto non usa un database persistente: ogni feed viene generato dalla pipeline serverless quando viene richiesto.
+
+Flusso attuale:
+
+1. Un client apre un feed RSS:
+   - `/feed/bandi.xml`
+   - `/feed/normativa.xml`
+   - `/feed.xml`
+2. Vercel esegue la raccolta dalle fonti configurate, normalizza gli alert e genera l'XML RSS.
+3. Il risultato viene tenuto in cache per 30 minuti:
+   - `revalidate = 1800`
+   - `s-maxage=1800`
+4. Le chiamate verso le fonti esterne usano una cache fino a circa 1 ora.
+
+In pratica gli aggiornamenti reali sono nell'ordine di 30-60 minuti, a seconda della cache Vercel e della disponibilita' delle fonti originali.
+
+Esiste anche un cron Vercel giornaliero:
+
+```json
+{
+  "path": "/api/refresh",
+  "schedule": "0 6 * * *"
+}
+```
+
+Questo cron chiama `/api/refresh` ogni giorno alle 06:00 UTC, cioe' circa alle 08:00 in Italia durante l'ora legale e alle 07:00 durante l'ora solare. Serve soprattutto a scaldare la pipeline e verificare i canali: non salva dati su database.
+
+Refresh manuale:
+
+```bash
+curl "https://rssmonitorbandi.vercel.app/api/refresh"
+```
+
+Per un monitor piu' aggressivo si puo' passare a un cron orario:
+
+```json
+{
+  "path": "/api/refresh",
+  "schedule": "0 * * * *"
+}
+```
+
+Le notifiche Slack possono essere collegate al refresh configurando `SLACK_WEBHOOK_URL` e `SLACK_NOTIFY_ON_REFRESH=true`.
+
 ## Obsidian brain scaricabile
 
 Vercel genera una vault Obsidian completa in formato ZIP. Scaricala, estraila e apri la cartella con Obsidian per visualizzare grafo, tag, backlink, fonti e cluster.
