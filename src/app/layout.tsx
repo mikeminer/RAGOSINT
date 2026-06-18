@@ -15,10 +15,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://ragosint.vercel.app"),
   title: "RAGOSINT",
-  description: "Pipeline OSINT/RAG-ready per normativa italiana, bandi, gare d'appalto e opportunita PNRR.",
+  description:
+    "Radar OSINT/RAG per sviluppatori tech: monitora normative digitali, bandi, gare d'appalto e PNRR, trasformando fonti pubbliche italiane ed europee in segnali operativi, requisiti tecnici e opportunita di progetto.",
   openGraph: {
     title: "RAGOSINT",
-    description: "Due feed RSS e una knowledge base Obsidian da fonti pubbliche italiane.",
+    description:
+      "Radar OSINT/RAG per sviluppatori tech: normative digitali, bandi, gare d'appalto, PNRR, requisiti tecnici e opportunita di progetto.",
     url: "https://ragosint.vercel.app",
     siteName: "RAGOSINT",
     locale: "it_IT",

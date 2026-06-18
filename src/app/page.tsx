@@ -95,6 +95,11 @@ export default async function Home() {
               <h2 className="text-4xl font-semibold leading-tight sm:text-5xl">
                 Intelligence operativa per normativa, bandi, gare d&apos;appalto e PNRR.
               </h2>
+              <p className="mt-4 max-w-2xl text-base leading-7 text-white/72 sm:text-lg">
+                RAGOSINT e&apos; un radar OSINT/RAG per sviluppatori tech: monitora normative digitali,
+                bandi, gare d&apos;appalto e PNRR, trasformando fonti pubbliche italiane ed europee in
+                segnali operativi, requisiti tecnici e opportunita di progetto.
+              </p>
             </div>
             <form action="/api/search" className="flex min-h-14 overflow-hidden rounded-md border border-white/20 bg-white">
               <label className="sr-only" htmlFor="q">
