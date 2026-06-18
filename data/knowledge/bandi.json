@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-18T13:02:21.618Z",
+  "generatedAt": "2026-06-18T14:27:57.552Z",
   "channel": "bandi",
-  "count": 467,
+  "count": 482,
   "alerts": [
     {
       "id": "8a9a2f53fae13ea9",
@@ -1084,7 +1084,7 @@
       "channel": "bandi",
       "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
       "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.832Z",
+      "publishedAt": "2026-06-18T14:27:56.631Z",
       "tags": [
         "eurohpc",
         "ai-factories",
@@ -1093,63 +1093,6 @@
         "hpc",
         "ai",
         "eu-funding"
-      ],
-      "kind": "bando",
-      "score": 79,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "4f5c3388d810fdef",
-      "title": "AI Factories Access Calls",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: AI Factories Access Calls",
-      "url": "https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-calls_en",
-      "channel": "bandi",
-      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
-      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.831Z",
-      "tags": [
-        "eurohpc",
-        "ai-factories",
-        "ai-for-science",
-        "access-calls",
-        "hpc",
-        "ai",
-        "eu-funding"
-      ],
-      "kind": "bando",
-      "score": 79,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "542fa6beee311772",
-      "title": "AI Gigafactories Calls",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: AI Gigafactories Calls",
-      "url": "https://www.eurohpc-ju.europa.eu/ai-gigafactories/ai-gigafactories-calls_en",
-      "channel": "bandi",
-      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
-      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.830Z",
-      "tags": [
-        "eurohpc",
-        "ai-factories",
-        "ai-for-science",
-        "access-calls",
-        "hpc",
-        "ai"
       ],
       "kind": "bando",
       "score": 79,
@@ -1927,6 +1870,422 @@
           "Avviso pubblico per la presentazione di proposte d’intervento per la selezione di progetti di valorizzazione di beni confiscati da finanziare nell’ambito del PNRR, Missione 5 – Inclusione e coesione - Componente 3 - Interventi speciali per la coesione territoriale – Investimento 2 - Valorizzazione dei beni confiscati alle mafie finanziato dall’Unione europea – Next Generation EU; Decreto 9/2022 del DG Agenzia per la Coesione Territoriale di proroga dei termini..",
           "Avviso pubblico per la presentazione di proposte d’intervento per la selezione di progetti di valorizzazione di beni confiscati da finanziare nell’ambito del PNRR, Missione 5 – Inclusione e coesione - Componente 3 - Interventi speciali per la coesione territoriale – Investimento 2 - Valorizzazione dei beni confiscati alle mafie finanziato dall’Unione europea – Next Generation EU; Decreto 9/2022 del DG Agenzia per la Coesione Territoriale di proroga dei termini."
         ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "995adea9cf3c6be0",
+      "title": "Call for proposals - DIGITAL-2026-BESTUSE-10",
+      "summary": "Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for proposals - DIGITAL-2026-BESTUSE-10",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-digital-2026-bestuse-10",
+      "channel": "bandi",
+      "sourceId": "eu-digital-strategy-funding",
+      "sourceName": "Commissione Europea Digital Strategy - Funding, calls e tenders",
+      "publishedAt": "2026-06-18T14:27:56.545Z",
+      "tags": [
+        "commissione-europea",
+        "digital-strategy",
+        "digital-europe",
+        "funding",
+        "calls",
+        "tenders",
+        "ai",
+        "cloud",
+        "cyber",
+        "pnrr"
+      ],
+      "kind": "bando",
+      "score": 75,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "3e10e292ff760004",
+      "title": "Call for proposals - DIGITAL-2026-AI-DATA-10",
+      "summary": "Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for proposals - DIGITAL-2026-AI-DATA-10",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-digital-2026-ai-data-10",
+      "channel": "bandi",
+      "sourceId": "eu-digital-strategy-funding",
+      "sourceName": "Commissione Europea Digital Strategy - Funding, calls e tenders",
+      "publishedAt": "2026-06-18T14:27:56.545Z",
+      "tags": [
+        "commissione-europea",
+        "digital-strategy",
+        "digital-europe",
+        "funding",
+        "calls",
+        "tenders",
+        "ai",
+        "cloud",
+        "cyber",
+        "pnrr"
+      ],
+      "kind": "bando",
+      "score": 75,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "24d3184f8d1af625",
+      "title": "Call for proposals - DIGITAL-2026-AI-PILOTING-10-SCREENING",
+      "summary": "Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for proposals - DIGITAL-2026-AI-PILOTING-10-SCREENING",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-digital-2026-ai-piloting-10-screening",
+      "channel": "bandi",
+      "sourceId": "eu-digital-strategy-funding",
+      "sourceName": "Commissione Europea Digital Strategy - Funding, calls e tenders",
+      "publishedAt": "2026-06-18T14:27:56.545Z",
+      "tags": [
+        "commissione-europea",
+        "digital-strategy",
+        "digital-europe",
+        "funding",
+        "calls",
+        "tenders",
+        "ai",
+        "cloud",
+        "cyber",
+        "pnrr"
+      ],
+      "kind": "bando",
+      "score": 75,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "42738ca46099d291",
+      "title": "Call for proposals - DIGITAL-2026-SKILLS-10",
+      "summary": "Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for proposals - DIGITAL-2026-SKILLS-10",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-digital-2026-skills-10",
+      "channel": "bandi",
+      "sourceId": "eu-digital-strategy-funding",
+      "sourceName": "Commissione Europea Digital Strategy - Funding, calls e tenders",
+      "publishedAt": "2026-06-18T14:27:56.544Z",
+      "tags": [
+        "commissione-europea",
+        "digital-strategy",
+        "digital-europe",
+        "funding",
+        "calls",
+        "tenders",
+        "ai",
+        "cloud",
+        "cyber",
+        "pnrr"
+      ],
+      "kind": "bando",
+      "score": 75,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "93d4949bd3cb645e",
+      "title": "Large-Scale Pilots of AI and GenAI for Medical Imaging",
+      "summary": "Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Large-Scale Pilots of AI and GenAI for Medical Imaging",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/large-scale-pilots-ai-and-genai-medical-imaging",
+      "channel": "bandi",
+      "sourceId": "eu-digital-strategy-funding",
+      "sourceName": "Commissione Europea Digital Strategy - Funding, calls e tenders",
+      "publishedAt": "2026-06-18T14:27:56.544Z",
+      "tags": [
+        "commissione-europea",
+        "digital-strategy",
+        "digital-europe",
+        "funding",
+        "calls",
+        "tenders",
+        "ai",
+        "cloud",
+        "cyber",
+        "pnrr"
+      ],
+      "kind": "bando",
+      "score": 75,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "e33d3346f32fd765",
+      "title": "Call for proposals - DIGITAL-2026-BESTUSE-MCP-10",
+      "summary": "Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for proposals - DIGITAL-2026-BESTUSE-MCP-10",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-digital-2026-bestuse-mcp-10",
+      "channel": "bandi",
+      "sourceId": "eu-digital-strategy-funding",
+      "sourceName": "Commissione Europea Digital Strategy - Funding, calls e tenders",
+      "publishedAt": "2026-06-18T14:27:56.544Z",
+      "tags": [
+        "commissione-europea",
+        "digital-strategy",
+        "digital-europe",
+        "funding",
+        "calls",
+        "tenders",
+        "ai",
+        "cloud",
+        "cyber",
+        "pnrr"
+      ],
+      "kind": "bando",
+      "score": 75,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "4b11c1150f207c52",
+      "title": "Call for proposals: EU audio reporting",
+      "summary": "Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for proposals: EU audio reporting",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-eu-audio-reporting-0",
+      "channel": "bandi",
+      "sourceId": "eu-digital-strategy-funding",
+      "sourceName": "Commissione Europea Digital Strategy - Funding, calls e tenders",
+      "publishedAt": "2026-06-18T14:27:56.543Z",
+      "tags": [
+        "commissione-europea",
+        "digital-strategy",
+        "digital-europe",
+        "funding",
+        "calls",
+        "tenders",
+        "ai",
+        "cloud",
+        "cyber",
+        "pnrr"
+      ],
+      "kind": "bando",
+      "score": 75,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "b3271b8fa77785be",
+      "title": "Managed Services for the EOSC EU Node 2026",
+      "summary": "Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Managed Services for the EOSC EU Node 2026",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/managed-services-eosc-eu-node-2026",
+      "channel": "bandi",
+      "sourceId": "eu-digital-strategy-funding",
+      "sourceName": "Commissione Europea Digital Strategy - Funding, calls e tenders",
+      "publishedAt": "2026-06-18T14:27:56.543Z",
+      "tags": [
+        "commissione-europea",
+        "digital-strategy",
+        "digital-europe",
+        "funding",
+        "calls",
+        "tenders",
+        "ai",
+        "cloud",
+        "cyber",
+        "pnrr"
+      ],
+      "kind": "bando",
+      "score": 75,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "3d4318241da0c09b",
+      "title": "Call for proposals - DIGITAL-2026-SUPPORT-10-DISSEMINATION",
+      "summary": "Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for proposals - DIGITAL-2026-SUPPORT-10-DISSEMINATION",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-digital-2026-support-10-dissemination",
+      "channel": "bandi",
+      "sourceId": "eu-digital-strategy-funding",
+      "sourceName": "Commissione Europea Digital Strategy - Funding, calls e tenders",
+      "publishedAt": "2026-06-18T14:27:56.543Z",
+      "tags": [
+        "commissione-europea",
+        "digital-strategy",
+        "digital-europe",
+        "funding",
+        "calls",
+        "tenders",
+        "ai",
+        "cloud",
+        "cyber",
+        "pnrr"
+      ],
+      "kind": "bando",
+      "score": 75,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "ff2e4b874d5d1da8",
+      "title": "Call for proposals - Accelerating the Best Use of Technologies (DIGITAL-2026-BESTUSE-RSF-10)",
+      "summary": "Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for proposals - Accelerating the Best Use of Technologies (DIGITAL-2026-BESTUSE-RSF-10)",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-accelerating-best-use-technologies-digital-2026-bestuse-rsf-10",
+      "channel": "bandi",
+      "sourceId": "eu-digital-strategy-funding",
+      "sourceName": "Commissione Europea Digital Strategy - Funding, calls e tenders",
+      "publishedAt": "2026-06-18T14:27:56.543Z",
+      "tags": [
+        "commissione-europea",
+        "digital-strategy",
+        "digital-europe",
+        "funding",
+        "calls",
+        "tenders",
+        "ai",
+        "cloud",
+        "cyber",
+        "pnrr"
+      ],
+      "kind": "bando",
+      "score": 75,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "bcf7767d7d55ba03",
+      "title": "Call for Tenders: Development, consultancy and support for a data altruism consent management system",
+      "summary": "Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for Tenders: Development, consultancy and support for a data altruism consent management system",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/call-tenders-development-consultancy-and-support-data-altruism-consent-management-system",
+      "channel": "bandi",
+      "sourceId": "eu-digital-strategy-funding",
+      "sourceName": "Commissione Europea Digital Strategy - Funding, calls e tenders",
+      "publishedAt": "2026-06-18T14:27:56.542Z",
+      "tags": [
+        "commissione-europea",
+        "digital-strategy",
+        "digital-europe",
+        "funding",
+        "calls",
+        "tenders",
+        "ai",
+        "cloud",
+        "cyber",
+        "pnrr"
+      ],
+      "kind": "bando",
+      "score": 75,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "5db98813422dc410",
+      "title": "Equipment for smart European cable systems - Works",
+      "summary": "Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Equipment for smart European cable systems - Works",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/equipment-smart-european-cable-systems-works",
+      "channel": "bandi",
+      "sourceId": "eu-digital-strategy-funding",
+      "sourceName": "Commissione Europea Digital Strategy - Funding, calls e tenders",
+      "publishedAt": "2026-06-18T14:27:56.541Z",
+      "tags": [
+        "commissione-europea",
+        "digital-strategy",
+        "digital-europe",
+        "funding",
+        "calls",
+        "tenders",
+        "ai",
+        "cloud",
+        "cyber",
+        "pnrr"
+      ],
+      "kind": "bando",
+      "score": 75,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "429c8e5a37aeac56",
+      "title": "Backbone connectivity for Digital Global Gateways - Studies",
+      "summary": "Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Backbone connectivity for Digital Global Gateways - Studies",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/backbone-connectivity-digital-global-gateways-studies-0",
+      "channel": "bandi",
+      "sourceId": "eu-digital-strategy-funding",
+      "sourceName": "Commissione Europea Digital Strategy - Funding, calls e tenders",
+      "publishedAt": "2026-06-18T14:27:56.541Z",
+      "tags": [
+        "commissione-europea",
+        "digital-strategy",
+        "digital-europe",
+        "funding",
+        "calls",
+        "tenders",
+        "ai",
+        "cloud",
+        "cyber",
+        "pnrr"
+      ],
+      "kind": "bando",
+      "score": 75,
+      "fields": {
+        "deadlines": [],
         "amounts": [],
         "cig": [],
         "cup": [],
@@ -4494,7 +4853,7 @@
       "channel": "bandi",
       "sourceId": "regione-toscana-contratti",
       "sourceName": "Regione Toscana - Bandi di Gara e Contratti",
-      "publishedAt": "2026-06-18T13:02:18.792Z",
+      "publishedAt": "2026-06-18T14:27:57.190Z",
       "tags": [
         "regione-toscana",
         "enti-regionali",
@@ -4528,7 +4887,7 @@
       "channel": "bandi",
       "sourceId": "regione-toscana-contratti",
       "sourceName": "Regione Toscana - Bandi di Gara e Contratti",
-      "publishedAt": "2026-06-18T13:02:18.789Z",
+      "publishedAt": "2026-06-18T14:27:57.188Z",
       "tags": [
         "regione-toscana",
         "enti-regionali",
@@ -4558,7 +4917,7 @@
       "channel": "bandi",
       "sourceId": "regione-toscana-contratti",
       "sourceName": "Regione Toscana - Bandi di Gara e Contratti",
-      "publishedAt": "2026-06-18T13:02:18.788Z",
+      "publishedAt": "2026-06-18T14:27:57.187Z",
       "tags": [
         "regione-toscana",
         "enti-regionali",
@@ -4588,7 +4947,7 @@
       "channel": "bandi",
       "sourceId": "anac-pcp-developers-italia",
       "sourceName": "ANAC - Piattaforma Contratti Pubblici via Developers Italia",
-      "publishedAt": "2026-06-18T13:02:18.414Z",
+      "publishedAt": "2026-06-18T14:27:56.676Z",
       "tags": [
         "anac",
         "pcp",
@@ -4811,224 +5170,6 @@
       }
     },
     {
-      "id": "033cb4a243b44415",
-      "title": "Agritech&Agrifood",
-      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Agritech&Agrifood",
-      "url": "https://it4lia-aifactory.eu/agritechagrifood/",
-      "channel": "bandi",
-      "sourceId": "it4lia-opportunities-services",
-      "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.327Z",
-      "tags": [
-        "it4lia",
-        "ai-factory",
-        "italia",
-        "hpc",
-        "ai",
-        "startup",
-        "pmi",
-        "pa",
-        "ai-factories"
-      ],
-      "kind": "avviso",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "687f3babb716b96f",
-      "title": "Cybersecurity",
-      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Cybersecurity",
-      "url": "https://it4lia-aifactory.eu/cybersecurity/",
-      "channel": "bandi",
-      "sourceId": "it4lia-opportunities-services",
-      "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.327Z",
-      "tags": [
-        "it4lia",
-        "ai-factory",
-        "italia",
-        "hpc",
-        "ai",
-        "startup",
-        "pmi",
-        "pa",
-        "cyber",
-        "ai-factories"
-      ],
-      "kind": "avviso",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "608cbfbf6d0d872b",
-      "title": "AI setup",
-      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: AI setup",
-      "url": "https://it4lia-aifactory.eu/horizontal-services/ai-setup/",
-      "channel": "bandi",
-      "sourceId": "it4lia-opportunities-services",
-      "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.326Z",
-      "tags": [
-        "it4lia",
-        "ai-factory",
-        "italia",
-        "hpc",
-        "ai",
-        "startup",
-        "pmi",
-        "pa",
-        "ai-factories"
-      ],
-      "kind": "avviso",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "822dd69fad6418ef",
-      "title": "AI development",
-      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: AI development",
-      "url": "https://it4lia-aifactory.eu/horizontal-services/ai-development/",
-      "channel": "bandi",
-      "sourceId": "it4lia-opportunities-services",
-      "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.326Z",
-      "tags": [
-        "it4lia",
-        "ai-factory",
-        "italia",
-        "hpc",
-        "ai",
-        "startup",
-        "pmi",
-        "pa",
-        "ai-factories"
-      ],
-      "kind": "avviso",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "1bdecdda6bb056d3",
-      "title": "AI test",
-      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: AI test",
-      "url": "https://it4lia-aifactory.eu/horizontal-services/ai-test/",
-      "channel": "bandi",
-      "sourceId": "it4lia-opportunities-services",
-      "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.326Z",
-      "tags": [
-        "it4lia",
-        "ai-factory",
-        "italia",
-        "hpc",
-        "ai",
-        "startup",
-        "pmi",
-        "pa",
-        "ai-factories"
-      ],
-      "kind": "avviso",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "ba7ae32bea9d04ac",
-      "title": "AI trust",
-      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: AI trust",
-      "url": "https://it4lia-aifactory.eu/horizontal-services/ai-trust/",
-      "channel": "bandi",
-      "sourceId": "it4lia-opportunities-services",
-      "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.326Z",
-      "tags": [
-        "it4lia",
-        "ai-factory",
-        "italia",
-        "hpc",
-        "ai",
-        "startup",
-        "pmi",
-        "pa",
-        "ai-factories"
-      ],
-      "kind": "avviso",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "2752010f65130eba",
-      "title": "Data discovery",
-      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Data discovery",
-      "url": "https://it4lia-aifactory.eu/data-related-services/data-discovery/",
-      "channel": "bandi",
-      "sourceId": "it4lia-opportunities-services",
-      "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.325Z",
-      "tags": [
-        "it4lia",
-        "ai-factory",
-        "italia",
-        "hpc",
-        "ai",
-        "startup",
-        "pmi",
-        "pa",
-        "ai-factories"
-      ],
-      "kind": "avviso",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
       "id": "4d567a42d93f35af",
       "title": "Data preparation",
       "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Data preparation",
@@ -5036,7 +5177,7 @@
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.325Z",
+      "publishedAt": "2026-06-18T14:27:57.208Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5071,7 +5212,7 @@
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.325Z",
+      "publishedAt": "2026-06-18T14:27:57.208Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5102,7 +5243,7 @@
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.325Z",
+      "publishedAt": "2026-06-18T14:27:57.208Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5133,7 +5274,7 @@
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.325Z",
+      "publishedAt": "2026-06-18T14:27:57.208Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5157,14 +5298,14 @@
       }
     },
     {
-      "id": "2b86f6e9dbc92f0d",
-      "title": "Discover Advisory Services",
-      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Discover Advisory Services",
-      "url": "https://it4lia-aifactory.eu/discover-advisory-services/",
+      "id": "033cb4a243b44415",
+      "title": "Agritech&Agrifood",
+      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Agritech&Agrifood",
+      "url": "https://it4lia-aifactory.eu/agritechagrifood/",
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.324Z",
+      "publishedAt": "2026-06-18T14:27:57.208Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5188,14 +5329,46 @@
       }
     },
     {
-      "id": "93c210a82ed5ce24",
-      "title": "Discover Data related Services",
-      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Discover Data related Services",
-      "url": "https://it4lia-aifactory.eu/data-related-services/",
+      "id": "687f3babb716b96f",
+      "title": "Cybersecurity",
+      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Cybersecurity",
+      "url": "https://it4lia-aifactory.eu/cybersecurity/",
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.324Z",
+      "publishedAt": "2026-06-18T14:27:57.208Z",
+      "tags": [
+        "it4lia",
+        "ai-factory",
+        "italia",
+        "hpc",
+        "ai",
+        "startup",
+        "pmi",
+        "pa",
+        "cyber",
+        "ai-factories"
+      ],
+      "kind": "avviso",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "0c62b82be9d878ed",
+      "title": "Earth",
+      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Earth",
+      "url": "https://it4lia-aifactory.eu/earth/",
+      "channel": "bandi",
+      "sourceId": "it4lia-opportunities-services",
+      "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
+      "publishedAt": "2026-06-18T14:27:57.208Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5219,14 +5392,14 @@
       }
     },
     {
-      "id": "698a1d1d94292f67",
-      "title": "Share your priorities",
-      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Share your priorities",
-      "url": "https://it4lia-aifactory.eu/about-it4lia/share-your-priorities/",
+      "id": "31529be5ec03aea7",
+      "title": "Manufacturing",
+      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Manufacturing",
+      "url": "https://it4lia-aifactory.eu/manufacturing/",
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.323Z",
+      "publishedAt": "2026-06-18T14:27:57.208Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5250,14 +5423,14 @@
       }
     },
     {
-      "id": "d062aa90e287f61d",
-      "title": "What we can do for you",
-      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: What we can do for you",
-      "url": "https://it4lia-aifactory.eu/what-we-can-do-for-you/",
+      "id": "d5212ff8ffdb37b0",
+      "title": "Training",
+      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Training",
+      "url": "https://it4lia-aifactory.eu/training/",
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.323Z",
+      "publishedAt": "2026-06-18T14:27:57.208Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5281,14 +5454,45 @@
       }
     },
     {
-      "id": "3ed8816f839fa138",
-      "title": "All Services",
-      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: All Services",
-      "url": "https://it4lia-aifactory.eu/all-services/",
+      "id": "82f01b6925f93587",
+      "title": "Computing access training",
+      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Computing access training",
+      "url": "https://it4lia-aifactory.eu/training/computing-access-training/",
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.323Z",
+      "publishedAt": "2026-06-18T14:27:57.208Z",
+      "tags": [
+        "it4lia",
+        "ai-factory",
+        "italia",
+        "hpc",
+        "ai",
+        "startup",
+        "pmi",
+        "pa",
+        "ai-factories"
+      ],
+      "kind": "avviso",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "d82bc9ee546729cd",
+      "title": "Network",
+      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Network",
+      "url": "https://it4lia-aifactory.eu/about-it4lia/network/",
+      "channel": "bandi",
+      "sourceId": "it4lia-opportunities-services",
+      "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
+      "publishedAt": "2026-06-18T14:27:57.207Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5319,7 +5523,7 @@
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.322Z",
+      "publishedAt": "2026-06-18T14:27:57.207Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5351,7 +5555,7 @@
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.322Z",
+      "publishedAt": "2026-06-18T14:27:57.207Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5375,49 +5579,14 @@
       }
     },
     {
-      "id": "59d40b1c381460e6",
-      "title": "Promoters and partners",
-      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Promoters and partners",
-      "url": "https://it4lia-aifactory.eu/about-it4lia/promoters-and-partners/",
+      "id": "698a1d1d94292f67",
+      "title": "Share your priorities",
+      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Share your priorities",
+      "url": "https://it4lia-aifactory.eu/about-it4lia/share-your-priorities/",
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.321Z",
-      "tags": [
-        "it4lia",
-        "ai-factory",
-        "italia",
-        "hpc",
-        "ai",
-        "startup",
-        "pmi",
-        "pa",
-        "beneficiari",
-        "ai-factories"
-      ],
-      "kind": "avviso",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "Promoters and partners.",
-          "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Promoters and partners"
-        ]
-      }
-    },
-    {
-      "id": "d82bc9ee546729cd",
-      "title": "Network",
-      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Network",
-      "url": "https://it4lia-aifactory.eu/about-it4lia/network/",
-      "channel": "bandi",
-      "sourceId": "it4lia-opportunities-services",
-      "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.321Z",
+      "publishedAt": "2026-06-18T14:27:57.207Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5441,14 +5610,14 @@
       }
     },
     {
-      "id": "2a206837b9bdd2ff",
-      "title": "About IT4LIA",
-      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: About IT4LIA",
-      "url": "https://it4lia-aifactory.eu/about-it4lia/",
+      "id": "d062aa90e287f61d",
+      "title": "What we can do for you",
+      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: What we can do for you",
+      "url": "https://it4lia-aifactory.eu/what-we-can-do-for-you/",
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.320Z",
+      "publishedAt": "2026-06-18T14:27:57.207Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5472,14 +5641,14 @@
       }
     },
     {
-      "id": "6ef005f8c6929c17",
-      "title": "HPC technological infrastructure",
-      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: HPC technological infrastructure",
-      "url": "https://it4lia-aifactory.eu/about-it4lia/hpc-technological-infrastructure/",
+      "id": "3ed8816f839fa138",
+      "title": "All Services",
+      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: All Services",
+      "url": "https://it4lia-aifactory.eu/all-services/",
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.320Z",
+      "publishedAt": "2026-06-18T14:27:57.207Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5489,7 +5658,6 @@
         "startup",
         "pmi",
         "pa",
-        "eurohpc",
         "ai-factories"
       ],
       "kind": "avviso",
@@ -5504,14 +5672,76 @@
       }
     },
     {
-      "id": "230fdcc8c800d51f",
-      "title": "Resources",
-      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Resources",
-      "url": "https://it4lia-aifactory.eu/resources/",
+      "id": "2b86f6e9dbc92f0d",
+      "title": "Discover Advisory Services",
+      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Discover Advisory Services",
+      "url": "https://it4lia-aifactory.eu/discover-advisory-services/",
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.319Z",
+      "publishedAt": "2026-06-18T14:27:57.207Z",
+      "tags": [
+        "it4lia",
+        "ai-factory",
+        "italia",
+        "hpc",
+        "ai",
+        "startup",
+        "pmi",
+        "pa",
+        "ai-factories"
+      ],
+      "kind": "avviso",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "93c210a82ed5ce24",
+      "title": "Discover Data related Services",
+      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Discover Data related Services",
+      "url": "https://it4lia-aifactory.eu/data-related-services/",
+      "channel": "bandi",
+      "sourceId": "it4lia-opportunities-services",
+      "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
+      "publishedAt": "2026-06-18T14:27:57.207Z",
+      "tags": [
+        "it4lia",
+        "ai-factory",
+        "italia",
+        "hpc",
+        "ai",
+        "startup",
+        "pmi",
+        "pa",
+        "ai-factories"
+      ],
+      "kind": "avviso",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "2752010f65130eba",
+      "title": "Data discovery",
+      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Data discovery",
+      "url": "https://it4lia-aifactory.eu/data-related-services/data-discovery/",
+      "channel": "bandi",
+      "sourceId": "it4lia-opportunities-services",
+      "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
+      "publishedAt": "2026-06-18T14:27:57.207Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5542,7 +5772,7 @@
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.319Z",
+      "publishedAt": "2026-06-18T14:27:57.206Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5573,7 +5803,7 @@
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.319Z",
+      "publishedAt": "2026-06-18T14:27:57.206Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5604,7 +5834,7 @@
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.319Z",
+      "publishedAt": "2026-06-18T14:27:57.206Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5628,6 +5858,104 @@
       }
     },
     {
+      "id": "2a206837b9bdd2ff",
+      "title": "About IT4LIA",
+      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: About IT4LIA",
+      "url": "https://it4lia-aifactory.eu/about-it4lia/",
+      "channel": "bandi",
+      "sourceId": "it4lia-opportunities-services",
+      "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
+      "publishedAt": "2026-06-18T14:27:57.206Z",
+      "tags": [
+        "it4lia",
+        "ai-factory",
+        "italia",
+        "hpc",
+        "ai",
+        "startup",
+        "pmi",
+        "pa",
+        "ai-factories"
+      ],
+      "kind": "avviso",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "6ef005f8c6929c17",
+      "title": "HPC technological infrastructure",
+      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: HPC technological infrastructure",
+      "url": "https://it4lia-aifactory.eu/about-it4lia/hpc-technological-infrastructure/",
+      "channel": "bandi",
+      "sourceId": "it4lia-opportunities-services",
+      "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
+      "publishedAt": "2026-06-18T14:27:57.206Z",
+      "tags": [
+        "it4lia",
+        "ai-factory",
+        "italia",
+        "hpc",
+        "ai",
+        "startup",
+        "pmi",
+        "pa",
+        "eurohpc",
+        "ai-factories"
+      ],
+      "kind": "avviso",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "59d40b1c381460e6",
+      "title": "Promoters and partners",
+      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Promoters and partners",
+      "url": "https://it4lia-aifactory.eu/about-it4lia/promoters-and-partners/",
+      "channel": "bandi",
+      "sourceId": "it4lia-opportunities-services",
+      "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
+      "publishedAt": "2026-06-18T14:27:57.206Z",
+      "tags": [
+        "it4lia",
+        "ai-factory",
+        "italia",
+        "hpc",
+        "ai",
+        "startup",
+        "pmi",
+        "pa",
+        "beneficiari",
+        "ai-factories"
+      ],
+      "kind": "avviso",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Promoters and partners.",
+          "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Promoters and partners"
+        ]
+      }
+    },
+    {
       "id": "cd33e05e44730656",
       "title": "News",
       "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: News",
@@ -5635,7 +5963,7 @@
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.318Z",
+      "publishedAt": "2026-06-18T14:27:57.205Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5666,7 +5994,7 @@
       "channel": "bandi",
       "sourceId": "it4lia-opportunities-services",
       "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
-      "publishedAt": "2026-06-18T13:02:21.318Z",
+      "publishedAt": "2026-06-18T14:27:57.205Z",
       "tags": [
         "it4lia",
         "ai-factory",
@@ -5690,52 +6018,26 @@
       }
     },
     {
-      "id": "17d5643c1dbc2682",
-      "title": "Cookie policy",
-      "summary": "Link rilevato da AUSL Bologna - Bandi di Gara: Cookie policy",
-      "url": "https://www.ausl.bologna.it/privacy/informative-sul-trattamento-dei-dati-personali-1/informative-di-carattere-generale/Informativa%20consultazione%20sito%20web%20pdfA.pdf",
+      "id": "230fdcc8c800d51f",
+      "title": "Resources",
+      "summary": "Link rilevato da IT4LIA AI Factory - Opportunita e servizi: Resources",
+      "url": "https://it4lia-aifactory.eu/resources/",
       "channel": "bandi",
-      "sourceId": "ausl-bologna-bandi",
-      "sourceName": "AUSL Bologna - Bandi di Gara",
-      "publishedAt": "2026-06-18T13:02:19.202Z",
+      "sourceId": "it4lia-opportunities-services",
+      "sourceName": "IT4LIA AI Factory - Opportunita e servizi",
+      "publishedAt": "2026-06-18T14:27:57.205Z",
       "tags": [
-        "ausl-bologna",
-        "asl",
-        "sanita",
-        "gare",
-        "appalti",
-        "privacy",
-        "digitale"
-      ],
-      "kind": "gara",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "5076504dba476699",
-      "title": "Supercomputers Access Policy and FAQ",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Supercomputers Access Policy and FAQ",
-      "url": "https://www.eurohpc-ju.europa.eu/supercomputers/supercomputers-access-policy-and-faq_en",
-      "channel": "bandi",
-      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
-      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.833Z",
-      "tags": [
-        "eurohpc",
-        "ai-factories",
-        "ai-for-science",
-        "access-calls",
+        "it4lia",
+        "ai-factory",
+        "italia",
         "hpc",
-        "ai"
+        "ai",
+        "startup",
+        "pmi",
+        "pa",
+        "ai-factories"
       ],
-      "kind": "news",
+      "kind": "avviso",
       "score": 67,
       "fields": {
         "deadlines": [],
@@ -5747,70 +6049,14 @@
       }
     },
     {
-      "id": "2a80c155984cab53",
-      "title": "Helpdesk",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Helpdesk",
-      "url": "https://www.eurohpc-ju.europa.eu/ai-factories/helpdesk-ai-factories_en",
+      "id": "179403dea02d68fd",
+      "title": "Quantum Technologies",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Quantum Technologies",
+      "url": "https://www.eurohpc-ju.europa.eu/quantum-technologies_en",
       "channel": "bandi",
       "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
       "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.832Z",
-      "tags": [
-        "eurohpc",
-        "ai-factories",
-        "ai-for-science",
-        "access-calls",
-        "hpc",
-        "ai"
-      ],
-      "kind": "news",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "a19c886ef579929a",
-      "title": "FAQs | AI Factories",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: FAQs | AI Factories",
-      "url": "https://www.eurohpc-ju.europa.eu/ai-factories/faqs-ai-factories_en",
-      "channel": "bandi",
-      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
-      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.832Z",
-      "tags": [
-        "eurohpc",
-        "ai-factories",
-        "ai-for-science",
-        "access-calls",
-        "hpc",
-        "ai"
-      ],
-      "kind": "news",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "eb7ca5d4287a829f",
-      "title": "Supercomputers",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Supercomputers",
-      "url": "https://www.eurohpc-ju.europa.eu/supercomputers_en",
-      "channel": "bandi",
-      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
-      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.832Z",
+      "publishedAt": "2026-06-18T14:27:56.633Z",
       "tags": [
         "eurohpc",
         "ai-factories",
@@ -5838,7 +6084,7 @@
       "channel": "bandi",
       "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
       "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.832Z",
+      "publishedAt": "2026-06-18T14:27:56.632Z",
       "tags": [
         "eurohpc",
         "ai-factories",
@@ -5859,14 +6105,154 @@
       }
     },
     {
-      "id": "f035ef6764dee14a",
-      "title": "AI Factories",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: AI Factories",
+      "id": "5076504dba476699",
+      "title": "Supercomputers Access Policy and FAQ",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Supercomputers Access Policy and FAQ",
+      "url": "https://www.eurohpc-ju.europa.eu/supercomputers/supercomputers-access-policy-and-faq_en",
+      "channel": "bandi",
+      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
+      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
+      "publishedAt": "2026-06-18T14:27:56.632Z",
+      "tags": [
+        "eurohpc",
+        "ai-factories",
+        "ai-for-science",
+        "access-calls",
+        "hpc",
+        "ai"
+      ],
+      "kind": "news",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "8b9583aeff826c1c",
+      "title": "EuroHPC Federation Platform",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: EuroHPC Federation Platform",
+      "url": "https://www.eurohpc-ju.europa.eu/supercomputers/eurohpc-federation-platform_en",
+      "channel": "bandi",
+      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
+      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
+      "publishedAt": "2026-06-18T14:27:56.632Z",
+      "tags": [
+        "eurohpc",
+        "ai-factories",
+        "ai-for-science",
+        "access-calls",
+        "hpc",
+        "ai"
+      ],
+      "kind": "news",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "9f075319e8c6a940",
+      "title": "Awarded Projects",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Awarded Projects",
+      "url": "https://www.eurohpc-ju.europa.eu/supercomputers/awarded-projects_en",
+      "channel": "bandi",
+      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
+      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
+      "publishedAt": "2026-06-18T14:27:56.632Z",
+      "tags": [
+        "eurohpc",
+        "ai-factories",
+        "ai-for-science",
+        "access-calls",
+        "hpc",
+        "ai"
+      ],
+      "kind": "news",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "2a80c155984cab53",
+      "title": "Helpdesk",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Helpdesk",
+      "url": "https://www.eurohpc-ju.europa.eu/ai-factories/helpdesk-ai-factories_en",
+      "channel": "bandi",
+      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
+      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
+      "publishedAt": "2026-06-18T14:27:56.631Z",
+      "tags": [
+        "eurohpc",
+        "ai-factories",
+        "ai-for-science",
+        "access-calls",
+        "hpc",
+        "ai"
+      ],
+      "kind": "news",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "a19c886ef579929a",
+      "title": "FAQs | AI Factories",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: FAQs | AI Factories",
+      "url": "https://www.eurohpc-ju.europa.eu/ai-factories/faqs-ai-factories_en",
+      "channel": "bandi",
+      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
+      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
+      "publishedAt": "2026-06-18T14:27:56.631Z",
+      "tags": [
+        "eurohpc",
+        "ai-factories",
+        "ai-for-science",
+        "access-calls",
+        "hpc",
+        "ai"
+      ],
+      "kind": "news",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "db2540c81be01101",
+      "title": "See all",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: See all",
       "url": "https://www.eurohpc-ju.europa.eu/ai-factories_en",
       "channel": "bandi",
       "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
       "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.831Z",
+      "publishedAt": "2026-06-18T14:27:56.631Z",
       "tags": [
         "eurohpc",
         "ai-factories",
@@ -5887,126 +6273,14 @@
       }
     },
     {
-      "id": "2b4fdd5ac4124f88",
-      "title": "Services and Sectors",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Services and Sectors",
-      "url": "https://www.eurohpc-ju.europa.eu/ai-factories/industrial-sectors-and-services-ai-factories_en",
+      "id": "eb7ca5d4287a829f",
+      "title": "Supercomputers",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Supercomputers",
+      "url": "https://www.eurohpc-ju.europa.eu/supercomputers_en",
       "channel": "bandi",
       "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
       "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.831Z",
-      "tags": [
-        "eurohpc",
-        "ai-factories",
-        "ai-for-science",
-        "access-calls",
-        "hpc",
-        "ai"
-      ],
-      "kind": "news",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "937dc08331eb2fd2",
-      "title": "Access Modes",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Access Modes",
-      "url": "https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en",
-      "channel": "bandi",
-      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
-      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.831Z",
-      "tags": [
-        "eurohpc",
-        "ai-factories",
-        "ai-for-science",
-        "access-calls",
-        "hpc",
-        "ai"
-      ],
-      "kind": "news",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "3899c9b8b162c7d8",
-      "title": "AI Factories Systems",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: AI Factories Systems",
-      "url": "https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-systems_en",
-      "channel": "bandi",
-      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
-      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.831Z",
-      "tags": [
-        "eurohpc",
-        "ai-factories",
-        "ai-for-science",
-        "access-calls",
-        "hpc",
-        "ai"
-      ],
-      "kind": "news",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "3da508ab2d3f60cd",
-      "title": "AI Gigafactories",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: AI Gigafactories",
-      "url": "https://www.eurohpc-ju.europa.eu/ai-gigafactories_en",
-      "channel": "bandi",
-      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
-      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.830Z",
-      "tags": [
-        "eurohpc",
-        "ai-factories",
-        "ai-for-science",
-        "access-calls",
-        "hpc",
-        "ai"
-      ],
-      "kind": "news",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "fef3e5c3dc404e0f",
-      "title": "Supporting AI Gigafactories",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Supporting AI Gigafactories",
-      "url": "https://www.eurohpc-ju.europa.eu/ai-gigafactories/supporting-ai-gigafactories_en",
-      "channel": "bandi",
-      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
-      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.830Z",
+      "publishedAt": "2026-06-18T14:27:56.631Z",
       "tags": [
         "eurohpc",
         "ai-factories",
@@ -6034,7 +6308,7 @@
       "channel": "bandi",
       "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
       "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.830Z",
+      "publishedAt": "2026-06-18T14:27:56.630Z",
       "tags": [
         "eurohpc",
         "ai-factories",
@@ -6062,7 +6336,7 @@
       "channel": "bandi",
       "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
       "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.830Z",
+      "publishedAt": "2026-06-18T14:27:56.630Z",
       "tags": [
         "eurohpc",
         "ai-factories",
@@ -6083,14 +6357,14 @@
       }
     },
     {
-      "id": "2f9d8c997f5fd507",
-      "title": "Procurements of Supercomputers",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Procurements of Supercomputers",
-      "url": "https://www.eurohpc-ju.europa.eu/about/procurements-supercomputers_en",
+      "id": "56efcadb2c458268",
+      "title": "See all",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: See all",
+      "url": "https://www.eurohpc-ju.europa.eu/ai-gigafactories_en",
       "channel": "bandi",
       "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
       "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.829Z",
+      "publishedAt": "2026-06-18T14:27:56.630Z",
       "tags": [
         "eurohpc",
         "ai-factories",
@@ -6111,14 +6385,42 @@
       }
     },
     {
-      "id": "c2717e64bab6f543",
-      "title": "Administrative Procurements",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Administrative Procurements",
-      "url": "https://www.eurohpc-ju.europa.eu/about/administrative-procurements_en",
+      "id": "2b4fdd5ac4124f88",
+      "title": "Services and Sectors",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Services and Sectors",
+      "url": "https://www.eurohpc-ju.europa.eu/ai-factories/industrial-sectors-and-services-ai-factories_en",
       "channel": "bandi",
       "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
       "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.829Z",
+      "publishedAt": "2026-06-18T14:27:56.630Z",
+      "tags": [
+        "eurohpc",
+        "ai-factories",
+        "ai-for-science",
+        "access-calls",
+        "hpc",
+        "ai"
+      ],
+      "kind": "news",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "937dc08331eb2fd2",
+      "title": "Access Modes",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Access Modes",
+      "url": "https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en",
+      "channel": "bandi",
+      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
+      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
+      "publishedAt": "2026-06-18T14:27:56.630Z",
       "tags": [
         "eurohpc",
         "ai-factories",
@@ -6146,7 +6448,7 @@
       "channel": "bandi",
       "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
       "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.829Z",
+      "publishedAt": "2026-06-18T14:27:56.629Z",
       "tags": [
         "eurohpc",
         "ai-factories",
@@ -6174,7 +6476,7 @@
       "channel": "bandi",
       "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
       "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.829Z",
+      "publishedAt": "2026-06-18T14:27:56.629Z",
       "tags": [
         "eurohpc",
         "ai-factories",
@@ -6202,7 +6504,7 @@
       "channel": "bandi",
       "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
       "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.829Z",
+      "publishedAt": "2026-06-18T14:27:56.629Z",
       "tags": [
         "eurohpc",
         "ai-factories",
@@ -6223,98 +6525,14 @@
       }
     },
     {
-      "id": "505c32a3109693dd",
-      "title": "Discover EuroHPC JU",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Discover EuroHPC JU",
-      "url": "https://www.eurohpc-ju.europa.eu/about/discover-eurohpc-ju_en",
+      "id": "fef3e5c3dc404e0f",
+      "title": "Supporting AI Gigafactories",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Supporting AI Gigafactories",
+      "url": "https://www.eurohpc-ju.europa.eu/ai-gigafactories/supporting-ai-gigafactories_en",
       "channel": "bandi",
       "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
       "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.828Z",
-      "tags": [
-        "eurohpc",
-        "ai-factories",
-        "ai-for-science",
-        "access-calls",
-        "hpc",
-        "ai"
-      ],
-      "kind": "news",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "f6d58b11e9783b65",
-      "title": "Governance",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Governance",
-      "url": "https://www.eurohpc-ju.europa.eu/about/governance_en",
-      "channel": "bandi",
-      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
-      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.828Z",
-      "tags": [
-        "eurohpc",
-        "ai-factories",
-        "ai-for-science",
-        "access-calls",
-        "hpc",
-        "ai"
-      ],
-      "kind": "news",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "69f01fa4b1b970c7",
-      "title": "Key Documents",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Key Documents",
-      "url": "https://www.eurohpc-ju.europa.eu/about/key-documents_en",
-      "channel": "bandi",
-      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
-      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.828Z",
-      "tags": [
-        "eurohpc",
-        "ai-factories",
-        "ai-for-science",
-        "access-calls",
-        "hpc",
-        "ai"
-      ],
-      "kind": "news",
-      "score": 67,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "b12c162815152ea7",
-      "title": "Call for Experts",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Call for Experts",
-      "url": "https://www.eurohpc-ju.europa.eu/about/call-experts_en",
-      "channel": "bandi",
-      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
-      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.828Z",
+      "publishedAt": "2026-06-18T14:27:56.629Z",
       "tags": [
         "eurohpc",
         "ai-factories",
@@ -6342,7 +6560,7 @@
       "channel": "bandi",
       "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
       "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.828Z",
+      "publishedAt": "2026-06-18T14:27:56.628Z",
       "tags": [
         "eurohpc",
         "ai-factories",
@@ -6363,14 +6581,42 @@
       }
     },
     {
-      "id": "ef5c29630316f3a1",
-      "title": "Home",
-      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Home",
-      "url": "https://www.eurohpc-ju.europa.eu/index_en",
+      "id": "2f9d8c997f5fd507",
+      "title": "Procurements of Supercomputers",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Procurements of Supercomputers",
+      "url": "https://www.eurohpc-ju.europa.eu/about/procurements-supercomputers_en",
       "channel": "bandi",
       "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
       "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.827Z",
+      "publishedAt": "2026-06-18T14:27:56.628Z",
+      "tags": [
+        "eurohpc",
+        "ai-factories",
+        "ai-for-science",
+        "access-calls",
+        "hpc",
+        "ai"
+      ],
+      "kind": "news",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "c2717e64bab6f543",
+      "title": "Administrative Procurements",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Administrative Procurements",
+      "url": "https://www.eurohpc-ju.europa.eu/about/administrative-procurements_en",
+      "channel": "bandi",
+      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
+      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
+      "publishedAt": "2026-06-18T14:27:56.628Z",
       "tags": [
         "eurohpc",
         "ai-factories",
@@ -6398,7 +6644,147 @@
       "channel": "bandi",
       "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
       "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
-      "publishedAt": "2026-06-18T13:02:18.827Z",
+      "publishedAt": "2026-06-18T14:27:56.627Z",
+      "tags": [
+        "eurohpc",
+        "ai-factories",
+        "ai-for-science",
+        "access-calls",
+        "hpc",
+        "ai"
+      ],
+      "kind": "news",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "505c32a3109693dd",
+      "title": "Discover EuroHPC JU",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Discover EuroHPC JU",
+      "url": "https://www.eurohpc-ju.europa.eu/about/discover-eurohpc-ju_en",
+      "channel": "bandi",
+      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
+      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
+      "publishedAt": "2026-06-18T14:27:56.627Z",
+      "tags": [
+        "eurohpc",
+        "ai-factories",
+        "ai-for-science",
+        "access-calls",
+        "hpc",
+        "ai"
+      ],
+      "kind": "news",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "f6d58b11e9783b65",
+      "title": "Governance",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Governance",
+      "url": "https://www.eurohpc-ju.europa.eu/about/governance_en",
+      "channel": "bandi",
+      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
+      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
+      "publishedAt": "2026-06-18T14:27:56.627Z",
+      "tags": [
+        "eurohpc",
+        "ai-factories",
+        "ai-for-science",
+        "access-calls",
+        "hpc",
+        "ai"
+      ],
+      "kind": "news",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "69f01fa4b1b970c7",
+      "title": "Key Documents",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Key Documents",
+      "url": "https://www.eurohpc-ju.europa.eu/about/key-documents_en",
+      "channel": "bandi",
+      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
+      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
+      "publishedAt": "2026-06-18T14:27:56.627Z",
+      "tags": [
+        "eurohpc",
+        "ai-factories",
+        "ai-for-science",
+        "access-calls",
+        "hpc",
+        "ai"
+      ],
+      "kind": "news",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "b12c162815152ea7",
+      "title": "Call for Experts",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Call for Experts",
+      "url": "https://www.eurohpc-ju.europa.eu/about/call-experts_en",
+      "channel": "bandi",
+      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
+      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
+      "publishedAt": "2026-06-18T14:27:56.627Z",
+      "tags": [
+        "eurohpc",
+        "ai-factories",
+        "ai-for-science",
+        "access-calls",
+        "hpc",
+        "ai"
+      ],
+      "kind": "news",
+      "score": 67,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "ef5c29630316f3a1",
+      "title": "Home",
+      "summary": "Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Home",
+      "url": "https://www.eurohpc-ju.europa.eu/index_en",
+      "channel": "bandi",
+      "sourceId": "eurohpc-ai-science-collaborative-eu-projects",
+      "sourceName": "EuroHPC JU - AI for Science and Collaborative EU Projects",
+      "publishedAt": "2026-06-18T14:27:56.626Z",
       "tags": [
         "eurohpc",
         "ai-factories",
@@ -6856,6 +7242,74 @@
       }
     },
     {
+      "id": "754958c39ff8472a",
+      "title": "Anac 582/2023",
+      "summary": "Link rilevato da Regione Toscana - Bandi di Gara e Contratti: Anac 582/2023",
+      "url": "https://www.anticorruzione.it/-/delibera-n.-582-del-13-dicembre-2023-adozione-comunicato-relativo-avvio-processo-digitalizzazione",
+      "channel": "bandi",
+      "sourceId": "regione-toscana-contratti",
+      "sourceName": "Regione Toscana - Bandi di Gara e Contratti",
+      "publishedAt": "2026-06-18T14:27:57.188Z",
+      "tags": [
+        "regione-toscana",
+        "enti-regionali",
+        "trasparenza",
+        "gare",
+        "appalti",
+        "normativa",
+        "digitale",
+        "comuni",
+        "anac",
+        "regioni"
+      ],
+      "kind": "gara",
+      "score": 65,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "4548842c94fabcc7",
+      "title": "Piano Attuativo Regionale del Programma Nazionale per la garanzia di occupabilità dei lavoratori (GOL) Avviso Unico \"GOL1/2022 Percorsi 1-2- 3\". Proroga termini presentazione candidature al 24/2/2023.",
+      "summary": "Piano Attuativo Regionale del Programma Nazionale per la garanzia di occupabilità dei lavoratori (GOL) Avviso Unico \"GOL1/2022 Percorsi 1-2- 3\". Proroga termini presentazione candidature al 24/2/2023.",
+      "url": "https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-soggetti-attuatori/piano-attuativo-regionale-del-programma-nazionale-per-la-garanzi3.html",
+      "channel": "bandi",
+      "sourceId": "italia-domani-attuatori",
+      "sourceName": "Italia Domani - Soggetti Attuatori",
+      "publishedAt": "2026-06-18T14:27:57.102Z",
+      "tags": [
+        "pnrr",
+        "italia-domani",
+        "soggetti-attuatori",
+        "bandi",
+        "scadenza",
+        "beneficiari",
+        "gare",
+        "regioni"
+      ],
+      "kind": "gara",
+      "score": 65,
+      "fields": {
+        "deadlines": [
+          "24/2/2023",
+          "Proroga termini presentazione candidature al 24/2/2023..",
+          "Proroga termini presentazione candidature al 24/2/2023."
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Piano Attuativo Regionale del Programma Nazionale per la garanzia di occupabilità dei lavoratori (GOL) Avviso Unico \"GOL1/2022 Percorsi 1-2- 3\"."
+        ]
+      }
+    },
+    {
       "id": "ce1dd6dedc85ca2a",
       "title": "Piano Attuativo Regionale del Programma Nazionale per la garanzia di occupabilità dei lavoratori (GOL) Avviso Unico “GOL1/2022 Percorsi 1-2- 3”. Proroga termini presentazione candidature al 22/1/2023",
       "summary": "Piano Attuativo Regionale del Programma Nazionale per la garanzia di occupabilità dei lavoratori (GOL) Avviso Unico “GOL1/2022 Percorsi 1-2- 3”. Proroga termini presentazione candidature al 22/1/2023",
@@ -6863,7 +7317,7 @@
       "channel": "bandi",
       "sourceId": "italia-domani-attuatori",
       "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.418Z",
+      "publishedAt": "2026-06-18T14:27:57.102Z",
       "tags": [
         "pnrr",
         "italia-domani",
@@ -6899,7 +7353,7 @@
       "channel": "bandi",
       "sourceId": "italia-domani-attuatori",
       "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.417Z",
+      "publishedAt": "2026-06-18T14:27:57.101Z",
       "tags": [
         "pnrr",
         "italia-domani",
@@ -6928,42 +7382,6 @@
       }
     },
     {
-      "id": "4548842c94fabcc7",
-      "title": "Piano Attuativo Regionale del Programma Nazionale per la garanzia di occupabilità dei lavoratori (GOL) Avviso Unico \"GOL1/2022 Percorsi 1-2- 3\". Proroga termini presentazione candidature al 24/2/2023.",
-      "summary": "Piano Attuativo Regionale del Programma Nazionale per la garanzia di occupabilità dei lavoratori (GOL) Avviso Unico \"GOL1/2022 Percorsi 1-2- 3\". Proroga termini presentazione candidature al 24/2/2023.",
-      "url": "https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-soggetti-attuatori/piano-attuativo-regionale-del-programma-nazionale-per-la-garanzi3.html",
-      "channel": "bandi",
-      "sourceId": "italia-domani-attuatori",
-      "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.417Z",
-      "tags": [
-        "pnrr",
-        "italia-domani",
-        "soggetti-attuatori",
-        "bandi",
-        "scadenza",
-        "beneficiari",
-        "gare",
-        "regioni"
-      ],
-      "kind": "gara",
-      "score": 65,
-      "fields": {
-        "deadlines": [
-          "24/2/2023",
-          "Proroga termini presentazione candidature al 24/2/2023..",
-          "Proroga termini presentazione candidature al 24/2/2023."
-        ],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "Piano Attuativo Regionale del Programma Nazionale per la garanzia di occupabilità dei lavoratori (GOL) Avviso Unico \"GOL1/2022 Percorsi 1-2- 3\"."
-        ]
-      }
-    },
-    {
       "id": "cb25d310a3095a5b",
       "title": "Manuale di gestione per i soggetti esecutori delle misure relative al Percorso 4 “Lavoro e Inclusione” di cui all’Avviso n. 9/2025 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e Coesione” , Componente 1 “Politiche per il Lavoro” , Riforma 1.1 “Politiche Attive del Lavoro e Formazione” finanziato dall’Unione europea – Next Generation EU (DGR n. 881 del 29 luglio 2025)",
       "summary": "Manuale di gestione per i soggetti esecutori delle misure relative al Percorso 4 “Lavoro e Inclusione” di cui all’Avviso n. 9/2025 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e Coesione” , Componente 1 “Politiche per il Lavoro” , Riforma 1.1 “Politiche Attive del Lavoro e Formazione” finanziato dall’Unione europea – Next Generation EU (DGR n. 881 del 29 luglio 2025)",
@@ -6971,7 +7389,7 @@
       "channel": "bandi",
       "sourceId": "italia-domani-attuatori",
       "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.320Z",
+      "publishedAt": "2026-06-18T14:27:57.016Z",
       "tags": [
         "pnrr",
         "italia-domani",
@@ -7005,7 +7423,7 @@
       "channel": "bandi",
       "sourceId": "comune-bologna-gare",
       "sourceName": "Comune di Bologna - Bandi di Gara",
-      "publishedAt": "2026-06-18T13:02:18.819Z",
+      "publishedAt": "2026-06-18T14:27:56.561Z",
       "tags": [
         "comune-bologna",
         "comuni",
@@ -7020,38 +7438,6 @@
         "deadlines": [
           "24/3/2014"
         ],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "754958c39ff8472a",
-      "title": "Anac 582/2023",
-      "summary": "Link rilevato da Regione Toscana - Bandi di Gara e Contratti: Anac 582/2023",
-      "url": "https://www.anticorruzione.it/-/delibera-n.-582-del-13-dicembre-2023-adozione-comunicato-relativo-avvio-processo-digitalizzazione",
-      "channel": "bandi",
-      "sourceId": "regione-toscana-contratti",
-      "sourceName": "Regione Toscana - Bandi di Gara e Contratti",
-      "publishedAt": "2026-06-18T13:02:18.789Z",
-      "tags": [
-        "regione-toscana",
-        "enti-regionali",
-        "trasparenza",
-        "gare",
-        "appalti",
-        "normativa",
-        "digitale",
-        "comuni",
-        "anac",
-        "regioni"
-      ],
-      "kind": "gara",
-      "score": 65,
-      "fields": {
-        "deadlines": [],
         "amounts": [],
         "cig": [],
         "cup": [],
@@ -8664,7 +9050,7 @@
       "channel": "bandi",
       "sourceId": "ausl-bologna-bandi",
       "sourceName": "AUSL Bologna - Bandi di Gara",
-      "publishedAt": "2026-06-18T13:02:19.197Z",
+      "publishedAt": "2026-06-18T14:27:56.883Z",
       "tags": [
         "ausl-bologna",
         "asl",
@@ -8696,35 +9082,7 @@
       "channel": "bandi",
       "sourceId": "regione-lombardia-bandi",
       "sourceName": "Regione Lombardia - Bandi",
-      "publishedAt": "2026-06-18T13:02:18.451Z",
-      "tags": [
-        "regione-lombardia",
-        "enti-regionali",
-        "bandi",
-        "pnrr",
-        "cyber",
-        "regioni"
-      ],
-      "kind": "news",
-      "score": 63,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "c5c84c0e713826b8",
-      "title": "I Centri per la Famiglia in Lombardia",
-      "summary": "Link rilevato da Regione Lombardia - Bandi: I Centri per la Famiglia in Lombardia",
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/famiglia/centri-famiglia-lombardia-RLD12026053643",
-      "channel": "bandi",
-      "sourceId": "regione-lombardia-bandi",
-      "sourceName": "Regione Lombardia - Bandi",
-      "publishedAt": "2026-06-18T13:02:18.450Z",
+      "publishedAt": "2026-06-18T14:27:56.709Z",
       "tags": [
         "regione-lombardia",
         "enti-regionali",
@@ -8752,7 +9110,35 @@
       "channel": "bandi",
       "sourceId": "regione-lombardia-bandi",
       "sourceName": "Regione Lombardia - Bandi",
-      "publishedAt": "2026-06-18T13:02:18.449Z",
+      "publishedAt": "2026-06-18T14:27:56.708Z",
+      "tags": [
+        "regione-lombardia",
+        "enti-regionali",
+        "bandi",
+        "pnrr",
+        "cyber",
+        "regioni"
+      ],
+      "kind": "news",
+      "score": 63,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "c5c84c0e713826b8",
+      "title": "I Centri per la Famiglia in Lombardia",
+      "summary": "Link rilevato da Regione Lombardia - Bandi: I Centri per la Famiglia in Lombardia",
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/famiglia/centri-famiglia-lombardia-RLD12026053643",
+      "channel": "bandi",
+      "sourceId": "regione-lombardia-bandi",
+      "sourceName": "Regione Lombardia - Bandi",
+      "publishedAt": "2026-06-18T14:27:56.708Z",
       "tags": [
         "regione-lombardia",
         "enti-regionali",
@@ -11881,7 +12267,7 @@
       "channel": "bandi",
       "sourceId": "comune-bologna-gare",
       "sourceName": "Comune di Bologna - Bandi di Gara",
-      "publishedAt": "2026-06-18T13:02:18.819Z",
+      "publishedAt": "2026-06-18T14:27:56.561Z",
       "tags": [
         "comune-bologna",
         "comuni",
@@ -11932,70 +12318,6 @@
       }
     },
     {
-      "id": "f88e7d5957586b98",
-      "title": "Approvazione dell’Invito alla Manifestazione di Interesse per la presentazione di progetti relativi ai percorsi di istruzione e formazione professionale (IeFP) con modalità di apprendimento duale da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 – Componente 1 – Investimento 1.4 “Sistema duale”. Anno Formativo 2023/2024.",
-      "summary": "Approvazione dell’Invito alla Manifestazione di Interesse per la presentazione di progetti relativi ai percorsi di istruzione e formazione professionale (IeFP) con modalità di apprendimento duale da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 – Componente 1 – Investimento 1.4 “Sistema duale”. Anno Formativo 2023/2024.",
-      "url": "https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-soggetti-attuatori/approvazione-dell-invito-alla-manifestazione-di-interesse-per-la.html",
-      "channel": "bandi",
-      "sourceId": "italia-domani-attuatori",
-      "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.427Z",
-      "tags": [
-        "pnrr",
-        "italia-domani",
-        "soggetti-attuatori",
-        "bandi",
-        "scadenza",
-        "scuola"
-      ],
-      "kind": "pnrr",
-      "score": 59,
-      "fields": {
-        "deadlines": [
-          "Approvazione dell’Invito alla Manifestazione di Interesse per la presentazione di progetti relativi ai percorsi di istruzione e formazione professionale (IeFP) con modalità di apprendimento duale da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 – Componente 1 – Investimento 1.4 “Sistema duale”."
-        ],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "e89f0140a2ba1b85",
-      "title": "PA PI222393-26 per la fornitura in service di sistemi automatizzati per immunoistochimica ed istochimica per le esigenze dei laboratori di anatomia patologica e di emolinfopatologia dell’IRCCS Azienda Ospedaliero Universitaria di Bologna (AOU BO)",
-      "summary": "Link rilevato da AUSL Bologna - Bandi di Gara: PA PI222393-26 per la fornitura in service di sistemi automatizzati per immunoistochimica ed istochimica per le esigenze dei laboratori di anatomia patologica e di emolinfopatologia dell’IRCCS Azienda Ospedaliero Universitaria di Bologna (AOU BO)",
-      "url": "https://www.ausl.bologna.it/operatori-economici/bandi-di-gara/pa-pi-26-per-la-fornitura-in-service-di-sistemi-automatizzati-per-immunoistochimica-ed-istochimica-per-le-esigenze-dei-laboratori-di-anatomia-patologica-e-di-emolinfopatologia-dell2019irccs-azienda-ospedaliero-universitaria-di-bologna-aou-bo",
-      "channel": "bandi",
-      "sourceId": "ausl-bologna-bandi",
-      "sourceName": "AUSL Bologna - Bandi di Gara",
-      "publishedAt": "2026-06-18T13:02:19.200Z",
-      "tags": [
-        "ausl-bologna",
-        "asl",
-        "sanita",
-        "gare",
-        "appalti",
-        "beneficiari",
-        "mica",
-        "scuola",
-        "universita"
-      ],
-      "kind": "gara",
-      "score": 59,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "PA PI222393-26 per la fornitura in service di sistemi automatizzati per immunoistochimica ed istochimica per le esigenze dei laboratori di anatomia patologica e di emolinfopatologia dell’IRCCS Azienda Ospedaliero Universitaria di Bologna (AOU BO).",
-          "Link rilevato da AUSL Bologna - Bandi di Gara: PA PI222393-26 per la fornitura in service di sistemi automatizzati per immunoistochimica ed istochimica per le esigenze dei laboratori di anatomia patologica e di emolinfopatologia dell’IRCCS Azienda Ospedaliero Universitaria di Bologna (AOU BO)"
-        ]
-      }
-    },
-    {
       "id": "3f079303c3baa7a4",
       "title": "Manifestazioni di interesse e gli altri avvisi a scadenza",
       "summary": "Link rilevato da Regione Toscana - Bandi di Gara e Contratti: Manifestazioni di interesse e gli altri avvisi a scadenza",
@@ -12003,7 +12325,7 @@
       "channel": "bandi",
       "sourceId": "regione-toscana-contratti",
       "sourceName": "Regione Toscana - Bandi di Gara e Contratti",
-      "publishedAt": "2026-06-18T13:02:18.790Z",
+      "publishedAt": "2026-06-18T14:27:57.189Z",
       "tags": [
         "regione-toscana",
         "enti-regionali",
@@ -12021,6 +12343,36 @@
         "deadlines": [
           "Manifestazioni di interesse e gli altri avvisi a scadenza.",
           "Link rilevato da Regione Toscana - Bandi di Gara e Contratti: Manifestazioni di interesse e gli altri avvisi a scadenza"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "f88e7d5957586b98",
+      "title": "Approvazione dell’Invito alla Manifestazione di Interesse per la presentazione di progetti relativi ai percorsi di istruzione e formazione professionale (IeFP) con modalità di apprendimento duale da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 – Componente 1 – Investimento 1.4 “Sistema duale”. Anno Formativo 2023/2024.",
+      "summary": "Approvazione dell’Invito alla Manifestazione di Interesse per la presentazione di progetti relativi ai percorsi di istruzione e formazione professionale (IeFP) con modalità di apprendimento duale da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 – Componente 1 – Investimento 1.4 “Sistema duale”. Anno Formativo 2023/2024.",
+      "url": "https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-soggetti-attuatori/approvazione-dell-invito-alla-manifestazione-di-interesse-per-la.html",
+      "channel": "bandi",
+      "sourceId": "italia-domani-attuatori",
+      "sourceName": "Italia Domani - Soggetti Attuatori",
+      "publishedAt": "2026-06-18T14:27:57.117Z",
+      "tags": [
+        "pnrr",
+        "italia-domani",
+        "soggetti-attuatori",
+        "bandi",
+        "scadenza",
+        "scuola"
+      ],
+      "kind": "pnrr",
+      "score": 59,
+      "fields": {
+        "deadlines": [
+          "Approvazione dell’Invito alla Manifestazione di Interesse per la presentazione di progetti relativi ai percorsi di istruzione e formazione professionale (IeFP) con modalità di apprendimento duale da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 – Componente 1 – Investimento 1.4 “Sistema duale”."
         ],
         "amounts": [],
         "cig": [],
@@ -12823,7 +13175,7 @@
       "channel": "bandi",
       "sourceId": "italia-domani-attuatori",
       "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.448Z",
+      "publishedAt": "2026-06-18T14:27:57.141Z",
       "tags": [
         "pnrr",
         "italia-domani",
@@ -12842,60 +13194,6 @@
       }
     },
     {
-      "id": "53bdb27082498fa3",
-      "title": "Gara per servizio di esecuzione rilievi habitat profondi mediante unità navale.",
-      "summary": "Gara per servizio di esecuzione rilievi habitat profondi mediante unità navale.",
-      "url": "https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-soggetti-attuatori/gara-per-servizio-di-esecuzione-rilievi-habitat-profondi-mediant.html",
-      "channel": "bandi",
-      "sourceId": "italia-domani-attuatori",
-      "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.446Z",
-      "tags": [
-        "pnrr",
-        "italia-domani",
-        "soggetti-attuatori",
-        "bandi",
-        "gare"
-      ],
-      "kind": "gara",
-      "score": 57,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "d2f22420b969ff11",
-      "title": "Gara per servizi di ingegneria e architettura: progettazione del ripristino attivo per letti a ostriche",
-      "summary": "Gara per servizi di ingegneria e architettura: progettazione del ripristino attivo per letti a ostriche",
-      "url": "https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-soggetti-attuatori/gara-per-servizi-di-ingegneria-e-architettura--progettazione-del.html",
-      "channel": "bandi",
-      "sourceId": "italia-domani-attuatori",
-      "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.446Z",
-      "tags": [
-        "pnrr",
-        "italia-domani",
-        "soggetti-attuatori",
-        "bandi",
-        "gare"
-      ],
-      "kind": "gara",
-      "score": 57,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
       "id": "8695c2c90c761d38",
       "title": "Gara per acquisizione sistema AUV",
       "summary": "Gara per acquisizione sistema AUV",
@@ -12903,7 +13201,7 @@
       "channel": "bandi",
       "sourceId": "italia-domani-attuatori",
       "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.445Z",
+      "publishedAt": "2026-06-18T14:27:57.139Z",
       "tags": [
         "pnrr",
         "italia-domani",
@@ -12930,7 +13228,61 @@
       "channel": "bandi",
       "sourceId": "italia-domani-attuatori",
       "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.445Z",
+      "publishedAt": "2026-06-18T14:27:57.139Z",
+      "tags": [
+        "pnrr",
+        "italia-domani",
+        "soggetti-attuatori",
+        "bandi",
+        "gare"
+      ],
+      "kind": "gara",
+      "score": 57,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "53bdb27082498fa3",
+      "title": "Gara per servizio di esecuzione rilievi habitat profondi mediante unità navale.",
+      "summary": "Gara per servizio di esecuzione rilievi habitat profondi mediante unità navale.",
+      "url": "https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-soggetti-attuatori/gara-per-servizio-di-esecuzione-rilievi-habitat-profondi-mediant.html",
+      "channel": "bandi",
+      "sourceId": "italia-domani-attuatori",
+      "sourceName": "Italia Domani - Soggetti Attuatori",
+      "publishedAt": "2026-06-18T14:27:57.139Z",
+      "tags": [
+        "pnrr",
+        "italia-domani",
+        "soggetti-attuatori",
+        "bandi",
+        "gare"
+      ],
+      "kind": "gara",
+      "score": 57,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "d2f22420b969ff11",
+      "title": "Gara per servizi di ingegneria e architettura: progettazione del ripristino attivo per letti a ostriche",
+      "summary": "Gara per servizi di ingegneria e architettura: progettazione del ripristino attivo per letti a ostriche",
+      "url": "https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-soggetti-attuatori/gara-per-servizi-di-ingegneria-e-architettura--progettazione-del.html",
+      "channel": "bandi",
+      "sourceId": "italia-domani-attuatori",
+      "sourceName": "Italia Domani - Soggetti Attuatori",
+      "publishedAt": "2026-06-18T14:27:57.139Z",
       "tags": [
         "pnrr",
         "italia-domani",
@@ -12957,7 +13309,7 @@
       "channel": "bandi",
       "sourceId": "italia-domani-attuatori",
       "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.444Z",
+      "publishedAt": "2026-06-18T14:27:57.138Z",
       "tags": [
         "pnrr",
         "italia-domani",
@@ -12984,7 +13336,7 @@
       "channel": "bandi",
       "sourceId": "italia-domani-attuatori",
       "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.444Z",
+      "publishedAt": "2026-06-18T14:27:57.138Z",
       "tags": [
         "pnrr",
         "italia-domani",
@@ -13015,7 +13367,7 @@
       "channel": "bandi",
       "sourceId": "italia-domani-attuatori",
       "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.418Z",
+      "publishedAt": "2026-06-18T14:27:57.103Z",
       "tags": [
         "pnrr",
         "italia-domani",
@@ -13047,7 +13399,7 @@
       "channel": "bandi",
       "sourceId": "italia-domani-attuatori",
       "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.365Z",
+      "publishedAt": "2026-06-18T14:27:57.054Z",
       "tags": [
         "pnrr",
         "italia-domani",
@@ -13080,7 +13432,7 @@
       "channel": "bandi",
       "sourceId": "italia-domani-attuatori",
       "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.335Z",
+      "publishedAt": "2026-06-18T14:27:57.030Z",
       "tags": [
         "pnrr",
         "italia-domani",
@@ -13113,7 +13465,7 @@
       "channel": "bandi",
       "sourceId": "italia-domani-attuatori",
       "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.332Z",
+      "publishedAt": "2026-06-18T14:27:57.028Z",
       "tags": [
         "pnrr",
         "italia-domani",
@@ -13145,7 +13497,7 @@
       "channel": "bandi",
       "sourceId": "italia-domani-attuatori",
       "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.331Z",
+      "publishedAt": "2026-06-18T14:27:57.027Z",
       "tags": [
         "pnrr",
         "italia-domani",
@@ -13177,7 +13529,7 @@
       "channel": "bandi",
       "sourceId": "italia-domani-attuatori",
       "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.331Z",
+      "publishedAt": "2026-06-18T14:27:57.027Z",
       "tags": [
         "pnrr",
         "italia-domani",
@@ -13209,7 +13561,7 @@
       "channel": "bandi",
       "sourceId": "italia-domani-attuatori",
       "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.322Z",
+      "publishedAt": "2026-06-18T14:27:57.018Z",
       "tags": [
         "pnrr",
         "italia-domani",
@@ -13239,7 +13591,7 @@
       "channel": "bandi",
       "sourceId": "italia-domani-attuatori",
       "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.319Z",
+      "publishedAt": "2026-06-18T14:27:57.016Z",
       "tags": [
         "pnrr",
         "italia-domani",
@@ -13271,7 +13623,7 @@
       "channel": "bandi",
       "sourceId": "italia-domani-attuatori",
       "sourceName": "Italia Domani - Soggetti Attuatori",
-      "publishedAt": "2026-06-18T13:02:19.307Z",
+      "publishedAt": "2026-06-18T14:27:57.000Z",
       "tags": [
         "pnrr",
         "italia-domani",
@@ -13302,7 +13654,7 @@
       "channel": "bandi",
       "sourceId": "ausl-bologna-bandi",
       "sourceName": "AUSL Bologna - Bandi di Gara",
-      "publishedAt": "2026-06-18T13:02:19.197Z",
+      "publishedAt": "2026-06-18T14:27:56.883Z",
       "tags": [
         "ausl-bologna",
         "asl",
@@ -13330,7 +13682,7 @@
       "channel": "bandi",
       "sourceId": "ausl-bologna-bandi",
       "sourceName": "AUSL Bologna - Bandi di Gara",
-      "publishedAt": "2026-06-18T13:02:19.197Z",
+      "publishedAt": "2026-06-18T14:27:56.883Z",
       "tags": [
         "ausl-bologna",
         "asl",
@@ -13362,7 +13714,7 @@
       "channel": "bandi",
       "sourceId": "ausl-bologna-bandi",
       "sourceName": "AUSL Bologna - Bandi di Gara",
-      "publishedAt": "2026-06-18T13:02:19.196Z",
+      "publishedAt": "2026-06-18T14:27:56.882Z",
       "tags": [
         "ausl-bologna",
         "asl",
@@ -13383,37 +13735,6 @@
       }
     },
     {
-      "id": "5c9824c16c3433e9",
-      "title": "Iniziative per il PNRR",
-      "summary": "Link rilevato da Acquisti in Rete PA - MEPA: Iniziative per il PNRR",
-      "url": "https://www.acquistinretepa.it/opencms/programma_progetti-Servizi_pnrr.html",
-      "channel": "bandi",
-      "sourceId": "acquisti-in-rete-mepa",
-      "sourceName": "Acquisti in Rete PA - MEPA",
-      "publishedAt": "2026-06-18T13:02:18.805Z",
-      "tags": [
-        "mepa",
-        "consip",
-        "acquisti-in-rete",
-        "gare",
-        "appalti",
-        "beneficiari",
-        "pnrr"
-      ],
-      "kind": "pnrr",
-      "score": 57,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "Link rilevato da Acquisti in Rete PA - MEPA: Iniziative per il PNRR"
-        ]
-      }
-    },
-    {
       "id": "39a69bec6b6ce71a",
       "title": "Specifiche Tecniche Piattaforma dei Contratti Pubblici - ANAC",
       "summary": "Link rilevato da ANAC - Piattaforma Contratti Pubblici via Developers Italia: Specifiche Tecniche Piattaforma dei Contratti Pubblici - ANAC",
@@ -13421,7 +13742,7 @@
       "channel": "bandi",
       "sourceId": "anac-pcp-developers-italia",
       "sourceName": "ANAC - Piattaforma Contratti Pubblici via Developers Italia",
-      "publishedAt": "2026-06-18T13:02:18.415Z",
+      "publishedAt": "2026-06-18T14:27:56.677Z",
       "tags": [
         "anac",
         "pcp",
@@ -13451,7 +13772,7 @@
       "channel": "bandi",
       "sourceId": "anac-pcp-developers-italia",
       "sourceName": "ANAC - Piattaforma Contratti Pubblici via Developers Italia",
-      "publishedAt": "2026-06-18T13:02:18.412Z",
+      "publishedAt": "2026-06-18T14:27:56.675Z",
       "tags": [
         "anac",
         "pcp",
@@ -13471,6 +13792,37 @@
         "cup": [],
         "requirements": [],
         "beneficiaries": []
+      }
+    },
+    {
+      "id": "5c9824c16c3433e9",
+      "title": "Iniziative per il PNRR",
+      "summary": "Link rilevato da Acquisti in Rete PA - MEPA: Iniziative per il PNRR",
+      "url": "https://www.acquistinretepa.it/opencms/programma_progetti-Servizi_pnrr.html",
+      "channel": "bandi",
+      "sourceId": "acquisti-in-rete-mepa",
+      "sourceName": "Acquisti in Rete PA - MEPA",
+      "publishedAt": "2026-06-18T14:27:56.646Z",
+      "tags": [
+        "mepa",
+        "consip",
+        "acquisti-in-rete",
+        "gare",
+        "appalti",
+        "beneficiari",
+        "pnrr"
+      ],
+      "kind": "pnrr",
+      "score": 57,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Link rilevato da Acquisti in Rete PA - MEPA: Iniziative per il PNRR"
+        ]
       }
     },
     {
@@ -15052,6 +15404,131 @@
         "cup": [],
         "requirements": [],
         "beneficiaries": []
+      }
+    },
+    {
+      "id": "66de9a61f4862e89",
+      "title": "BANDO DI SELEZIONE - Oltre il giardino. Maturare competenze corso executive sulla cura e gestione di parchi e giardini storici",
+      "summary": "BANDO DI SELEZIONE - Oltre il giardino. Maturare competenze corso executive sulla cura e gestione di parchi e giardini storici",
+      "url": "https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-amministrazioni-titolari/bando-di-selezione---oltre-il-giardino--maturare-competenze-cors.html",
+      "channel": "bandi",
+      "sourceId": "italia-domani-titolari",
+      "sourceName": "Italia Domani - Amministrazioni Titolari",
+      "publishedAt": "2024-01-31T00:00:00.000Z",
+      "tags": [
+        "pnrr",
+        "italia-domani",
+        "amministrazioni-titolari",
+        "bandi",
+        "beneficiari"
+      ],
+      "kind": "bando",
+      "score": 57,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Maturare competenze corso executive sulla cura e gestione di parchi e giardini storici.",
+          "Maturare competenze corso executive sulla cura e gestione di parchi e giardini storici"
+        ]
+      }
+    },
+    {
+      "id": "307a6c3aca2a2e74",
+      "title": "Programma Garanzia di Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 “Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione Europea - Next Generation EU. Approvazione Avviso 3 GOL/2023 “WORK IN PUGLIA” - Formazione per l’acquisizione di competenze tecnico -professionali nell’ambito del Percorso 2 - Aggiornamento (Upskilling) e del Percorso 3 - Riqualificazione (Reskilling)”",
+      "summary": "Programma Garanzia di Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 “Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione Europea - Next Generation EU. Approvazione Avviso 3 GOL/2023 “WORK IN PUGLIA” - Formazione per l’acquisizione di competenze tecnico -professionali nell’ambito del Percorso 2 - Aggiornamento (Upskilling) e del Percorso 3 - Riqualificazione (Reskilling)”",
+      "url": "https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-soggetti-attuatori/programma-garanzia-di-occupabilita-dei-lavoratori-da-finanziare-.html",
+      "channel": "bandi",
+      "sourceId": "italia-domani-attuatori",
+      "sourceName": "Italia Domani - Soggetti Attuatori",
+      "publishedAt": "2024-01-31T00:00:00.000Z",
+      "tags": [
+        "pnrr",
+        "italia-domani",
+        "soggetti-attuatori",
+        "bandi",
+        "beneficiari",
+        "lavoro",
+        "gare"
+      ],
+      "kind": "gara",
+      "score": 57,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Programma Garanzia di Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 “Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione Europea - Next Generation EU."
+        ]
+      }
+    },
+    {
+      "id": "552a1fbdc34dc2c0",
+      "title": "Avviso pubblico per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 \"Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU Attuazione delle misure relative al Percorso 5 – Ricollocazione Collettiva",
+      "summary": "Avviso pubblico per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 \"Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU Attuazione delle misure relative al Percorso 5 – Ricollocazione Collettiva",
+      "url": "https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-soggetti-attuatori/avviso-pubblico-per-l-attuazione-del-programma-garanzia-occupabi0.html",
+      "channel": "bandi",
+      "sourceId": "italia-domani-attuatori",
+      "sourceName": "Italia Domani - Soggetti Attuatori",
+      "publishedAt": "2024-01-17T00:00:00.000Z",
+      "tags": [
+        "pnrr",
+        "italia-domani",
+        "soggetti-attuatori",
+        "bandi",
+        "beneficiari",
+        "lavoro",
+        "gare"
+      ],
+      "kind": "gara",
+      "score": 57,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Avviso pubblico per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 \"Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU Attuazione delle misure relative al Percorso 5 – Ricollocazione Collettiva.",
+          "Avviso pubblico per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 \"Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU Attuazione delle misure relative al Percorso 5 – Ricollocazione Collettiva"
+        ]
+      }
+    },
+    {
+      "id": "1005c737f1475ee0",
+      "title": "Avviso pubblico N. 5 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 \" Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU - Avviso GOL in TOSCANA Concessione di finanziamenti per progetti formativi di aggiornamento (Upskilling) – Seconda annualità",
+      "summary": "Avviso pubblico N. 5 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 \" Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU - Avviso GOL in TOSCANA Concessione di finanziamenti per progetti formativi di aggiornamento (Upskilling) – Seconda annualità",
+      "url": "https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-soggetti-attuatori/avviso-pubblico-n--5-per-l-attuazione-del-programma-garanzia-occ0.html",
+      "channel": "bandi",
+      "sourceId": "italia-domani-attuatori",
+      "sourceName": "Italia Domani - Soggetti Attuatori",
+      "publishedAt": "2024-01-11T00:00:00.000Z",
+      "tags": [
+        "pnrr",
+        "italia-domani",
+        "soggetti-attuatori",
+        "bandi",
+        "beneficiari",
+        "lavoro",
+        "gare"
+      ],
+      "kind": "gara",
+      "score": 57,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "5 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 \" Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU - Avviso GOL in TOSCANA Concessione di finanziamenti per progetti formativi di aggiornamento (Upskilling) – Seconda annualità.",
+          "5 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 \" Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU - Avviso GOL in TOSCANA Concessione di finanziamenti per progetti formativi di aggiornamento (Upskilling) – Seconda annualità"
+        ]
       }
     }
   ],

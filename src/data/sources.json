@@ -442,6 +442,19 @@
     "tags": ["pnrr", "cultura", "digitale", "patrimonio", "bandi"]
   },
   {
+    "id": "eu-digital-strategy-funding",
+    "name": "Commissione Europea Digital Strategy - Funding, calls e tenders",
+    "type": "html",
+    "channel": "bandi",
+    "category": "digital-europe-funding",
+    "homepage": "https://digital-strategy.ec.europa.eu/en/funding",
+    "url": "https://digital-strategy.ec.europa.eu/en/funding",
+    "cadence": "giornaliera",
+    "trust": "official",
+    "enabled": true,
+    "tags": ["commissione-europea", "digital-strategy", "digital-europe", "funding", "calls", "tenders", "ai", "cloud", "cyber"]
+  },
+  {
     "id": "eurohpc-ai-factories-access-calls",
     "name": "EuroHPC JU - AI Factories Access Calls",
     "type": "rss",

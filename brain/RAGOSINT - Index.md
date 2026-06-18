@@ -1,17 +1,17 @@
 ---
 type: osint-brain-index
 project: RAGOSINT
-generated: 2026-06-18T13:02:21.618Z
+generated: 2026-06-18T14:27:57.552Z
 ---
 
 # RAGOSINT
 
 Knowledge base OSINT/RAG-ready per normativa italiana, bandi, gare d'appalto e PNRR.
 
-Snapshot generata: 2026-06-18T13:02:21.618Z
+Snapshot generata: 2026-06-18T14:27:57.552Z
 Alert totali: 700
-Canale bandi: 467
-Canale normativa: 233
+Canale bandi: 482
+Canale normativa: 218
 
 ## Feed
 

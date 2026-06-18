@@ -2,39 +2,21 @@
 type: osint-monitor
 project: RAGOSINT
 channel: normativa
-generated: 2026-06-18T13:02:21.618Z
+generated: 2026-06-18T14:27:57.552Z
 ---
 
 # RAGOSINT - normativa
 
-Snapshot generata: 2026-06-18T13:02:21.618Z
-Alert indicizzati: 233
+Snapshot generata: 2026-06-18T14:27:57.552Z
+Alert indicizzati: 218
 
-## 1. Sistema di informazione visti (VIS)
-
-- Canale: normativa
-- Fonte: Garante Privacy - AI e protezione dati
-- Tipo: normativa
-- Score: 100
-- Pubblicato: 2026-06-18T13:02:18.440Z
-- Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://www.garanteprivacy.it/sistema-informazione-visti-vis
-
-Link rilevato da Garante Privacy - AI e protezione dati: Sistema di informazione visti (VIS)
-
-## 2. Sistema d'Informazione Schengen (SIS)
+## 1. Sistema d'Informazione Schengen (SIS)
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.440Z
+- Pubblicato: 2026-06-18T14:27:56.920Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -46,13 +28,13 @@ Link rilevato da Garante Privacy - AI e protezione dati: Sistema di informazione
 
 Link rilevato da Garante Privacy - AI e protezione dati: Sistema d'Informazione Schengen (SIS)
 
-## 3. Audizioni, memorie e note istituzionali
+## 2. Codice Privacy e Normativa italiana
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.439Z
+- Pubblicato: 2026-06-18T14:27:56.920Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -60,35 +42,17 @@ Link rilevato da Garante Privacy - AI e protezione dati: Sistema d'Informazione 
 - CUP: n/d
 - Requisiti: n/d
 - Beneficiari: n/d
-- URL: https://www.garanteprivacy.it/home/attivita-e-documenti/documenti/audizioni
+- URL: https://www.garanteprivacy.it/il-codice-e-normativa-italiana
 
-Link rilevato da Garante Privacy - AI e protezione dati: Audizioni, memorie e note istituzionali
+Link rilevato da Garante Privacy - AI e protezione dati: Codice Privacy e Normativa italiana
 
-## 4. Protocolli e convenzioni
-
-- Canale: normativa
-- Fonte: Garante Privacy - AI e protezione dati
-- Tipo: normativa
-- Score: 100
-- Pubblicato: 2026-06-18T13:02:18.439Z
-- Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://www.garanteprivacy.it/home/attivita-e-documenti/protocolli-d-intesa
-
-Link rilevato da Garante Privacy - AI e protezione dati: Protocolli e convenzioni
-
-## 5. Giornate europee della protezione dei dati personali
+## 3. Giornate europee della protezione dei dati personali
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.437Z
+- Pubblicato: 2026-06-18T14:27:56.919Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -100,13 +64,67 @@ Link rilevato da Garante Privacy - AI e protezione dati: Protocolli e convenzion
 
 Link rilevato da Garante Privacy - AI e protezione dati: Giornate europee della protezione dei dati personali
 
-## 6. Codici di condotta
+## 4. Audizioni, memorie e note istituzionali
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.436Z
+- Pubblicato: 2026-06-18T14:27:56.919Z
+- Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://www.garanteprivacy.it/home/attivita-e-documenti/documenti/audizioni
+
+Link rilevato da Garante Privacy - AI e protezione dati: Audizioni, memorie e note istituzionali
+
+## 5. Protocolli e convenzioni
+
+- Canale: normativa
+- Fonte: Garante Privacy - AI e protezione dati
+- Tipo: normativa
+- Score: 100
+- Pubblicato: 2026-06-18T14:27:56.919Z
+- Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://www.garanteprivacy.it/home/attivita-e-documenti/protocolli-d-intesa
+
+Link rilevato da Garante Privacy - AI e protezione dati: Protocolli e convenzioni
+
+## 6. Sistema di informazione visti (VIS)
+
+- Canale: normativa
+- Fonte: Garante Privacy - AI e protezione dati
+- Tipo: normativa
+- Score: 100
+- Pubblicato: 2026-06-18T14:27:56.919Z
+- Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://www.garanteprivacy.it/sistema-informazione-visti-vis
+
+Link rilevato da Garante Privacy - AI e protezione dati: Sistema di informazione visti (VIS)
+
+## 7. Codici di condotta
+
+- Canale: normativa
+- Fonte: Garante Privacy - AI e protezione dati
+- Tipo: normativa
+- Score: 100
+- Pubblicato: 2026-06-18T14:27:56.918Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -118,13 +136,13 @@ Link rilevato da Garante Privacy - AI e protezione dati: Giornate europee della 
 
 Link rilevato da Garante Privacy - AI e protezione dati: Codici di condotta
 
-## 7. Attività internazionali
+## 8. Attività internazionali
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.436Z
+- Pubblicato: 2026-06-18T14:27:56.918Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -136,13 +154,13 @@ Link rilevato da Garante Privacy - AI e protezione dati: Codici di condotta
 
 Link rilevato da Garante Privacy - AI e protezione dati: Attività internazionali
 
-## 8. Formazione
+## 9. Formazione
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.436Z
+- Pubblicato: 2026-06-18T14:27:56.918Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -154,13 +172,13 @@ Link rilevato da Garante Privacy - AI e protezione dati: Attività internazional
 
 Link rilevato da Garante Privacy - AI e protezione dati: Formazione
 
-## 9. Pubblicazioni
+## 10. Pubblicazioni
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.436Z
+- Pubblicato: 2026-06-18T14:27:56.918Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -172,49 +190,13 @@ Link rilevato da Garante Privacy - AI e protezione dati: Formazione
 
 Link rilevato da Garante Privacy - AI e protezione dati: Pubblicazioni
 
-## 10. Codice etico
+## 11. Attività
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.435Z
-- Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://www.garanteprivacy.it/home/autorita/codice-etico
-
-Link rilevato da Garante Privacy - AI e protezione dati: Codice etico
-
-## 11. L'ufficio
-
-- Canale: normativa
-- Fonte: Garante Privacy - AI e protezione dati
-- Tipo: normativa
-- Score: 100
-- Pubblicato: 2026-06-18T13:02:18.435Z
-- Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://www.garanteprivacy.it/home/autorita/ufficio
-
-Link rilevato da Garante Privacy - AI e protezione dati: L'ufficio
-
-## 12. Attività
-
-- Canale: normativa
-- Fonte: Garante Privacy - AI e protezione dati
-- Tipo: normativa
-- Score: 100
-- Pubblicato: 2026-06-18T13:02:18.435Z
+- Pubblicato: 2026-06-18T14:27:56.917Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -226,13 +208,13 @@ Link rilevato da Garante Privacy - AI e protezione dati: L'ufficio
 
 Link rilevato da Garante Privacy - AI e protezione dati: Attività
 
-## 13. Relazioni annuali
+## 12. Relazioni annuali
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.435Z
+- Pubblicato: 2026-06-18T14:27:56.917Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -244,67 +226,13 @@ Link rilevato da Garante Privacy - AI e protezione dati: Attività
 
 Link rilevato da Garante Privacy - AI e protezione dati: Relazioni annuali
 
-## 14. Podcast
+## 13. Compiti
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.434Z
-- Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://www.garanteprivacy.it/podcast
-
-Link rilevato da Garante Privacy - AI e protezione dati: Podcast
-
-## 15. Il Garante
-
-- Canale: normativa
-- Fonte: Garante Privacy - AI e protezione dati
-- Tipo: normativa
-- Score: 100
-- Pubblicato: 2026-06-18T13:02:18.434Z
-- Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://www.garanteprivacy.it/home/autorita
-
-Link rilevato da Garante Privacy - AI e protezione dati: Il Garante
-
-## 16. Collegio
-
-- Canale: normativa
-- Fonte: Garante Privacy - AI e protezione dati
-- Tipo: normativa
-- Score: 100
-- Pubblicato: 2026-06-18T13:02:18.434Z
-- Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://www.garanteprivacy.it/home/autorita/collegio
-
-Link rilevato da Garante Privacy - AI e protezione dati: Collegio
-
-## 17. Compiti
-
-- Canale: normativa
-- Fonte: Garante Privacy - AI e protezione dati
-- Tipo: normativa
-- Score: 100
-- Pubblicato: 2026-06-18T13:02:18.434Z
+- Pubblicato: 2026-06-18T14:27:56.916Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -316,13 +244,13 @@ Link rilevato da Garante Privacy - AI e protezione dati: Collegio
 
 Link rilevato da Garante Privacy - AI e protezione dati: Compiti
 
-## 18. Regolamenti interni
+## 14. Regolamenti interni
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.434Z
+- Pubblicato: 2026-06-18T14:27:56.916Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -334,13 +262,13 @@ Link rilevato da Garante Privacy - AI e protezione dati: Compiti
 
 Link rilevato da Garante Privacy - AI e protezione dati: Regolamenti interni
 
-## 19. ENG
+## 15. Codice etico
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.433Z
+- Pubblicato: 2026-06-18T14:27:56.916Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -348,17 +276,17 @@ Link rilevato da Garante Privacy - AI e protezione dati: Regolamenti interni
 - CUP: n/d
 - Requisiti: n/d
 - Beneficiari: n/d
-- URL: https://www.garanteprivacy.it/c/portal/update_language?p_l_id=9328032&languageId=en_US&redirect=/homeen
+- URL: https://www.garanteprivacy.it/home/autorita/codice-etico
 
-Link rilevato da Garante Privacy - AI e protezione dati: ENG
+Link rilevato da Garante Privacy - AI e protezione dati: Codice etico
 
-## 20. Garante per la protezione dei dati personali
+## 16. L'ufficio
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.433Z
+- Pubblicato: 2026-06-18T14:27:56.916Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -366,17 +294,17 @@ Link rilevato da Garante Privacy - AI e protezione dati: ENG
 - CUP: n/d
 - Requisiti: n/d
 - Beneficiari: n/d
-- URL: https://www.garanteprivacy.it/home
+- URL: https://www.garanteprivacy.it/home/autorita/ufficio
 
-Link rilevato da Garante Privacy - AI e protezione dati: Garante per la protezione dei dati personali
+Link rilevato da Garante Privacy - AI e protezione dati: L'ufficio
 
-## 21. I miei diritti
+## 17. I miei diritti
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.433Z
+- Pubblicato: 2026-06-18T14:27:56.915Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -388,13 +316,13 @@ Link rilevato da Garante Privacy - AI e protezione dati: Garante per la protezio
 
 Link rilevato da Garante Privacy - AI e protezione dati: I miei diritti
 
-## 22. Imprese ed enti
+## 18. Imprese ed enti
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.433Z
+- Pubblicato: 2026-06-18T14:27:56.915Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -406,13 +334,13 @@ Link rilevato da Garante Privacy - AI e protezione dati: I miei diritti
 
 Link rilevato da Garante Privacy - AI e protezione dati: Imprese ed enti
 
-## 23. linkedin
+## 19. Podcast
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.432Z
+- Pubblicato: 2026-06-18T14:27:56.915Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -420,17 +348,17 @@ Link rilevato da Garante Privacy - AI e protezione dati: Imprese ed enti
 - CUP: n/d
 - Requisiti: n/d
 - Beneficiari: n/d
-- URL: http://www.linkedin.com/company/autorit-garante-per-la-protezione-dei-dati-personali
+- URL: https://www.garanteprivacy.it/podcast
 
-Link rilevato da Garante Privacy - AI e protezione dati: linkedin
+Link rilevato da Garante Privacy - AI e protezione dati: Podcast
 
-## 24. instagram
+## 20. Collegio
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.432Z
+- Pubblicato: 2026-06-18T14:27:56.915Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -438,35 +366,17 @@ Link rilevato da Garante Privacy - AI e protezione dati: linkedin
 - CUP: n/d
 - Requisiti: n/d
 - Beneficiari: n/d
-- URL: http://www.instagram.com/garanteprivacy/
+- URL: https://www.garanteprivacy.it/home/autorita/collegio
 
-Link rilevato da Garante Privacy - AI e protezione dati: instagram
+Link rilevato da Garante Privacy - AI e protezione dati: Collegio
 
-## 25. youtube
-
-- Canale: normativa
-- Fonte: Garante Privacy - AI e protezione dati
-- Tipo: normativa
-- Score: 100
-- Pubblicato: 2026-06-18T13:02:18.432Z
-- Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: http://www.youtube.com/videogaranteprivacy
-
-Link rilevato da Garante Privacy - AI e protezione dati: youtube
-
-## 26. telegram
+## 21. telegram
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.432Z
+- Pubblicato: 2026-06-18T14:27:56.914Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
@@ -478,49 +388,103 @@ Link rilevato da Garante Privacy - AI e protezione dati: youtube
 
 Link rilevato da Garante Privacy - AI e protezione dati: telegram
 
-## 27. Progettare con qualità: l’accessibilità al centro del design system del Paese
+## 22. ENG
 
 - Canale: normativa
-- Fonte: Dipartimento Trasformazione Digitale - Notizie
+- Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.363Z
-- Tag: dipartimento-trasformazione-digitale, pa-digitale, pnrr, cloud-pa, anpr, spid, sanita-digitale, scadenza, beneficiari, digitale
-- Scadenze: Progettare con qualità: l’accessibilità al centro del design system del Paese.; Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Progettare con qualità: l’accessibilità al centro del design system del Paese
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: Progettare con qualità: l’accessibilità al centro del design system del Paese.; Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Progettare con qualità: l’accessibilità al centro del design system del Paese
-- URL: https://medium.com/designers-italia/progettare-con-qualita-accessibilita-al-centro-del-design-system-del-paese-5e3599170099
-
-Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Progettare con qualità: l’accessibilità al centro del design system del Paese
-
-## 28. Informativa privacy
-
-- Canale: normativa
-- Fonte: Dipartimento Trasformazione Digitale - Notizie
-- Tipo: normativa
-- Score: 100
-- Pubblicato: 2026-06-18T13:02:18.363Z
-- Tag: dipartimento-trasformazione-digitale, pa-digitale, pnrr, cloud-pa, anpr, spid, sanita-digitale, beneficiari, privacy, digitale
+- Pubblicato: 2026-06-18T14:27:56.914Z
+- Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
 - Scadenze: n/d
 - Importi: n/d
 - CIG: n/d
 - CUP: n/d
 - Requisiti: n/d
-- Beneficiari: Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Informativa privacy
-- URL: https://innovazione.gov.it/informativa-sul-trattamento-dei-dati-personali
+- Beneficiari: n/d
+- URL: https://www.garanteprivacy.it/c/portal/update_language?p_l_id=9328032&languageId=en_US&redirect=/homeen
 
-Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Informativa privacy
+Link rilevato da Garante Privacy - AI e protezione dati: ENG
 
-## 29. Intervista al Sottosegretario Butti a "Il Sole 24 Ore"
+## 23. Garante per la protezione dei dati personali
+
+- Canale: normativa
+- Fonte: Garante Privacy - AI e protezione dati
+- Tipo: normativa
+- Score: 100
+- Pubblicato: 2026-06-18T14:27:56.914Z
+- Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://www.garanteprivacy.it/home
+
+Link rilevato da Garante Privacy - AI e protezione dati: Garante per la protezione dei dati personali
+
+## 24. linkedin
+
+- Canale: normativa
+- Fonte: Garante Privacy - AI e protezione dati
+- Tipo: normativa
+- Score: 100
+- Pubblicato: 2026-06-18T14:27:56.913Z
+- Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: http://www.linkedin.com/company/autorit-garante-per-la-protezione-dei-dati-personali
+
+Link rilevato da Garante Privacy - AI e protezione dati: linkedin
+
+## 25. instagram
+
+- Canale: normativa
+- Fonte: Garante Privacy - AI e protezione dati
+- Tipo: normativa
+- Score: 100
+- Pubblicato: 2026-06-18T14:27:56.913Z
+- Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: http://www.instagram.com/garanteprivacy/
+
+Link rilevato da Garante Privacy - AI e protezione dati: instagram
+
+## 26. youtube
+
+- Canale: normativa
+- Fonte: Garante Privacy - AI e protezione dati
+- Tipo: normativa
+- Score: 100
+- Pubblicato: 2026-06-18T14:27:56.913Z
+- Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, digitale, gare
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: http://www.youtube.com/videogaranteprivacy
+
+Link rilevato da Garante Privacy - AI e protezione dati: youtube
+
+## 27. Intervista al Sottosegretario Butti a "Il Sole 24 Ore"
 
 - Canale: normativa
 - Fonte: Dipartimento Trasformazione Digitale - Notizie
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.362Z
+- Pubblicato: 2026-06-18T14:27:56.703Z
 - Tag: dipartimento-trasformazione-digitale, pa-digitale, pnrr, cloud-pa, anpr, spid, sanita-digitale, scadenza, beneficiari, digitale
 - Scadenze: Intervista al Sottosegretario Butti a "Il Sole 24 Ore".; Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Intervista al Sottosegretario Butti a "Il Sole 24 Ore"
 - Importi: n/d
@@ -532,13 +496,49 @@ Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Informativa pri
 
 Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Intervista al Sottosegretario Butti a "Il Sole 24 Ore"
 
+## 28. Progettare con qualità: l’accessibilità al centro del design system del Paese
+
+- Canale: normativa
+- Fonte: Dipartimento Trasformazione Digitale - Notizie
+- Tipo: normativa
+- Score: 100
+- Pubblicato: 2026-06-18T14:27:56.703Z
+- Tag: dipartimento-trasformazione-digitale, pa-digitale, pnrr, cloud-pa, anpr, spid, sanita-digitale, scadenza, beneficiari, digitale
+- Scadenze: Progettare con qualità: l’accessibilità al centro del design system del Paese.; Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Progettare con qualità: l’accessibilità al centro del design system del Paese
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: Progettare con qualità: l’accessibilità al centro del design system del Paese.; Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Progettare con qualità: l’accessibilità al centro del design system del Paese
+- URL: https://medium.com/designers-italia/progettare-con-qualita-accessibilita-al-centro-del-design-system-del-paese-5e3599170099
+
+Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Progettare con qualità: l’accessibilità al centro del design system del Paese
+
+## 29. Informativa privacy
+
+- Canale: normativa
+- Fonte: Dipartimento Trasformazione Digitale - Notizie
+- Tipo: normativa
+- Score: 100
+- Pubblicato: 2026-06-18T14:27:56.703Z
+- Tag: dipartimento-trasformazione-digitale, pa-digitale, pnrr, cloud-pa, anpr, spid, sanita-digitale, beneficiari, privacy, digitale
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Informativa privacy
+- URL: https://innovazione.gov.it/informativa-sul-trattamento-dei-dati-personali
+
+Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Informativa privacy
+
 ## 30. Proposal for the Cloud and AI Development Act (CADA)
 
 - Canale: normativa
 - Fonte: Commissione Europea - Quadro regolatorio AI Act
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.310Z
+- Pubblicato: 2026-06-18T14:27:56.620Z
 - Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, pnrr, digitale, pa-digitale
 - Scadenze: n/d
 - Importi: n/d
@@ -556,7 +556,7 @@ Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Proposal for t
 - Fonte: Commissione Europea - Quadro regolatorio AI Act
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.310Z
+- Pubblicato: 2026-06-18T14:27:56.620Z
 - Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, pnrr, eu-funding
 - Scadenze: n/d
 - Importi: n/d
@@ -574,7 +574,7 @@ Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Horizon Europe
 - Fonte: Commissione Europea - Quadro regolatorio AI Act
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.309Z
+- Pubblicato: 2026-06-18T14:27:56.619Z
 - Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, pnrr, cyber
 - Scadenze: n/d
 - Importi: n/d
@@ -592,7 +592,7 @@ Link rilevato da Commissione Europea - Quadro regolatorio AI Act: European Commi
 - Fonte: Commissione Europea - Quadro regolatorio AI Act
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.304Z
+- Pubblicato: 2026-06-18T14:27:56.616Z
 - Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, pnrr, ai
 - Scadenze: n/d
 - Importi: n/d
@@ -604,67 +604,13 @@ Link rilevato da Commissione Europea - Quadro regolatorio AI Act: European Commi
 
 Link rilevato da Commissione Europea - Quadro regolatorio AI Act: guidelines on prohibited AI practices under the AI Act
 
-## 34. AI Factories
-
-- Canale: normativa
-- Fonte: Commissione Europea - AI Office e AI Act
-- Tipo: normativa
-- Score: 100
-- Pubblicato: 2026-06-18T13:02:18.278Z
-- Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, pnrr, ai-factories
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://digital-strategy.ec.europa.eu/en/policies/ai-factories
-
-Link rilevato da Commissione Europea - AI Office e AI Act: AI Factories
-
-## 35. Funding
-
-- Canale: normativa
-- Fonte: Commissione Europea - AI Office e AI Act
-- Tipo: normativa
-- Score: 100
-- Pubblicato: 2026-06-18T13:02:18.276Z
-- Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, pnrr, eu-funding
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://digital-strategy.ec.europa.eu/en/funding
-
-Link rilevato da Commissione Europea - AI Office e AI Act: Funding
-
-## 36. AI Act
-
-- Canale: normativa
-- Fonte: Commissione Europea - AI Office e AI Act
-- Tipo: normativa
-- Score: 100
-- Pubblicato: 2026-06-18T13:02:18.276Z
-- Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, pnrr, ai
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://digital-strategy.ec.europa.eu/en/policies/european-approach-artificial-intelligence
-
-Link rilevato da Commissione Europea - AI Office e AI Act: AI Act
-
-## 37. Investment Services and Crowdfunding
+## 34. Investment Services and Crowdfunding
 
 - Canale: normativa
 - Fonte: ESMA - DORA e resilienza operativa digitale
 - Tipo: normativa
 - Score: 100
-- Pubblicato: 2026-06-18T13:02:18.143Z
+- Pubblicato: 2026-06-18T14:27:56.581Z
 - Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, digitale, eu-funding
 - Scadenze: n/d
 - Importi: n/d
@@ -676,7 +622,7 @@ Link rilevato da Commissione Europea - AI Office e AI Act: AI Act
 
 Link rilevato da ESMA - DORA e resilienza operativa digitale: Investment Services and Crowdfunding
 
-## 38. COMITATO INTERMINISTERIALE PER LA PROGRAMMAZIONE ECONOMICA E LO SVILUPPO SOSTENIBILE - DELIBERA 18 marzo 2026
+## 35. COMITATO INTERMINISTERIALE PER LA PROGRAMMAZIONE ECONOMICA E LO SVILUPPO SOSTENIBILE - DELIBERA 18 marzo 2026
 
 - Canale: normativa
 - Fonte: Gazzetta Ufficiale - Serie Generale
@@ -694,7 +640,7 @@ Link rilevato da ESMA - DORA e resilienza operativa digitale: Investment Service
 
 Parere sul contratto di programma 2023-2026 tra l'Ente nazionale per l'aviazione civile (ENAC) e la societa' Aeroporto Guglielmo Marconi di Bologna S.p.a. (AdB), relativo all'Aeroporto di Bologna, ex articolo 1, comma 11, del decreto-legge n. 133 del 2014. (Delibera n. 14/2026). (26A02981)
 
-## 39. REGOLAMENTO 11 dicembre 2025, n. 880
+## 36. REGOLAMENTO 11 dicembre 2025, n. 880
 
 - Canale: normativa
 - Fonte: Gazzetta Ufficiale - Unione Europea
@@ -712,31 +658,13 @@ Parere sul contratto di programma 2023-2026 tra l'Ente nazionale per l'aviazione
 
 Regolamento delegato (UE) 2026/880 della Commissione, dell'11 dicembre 2025, recante rettifica del regolamento (CE) n. 451/2008 del Parlamento europeo e del Consiglio per quanto riguarda posizioni specifiche della classificazione statistica dei prodotti associata alle attivita' (CPA) - Pubblicato il 20 aprile 2026 (26CE1443)
 
-## 40. State of the Digital Decade 2026 - Closing structural gaps and mobilising investments for 2030 and beyond
+## 37. Three studies on various aspects of article 5 of the AI Act
 
 - Canale: normativa
 - Fonte: Commissione Europea - Quadro regolatorio AI Act
 - Tipo: normativa
 - Score: 96
-- Pubblicato: 2026-06-18T13:02:18.310Z
-- Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, pnrr, pa-digitale
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://digital-strategy.ec.europa.eu/en/library/state-digital-decade-2026-closing-structural-gaps-and-mobilising-investments-2030-and-beyond
-
-Link rilevato da Commissione Europea - Quadro regolatorio AI Act: State of the Digital Decade 2026 - Closing structural gaps and mobilising investments for 2030 and beyond
-
-## 41. Three studies on various aspects of article 5 of the AI Act
-
-- Canale: normativa
-- Fonte: Commissione Europea - Quadro regolatorio AI Act
-- Tipo: normativa
-- Score: 96
-- Pubblicato: 2026-06-18T13:02:18.310Z
+- Pubblicato: 2026-06-18T14:27:56.620Z
 - Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, pnrr, documenti-digitali
 - Scadenze: n/d
 - Importi: n/d
@@ -748,31 +676,31 @@ Link rilevato da Commissione Europea - Quadro regolatorio AI Act: State of the D
 
 Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Three studies on various aspects of article 5 of the AI Act
 
-## 42. Accessibility statement
+## 38. State of the Digital Decade 2026 - Closing structural gaps and mobilising investments for 2030 and beyond
 
 - Canale: normativa
-- Fonte: Commissione Europea - AI Office e AI Act
+- Fonte: Commissione Europea - Quadro regolatorio AI Act
 - Tipo: normativa
 - Score: 96
-- Pubblicato: 2026-06-18T13:02:18.280Z
-- Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, pnrr, accessibilita
+- Pubblicato: 2026-06-18T14:27:56.619Z
+- Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, pnrr, pa-digitale
 - Scadenze: n/d
 - Importi: n/d
 - CIG: n/d
 - CUP: n/d
 - Requisiti: n/d
 - Beneficiari: n/d
-- URL: https://digital-strategy.ec.europa.eu/en/pages/accessibility
+- URL: https://digital-strategy.ec.europa.eu/en/library/state-digital-decade-2026-closing-structural-gaps-and-mobilising-investments-2030-and-beyond
 
-Link rilevato da Commissione Europea - AI Office e AI Act: Accessibility statement
+Link rilevato da Commissione Europea - Quadro regolatorio AI Act: State of the Digital Decade 2026 - Closing structural gaps and mobilising investments for 2030 and beyond
 
-## 43. 2026 State of the Digital Decade report shows progress but urges closing structural gaps to reach 2030 goals
+## 39. 2026 State of the Digital Decade report shows progress but urges closing structural gaps to reach 2030 goals
 
 - Canale: normativa
 - Fonte: Commissione Europea - AI Office e AI Act
 - Tipo: normativa
 - Score: 96
-- Pubblicato: 2026-06-18T13:02:18.279Z
+- Pubblicato: 2026-06-18T14:27:56.553Z
 - Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, pnrr, pa-digitale
 - Scadenze: n/d
 - Importi: n/d
@@ -784,7 +712,7 @@ Link rilevato da Commissione Europea - AI Office e AI Act: Accessibility stateme
 
 Link rilevato da Commissione Europea - AI Office e AI Act: 2026 State of the Digital Decade report shows progress but urges closing structural gaps to reach 2030 goals
 
-## 44. n. 106 ORDINANZA 5 maggio - 16 giugno 2026
+## 40. n. 106 ORDINANZA 5 maggio - 16 giugno 2026
 
 - Canale: normativa
 - Fonte: Gazzetta Ufficiale - Corte Costituzionale
@@ -802,7 +730,7 @@ Link rilevato da Commissione Europea - AI Office e AI Act: 2026 State of the Dig
 
 Giudizio sull'ammissibilita' di ricorso per conflitto di attribuzione tra poteri dello Stato. Parlamento - Immunita' parlamentari - Utilizzazione, da parte della Commissione parlamentare d'inchiesta sul fenomeno delle mafie e sulle altre associazioni criminali, anche straniere, di intercettazioni telefoniche e di messaggistica elettronica del senatore Roberto Maria Ferdinando Scarpinato, in assenza di autorizzazione del Senato della Repubblica - Ricors.........(T-260106)
 
-## 45. n. 92 ORDINANZA (Atto di promovimento) 18 maggio 2026
+## 41. n. 92 ORDINANZA (Atto di promovimento) 18 maggio 2026
 
 - Canale: normativa
 - Fonte: Gazzetta Ufficiale - Corte Costituzionale
@@ -820,49 +748,13 @@ Giudizio sull'ammissibilita' di ricorso per conflitto di attribuzione tra poteri
 
 Ordinanza del 18 maggio 2026 del Tribunale amministrativo regionale per la Lombardia sul ricorso proposto dall'Associazione G. Carducci pro cultura popolare contro Comune di Como . Giustizia amministrativa - Processo amministrativo - Sottoscrizione del ricorso da parte del difensore con indicazione della procura speciale - Previsione, come interpretata dal diritto vivente, che non dispone, analogamente a quanto previsto per il processo civile, che il giudice, quando ril.........(26C00110)
 
-## 46. Privacy policy
-
-- Canale: normativa
-- Fonte: Commissione Europea - AI Office e AI Act
-- Tipo: normativa
-- Score: 94
-- Pubblicato: 2026-06-18T13:02:18.281Z
-- Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, privacy, pnrr
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://commission.europa.eu/privacy-policy-websites-managed-european-commission_en
-
-Link rilevato da Commissione Europea - AI Office e AI Act: Privacy policy
-
-## 47. Privacy statement
-
-- Canale: normativa
-- Fonte: Commissione Europea - AI Office e AI Act
-- Tipo: normativa
-- Score: 94
-- Pubblicato: 2026-06-18T13:02:18.280Z
-- Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, privacy, pnrr
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://digital-strategy.ec.europa.eu/en/pages/legal-notice#ecl-inpage-km0gfb8o
-
-Link rilevato da Commissione Europea - AI Office e AI Act: Privacy statement
-
-## 48. Joint ESAs Technical Advice on two EC delegated acts under the DORA specifying further criteria for critical ICT third-party service providers
+## 42. Joint ESAs Technical Advice on two EC delegated acts under the DORA specifying further criteria for critical ICT third-party service providers
 
 - Canale: normativa
 - Fonte: ESMA - DORA e resilienza operativa digitale
 - Tipo: normativa
 - Score: 94
-- Pubblicato: 2026-06-18T13:02:18.156Z
+- Pubblicato: 2026-06-18T14:27:56.584Z
 - Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, beneficiari, digitale, documenti-digitali
 - Scadenze: n/d
 - Importi: n/d
@@ -874,13 +766,13 @@ Link rilevato da Commissione Europea - AI Office e AI Act: Privacy statement
 
 Link rilevato da ESMA - DORA e resilienza operativa digitale: Joint ESAs Technical Advice on two EC delegated acts under the DORA specifying further criteria for critical ICT third-party service providers
 
-## 49. ESAs expect to collect the DORA registers of information from the competent authorities
+## 43. ESAs expect to collect the DORA registers of information from the competent authorities
 
 - Canale: normativa
 - Fonte: ESMA - DORA e resilienza operativa digitale
 - Tipo: normativa
 - Score: 94
-- Pubblicato: 2026-06-18T13:02:18.155Z
+- Pubblicato: 2026-06-18T14:27:56.583Z
 - Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, digitale, documenti-digitali
 - Scadenze: n/d
 - Importi: n/d
@@ -892,67 +784,13 @@ Link rilevato da ESMA - DORA e resilienza operativa digitale: Joint ESAs Technic
 
 Link rilevato da ESMA - DORA e resilienza operativa digitale: ESAs expect to collect the DORA registers of information from the competent authorities
 
-## 50. Approfondisci l'argomento
-
-- Canale: normativa
-- Fonte: AgID - Notizie, linee guida e PA digitale
-- Tipo: normativa
-- Score: 92
-- Pubblicato: 2026-06-18T13:02:18.749Z
-- Tag: agid, pa-digitale, ai, accessibilita, conservazione, eidas, appalti-innovativi, beneficiari, pnrr, digitale
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: Link rilevato da AgID - Notizie, linee guida e PA digitale: Approfondisci l'argomento
-- URL: https://www.agid.gov.it/it/agenzia/attuazione-misure-pnrr
-
-Link rilevato da AgID - Notizie, linee guida e PA digitale: Approfondisci l'argomento
-
-## 51. VAI AL PROGETTO
-
-- Canale: normativa
-- Fonte: AgID - Notizie, linee guida e PA digitale
-- Tipo: normativa
-- Score: 92
-- Pubblicato: 2026-06-18T13:02:18.749Z
-- Tag: agid, pa-digitale, ai, accessibilita, conservazione, eidas, appalti-innovativi, beneficiari, pnrr, digitale
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: Link rilevato da AgID - Notizie, linee guida e PA digitale: VAI AL PROGETTO
-- URL: https://www.agid.gov.it/it/agenzia/attuazione-misure-pnrr/sportello-digitale-unico-single-digitale-gateway
-
-Link rilevato da AgID - Notizie, linee guida e PA digitale: VAI AL PROGETTO
-
-## 52. VAI AL PROGETTO
-
-- Canale: normativa
-- Fonte: AgID - Notizie, linee guida e PA digitale
-- Tipo: normativa
-- Score: 92
-- Pubblicato: 2026-06-18T13:02:18.749Z
-- Tag: agid, pa-digitale, ai, accessibilita, conservazione, eidas, appalti-innovativi, beneficiari, pnrr, digitale
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: Link rilevato da AgID - Notizie, linee guida e PA digitale: VAI AL PROGETTO
-- URL: https://www.agid.gov.it/it/agenzia/attuazione-misure-pnrr/citizen-inclusion
-
-Link rilevato da AgID - Notizie, linee guida e PA digitale: VAI AL PROGETTO
-
-## 53. Convegni, eventi, patrocinio
+## 44. Convegni, eventi, patrocinio
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 92
-- Pubblicato: 2026-06-18T13:02:18.436Z
+- Pubblicato: 2026-06-18T14:27:56.918Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, beneficiari, digitale
 - Scadenze: n/d
 - Importi: n/d
@@ -964,13 +802,13 @@ Link rilevato da AgID - Notizie, linee guida e PA digitale: VAI AL PROGETTO
 
 Link rilevato da Garante Privacy - AI e protezione dati: Convegni, eventi, patrocinio
 
-## 54. Segnalazioni al Parlamento e al Governo
+## 45. Segnalazioni al Parlamento e al Governo
 
 - Canale: normativa
 - Fonte: Garante Privacy - AI e protezione dati
 - Tipo: normativa
 - Score: 92
-- Pubblicato: 2026-06-18T13:02:18.435Z
+- Pubblicato: 2026-06-18T14:27:56.917Z
 - Tag: garante, privacy, gdpr, ai, ai-act, scraping, biometria, chatbot, beneficiari, digitale
 - Scadenze: n/d
 - Importi: n/d
@@ -982,13 +820,67 @@ Link rilevato da Garante Privacy - AI e protezione dati: Convegni, eventi, patro
 
 Link rilevato da Garante Privacy - AI e protezione dati: Segnalazioni al Parlamento e al Governo
 
-## 55. Dichiarazione di accessibilità
+## 46. Approfondisci l'argomento
+
+- Canale: normativa
+- Fonte: AgID - Notizie, linee guida e PA digitale
+- Tipo: normativa
+- Score: 92
+- Pubblicato: 2026-06-18T14:27:56.897Z
+- Tag: agid, pa-digitale, ai, accessibilita, conservazione, eidas, appalti-innovativi, beneficiari, pnrr, digitale
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: Link rilevato da AgID - Notizie, linee guida e PA digitale: Approfondisci l'argomento
+- URL: https://www.agid.gov.it/it/agenzia/attuazione-misure-pnrr
+
+Link rilevato da AgID - Notizie, linee guida e PA digitale: Approfondisci l'argomento
+
+## 47. VAI AL PROGETTO
+
+- Canale: normativa
+- Fonte: AgID - Notizie, linee guida e PA digitale
+- Tipo: normativa
+- Score: 92
+- Pubblicato: 2026-06-18T14:27:56.897Z
+- Tag: agid, pa-digitale, ai, accessibilita, conservazione, eidas, appalti-innovativi, beneficiari, pnrr, digitale
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: Link rilevato da AgID - Notizie, linee guida e PA digitale: VAI AL PROGETTO
+- URL: https://www.agid.gov.it/it/agenzia/attuazione-misure-pnrr/sportello-digitale-unico-single-digitale-gateway
+
+Link rilevato da AgID - Notizie, linee guida e PA digitale: VAI AL PROGETTO
+
+## 48. VAI AL PROGETTO
+
+- Canale: normativa
+- Fonte: AgID - Notizie, linee guida e PA digitale
+- Tipo: normativa
+- Score: 92
+- Pubblicato: 2026-06-18T14:27:56.897Z
+- Tag: agid, pa-digitale, ai, accessibilita, conservazione, eidas, appalti-innovativi, beneficiari, pnrr, digitale
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: Link rilevato da AgID - Notizie, linee guida e PA digitale: VAI AL PROGETTO
+- URL: https://www.agid.gov.it/it/agenzia/attuazione-misure-pnrr/citizen-inclusion
+
+Link rilevato da AgID - Notizie, linee guida e PA digitale: VAI AL PROGETTO
+
+## 49. Dichiarazione di accessibilità
 
 - Canale: normativa
 - Fonte: Dipartimento Trasformazione Digitale - Notizie
 - Tipo: normativa
 - Score: 92
-- Pubblicato: 2026-06-18T13:02:18.363Z
+- Pubblicato: 2026-06-18T14:27:56.703Z
 - Tag: dipartimento-trasformazione-digitale, pa-digitale, pnrr, cloud-pa, anpr, spid, sanita-digitale, beneficiari, digitale, accessibilita
 - Scadenze: n/d
 - Importi: n/d
@@ -1000,49 +892,13 @@ Link rilevato da Garante Privacy - AI e protezione dati: Segnalazioni al Parlame
 
 Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Dichiarazione di accessibilità
 
-## 56. ANPR: I certificati di stato civile ora disponibili online
+## 50. ANPR
 
 - Canale: normativa
 - Fonte: Dipartimento Trasformazione Digitale - Notizie
 - Tipo: normativa
 - Score: 92
-- Pubblicato: 2026-06-18T13:02:18.361Z
-- Tag: dipartimento-trasformazione-digitale, pa-digitale, pnrr, cloud-pa, anpr, spid, sanita-digitale, beneficiari, digitale
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: Link rilevato da Dipartimento Trasformazione Digitale - Notizie: ANPR: I certificati di stato civile ora disponibili online
-- URL: https://innovazione.gov.it/notizie/articoli/anpr-i-certificati-di-stato-civile-ora-disponibili-online
-
-Link rilevato da Dipartimento Trasformazione Digitale - Notizie: ANPR: I certificati di stato civile ora disponibili online
-
-## 57. Interoperabilità
-
-- Canale: normativa
-- Fonte: Dipartimento Trasformazione Digitale - Notizie
-- Tipo: normativa
-- Score: 92
-- Pubblicato: 2026-06-18T13:02:18.361Z
-- Tag: dipartimento-trasformazione-digitale, pa-digitale, pnrr, cloud-pa, anpr, spid, sanita-digitale, beneficiari, digitale
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Interoperabilità
-- URL: https://innovazione.gov.it/argomenti/interoperabilita
-
-Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Interoperabilità
-
-## 58. ANPR
-
-- Canale: normativa
-- Fonte: Dipartimento Trasformazione Digitale - Notizie
-- Tipo: normativa
-- Score: 92
-- Pubblicato: 2026-06-18T13:02:18.360Z
+- Pubblicato: 2026-06-18T14:27:56.702Z
 - Tag: dipartimento-trasformazione-digitale, pa-digitale, pnrr, cloud-pa, anpr, spid, sanita-digitale, beneficiari, digitale
 - Scadenze: n/d
 - Importi: n/d
@@ -1054,13 +910,13 @@ Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Interoperabilit
 
 Link rilevato da Dipartimento Trasformazione Digitale - Notizie: ANPR
 
-## 59. SPID
+## 51. SPID
 
 - Canale: normativa
 - Fonte: Dipartimento Trasformazione Digitale - Notizie
 - Tipo: normativa
 - Score: 92
-- Pubblicato: 2026-06-18T13:02:18.360Z
+- Pubblicato: 2026-06-18T14:27:56.702Z
 - Tag: dipartimento-trasformazione-digitale, pa-digitale, pnrr, cloud-pa, anpr, spid, sanita-digitale, beneficiari, digitale
 - Scadenze: n/d
 - Importi: n/d
@@ -1072,7 +928,43 @@ Link rilevato da Dipartimento Trasformazione Digitale - Notizie: ANPR
 
 Link rilevato da Dipartimento Trasformazione Digitale - Notizie: SPID
 
-## 60. REGOLAMENTO 16 aprile 2026, n. 857
+## 52. ANPR: I certificati di stato civile ora disponibili online
+
+- Canale: normativa
+- Fonte: Dipartimento Trasformazione Digitale - Notizie
+- Tipo: normativa
+- Score: 92
+- Pubblicato: 2026-06-18T14:27:56.702Z
+- Tag: dipartimento-trasformazione-digitale, pa-digitale, pnrr, cloud-pa, anpr, spid, sanita-digitale, beneficiari, digitale
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: Link rilevato da Dipartimento Trasformazione Digitale - Notizie: ANPR: I certificati di stato civile ora disponibili online
+- URL: https://innovazione.gov.it/notizie/articoli/anpr-i-certificati-di-stato-civile-ora-disponibili-online
+
+Link rilevato da Dipartimento Trasformazione Digitale - Notizie: ANPR: I certificati di stato civile ora disponibili online
+
+## 53. Interoperabilità
+
+- Canale: normativa
+- Fonte: Dipartimento Trasformazione Digitale - Notizie
+- Tipo: normativa
+- Score: 92
+- Pubblicato: 2026-06-18T14:27:56.702Z
+- Tag: dipartimento-trasformazione-digitale, pa-digitale, pnrr, cloud-pa, anpr, spid, sanita-digitale, beneficiari, digitale
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Interoperabilità
+- URL: https://innovazione.gov.it/argomenti/interoperabilita
+
+Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Interoperabilità
+
+## 54. REGOLAMENTO 16 aprile 2026, n. 857
 
 - Canale: normativa
 - Fonte: Gazzetta Ufficiale - Unione Europea
@@ -1090,7 +982,7 @@ Link rilevato da Dipartimento Trasformazione Digitale - Notizie: SPID
 
 Regolamento di esecuzione (UE) 2026/857 della Commissione, del 16 aprile 2026, che modifica il regolamento di esecuzione (UE) 2025/2091 per quanto riguarda la conservazione dei campioni di medicinali veterinari riconfezionati ai fini del commercio parallelo - Pubblicato il 17 aprile 2026 (26CE1436)
 
-## 61. REGOLAMENTO 11 dicembre 2025, n. 881
+## 55. REGOLAMENTO 11 dicembre 2025, n. 881
 
 - Canale: normativa
 - Fonte: Gazzetta Ufficiale - Unione Europea
@@ -1108,7 +1000,7 @@ Regolamento di esecuzione (UE) 2026/857 della Commissione, del 16 aprile 2026, c
 
 Regolamento delegato (UE) 2026/881 della Commissione, dell'11 dicembre 2025, che integra il regolamento (UE) 2024/2847 del Parlamento europeo e del Consiglio specificando i termini e le condizioni per l'applicazione dei motivi connessi alla cibersicurezza relativamente al ritardo nella diffusione delle notifiche - Pubblicato il 20 aprile 2026 (26CE1444)
 
-## 62. DIRETTIVA 12 gennaio 2026, n. 74
+## 56. DIRETTIVA 12 gennaio 2026, n. 74
 
 - Canale: normativa
 - Fonte: Gazzetta Ufficiale - Unione Europea
@@ -1126,13 +1018,31 @@ Regolamento delegato (UE) 2026/881 della Commissione, dell'11 dicembre 2025, che
 
 Direttiva delegata (UE) 2026/74 della Commissione, del 12 gennaio 2026, che modifica l'allegato II della direttiva (UE) 2024/1799 del Parlamento europeo e del Consiglio che promuove la riparazione dei beni al fine di includere gli apparecchi per il riscaldamento d'ambiente locale per uso domestico di cui al regolamento (UE) 2024/1103 della Commissione in merito alle specifiche di progettazione ecocompatibile degli apparecchi per il riscaldamento d'ambiente locale e dei dispositivi di controllo separati - Pubblicata il 20 aprile 2026 (26CE1445)
 
-## 63. ESAs Opinion on the rejection of the RTS on subcontracting under DORA (7 March 2025)
+## 57. Joint ESAs Report in response to the European Commission consultation pursuant to Article 58(3) of Regulation (EU) 2022/2554 (DORA) (17 December 2025)
 
 - Canale: normativa
 - Fonte: ESMA - DORA e resilienza operativa digitale
 - Tipo: normativa
 - Score: 88
-- Pubblicato: 2026-06-18T13:02:18.159Z
+- Pubblicato: 2026-06-18T14:27:56.589Z
+- Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, scadenza, digitale
+- Scadenze: 17 December 2025
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://www.esma.europa.eu/sites/default/files/2025-12/JC-2025-85_Joint_ESAs_Report_in_response_to_the_European_Commission_consultation_pursuant_to_Article_58_3__of_Regulation__EU__20222554__DORA_.pdf
+
+Link rilevato da ESMA - DORA e resilienza operativa digitale: Joint ESAs Report in response to the European Commission consultation pursuant to Article 58(3) of Regulation (EU) 2022/2554 (DORA) (17 December 2025)
+
+## 58. ESAs Opinion on the rejection of the RTS on subcontracting under DORA (7 March 2025)
+
+- Canale: normativa
+- Fonte: ESMA - DORA e resilienza operativa digitale
+- Tipo: normativa
+- Score: 88
+- Pubblicato: 2026-06-18T14:27:56.588Z
 - Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, scadenza, digitale
 - Scadenze: 7 March 2025
 - Importi: n/d
@@ -1144,67 +1054,13 @@ Direttiva delegata (UE) 2026/74 della Commissione, del 12 gennaio 2026, che modi
 
 Link rilevato da ESMA - DORA e resilienza operativa digitale: ESAs Opinion on the rejection of the RTS on subcontracting under DORA (7 March 2025)
 
-## 64. Preparing for the DORA Oversight Framework: CTPP Designation and Next Steps (14 May 2025)
+## 59. Joint Final report on the draft technical standards on subcontracting under DORA (26 July 2024)
 
 - Canale: normativa
 - Fonte: ESMA - DORA e resilienza operativa digitale
 - Tipo: normativa
 - Score: 88
-- Pubblicato: 2026-06-18T13:02:18.159Z
-- Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, scadenza, beneficiari, digitale
-- Scadenze: 14 May 2025
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: Preparing for the DORA Oversight Framework: CTPP Designation and Next Steps (14 May 2025).; Link rilevato da ESMA - DORA e resilienza operativa digitale: Preparing for the DORA Oversight Framework: CTPP Designation and Next Steps (14 May 2025)
-- URL: https://www.esma.europa.eu/sites/default/files/2025-05/Preparing_for_DORA_OVS_framework_CTPP_designation_and_next_steps.pdf
-
-Link rilevato da ESMA - DORA e resilienza operativa digitale: Preparing for the DORA Oversight Framework: CTPP Designation and Next Steps (14 May 2025)
-
-## 65. Second joint ESAs public hearing on DORA policy products (23 January 2024)
-
-- Canale: normativa
-- Fonte: ESMA - DORA e resilienza operativa digitale
-- Tipo: normativa
-- Score: 88
-- Pubblicato: 2026-06-18T13:02:18.158Z
-- Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, scadenza, digitale
-- Scadenze: 23 January 2024
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://www.esma.europa.eu/sites/default/files/2024-01/2024-01-23_DORA_public_hearing.pdf
-
-Link rilevato da ESMA - DORA e resilienza operativa digitale: Second joint ESAs public hearing on DORA policy products (23 January 2024)
-
-## 66. Second batch of policy products under DORA (17 July 2024)
-
-- Canale: normativa
-- Fonte: ESMA - DORA e resilienza operativa digitale
-- Tipo: normativa
-- Score: 88
-- Pubblicato: 2026-06-18T13:02:18.158Z
-- Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, scadenza, digitale
-- Scadenze: 17 July 2024
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://www.esma.europa.eu/press-news/esma-news/esas-published-second-batch-policy-products-under-dora
-
-Link rilevato da ESMA - DORA e resilienza operativa digitale: Second batch of policy products under DORA (17 July 2024)
-
-## 67. Joint Final report on the draft technical standards on subcontracting under DORA (26 July 2024)
-
-- Canale: normativa
-- Fonte: ESMA - DORA e resilienza operativa digitale
-- Tipo: normativa
-- Score: 88
-- Pubblicato: 2026-06-18T13:02:18.158Z
+- Pubblicato: 2026-06-18T14:27:56.587Z
 - Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, scadenza, digitale
 - Scadenze: 26 July 2024
 - Importi: n/d
@@ -1216,13 +1072,13 @@ Link rilevato da ESMA - DORA e resilienza operativa digitale: Second batch of po
 
 Link rilevato da ESMA - DORA e resilienza operativa digitale: Joint Final report on the draft technical standards on subcontracting under DORA (26 July 2024)
 
-## 68. ESAs Opinion on the rejection of the ITS on RoI under DORA (15 October 2024)
+## 60. ESAs Opinion on the rejection of the ITS on RoI under DORA (15 October 2024)
 
 - Canale: normativa
 - Fonte: ESMA - DORA e resilienza operativa digitale
 - Tipo: normativa
 - Score: 88
-- Pubblicato: 2026-06-18T13:02:18.158Z
+- Pubblicato: 2026-06-18T14:27:56.587Z
 - Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, scadenza, digitale, scuola
 - Scadenze: 15 October 2024
 - Importi: n/d
@@ -1234,13 +1090,31 @@ Link rilevato da ESMA - DORA e resilienza operativa digitale: Joint Final report
 
 Link rilevato da ESMA - DORA e resilienza operativa digitale: ESAs Opinion on the rejection of the ITS on RoI under DORA (15 October 2024)
 
-## 69. Joint ESAs public event on DORA – Technical discussion (6 February 2023)
+## 61. Second batch of policy products under DORA (17 July 2024)
 
 - Canale: normativa
 - Fonte: ESMA - DORA e resilienza operativa digitale
 - Tipo: normativa
 - Score: 88
-- Pubblicato: 2026-06-18T13:02:18.157Z
+- Pubblicato: 2026-06-18T14:27:56.586Z
+- Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, scadenza, digitale
+- Scadenze: 17 July 2024
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://www.esma.europa.eu/press-news/esma-news/esas-published-second-batch-policy-products-under-dora
+
+Link rilevato da ESMA - DORA e resilienza operativa digitale: Second batch of policy products under DORA (17 July 2024)
+
+## 62. Joint ESAs public event on DORA – Technical discussion (6 February 2023)
+
+- Canale: normativa
+- Fonte: ESMA - DORA e resilienza operativa digitale
+- Tipo: normativa
+- Score: 88
+- Pubblicato: 2026-06-18T14:27:56.585Z
 - Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, scadenza, digitale
 - Scadenze: 6 February 2023
 - Importi: n/d
@@ -1252,13 +1126,13 @@ Link rilevato da ESMA - DORA e resilienza operativa digitale: ESAs Opinion on th
 
 Link rilevato da ESMA - DORA e resilienza operativa digitale: Joint ESAs public event on DORA – Technical discussion (6 February 2023)
 
-## 70. First joint ESAs public hearing on DORA policy products (13 July 2023)
+## 63. First joint ESAs public hearing on DORA policy products (13 July 2023)
 
 - Canale: normativa
 - Fonte: ESMA - DORA e resilienza operativa digitale
 - Tipo: normativa
 - Score: 88
-- Pubblicato: 2026-06-18T13:02:18.157Z
+- Pubblicato: 2026-06-18T14:27:56.585Z
 - Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, scadenza, digitale
 - Scadenze: 13 July 2023
 - Importi: n/d
@@ -1270,7 +1144,25 @@ Link rilevato da ESMA - DORA e resilienza operativa digitale: Joint ESAs public 
 
 Link rilevato da ESMA - DORA e resilienza operativa digitale: First joint ESAs public hearing on DORA policy products (13 July 2023)
 
-## 71. NEWSLETTER del 17 giugno 2026 - Passeggeri a mobilità ridotta, il Garante privacy sanziona Emirates - Telecamere di sicurezza urbana, Garante: usi ulteriori solo se previsti dalla legge - Foto dei minori sui social: serve il consenso di entrambi i genitori - Data breach: in consultazione il nuovo modello di notificazione dell’EDPB
+## 64. Second joint ESAs public hearing on DORA policy products (23 January 2024)
+
+- Canale: normativa
+- Fonte: ESMA - DORA e resilienza operativa digitale
+- Tipo: normativa
+- Score: 88
+- Pubblicato: 2026-06-18T14:27:56.585Z
+- Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, scadenza, digitale
+- Scadenze: 23 January 2024
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://www.esma.europa.eu/sites/default/files/2024-01/2024-01-23_DORA_public_hearing.pdf
+
+Link rilevato da ESMA - DORA e resilienza operativa digitale: Second joint ESAs public hearing on DORA policy products (23 January 2024)
+
+## 65. NEWSLETTER del 17 giugno 2026 - Passeggeri a mobilità ridotta, il Garante privacy sanziona Emirates - Telecamere di sicurezza urbana, Garante: usi ulteriori solo se previsti dalla legge - Foto dei minori sui social: serve il consenso di entrambi i genitori - Data breach: in consultazione il nuovo modello di notificazione dell’EDPB
 
 - Canale: normativa
 - Fonte: Garante Privacy - News RSS
@@ -1288,13 +1180,13 @@ Link rilevato da ESMA - DORA e resilienza operativa digitale: First joint ESAs p
 
 NEWSLETTER N. 548 del 17 giugno 2026 Passeggeri a mobilità ridotta, il Garante privacy sanziona Emirates Telecamere di sicurezza urbana, Garante: usi ulteriori solo se previsti dalla legge Foto dei minori sui social: serve il consenso di entrambi i g...
 
-## 72. l'informativa
+## 66. l'informativa
 
 - Canale: normativa
 - Fonte: AgID - Notizie, linee guida e PA digitale
 - Tipo: normativa
 - Score: 84
-- Pubblicato: 2026-06-18T13:02:18.750Z
+- Pubblicato: 2026-06-18T14:27:56.898Z
 - Tag: agid, pa-digitale, ai, accessibilita, conservazione, eidas, appalti-innovativi, beneficiari, privacy, digitale
 - Scadenze: n/d
 - Importi: n/d
@@ -1306,13 +1198,13 @@ NEWSLETTER N. 548 del 17 giugno 2026 Passeggeri a mobilità ridotta, il Garante 
 
 Link rilevato da AgID - Notizie, linee guida e PA digitale: l'informativa
 
-## 73. informativa privacy
+## 67. informativa privacy
 
 - Canale: normativa
 - Fonte: AgID - Notizie, linee guida e PA digitale
 - Tipo: normativa
 - Score: 84
-- Pubblicato: 2026-06-18T13:02:18.746Z
+- Pubblicato: 2026-06-18T14:27:56.894Z
 - Tag: agid, pa-digitale, ai, accessibilita, conservazione, eidas, appalti-innovativi, beneficiari, privacy, digitale
 - Scadenze: n/d
 - Importi: n/d
@@ -1324,7 +1216,7 @@ Link rilevato da AgID - Notizie, linee guida e PA digitale: l'informativa
 
 Link rilevato da AgID - Notizie, linee guida e PA digitale: informativa privacy
 
-## 74. COMUNICATO STAMPA - Garante privacy ad albergatori: no alla conservazione di copia dei documenti degli ospiti. Dopo la comunicazione alle autorità di pubblica sicurezza i dati vanno distrutti o cancellati
+## 68. COMUNICATO STAMPA - Garante privacy ad albergatori: no alla conservazione di copia dei documenti degli ospiti. Dopo la comunicazione alle autorità di pubblica sicurezza i dati vanno distrutti o cancellati
 
 - Canale: normativa
 - Fonte: Garante Privacy - News RSS
@@ -1342,13 +1234,13 @@ Link rilevato da AgID - Notizie, linee guida e PA digitale: informativa privacy
 
 Garante privacy ad albergatori: no alla conservazione di copia dei documenti degli ospiti Dopo la comunicazione alle autorità di pubblica sicurezza i dati vanno distrutti o cancellati Alberghi, B&B e affittacamere non possono conservare copie dei doc...
 
-## 75. Vai all'articolo
+## 69. Vai all'articolo
 
 - Canale: normativa
 - Fonte: AgID - Notizie, linee guida e PA digitale
 - Tipo: normativa
 - Score: 82
-- Pubblicato: 2026-06-18T13:02:18.747Z
+- Pubblicato: 2026-06-18T14:27:56.895Z
 - Tag: agid, pa-digitale, ai, accessibilita, conservazione, eidas, appalti-innovativi, beneficiari, normativa, digitale
 - Scadenze: n/d
 - Importi: n/d
@@ -1360,49 +1252,13 @@ Garante privacy ad albergatori: no alla conservazione di copia dei documenti deg
 
 Link rilevato da AgID - Notizie, linee guida e PA digitale: Vai all'articolo
 
-## 76. AI Act Whistleblower Tool
+## 70. Standardisation of the AI Act
 
 - Canale: normativa
 - Fonte: Commissione Europea - Quadro regolatorio AI Act
 - Tipo: normativa
 - Score: 82
-- Pubblicato: 2026-06-18T13:02:18.311Z
-- Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, pnrr
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://digital-strategy.ec.europa.eu/en/policies/ai-act-whistleblower-tool
-
-Link rilevato da Commissione Europea - Quadro regolatorio AI Act: AI Act Whistleblower Tool
-
-## 77. Questions & Answers on the AI Act
-
-- Canale: normativa
-- Fonte: Commissione Europea - Quadro regolatorio AI Act
-- Tipo: normativa
-- Score: 82
-- Pubblicato: 2026-06-18T13:02:18.309Z
-- Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, pnrr
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act
-
-Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Questions & Answers on the AI Act
-
-## 78. Standardisation of the AI Act
-
-- Canale: normativa
-- Fonte: Commissione Europea - Quadro regolatorio AI Act
-- Tipo: normativa
-- Score: 82
-- Pubblicato: 2026-06-18T13:02:18.309Z
+- Pubblicato: 2026-06-18T14:27:56.619Z
 - Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, pnrr
 - Scadenze: n/d
 - Importi: n/d
@@ -1414,31 +1270,13 @@ Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Questions & An
 
 Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Standardisation of the AI Act
 
-## 79. AI Act enforcement gets independent expert support
+## 71. Governance and enforcement of the AI Act
 
 - Canale: normativa
 - Fonte: Commissione Europea - Quadro regolatorio AI Act
 - Tipo: normativa
 - Score: 82
-- Pubblicato: 2026-06-18T13:02:18.309Z
-- Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, pnrr
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://digital-strategy.ec.europa.eu/en/news/ai-act-enforcement-gets-independent-expert-support
-
-Link rilevato da Commissione Europea - Quadro regolatorio AI Act: AI Act enforcement gets independent expert support
-
-## 80. Governance and enforcement of the AI Act
-
-- Canale: normativa
-- Fonte: Commissione Europea - Quadro regolatorio AI Act
-- Tipo: normativa
-- Score: 82
-- Pubblicato: 2026-06-18T13:02:18.308Z
+- Pubblicato: 2026-06-18T14:27:56.618Z
 - Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, pnrr
 - Scadenze: n/d
 - Importi: n/d
@@ -1450,13 +1288,13 @@ Link rilevato da Commissione Europea - Quadro regolatorio AI Act: AI Act enforce
 
 Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Governance and enforcement of the AI Act
 
-## 81. Text of the AI Act in all EU official languages
+## 72. Text of the AI Act in all EU official languages
 
 - Canale: normativa
 - Fonte: Commissione Europea - Quadro regolatorio AI Act
 - Tipo: normativa
 - Score: 82
-- Pubblicato: 2026-06-18T13:02:18.308Z
+- Pubblicato: 2026-06-18T14:27:56.618Z
 - Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, pnrr
 - Scadenze: n/d
 - Importi: n/d
@@ -1468,67 +1306,31 @@ Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Governance and
 
 Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Text of the AI Act in all EU official languages
 
-## 82. Template for the public summary of training content of GPAI models
+## 73. Questions & Answers on the AI Act
 
 - Canale: normativa
 - Fonte: Commissione Europea - Quadro regolatorio AI Act
 - Tipo: normativa
 - Score: 82
-- Pubblicato: 2026-06-18T13:02:18.307Z
-- Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, beneficiari, pnrr
+- Pubblicato: 2026-06-18T14:27:56.618Z
+- Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, pnrr
 - Scadenze: n/d
 - Importi: n/d
 - CIG: n/d
 - CUP: n/d
 - Requisiti: n/d
-- Beneficiari: Template for the public summary of training content of GPAI models.; Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Template for the public summary of training content of GPAI models
-- URL: https://digital-strategy.ec.europa.eu/en/library/explanatory-notice-and-template-public-summary-training-content-general-purpose-ai-models
+- Beneficiari: n/d
+- URL: https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act
 
-Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Template for the public summary of training content of GPAI models
+Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Questions & Answers on the AI Act
 
-## 83. Guidelines on the scope of the obligations for providers of GPAI models
-
-- Canale: normativa
-- Fonte: Commissione Europea - Quadro regolatorio AI Act
-- Tipo: normativa
-- Score: 82
-- Pubblicato: 2026-06-18T13:02:18.305Z
-- Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, beneficiari, pnrr
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: Guidelines on the scope of the obligations for providers of GPAI models.; Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Guidelines on the scope of the obligations for providers of GPAI models
-- URL: https://digital-strategy.ec.europa.eu/en/library/guidelines-scope-obligations-providers-general-purpose-ai-models-under-ai-act
-
-Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Guidelines on the scope of the obligations for providers of GPAI models
-
-## 84. GPAI Code of Practice
+## 74. guidelines on the AI system definition of the AI Act
 
 - Canale: normativa
 - Fonte: Commissione Europea - Quadro regolatorio AI Act
 - Tipo: normativa
 - Score: 82
-- Pubblicato: 2026-06-18T13:02:18.305Z
-- Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, beneficiari, pnrr
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: GPAI Code of Practice.; Link rilevato da Commissione Europea - Quadro regolatorio AI Act: GPAI Code of Practice
-- URL: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai
-
-Link rilevato da Commissione Europea - Quadro regolatorio AI Act: GPAI Code of Practice
-
-## 85. guidelines on the AI system definition of the AI Act
-
-- Canale: normativa
-- Fonte: Commissione Europea - Quadro regolatorio AI Act
-- Tipo: normativa
-- Score: 82
-- Pubblicato: 2026-06-18T13:02:18.304Z
+- Pubblicato: 2026-06-18T14:27:56.617Z
 - Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, pnrr
 - Scadenze: n/d
 - Importi: n/d
@@ -1540,121 +1342,67 @@ Link rilevato da Commissione Europea - Quadro regolatorio AI Act: GPAI Code of P
 
 Link rilevato da Commissione Europea - Quadro regolatorio AI Act: guidelines on the AI system definition of the AI Act
 
-## 86. AI Act
+## 75. Guidelines on the scope of the obligations for providers of GPAI models
 
 - Canale: normativa
 - Fonte: Commissione Europea - Quadro regolatorio AI Act
 - Tipo: normativa
 - Score: 82
-- Pubblicato: 2026-06-18T13:02:18.291Z
-- Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, pnrr
+- Pubblicato: 2026-06-18T14:27:56.617Z
+- Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, beneficiari, pnrr
 - Scadenze: n/d
 - Importi: n/d
 - CIG: n/d
 - CUP: n/d
 - Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689
+- Beneficiari: Guidelines on the scope of the obligations for providers of GPAI models.; Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Guidelines on the scope of the obligations for providers of GPAI models
+- URL: https://digital-strategy.ec.europa.eu/en/library/guidelines-scope-obligations-providers-general-purpose-ai-models-under-ai-act
 
-Link rilevato da Commissione Europea - Quadro regolatorio AI Act: AI Act
+Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Guidelines on the scope of the obligations for providers of GPAI models
 
-## 87. Call for participants: Workshop - qualification requirements for external evaluators of GPAI models with systemic risk
-
-- Canale: normativa
-- Fonte: Commissione Europea - AI Office e AI Act
-- Tipo: normativa
-- Score: 82
-- Pubblicato: 2026-06-18T13:02:18.280Z
-- Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, requisiti, beneficiari, pnrr
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: Call for participants: Workshop - qualification requirements for external evaluators of GPAI models with systemic risk.; Link rilevato da Commissione Europea - AI Office e AI Act: Call for participants: Workshop - qualification requirements for external evaluators of GPAI models with systemic risk
-- Beneficiari: Call for participants: Workshop - qualification requirements for external evaluators of GPAI models with systemic risk.; Link rilevato da Commissione Europea - AI Office e AI Act: Call for participants: Workshop - qualification requirements for external evaluators of GPAI models with systemic risk
-- URL: https://digital-strategy.ec.europa.eu/en/events/call-participants-workshop-qualification-requirements-external-evaluators-gpai-models-systemic-risk
-
-Link rilevato da Commissione Europea - AI Office e AI Act: Call for participants: Workshop - qualification requirements for external evaluators of GPAI models with systemic risk
-
-## 88. AI Act Advisory Forum
+## 76. GPAI Code of Practice
 
 - Canale: normativa
-- Fonte: Commissione Europea - AI Office e AI Act
+- Fonte: Commissione Europea - Quadro regolatorio AI Act
 - Tipo: normativa
 - Score: 82
-- Pubblicato: 2026-06-18T13:02:18.280Z
-- Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, pnrr
+- Pubblicato: 2026-06-18T14:27:56.617Z
+- Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, beneficiari, pnrr
 - Scadenze: n/d
 - Importi: n/d
 - CIG: n/d
 - CUP: n/d
 - Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://digital-strategy.ec.europa.eu/en/policies/ai-advisory-forum
+- Beneficiari: GPAI Code of Practice.; Link rilevato da Commissione Europea - Quadro regolatorio AI Act: GPAI Code of Practice
+- URL: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai
 
-Link rilevato da Commissione Europea - AI Office e AI Act: AI Act Advisory Forum
+Link rilevato da Commissione Europea - Quadro regolatorio AI Act: GPAI Code of Practice
 
-## 89. AI Act Scientific Panel
+## 77. Template for the public summary of training content of GPAI models
 
 - Canale: normativa
-- Fonte: Commissione Europea - AI Office e AI Act
+- Fonte: Commissione Europea - Quadro regolatorio AI Act
 - Tipo: normativa
 - Score: 82
-- Pubblicato: 2026-06-18T13:02:18.280Z
-- Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, beneficiari, pnrr
+- Pubblicato: 2026-06-18T14:27:56.617Z
+- Tag: commissione-europea, ai-act, gpai, high-risk-ai, obblighi-ai, beneficiari, pnrr
 - Scadenze: n/d
 - Importi: n/d
 - CIG: n/d
 - CUP: n/d
 - Requisiti: n/d
-- Beneficiari: AI Act Scientific Panel.; Link rilevato da Commissione Europea - AI Office e AI Act: AI Act Scientific Panel
-- URL: https://digital-strategy.ec.europa.eu/en/policies/ai-scientific-panel
+- Beneficiari: Template for the public summary of training content of GPAI models.; Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Template for the public summary of training content of GPAI models
+- URL: https://digital-strategy.ec.europa.eu/en/library/explanatory-notice-and-template-public-summary-training-content-general-purpose-ai-models
 
-Link rilevato da Commissione Europea - AI Office e AI Act: AI Act Scientific Panel
+Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Template for the public summary of training content of GPAI models
 
-## 90. AI Act
-
-- Canale: normativa
-- Fonte: Commissione Europea - AI Office e AI Act
-- Tipo: normativa
-- Score: 82
-- Pubblicato: 2026-06-18T13:02:18.279Z
-- Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, pnrr
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
-
-Link rilevato da Commissione Europea - AI Office e AI Act: AI Act
-
-## 91. Upcoming guidelines supporting the implementation of the AI Act
+## 78. European Digital Innovation Hubs (EDIHs)
 
 - Canale: normativa
 - Fonte: Commissione Europea - AI Office e AI Act
 - Tipo: normativa
 - Score: 82
-- Pubblicato: 2026-06-18T13:02:18.279Z
-- Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, pnrr
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines
-
-Link rilevato da Commissione Europea - AI Office e AI Act: Upcoming guidelines supporting the implementation of the AI Act
-
-## 92. European Digital Innovation Hubs (EDIHs)
-
-- Canale: normativa
-- Fonte: Commissione Europea - AI Office e AI Act
-- Tipo: normativa
-- Score: 82
-- Pubblicato: 2026-06-18T13:02:18.278Z
+- Pubblicato: 2026-06-18T14:27:56.553Z
 - Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, pnrr
 - Scadenze: n/d
 - Importi: n/d
@@ -1666,13 +1414,13 @@ Link rilevato da Commissione Europea - AI Office e AI Act: Upcoming guidelines s
 
 Link rilevato da Commissione Europea - AI Office e AI Act: European Digital Innovation Hubs (EDIHs)
 
-## 93. Any question on the AI Act? Visit our Single Information Platform
+## 79. Upcoming guidelines supporting the implementation of the AI Act
 
 - Canale: normativa
 - Fonte: Commissione Europea - AI Office e AI Act
 - Tipo: normativa
 - Score: 82
-- Pubblicato: 2026-06-18T13:02:18.278Z
+- Pubblicato: 2026-06-18T14:27:56.553Z
 - Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, pnrr
 - Scadenze: n/d
 - Importi: n/d
@@ -1680,17 +1428,35 @@ Link rilevato da Commissione Europea - AI Office e AI Act: European Digital Inno
 - CUP: n/d
 - Requisiti: n/d
 - Beneficiari: n/d
-- URL: https://ai-act-service-desk.ec.europa.eu/en
+- URL: https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines
 
-Link rilevato da Commissione Europea - AI Office e AI Act: Any question on the AI Act? Visit our Single Information Platform
+Link rilevato da Commissione Europea - AI Office e AI Act: Upcoming guidelines supporting the implementation of the AI Act
 
-## 94. general-purpose AI (GPAI)
+## 80. Call for participants: Workshop - qualification requirements for external evaluators of GPAI models with systemic risk
 
 - Canale: normativa
 - Fonte: Commissione Europea - AI Office e AI Act
 - Tipo: normativa
 - Score: 82
-- Pubblicato: 2026-06-18T13:02:18.277Z
+- Pubblicato: 2026-06-18T14:27:56.553Z
+- Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, requisiti, beneficiari, pnrr
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: Call for participants: Workshop - qualification requirements for external evaluators of GPAI models with systemic risk.; Link rilevato da Commissione Europea - AI Office e AI Act: Call for participants: Workshop - qualification requirements for external evaluators of GPAI models with systemic risk
+- Beneficiari: Call for participants: Workshop - qualification requirements for external evaluators of GPAI models with systemic risk.; Link rilevato da Commissione Europea - AI Office e AI Act: Call for participants: Workshop - qualification requirements for external evaluators of GPAI models with systemic risk
+- URL: https://digital-strategy.ec.europa.eu/en/events/call-participants-workshop-qualification-requirements-external-evaluators-gpai-models-systemic-risk
+
+Link rilevato da Commissione Europea - AI Office e AI Act: Call for participants: Workshop - qualification requirements for external evaluators of GPAI models with systemic risk
+
+## 81. general-purpose AI (GPAI)
+
+- Canale: normativa
+- Fonte: Commissione Europea - AI Office e AI Act
+- Tipo: normativa
+- Score: 82
+- Pubblicato: 2026-06-18T14:27:56.552Z
 - Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, beneficiari, pnrr
 - Scadenze: n/d
 - Importi: n/d
@@ -1702,13 +1468,13 @@ Link rilevato da Commissione Europea - AI Office e AI Act: Any question on the A
 
 Link rilevato da Commissione Europea - AI Office e AI Act: general-purpose AI (GPAI)
 
-## 95. innovative ecosystem of trustworthy AI
+## 82. innovative ecosystem of trustworthy AI
 
 - Canale: normativa
 - Fonte: Commissione Europea - AI Office e AI Act
 - Tipo: normativa
 - Score: 82
-- Pubblicato: 2026-06-18T13:02:18.277Z
+- Pubblicato: 2026-06-18T14:27:56.552Z
 - Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, pnrr
 - Scadenze: n/d
 - Importi: n/d
@@ -1720,31 +1486,13 @@ Link rilevato da Commissione Europea - AI Office e AI Act: general-purpose AI (G
 
 Link rilevato da Commissione Europea - AI Office e AI Act: innovative ecosystem of trustworthy AI
 
-## 96. AI omnibus
+## 83. political agreement
 
 - Canale: normativa
 - Fonte: Commissione Europea - AI Office e AI Act
 - Tipo: normativa
 - Score: 82
-- Pubblicato: 2026-06-18T13:02:18.277Z
-- Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, pnrr
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-ai-regulation-proposal
-
-Link rilevato da Commissione Europea - AI Office e AI Act: AI omnibus
-
-## 97. political agreement
-
-- Canale: normativa
-- Fonte: Commissione Europea - AI Office e AI Act
-- Tipo: normativa
-- Score: 82
-- Pubblicato: 2026-06-18T13:02:18.277Z
+- Pubblicato: 2026-06-18T14:27:56.552Z
 - Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, pnrr
 - Scadenze: n/d
 - Importi: n/d
@@ -1756,25 +1504,7 @@ Link rilevato da Commissione Europea - AI Office e AI Act: AI omnibus
 
 Link rilevato da Commissione Europea - AI Office e AI Act: political agreement
 
-## 98. AI innovation package
-
-- Canale: normativa
-- Fonte: Commissione Europea - AI Office e AI Act
-- Tipo: normativa
-- Score: 82
-- Pubblicato: 2026-06-18T13:02:18.277Z
-- Tag: commissione-europea, ai-office, ai-act, gpai, high-risk-ai, digital-strategy, beneficiari, pnrr
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: AI innovation package.; Link rilevato da Commissione Europea - AI Office e AI Act: AI innovation package
-- URL: https://ec.europa.eu/commission/presscorner/detail/en/ip_24_383
-
-Link rilevato da Commissione Europea - AI Office e AI Act: AI innovation package
-
-## 99. MINISTERO DELL'AMBIENTE E DELLA SICUREZZA ENERGETICA - COMUNICATO
+## 84. MINISTERO DELL'AMBIENTE E DELLA SICUREZZA ENERGETICA - COMUNICATO
 
 - Canale: normativa
 - Fonte: Gazzetta Ufficiale - Serie Generale
@@ -1792,7 +1522,7 @@ Link rilevato da Commissione Europea - AI Office e AI Act: AI innovation package
 
 Riconoscimento dell'associazione di protezione ambientale denominata «5 Terre Academy O.D.V.». (26A02980)
 
-## 100. n. 103 SENTENZA 24 febbraio - 11 giugno 2026
+## 85. n. 103 SENTENZA 24 febbraio - 11 giugno 2026
 
 - Canale: normativa
 - Fonte: Gazzetta Ufficiale - Corte Costituzionale
@@ -1809,3 +1539,273 @@ Riconoscimento dell'associazione di protezione ambientale denominata «5 Terre A
 - URL: http://www.gazzettaufficiale.it/eli/id/2026/06/17/T-260103/S1
 
 Giudizio di legittimita' costituzionale in via incidentale. Energia - Impianti alimentati da fonti rinnovabili (FER) - Tariffe incentivanti - Novella volta a rimodularle in senso peggiorativo, con contestuale deroga a favore di enti locali o scuole - Applicabilita' della deroga anche agli impianti di societa' in house costituite da enti locali - Omessa previsione - Denunciata lesione dei principi di eguaglianza, per i profili della irragionevolezz.........(T-260103)
+
+## 86. COMUNICATO STAMPA - Garante privacy su ricorso Report
+
+- Canale: normativa
+- Fonte: Garante Privacy - News RSS
+- Tipo: normativa
+- Score: 82
+- Pubblicato: 2026-06-05T00:00:00.000Z
+- Tag: garante, privacy, gdpr, ai, data-breach, biometria, videosorveglianza, beneficiari, gare, comuni
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: COMUNICATO STAMPA - Garante privacy su ricorso Report.
+- URL: https://www.gpdp.it/garante/doc.jsp?ID=10258316
+
+Garante privacy su ricorso Report La sentenza del Tar Lazio sull'istanza di accesso di Report conferma la correttezza dell'operato del Garante privacy, per tre dei quattro profili esaminati. Rispetto al quarto fornisce indicazioni - su cui l'Autorità...
+
+## 87. COMUNICATO STAMPA - Garlasco, dal Garante privacy fermo richiamo ai media. L’Autorità continua a vigilare sulla vicenda, anche alla luce dei reclami ricevuti dagli interessati
+
+- Canale: normativa
+- Fonte: Garante Privacy - News RSS
+- Tipo: normativa
+- Score: 82
+- Pubblicato: 2026-05-15T00:00:00.000Z
+- Tag: garante, privacy, gdpr, ai, data-breach, biometria, videosorveglianza, beneficiari, gare, comuni
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: COMUNICATO STAMPA - Garlasco, dal Garante privacy fermo richiamo ai media.
+- URL: https://www.gpdp.it/garante/doc.jsp?ID=10250954
+
+Garlasco, dal Garante privacy fermo richiamo ai media L’Autorità continua a vigilare sulla vicenda, anche alla luce dei reclami ricevuti dagli interessati Il Garante privacy prende atto della rimozione del servizio televisivo relativo ai colloqui tra...
+
+## 88. COMUNICATO STAMPA - Deepfake: nuovo avvertimento del Garante privacy. L’Autorità chiede maggiori poteri di intervento
+
+- Canale: normativa
+- Fonte: Garante Privacy - News RSS
+- Tipo: normativa
+- Score: 82
+- Pubblicato: 2026-05-06T00:00:00.000Z
+- Tag: garante, privacy, gdpr, ai, data-breach, biometria, videosorveglianza, beneficiari, digitale, gare
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: COMUNICATO STAMPA - Deepfake: nuovo avvertimento del Garante privacy.; Deepfake: nuovo avvertimento del Garante privacy L’Autorità chiede maggiori poteri di intervento Il Garante per la protezione dei dati personali ribadisce che l’utilizzo di servizi che consentono di generare e condividere contenuti a partire da immag...
+- URL: https://www.gpdp.it/garante/doc.jsp?ID=10246345
+
+Deepfake: nuovo avvertimento del Garante privacy L’Autorità chiede maggiori poteri di intervento Il Garante per la protezione dei dati personali ribadisce che l’utilizzo di servizi che consentono di generare e condividere contenuti a partire da immag...
+
+## 89. COMUNICATO STAMPA - Prostituzione a Milano: il Garante privacy richiama i media
+
+- Canale: normativa
+- Fonte: Garante Privacy - News RSS
+- Tipo: normativa
+- Score: 82
+- Pubblicato: 2026-04-23T00:00:00.000Z
+- Tag: garante, privacy, gdpr, ai, data-breach, biometria, videosorveglianza, beneficiari, gare, comuni
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: COMUNICATO STAMPA - Prostituzione a Milano: il Garante privacy richiama i media.; Prostituzione a Milano: il Garante privacy richiama i media In riferimento alle notizie di stampa riguardanti l’inchiesta sulle “escort di lusso” a Milano in cui si riportano i nomi delle persone a vario titolo coinvolte, anche se non indagate, il Ga...
+- URL: https://www.gpdp.it/garante/doc.jsp?ID=10242817
+
+Prostituzione a Milano: il Garante privacy richiama i media In riferimento alle notizie di stampa riguardanti l’inchiesta sulle “escort di lusso” a Milano in cui si riportano i nomi delle persone a vario titolo coinvolte, anche se non indagate, il Ga...
+
+## 90. MiCA XBRL validation rules
+
+- Canale: normativa
+- Fonte: ESMA - MiCA e digital finance
+- Tipo: normativa
+- Score: 80
+- Pubblicato: 2026-06-18T14:27:56.667Z
+- Tag: esma, mica, crypto, casp, stablecoin, digital-finance, digitale
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://www.esma.europa.eu/sites/default/files/2025-08/mica_taxonomy_formulas_202507.xlsx
+
+Link rilevato da ESMA - MiCA e digital finance: MiCA XBRL validation rules
+
+## 91. Draft technical standards (Joint ESAs Final Reports) for the first batch of DORA policy products
+
+- Canale: normativa
+- Fonte: ESMA - DORA e resilienza operativa digitale
+- Tipo: normativa
+- Score: 80
+- Pubblicato: 2026-06-18T14:27:56.585Z
+- Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, digitale
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://www.esma.europa.eu/press-news/esma-news/esas-publish-first-set-rules-under-dora-ict-and-third-party-risk-management
+
+Link rilevato da ESMA - DORA e resilienza operativa digitale: Draft technical standards (Joint ESAs Final Reports) for the first batch of DORA policy products
+
+## 92. DORA Oversight
+
+- Canale: normativa
+- Fonte: ESMA - DORA e resilienza operativa digitale
+- Tipo: normativa
+- Score: 80
+- Pubblicato: 2026-06-18T14:27:56.584Z
+- Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, digitale
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://www.esma.europa.eu/dora-oversight
+
+Link rilevato da ESMA - DORA e resilienza operativa digitale: DORA Oversight
+
+## 93. Joint ESAs Consultation on the first batch of DORA policy products
+
+- Canale: normativa
+- Fonte: ESMA - DORA e resilienza operativa digitale
+- Tipo: normativa
+- Score: 80
+- Pubblicato: 2026-06-18T14:27:56.584Z
+- Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, digitale
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://www.esma.europa.eu/press-news/consultations/consultation-first-batch-digital-operational-resilience-act-dora-policy
+
+Link rilevato da ESMA - DORA e resilienza operativa digitale: Joint ESAs Consultation on the first batch of DORA policy products
+
+## 94. Joint ESAs Consultation on the second batch of DORA policy products
+
+- Canale: normativa
+- Fonte: ESMA - DORA e resilienza operativa digitale
+- Tipo: normativa
+- Score: 80
+- Pubblicato: 2026-06-18T14:27:56.584Z
+- Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, digitale
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://www.esma.europa.eu/press-news/consultations/esas-joint-consultation-second-batch-policy-mandates-under-digital
+
+Link rilevato da ESMA - DORA e resilienza operativa digitale: Joint ESAs Consultation on the second batch of DORA policy products
+
+## 95. DORA implementation timeline 🡫
+
+- Canale: normativa
+- Fonte: ESMA - DORA e resilienza operativa digitale
+- Tipo: normativa
+- Score: 80
+- Pubblicato: 2026-06-18T14:27:56.583Z
+- Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, digitale
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://www.esma.europa.eu/sites/default/files/inline-images/DORA_Implementation_timeline.png
+
+Link rilevato da ESMA - DORA e resilienza operativa digitale: DORA implementation timeline 🡫
+
+## 96. a public statement
+
+- Canale: normativa
+- Fonte: ESMA - DORA e resilienza operativa digitale
+- Tipo: normativa
+- Score: 80
+- Pubblicato: 2026-06-18T14:27:56.583Z
+- Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, digitale
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://www.esma.europa.eu/sites/default/files/2024-12/JC_2024_99_ESAs_Statement_on_DORA_application.pdf
+
+Link rilevato da ESMA - DORA e resilienza operativa digitale: a public statement
+
+## 97. main page on the register reporting
+
+- Canale: normativa
+- Fonte: ESMA - DORA e resilienza operativa digitale
+- Tipo: normativa
+- Score: 80
+- Pubblicato: 2026-06-18T14:27:56.583Z
+- Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, beneficiari, digitale
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: main page on the register reporting.; Link rilevato da ESMA - DORA e resilienza operativa digitale: main page on the register reporting
+- URL: https://eba.europa.eu/activities/direct-supervision-and-oversight/digital-operational-resilience-act/preparation-dora-application
+
+Link rilevato da ESMA - DORA e resilienza operativa digitale: main page on the register reporting
+
+## 98. Digital Operational Resilience Act (DORA)
+
+- Canale: normativa
+- Fonte: ESMA - DORA e resilienza operativa digitale
+- Tipo: normativa
+- Score: 80
+- Pubblicato: 2026-06-18T14:27:56.582Z
+- Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, digitale
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora
+
+Link rilevato da ESMA - DORA e resilienza operativa digitale: Digital Operational Resilience Act (DORA)
+
+## 99. DLT Pilot Regime
+
+- Canale: normativa
+- Fonte: ESMA - DORA e resilienza operativa digitale
+- Tipo: normativa
+- Score: 80
+- Pubblicato: 2026-06-18T14:27:56.582Z
+- Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, digitale
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/dlt-pilot-regime
+
+Link rilevato da ESMA - DORA e resilienza operativa digitale: DLT Pilot Regime
+
+## 100. Markets in Crypto-Assets Regulation (MiCA)
+
+- Canale: normativa
+- Fonte: ESMA - DORA e resilienza operativa digitale
+- Tipo: normativa
+- Score: 80
+- Pubblicato: 2026-06-18T14:27:56.582Z
+- Tag: esma, dora, finanza-digitale, ict-risk, outsourcing-ict, incident-reporting, digitale, mica
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica
+
+Link rilevato da ESMA - DORA e resilienza operativa digitale: Markets in Crypto-Assets Regulation (MiCA)

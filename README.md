@@ -189,6 +189,7 @@ Fonti normative candidate gia' tracciate ma non abilitate nel refresh automatico
 - Italia Domani - Amministrazioni Titolari
 - Italia Domani - Soggetti Attuatori
 - PNRR Cultura - Bandi e Avvisi
+- Commissione Europea Digital Strategy - Funding, calls e tenders
 - Regione Lombardia - Bandi
 - START Toscana - Gare e Appalti
 - Regione Toscana - Bandi di Gara e Contratti
@@ -205,7 +206,7 @@ Fonti normative candidate gia' tracciate ma non abilitate nel refresh automatico
 - IT4LIA AI Factory - News
 - IT4LIA AI Factory - Repository
 
-La pipeline monitora anche opportunita europee HPC/AI: access call EuroHPC, AI Factories, bandi di ricerca e innovazione, grant collegati a Horizon Europe/Digital Europe e segnali IT4LIA utili per startup, PMI, PA, universita e ricerca.
+La pipeline monitora anche opportunita europee digitali: funding e tenders di Commissione Europea Digital Strategy, access call EuroHPC, AI Factories, bandi di ricerca e innovazione, grant collegati a Horizon Europe/Digital Europe e segnali IT4LIA utili per startup, PMI, PA, universita e ricerca.
 
 Nota operativa: le pagine dirette ANAC `dati.anticorruzione.it/opendata` e `ocds_it` sono mantenute in configurazione come riferimento, ma disattivate dal refresh automatico perche' possono rispondere alle fetch serverless con `Request Rejected`/HTTP 403. Il monitor attivo usa quindi fonti pubbliche alternative e stabili per PCP/OCDS, evitando falsi errori nel feed.
 

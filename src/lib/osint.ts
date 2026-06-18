@@ -439,6 +439,10 @@ function extractRelevantLinks(html: string, source: Source) {
     }
 
     const url = normalizeUrl(href, source.homepage);
+    if (isNavigationNoise(title, url)) {
+      continue;
+    }
+
     const haystack = normalizeText(`${title} ${url}`);
     const relevant = HTML_SIGNAL_TERMS.some((term) => haystack.includes(normalizeText(term)));
     if (!title || !relevant || seen.has(url)) {
@@ -454,6 +458,52 @@ function extractRelevantLinks(html: string, source: Source) {
   }
 
   return links;
+}
+
+function isNavigationNoise(title: string, url: string) {
+  const normalizedTitle = normalizeText(title);
+  if (!normalizedTitle) {
+    return true;
+  }
+  if (/^\d+$/.test(normalizedTitle) || /^[a-z]{2}(?:\s|$)/.test(normalizedTitle)) {
+    return true;
+  }
+
+  const boringTitles = [
+    "accessibility statement",
+    "cookie policy",
+    "cookies",
+    "legal notice",
+    "next",
+    "previous",
+    "privacy policy",
+    "privacy statement",
+  ];
+
+  if (boringTitles.some((item) => normalizedTitle.includes(item))) {
+    return true;
+  }
+
+  try {
+    const parsed = new URL(url);
+    const path = parsed.pathname.replace(/\/+$/, "");
+    if (parsed.searchParams.has("page") && /^\d+$/.test(normalizedTitle)) {
+      return true;
+    }
+    if (/^\/[a-z]{2}\/funding$/i.test(path)) {
+      return true;
+    }
+    if (/^\/[a-z]{2}$/i.test(path)) {
+      return true;
+    }
+    if (/\/(?:legal-notice|privacy|accessibility)(?:\/|$|#)/i.test(parsed.href)) {
+      return true;
+    }
+  } catch {
+    return false;
+  }
+
+  return false;
 }
 
 function extractTitle(html: string) {

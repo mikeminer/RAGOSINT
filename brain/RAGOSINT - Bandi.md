@@ -2,13 +2,13 @@
 type: osint-monitor
 project: RAGOSINT
 channel: bandi
-generated: 2026-06-18T13:02:21.618Z
+generated: 2026-06-18T14:27:57.552Z
 ---
 
 # RAGOSINT - bandi
 
-Snapshot generata: 2026-06-18T13:02:21.618Z
-Alert indicizzati: 467
+Snapshot generata: 2026-06-18T14:27:57.552Z
+Alert indicizzati: 482
 
 ## 1. Fast Lane Access to AI factories
 
@@ -556,7 +556,7 @@ Decreto Mipaaf n. 29915 del 30/06/2021 di approvazione dei criteri di ammissibil
 - Fonte: EuroHPC JU - AI for Science and Collaborative EU Projects
 - Tipo: bando
 - Score: 79
-- Pubblicato: 2026-06-18T13:02:18.832Z
+- Pubblicato: 2026-06-18T14:27:56.631Z
 - Tag: eurohpc, ai-factories, ai-for-science, access-calls, hpc, ai, eu-funding
 - Scadenze: n/d
 - Importi: n/d
@@ -568,43 +568,7 @@ Decreto Mipaaf n. 29915 del 30/06/2021 di approvazione dei criteri di ammissibil
 
 Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: Supercomputers Access Calls
 
-## 32. AI Factories Access Calls
-
-- Canale: bandi
-- Fonte: EuroHPC JU - AI for Science and Collaborative EU Projects
-- Tipo: bando
-- Score: 79
-- Pubblicato: 2026-06-18T13:02:18.831Z
-- Tag: eurohpc, ai-factories, ai-for-science, access-calls, hpc, ai, eu-funding
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-calls_en
-
-Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: AI Factories Access Calls
-
-## 33. AI Gigafactories Calls
-
-- Canale: bandi
-- Fonte: EuroHPC JU - AI for Science and Collaborative EU Projects
-- Tipo: bando
-- Score: 79
-- Pubblicato: 2026-06-18T13:02:18.830Z
-- Tag: eurohpc, ai-factories, ai-for-science, access-calls, hpc, ai
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://www.eurohpc-ju.europa.eu/ai-gigafactories/ai-gigafactories-calls_en
-
-Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: AI Gigafactories Calls
-
-## 34. EuroHPC JU Call for Proposals for AI for Science and Collaborative EU Projects
+## 32. EuroHPC JU Call for Proposals for AI for Science and Collaborative EU Projects
 
 - Canale: bandi
 - Fonte: EuroHPC JU - AI Factories Access Calls
@@ -622,7 +586,7 @@ Link rilevato da EuroHPC JU - AI for Science and Collaborative EU Projects: AI G
 
 This access mode covers all types of scientific users (whether funded or not by national or European programmes), users from public sector, as well as industrial users participating in R&I projects funded by EU Programmes such Horizon Europe or the Digital Europe Programme.
 
-## 35. Playground Access to AI factories
+## 33. Playground Access to AI factories
 
 - Canale: bandi
 - Fonte: EuroHPC JU - AI Factories Access Calls
@@ -640,7 +604,7 @@ This access mode covers all types of scientific users (whether funded or not by 
 
 Playground mode is intended for SMEs, startups and entry level users. It offers rapid, FIFO access to test technologies, including access within 2 working days and onboarding services for new users.
 
-## 36. Procedura di gara aperta per l’affidamento misto dei servizi di ingegneria e architettura relativi al progetto di fattibilità tecnico economica, comprensivo del coordinamento della sicurezza in fase di progettazione e del servizio di indagini per l’intervento, “Restauro, recupero e valorizzazione della via d’acqua” (componente progettuale 2b - “Interventi di restauro e valorizzazione del complesso del parco della Reggia di Caserta”)”
+## 34. Procedura di gara aperta per l’affidamento misto dei servizi di ingegneria e architettura relativi al progetto di fattibilità tecnico economica, comprensivo del coordinamento della sicurezza in fase di progettazione e del servizio di indagini per l’intervento, “Restauro, recupero e valorizzazione della via d’acqua” (componente progettuale 2b - “Interventi di restauro e valorizzazione del complesso del parco della Reggia di Caserta”)”
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -658,7 +622,7 @@ Playground mode is intended for SMEs, startups and entry level users. It offers 
 
 Procedura di gara aperta per l’affidamento misto dei servizi di ingegneria e architettura relativi al progetto di fattibilità tecnico economica, comprensivo del coordinamento della sicurezza in fase di progettazione e del servizio di indagini per l’intervento, “Restauro, recupero e valorizzazione della via d’acqua” (componente progettuale 2b - “Interventi di restauro e valorizzazione del complesso del parco della Reggia di Caserta”)”
 
-## 37. Procedura di gara aperta per l’affidamento dei servizi di ingegneria e architettura per la progettazione di fattibilità tecnico-economica ed esecutiva, il coordinamento della sicurezza in fase di progettazione e incarico opzionale per la direzione dei lavori e il coordinamento della sicurezza in fase di esecuzione per il recupero e la riqualificazione del complesso militare dismesso “Ex Caserma 8° Cerimant” in Roma, via Prenestina n. 931
+## 35. Procedura di gara aperta per l’affidamento dei servizi di ingegneria e architettura per la progettazione di fattibilità tecnico-economica ed esecutiva, il coordinamento della sicurezza in fase di progettazione e incarico opzionale per la direzione dei lavori e il coordinamento della sicurezza in fase di esecuzione per il recupero e la riqualificazione del complesso militare dismesso “Ex Caserma 8° Cerimant” in Roma, via Prenestina n. 931
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -676,7 +640,7 @@ Procedura di gara aperta per l’affidamento misto dei servizi di ingegneria e a
 
 Procedura di gara aperta per l’affidamento dei servizi di ingegneria e architettura per la progettazione di fattibilità tecnico-economica ed esecutiva, il coordinamento della sicurezza in fase di progettazione e incarico opzionale per la direzione dei lavori e il coordinamento della sicurezza in fase di esecuzione per il recupero e la riqualificazione del complesso militare dismesso “Ex Caserma 8° Cerimant” in Roma, via Prenestina n. 931
 
-## 38. PROCEDURA DI GARA APERTA PER L’AFFIDAMENTO DEI SERVIZI DI: INGEGNERIA E ARCHITETTURA RELATIVI ALPROGETTO DI FATTIBILITÀ TECNICO‐ECONOMICA, DEL SERVIZIO DELLE INDAGINI E DEL SERVIZIO DI RILIEVO, PERL’INTERVENTO “RECUPERO E VALORIZZAZIONE DELLE SORGENTI DEL FIZZO E DELL’ACQUEDOTTO CAROLINO”(COMPONENTE PROGETTUALE 1 DEL PROGETTO ‐ “INTERVENTI DI RESTAURO E VALORIZZAZIONE DEL COMPLESSODEL PARCO DELLA REGGIA DI CASERTA”)
+## 36. PROCEDURA DI GARA APERTA PER L’AFFIDAMENTO DEI SERVIZI DI: INGEGNERIA E ARCHITETTURA RELATIVI ALPROGETTO DI FATTIBILITÀ TECNICO‐ECONOMICA, DEL SERVIZIO DELLE INDAGINI E DEL SERVIZIO DI RILIEVO, PERL’INTERVENTO “RECUPERO E VALORIZZAZIONE DELLE SORGENTI DEL FIZZO E DELL’ACQUEDOTTO CAROLINO”(COMPONENTE PROGETTUALE 1 DEL PROGETTO ‐ “INTERVENTI DI RESTAURO E VALORIZZAZIONE DEL COMPLESSODEL PARCO DELLA REGGIA DI CASERTA”)
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -694,7 +658,7 @@ Procedura di gara aperta per l’affidamento dei servizi di ingegneria e archite
 
 PROCEDURA DI GARA APERTA PER L’AFFIDAMENTO DEI SERVIZI DI: INGEGNERIA E ARCHITETTURA RELATIVI ALPROGETTO DI FATTIBILITÀ TECNICO‐ECONOMICA, DEL SERVIZIO DELLE INDAGINI E DEL SERVIZIO DI RILIEVO, PERL’INTERVENTO “RECUPERO E VALORIZZAZIONE DELLE SORGENTI DEL FIZZO E DELL’ACQUEDOTTO CAROLINO”(COMPONENTE PROGETTUALE 1 DEL PROGETTO ‐ “INTERVENTI DI RESTAURO E VALORIZZAZIONE DEL COMPLESSODEL PARCO DELLA REGGIA DI CASERTA”)
 
-## 39. Procedura aperta, in modalità telematica, per l’affidamento dei servizi tecnici di architettura e ingegneria (progetto di fattibilità tecnico ed economica integrato coordinamento della sicurezza in fase di progettazione, direzione dei lavori, assistenza, misura e contabilità nonché coordinamento della sicurezza in fase di esecuzione) dei lavori di adeguamento sismico e rifunzionalizzazione al fine di realizzare depositi di sicurezza per il ricovero di beni mobili con annessi laboratori di restauro -Compendio Ex Caserma Montezemolo
+## 37. Procedura aperta, in modalità telematica, per l’affidamento dei servizi tecnici di architettura e ingegneria (progetto di fattibilità tecnico ed economica integrato coordinamento della sicurezza in fase di progettazione, direzione dei lavori, assistenza, misura e contabilità nonché coordinamento della sicurezza in fase di esecuzione) dei lavori di adeguamento sismico e rifunzionalizzazione al fine di realizzare depositi di sicurezza per il ricovero di beni mobili con annessi laboratori di restauro -Compendio Ex Caserma Montezemolo
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -712,7 +676,7 @@ PROCEDURA DI GARA APERTA PER L’AFFIDAMENTO DEI SERVIZI DI: INGEGNERIA E ARCHIT
 
 Procedura aperta, in modalità telematica, per l’affidamento dei servizi tecnici di architettura e ingegneria (progetto di fattibilità tecnico ed economica integrato coordinamento della sicurezza in fase di progettazione, direzione dei lavori, assistenza, misura e contabilità nonché coordinamento della sicurezza in fase di esecuzione) dei lavori di adeguamento sismico e rifunzionalizzazione al fine di realizzare depositi di sicurezza per il ricovero di beni mobili con annessi laboratori di restauro - Compendio Ex Caserma Montezemolo
 
-## 40. Procedura aperta per l'affidamento dei servizi tecnici di ingegneria e architettura relativi alle indagini e ai rilievi preliminari (compresa la verifica preventiva dell’interesse archeologico), alla verifica della vulnerabilità sismica, progettazione di fattibilità tecnica ed economica, progettazione esecutiva da restituire in modalità BIM, con riserva di affidamento anche dei servizi opzionali di direzione lavori e coordinamento della sicurezza in fase di progettazione e di esecuzione, per interventi di adeguamento sismico e rifunzionalizzazione di porzione del compendio demaniale sito in località Torre del Parco a Camerino (MC) – Scheda patrimoniale: MCD0014
+## 38. Procedura aperta per l'affidamento dei servizi tecnici di ingegneria e architettura relativi alle indagini e ai rilievi preliminari (compresa la verifica preventiva dell’interesse archeologico), alla verifica della vulnerabilità sismica, progettazione di fattibilità tecnica ed economica, progettazione esecutiva da restituire in modalità BIM, con riserva di affidamento anche dei servizi opzionali di direzione lavori e coordinamento della sicurezza in fase di progettazione e di esecuzione, per interventi di adeguamento sismico e rifunzionalizzazione di porzione del compendio demaniale sito in località Torre del Parco a Camerino (MC) – Scheda patrimoniale: MCD0014
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -730,7 +694,7 @@ Procedura aperta, in modalità telematica, per l’affidamento dei servizi tecni
 
 Procedura aperta per l'affidamento dei servizi tecnici di ingegneria e architettura relativi alle indagini e ai rilievi preliminari (compresa la verifica preventiva dell’interesse archeologico), alla verifica della vulnerabilità sismica, progettazione di fattibilità tecnica ed economica, progettazione esecutiva da restituire in modalità BIM, con riserva di affidamento anche dei servizi opzionali di direzione lavori e coordinamento della sicurezza in fase di progettazione e di esecuzione, per interventi di adeguamento sismico e rifunzionalizzazione di porzione del compendio demaniale sito in località Torre del Parco a Camerino (MC) – Scheda patrimoniale: MCD0014
 
-## 41. GARA EUROPEA A PROCEDURA APERTA AI SENSI DELL’ART. 60 DEL D.LGS. 50/2016 E SS.MM.II., PER L’AFFIDAMENTO DELL’APPALTO DEL SERVIZIO DI INGEGNERIA E ARCHITETTURA PER L’ESECUZIONE DELLE VERIFICHE DI VULNERABILITÀ SISMICA DA ESEGUIRSI SUL PALAZZO DI GIUSTIZIA “BRUNO CACCIA” IN TORINO -a valere sulle risorse del PNRR –M2C3 –I1.2
+## 39. GARA EUROPEA A PROCEDURA APERTA AI SENSI DELL’ART. 60 DEL D.LGS. 50/2016 E SS.MM.II., PER L’AFFIDAMENTO DELL’APPALTO DEL SERVIZIO DI INGEGNERIA E ARCHITETTURA PER L’ESECUZIONE DELLE VERIFICHE DI VULNERABILITÀ SISMICA DA ESEGUIRSI SUL PALAZZO DI GIUSTIZIA “BRUNO CACCIA” IN TORINO -a valere sulle risorse del PNRR –M2C3 –I1.2
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -748,7 +712,7 @@ Procedura aperta per l'affidamento dei servizi tecnici di ingegneria e architett
 
 GARA EUROPEA A PROCEDURA APERTA AI SENSI DELL’ART. 60 DEL D.LGS. 50/2016 E SS.MM.II., PER L’AFFIDAMENTO DELL’APPALTO DEL SERVIZIO DI INGEGNERIA E ARCHITETTURA PER L’ESECUZIONE DELLE VERIFICHE DI VULNERABILITÀ SISMICA DA ESEGUIRSI SUL PALAZZO DI GIUSTIZIA “BRUNO CACCIA” IN TORINO -a valere sulle risorse del PNRR –M2C3 –I1.2
 
-## 42. Gara a procedura aperta per l'affidamento dei servizi, in modalità BIM, di progettazione definitiva, esecutiva e di coordinamento della sicurezza in fase di progettazione, con integrazione della fase progettuale di fattibilità tecnica ed economica e riserva di affidamento dei servizi di direzione dei lavori e di coordinamento della sicurezza in fase di esecuzione, dell’intervento di “Riorganizzazione Funzionale e Riqualificazione Energetica e Strutturale dell’ex complesso carcerario Le Nuove in Torino, ai fini del raggiungimento dell’obiettivo di centralizzazione dei servizi della Giustizia attraverso la ristrutturazione del braccio I da destinare ad uffici della Procura e del Tribunale, la ristrutturazione del braccio II da destinare a Tribunale e Procura e la ristrutturazione del braccio III da destinare a Tribunale di sorveglianza”-a valere sulle risorse del PNRR –M2C3 –I1.2
+## 40. Gara a procedura aperta per l'affidamento dei servizi, in modalità BIM, di progettazione definitiva, esecutiva e di coordinamento della sicurezza in fase di progettazione, con integrazione della fase progettuale di fattibilità tecnica ed economica e riserva di affidamento dei servizi di direzione dei lavori e di coordinamento della sicurezza in fase di esecuzione, dell’intervento di “Riorganizzazione Funzionale e Riqualificazione Energetica e Strutturale dell’ex complesso carcerario Le Nuove in Torino, ai fini del raggiungimento dell’obiettivo di centralizzazione dei servizi della Giustizia attraverso la ristrutturazione del braccio I da destinare ad uffici della Procura e del Tribunale, la ristrutturazione del braccio II da destinare a Tribunale e Procura e la ristrutturazione del braccio III da destinare a Tribunale di sorveglianza”-a valere sulle risorse del PNRR –M2C3 –I1.2
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -766,7 +730,7 @@ GARA EUROPEA A PROCEDURA APERTA AI SENSI DELL’ART. 60 DEL D.LGS. 50/2016 E SS.
 
 Gara a procedura aperta per l'affidamento dei servizi, in modalità BIM, di progettazione definitiva, esecutiva e di coordinamento della sicurezza in fase di progettazione, con integrazione della fase progettuale di fattibilità tecnica ed economica e riserva di affidamento dei servizi di direzione dei lavori e di coordinamento della sicurezza in fase di esecuzione, dell’intervento di “Riorganizzazione Funzionale e Riqualificazione Energetica e Strutturale dell’ex complesso carcerario Le Nuove in Torino, ai fini del raggiungimento dell’obiettivo di centralizzazione dei servizi della Giustizia attraverso la ristrutturazione del braccio I da destinare ad uffici della Procura e del Tribunale, la ristrutturazione del braccio II da destinare a Tribunale e Procura e la ristrutturazione del braccio III da destinare a Tribunale di sorveglianza”-a valere sulle risorse del PNRR –M2C3 –I1.2
 
-## 43. Avviso pubblico Misura 1.4.4 - Estensione dell'utilizzo dell'anagrafe nazionale digitale (ANPR) - Adesione allo Stato Civile digitale (ANSC) - Comuni (luglio 2025)
+## 41. Avviso pubblico Misura 1.4.4 - Estensione dell'utilizzo dell'anagrafe nazionale digitale (ANPR) - Adesione allo Stato Civile digitale (ANSC) - Comuni (luglio 2025)
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -784,7 +748,7 @@ Gara a procedura aperta per l'affidamento dei servizi, in modalità BIM, di prog
 
 Avviso pubblico Misura 1.4.4 - Estensione dell'utilizzo dell'anagrafe nazionale digitale (ANPR) - Adesione allo Stato Civile digitale (ANSC) - Comuni (luglio 2025)
 
-## 44. AVVISO PER MANIFESTAZIONE DI INTERESSE RIVOLTO AI DIPENDENTI PUBBLICI, DI RUOLO, DI AMMINISTRAZIONI PUBBLICHE DESTINATO ALL’INDIVIDUAZIONE DEL “VERIFICATORE INDIPENDENTE” NELL’AMBITO DEGLI ADEMPIMENTI PREVISTI PER L’ATTESTAZIONE DEL TARGET M6C2–8 RELATIVO ALLA REALIZZAZIONE DELL’INFRASTRUTTURA APPLICATIVA DEL SISTEMA INFORMATIVO SANITARIO PER LA REGIONE UMBRIA. PNRR MISSIONE 6 SALUTE – INVESTIMENTO 1.1.1 “AMMODERNAMENTO DEL PARCO TECNOLOGICO E DIGITALE OSPEDALIERO – DIGITALIZZAZIONE DEA I E II LIVELLO”
+## 42. AVVISO PER MANIFESTAZIONE DI INTERESSE RIVOLTO AI DIPENDENTI PUBBLICI, DI RUOLO, DI AMMINISTRAZIONI PUBBLICHE DESTINATO ALL’INDIVIDUAZIONE DEL “VERIFICATORE INDIPENDENTE” NELL’AMBITO DEGLI ADEMPIMENTI PREVISTI PER L’ATTESTAZIONE DEL TARGET M6C2–8 RELATIVO ALLA REALIZZAZIONE DELL’INFRASTRUTTURA APPLICATIVA DEL SISTEMA INFORMATIVO SANITARIO PER LA REGIONE UMBRIA. PNRR MISSIONE 6 SALUTE – INVESTIMENTO 1.1.1 “AMMODERNAMENTO DEL PARCO TECNOLOGICO E DIGITALE OSPEDALIERO – DIGITALIZZAZIONE DEA I E II LIVELLO”
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -802,7 +766,7 @@ Avviso pubblico Misura 1.4.4 - Estensione dell'utilizzo dell'anagrafe nazionale 
 
 AVVISO PER MANIFESTAZIONE DI INTERESSE RIVOLTO AI DIPENDENTI PUBBLICI, DI RUOLO, DI AMMINISTRAZIONI PUBBLICHE DESTINATO ALL’INDIVIDUAZIONE DEL “VERIFICATORE INDIPENDENTE” NELL’AMBITO DEGLI ADEMPIMENTI PREVISTI PER L’ATTESTAZIONE DEL TARGET M6C2–8 RELATIVO ALLA REALIZZAZIONE DELL’INFRASTRUTTURA APPLICATIVA DEL SISTEMA INFORMATIVO SANITARIO PER LA REGIONE UMBRIA. PNRR MISSIONE 6 SALUTE – INVESTIMENTO 1.1.1 “AMMODERNAMENTO DEL PARCO TECNOLOGICO E DIGITALE OSPEDALIERO – DIGITALIZZAZIONE DEA I E II LIVELLO”
 
-## 45. MISSIONE 1 - COMPONENTE 1 - MISURA 1.4.4 “Estensione dell'utilizzo dell'anagrafe nazionale digitale (ANPR) - Adesione allo Stato Civile digitale (ANSC) - Comuni (Luglio 2024)"
+## 43. MISSIONE 1 - COMPONENTE 1 - MISURA 1.4.4 “Estensione dell'utilizzo dell'anagrafe nazionale digitale (ANPR) - Adesione allo Stato Civile digitale (ANSC) - Comuni (Luglio 2024)"
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -820,7 +784,7 @@ AVVISO PER MANIFESTAZIONE DI INTERESSE RIVOLTO AI DIPENDENTI PUBBLICI, DI RUOLO,
 
 MISSIONE 1 - COMPONENTE 1 - MISURA 1.4.4 “Estensione dell'utilizzo dell'anagrafe nazionale digitale (ANPR) - Adesione allo Stato Civile digitale (ANSC) - Comuni (Luglio 2024)"
 
-## 46. Avviso pubblico Misura 1.4.3 "Adozione piattaforma pagoPA" Comuni giugno 2024
+## 44. Avviso pubblico Misura 1.4.3 "Adozione piattaforma pagoPA" Comuni giugno 2024
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -838,7 +802,7 @@ MISSIONE 1 - COMPONENTE 1 - MISURA 1.4.4 “Estensione dell'utilizzo dell'anagra
 
 Avviso pubblico Misura 1.4.3 "Adozione piattaforma pagoPA" Comuni giugno 2024
 
-## 47. MISSIONE 1 - COMPONENTE 1 - INVESTIMENTO 1.4 “SERVIZI E CITTADINANZA DIGITALE ” MISURA 1.4.3 “ADOZIONE PIATTAFORMA PAGOPA” ALTRI ENTI (Ottobre 2023)
+## 45. MISSIONE 1 - COMPONENTE 1 - INVESTIMENTO 1.4 “SERVIZI E CITTADINANZA DIGITALE ” MISURA 1.4.3 “ADOZIONE PIATTAFORMA PAGOPA” ALTRI ENTI (Ottobre 2023)
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -856,7 +820,7 @@ Avviso pubblico Misura 1.4.3 "Adozione piattaforma pagoPA" Comuni giugno 2024
 
 MISSIONE 1 - COMPONENTE 1 - INVESTIMENTO 1.4 “SERVIZI E CITTADINANZA DIGITALE ” MISURA 1.4.3 “ADOZIONE PIATTAFORMA PAGOPA” ALTRI ENTI (Ottobre 2023)
 
-## 48. Avviso pubblico per la ricerca di n. 1 Cloud Specialist da assegnare alla Direzione Generale Organizzazione del Ministero della cultura, a valere sulle risorse del PNRR, Misura 1, Componente C3, Subinvestimento M1C3 1.1.3. “Infrastruttura cloud”, finanziato dall’Unione europea – NeXtGenerationEU
+## 46. Avviso pubblico per la ricerca di n. 1 Cloud Specialist da assegnare alla Direzione Generale Organizzazione del Ministero della cultura, a valere sulle risorse del PNRR, Misura 1, Componente C3, Subinvestimento M1C3 1.1.3. “Infrastruttura cloud”, finanziato dall’Unione europea – NeXtGenerationEU
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -874,7 +838,7 @@ MISSIONE 1 - COMPONENTE 1 - INVESTIMENTO 1.4 “SERVIZI E CITTADINANZA DIGITALE 
 
 Avviso pubblico per la ricerca di n. 1 Cloud Specialist da assegnare alla Direzione Generale Organizzazione del Ministero della cultura, a valere sulle risorse del PNRR, Misura 1, Componente C3, Subinvestimento M1C3 1.1.3. “Infrastruttura cloud”, finanziato dall’Unione europea – NeXtGenerationEU
 
-## 49. Approvazione dell'Avviso pubblico "ITS-Academy del Veneto - I Tecnici del futuro - Biennio 2022-2024" e della Direttiva per la presentazione di progetti formativi per lo svolgimento di percorsi di Tecnico Superiore per il biennio 2022-2024. Regolamento (UE) 2021/1060 del Parlamento europeo e del Consiglio del 24 giugno 2021 per l'attuazione del PR FSE+ 2021-2027 - priorità 2. "Istruzione e Formazione" - PNRR Missione 4 "Sviluppo del sistema di formazione professionale terziaria - ITS"
+## 47. Approvazione dell'Avviso pubblico "ITS-Academy del Veneto - I Tecnici del futuro - Biennio 2022-2024" e della Direttiva per la presentazione di progetti formativi per lo svolgimento di percorsi di Tecnico Superiore per il biennio 2022-2024. Regolamento (UE) 2021/1060 del Parlamento europeo e del Consiglio del 24 giugno 2021 per l'attuazione del PR FSE+ 2021-2027 - priorità 2. "Istruzione e Formazione" - PNRR Missione 4 "Sviluppo del sistema di formazione professionale terziaria - ITS"
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -892,7 +856,7 @@ Avviso pubblico per la ricerca di n. 1 Cloud Specialist da assegnare alla Direzi
 
 Approvazione dell'Avviso pubblico "ITS-Academy del Veneto - I Tecnici del futuro - Biennio 2022-2024" e della Direttiva per la presentazione di progetti formativi per lo svolgimento di percorsi di Tecnico Superiore per il biennio 2022-2024. Regolamento (UE) 2021/1060 del Parlamento europeo e del Consiglio del 24 giugno 2021 per l'attuazione del PR FSE+ 2021-2027 - priorità 2. "Istruzione e Formazione" - PNRR Missione 4 "Sviluppo del sistema di formazione professionale terziaria - ITS".
 
-## 50. MISURA 1.4.4 “ESTENSIONE DELL’UTILIZZO DELLE PIATTAFORME NAZIONALI DI IDENTITÀ DIGITALE - SPID CIE” - COMUNI (SETTEMBRE 2022).
+## 48. MISURA 1.4.4 “ESTENSIONE DELL’UTILIZZO DELLE PIATTAFORME NAZIONALI DI IDENTITÀ DIGITALE - SPID CIE” - COMUNI (SETTEMBRE 2022).
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -910,7 +874,7 @@ Approvazione dell'Avviso pubblico "ITS-Academy del Veneto - I Tecnici del futuro
 
 MISURA 1.4.4 “ESTENSIONE DELL’UTILIZZO DELLE PIATTAFORME NAZIONALI DI IDENTITÀ DIGITALE - SPID CIE” - COMUNI (SETTEMBRE 2022).
 
-## 51. MISURA 1.4.3 “ADOZIONE PIATTAFORMA PAGOPA” COMUNI (SETTEMBRE 2022).
+## 49. MISURA 1.4.3 “ADOZIONE PIATTAFORMA PAGOPA” COMUNI (SETTEMBRE 2022).
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -928,7 +892,7 @@ MISURA 1.4.4 “ESTENSIONE DELL’UTILIZZO DELLE PIATTAFORME NAZIONALI DI IDENTI
 
 MISURA 1.4.3 “ADOZIONE PIATTAFORMA PAGOPA” COMUNI (SETTEMBRE 2022).
 
-## 52. MISURA 1.4.3 “ADOZIONE PIATTAFORMA PAGOPA” ALTRI ENTI (SETTEMBRE 2022)
+## 50. MISURA 1.4.3 “ADOZIONE PIATTAFORMA PAGOPA” ALTRI ENTI (SETTEMBRE 2022)
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -946,7 +910,7 @@ MISURA 1.4.3 “ADOZIONE PIATTAFORMA PAGOPA” COMUNI (SETTEMBRE 2022).
 
 MISURA 1.4.3 “ADOZIONE PIATTAFORMA PAGOPA” ALTRI ENTI (SETTEMBRE 2022)
 
-## 53. Misura 1.4.3 "Adozione piattaforma PagoPA" ALTRI ENTI - Maggio 2022
+## 51. Misura 1.4.3 "Adozione piattaforma PagoPA" ALTRI ENTI - Maggio 2022
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -964,7 +928,7 @@ MISURA 1.4.3 “ADOZIONE PIATTAFORMA PAGOPA” ALTRI ENTI (SETTEMBRE 2022)
 
 Misura 1.4.3 "Adozione piattaforma PagoPA" ALTRI ENTI - Maggio 2022
 
-## 54. Avviso Misura 1.4.4 "Estensione dell'utilizzo delle piattaforme nazionali di identità digitale - SPID CIE" AMMINISTRAZIONI PUBBLICHE DIVERSE DA COMUNI E ISTITUZIONI SCOLASTICHE Maggio 2022
+## 52. Avviso Misura 1.4.4 "Estensione dell'utilizzo delle piattaforme nazionali di identità digitale - SPID CIE" AMMINISTRAZIONI PUBBLICHE DIVERSE DA COMUNI E ISTITUZIONI SCOLASTICHE Maggio 2022
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -982,7 +946,7 @@ Misura 1.4.3 "Adozione piattaforma PagoPA" ALTRI ENTI - Maggio 2022
 
 Avviso Misura 1.4.4 "Estensione dell'utilizzo delle piattaforme nazionali di identità digitale - SPID CIE" AMMINISTRAZIONI PUBBLICHE DIVERSE DA COMUNI E ISTITUZIONI SCOLASTICHE Maggio 2022
 
-## 55. Misura 1.4.3 "Adozione piattaforma pagoPA" - Aprile 2022
+## 53. Misura 1.4.3 "Adozione piattaforma pagoPA" - Aprile 2022
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -1000,7 +964,7 @@ Avviso Misura 1.4.4 "Estensione dell'utilizzo delle piattaforme nazionali di ide
 
 Misura 1.4.3 "Adozione piattaforma pagoPA" - Aprile 2022
 
-## 56. Avviso Misura 1.4.4 "Estensione dell'utilizzo delle piattaforme nazionali di identità digitale - SPID CIE" Aprile 2022
+## 54. Avviso Misura 1.4.4 "Estensione dell'utilizzo delle piattaforme nazionali di identità digitale - SPID CIE" Aprile 2022
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -1018,7 +982,7 @@ Misura 1.4.3 "Adozione piattaforma pagoPA" - Aprile 2022
 
 Avviso Misura 1.4.4 "Estensione dell'utilizzo delle piattaforme nazionali di identità digitale - SPID CIE" Aprile 2022
 
-## 57. Avviso pubblico per la presentazione di proposte d’intervento per la selezione di progetti di valorizzazione di beni confiscati da finanziare nell’ambito del PNRR, Missione 5 – Inclusione e coesione - Componente 3 - Interventi speciali per la coesione territoriale – Investimento 2 - Valorizzazione dei beni confiscati alle mafie finanziato dall’Unione europea – Next Generation EU; Decreto 9/2022 del DG Agenzia per la Coesione Territoriale di proroga dei termini.
+## 55. Avviso pubblico per la presentazione di proposte d’intervento per la selezione di progetti di valorizzazione di beni confiscati da finanziare nell’ambito del PNRR, Missione 5 – Inclusione e coesione - Componente 3 - Interventi speciali per la coesione territoriale – Investimento 2 - Valorizzazione dei beni confiscati alle mafie finanziato dall’Unione europea – Next Generation EU; Decreto 9/2022 del DG Agenzia per la Coesione Territoriale di proroga dei termini.
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -1036,7 +1000,241 @@ Avviso Misura 1.4.4 "Estensione dell'utilizzo delle piattaforme nazionali di ide
 
 Avviso pubblico per la presentazione di proposte d’intervento per la selezione di progetti di valorizzazione di beni confiscati da finanziare nell’ambito del PNRR, Missione 5 – Inclusione e coesione - Componente 3 - Interventi speciali per la coesione territoriale – Investimento 2 - Valorizzazione dei beni confiscati alle mafie finanziato dall’Unione europea – Next Generation EU; Decreto 9/2022 del DG Agenzia per la Coesione Territoriale di proroga dei termini.
 
-## 58. PIANO NAZIONALE DI RIPRESA E RESILIENZA (PNRR) Programma “Garanzia di Occupabilità dei Lavoratori – GOL” - Avviso pubblico n. 11 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU - Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022 - Presentazione di candidature per l’individuazione dei soggetti accreditati al lavoro che si impegnano all’erogazione delle prestazioni per il lavoro a favore delle persone beneficiarie del percorso 1 Reinserimento Occupazionale, percorso 2 Aggiornamento (Upskilling) e percorso 3 Riqualificazione (Reskilling)
+## 56. Call for proposals - DIGITAL-2026-BESTUSE-10
+
+- Canale: bandi
+- Fonte: Commissione Europea Digital Strategy - Funding, calls e tenders
+- Tipo: bando
+- Score: 75
+- Pubblicato: 2026-06-18T14:27:56.545Z
+- Tag: commissione-europea, digital-strategy, digital-europe, funding, calls, tenders, ai, cloud, cyber, pnrr
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://digital-strategy.ec.europa.eu/en/funding/call-proposals-digital-2026-bestuse-10
+
+Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for proposals - DIGITAL-2026-BESTUSE-10
+
+## 57. Call for proposals - DIGITAL-2026-AI-DATA-10
+
+- Canale: bandi
+- Fonte: Commissione Europea Digital Strategy - Funding, calls e tenders
+- Tipo: bando
+- Score: 75
+- Pubblicato: 2026-06-18T14:27:56.545Z
+- Tag: commissione-europea, digital-strategy, digital-europe, funding, calls, tenders, ai, cloud, cyber, pnrr
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://digital-strategy.ec.europa.eu/en/funding/call-proposals-digital-2026-ai-data-10
+
+Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for proposals - DIGITAL-2026-AI-DATA-10
+
+## 58. Call for proposals - DIGITAL-2026-AI-PILOTING-10-SCREENING
+
+- Canale: bandi
+- Fonte: Commissione Europea Digital Strategy - Funding, calls e tenders
+- Tipo: bando
+- Score: 75
+- Pubblicato: 2026-06-18T14:27:56.545Z
+- Tag: commissione-europea, digital-strategy, digital-europe, funding, calls, tenders, ai, cloud, cyber, pnrr
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://digital-strategy.ec.europa.eu/en/funding/call-proposals-digital-2026-ai-piloting-10-screening
+
+Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for proposals - DIGITAL-2026-AI-PILOTING-10-SCREENING
+
+## 59. Call for proposals - DIGITAL-2026-SKILLS-10
+
+- Canale: bandi
+- Fonte: Commissione Europea Digital Strategy - Funding, calls e tenders
+- Tipo: bando
+- Score: 75
+- Pubblicato: 2026-06-18T14:27:56.544Z
+- Tag: commissione-europea, digital-strategy, digital-europe, funding, calls, tenders, ai, cloud, cyber, pnrr
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://digital-strategy.ec.europa.eu/en/funding/call-proposals-digital-2026-skills-10
+
+Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for proposals - DIGITAL-2026-SKILLS-10
+
+## 60. Large-Scale Pilots of AI and GenAI for Medical Imaging
+
+- Canale: bandi
+- Fonte: Commissione Europea Digital Strategy - Funding, calls e tenders
+- Tipo: bando
+- Score: 75
+- Pubblicato: 2026-06-18T14:27:56.544Z
+- Tag: commissione-europea, digital-strategy, digital-europe, funding, calls, tenders, ai, cloud, cyber, pnrr
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://digital-strategy.ec.europa.eu/en/funding/large-scale-pilots-ai-and-genai-medical-imaging
+
+Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Large-Scale Pilots of AI and GenAI for Medical Imaging
+
+## 61. Call for proposals - DIGITAL-2026-BESTUSE-MCP-10
+
+- Canale: bandi
+- Fonte: Commissione Europea Digital Strategy - Funding, calls e tenders
+- Tipo: bando
+- Score: 75
+- Pubblicato: 2026-06-18T14:27:56.544Z
+- Tag: commissione-europea, digital-strategy, digital-europe, funding, calls, tenders, ai, cloud, cyber, pnrr
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://digital-strategy.ec.europa.eu/en/funding/call-proposals-digital-2026-bestuse-mcp-10
+
+Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for proposals - DIGITAL-2026-BESTUSE-MCP-10
+
+## 62. Call for proposals: EU audio reporting
+
+- Canale: bandi
+- Fonte: Commissione Europea Digital Strategy - Funding, calls e tenders
+- Tipo: bando
+- Score: 75
+- Pubblicato: 2026-06-18T14:27:56.543Z
+- Tag: commissione-europea, digital-strategy, digital-europe, funding, calls, tenders, ai, cloud, cyber, pnrr
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://digital-strategy.ec.europa.eu/en/funding/call-proposals-eu-audio-reporting-0
+
+Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for proposals: EU audio reporting
+
+## 63. Managed Services for the EOSC EU Node 2026
+
+- Canale: bandi
+- Fonte: Commissione Europea Digital Strategy - Funding, calls e tenders
+- Tipo: bando
+- Score: 75
+- Pubblicato: 2026-06-18T14:27:56.543Z
+- Tag: commissione-europea, digital-strategy, digital-europe, funding, calls, tenders, ai, cloud, cyber, pnrr
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://digital-strategy.ec.europa.eu/en/funding/managed-services-eosc-eu-node-2026
+
+Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Managed Services for the EOSC EU Node 2026
+
+## 64. Call for proposals - DIGITAL-2026-SUPPORT-10-DISSEMINATION
+
+- Canale: bandi
+- Fonte: Commissione Europea Digital Strategy - Funding, calls e tenders
+- Tipo: bando
+- Score: 75
+- Pubblicato: 2026-06-18T14:27:56.543Z
+- Tag: commissione-europea, digital-strategy, digital-europe, funding, calls, tenders, ai, cloud, cyber, pnrr
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://digital-strategy.ec.europa.eu/en/funding/call-proposals-digital-2026-support-10-dissemination
+
+Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for proposals - DIGITAL-2026-SUPPORT-10-DISSEMINATION
+
+## 65. Call for proposals - Accelerating the Best Use of Technologies (DIGITAL-2026-BESTUSE-RSF-10)
+
+- Canale: bandi
+- Fonte: Commissione Europea Digital Strategy - Funding, calls e tenders
+- Tipo: bando
+- Score: 75
+- Pubblicato: 2026-06-18T14:27:56.543Z
+- Tag: commissione-europea, digital-strategy, digital-europe, funding, calls, tenders, ai, cloud, cyber, pnrr
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://digital-strategy.ec.europa.eu/en/funding/call-proposals-accelerating-best-use-technologies-digital-2026-bestuse-rsf-10
+
+Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for proposals - Accelerating the Best Use of Technologies (DIGITAL-2026-BESTUSE-RSF-10)
+
+## 66. Call for Tenders: Development, consultancy and support for a data altruism consent management system
+
+- Canale: bandi
+- Fonte: Commissione Europea Digital Strategy - Funding, calls e tenders
+- Tipo: bando
+- Score: 75
+- Pubblicato: 2026-06-18T14:27:56.542Z
+- Tag: commissione-europea, digital-strategy, digital-europe, funding, calls, tenders, ai, cloud, cyber, pnrr
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://digital-strategy.ec.europa.eu/en/funding/call-tenders-development-consultancy-and-support-data-altruism-consent-management-system
+
+Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Call for Tenders: Development, consultancy and support for a data altruism consent management system
+
+## 67. Equipment for smart European cable systems - Works
+
+- Canale: bandi
+- Fonte: Commissione Europea Digital Strategy - Funding, calls e tenders
+- Tipo: bando
+- Score: 75
+- Pubblicato: 2026-06-18T14:27:56.541Z
+- Tag: commissione-europea, digital-strategy, digital-europe, funding, calls, tenders, ai, cloud, cyber, pnrr
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://digital-strategy.ec.europa.eu/en/funding/equipment-smart-european-cable-systems-works
+
+Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Equipment for smart European cable systems - Works
+
+## 68. Backbone connectivity for Digital Global Gateways - Studies
+
+- Canale: bandi
+- Fonte: Commissione Europea Digital Strategy - Funding, calls e tenders
+- Tipo: bando
+- Score: 75
+- Pubblicato: 2026-06-18T14:27:56.541Z
+- Tag: commissione-europea, digital-strategy, digital-europe, funding, calls, tenders, ai, cloud, cyber, pnrr
+- Scadenze: n/d
+- Importi: n/d
+- CIG: n/d
+- CUP: n/d
+- Requisiti: n/d
+- Beneficiari: n/d
+- URL: https://digital-strategy.ec.europa.eu/en/funding/backbone-connectivity-digital-global-gateways-studies-0
+
+Link rilevato da Commissione Europea Digital Strategy - Funding, calls e tenders: Backbone connectivity for Digital Global Gateways - Studies
+
+## 69. PIANO NAZIONALE DI RIPRESA E RESILIENZA (PNRR) Programma “Garanzia di Occupabilità dei Lavoratori – GOL” - Avviso pubblico n. 11 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU - Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022 - Presentazione di candidature per l’individuazione dei soggetti accreditati al lavoro che si impegnano all’erogazione delle prestazioni per il lavoro a favore delle persone beneficiarie del percorso 1 Reinserimento Occupazionale, percorso 2 Aggiornamento (Upskilling) e percorso 3 Riqualificazione (Reskilling)
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1054,7 +1252,7 @@ Avviso pubblico per la presentazione di proposte d’intervento per la selezione
 
 PIANO NAZIONALE DI RIPRESA E RESILIENZA (PNRR) Programma “Garanzia di Occupabilità dei Lavoratori – GOL” - Avviso pubblico n. 11 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU - Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022 - Presentazione di candidature per l’individuazione dei soggetti accreditati al lavoro che si impegnano all’erogazione delle prestazioni per il lavoro a favore delle persone beneficiarie del percorso 1 Reinserimento Occupazionale, percorso 2 Aggiornamento (Upskilling) e percorso 3 Riqualificazione (Reskilling)
 
-## 59. PIANO NAZIONALE DI RIPRESA E RESILIENZA (PNRR) - Programma “Garanzia di Occupabilità dei Lavoratori – GOL” - Avviso pubblico n. 10 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU - Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022 - Presentazione di operazioni per rendere disponibili le misure formative e per il lavoro - Percorso 4 - Lavoro e inclusione
+## 70. PIANO NAZIONALE DI RIPRESA E RESILIENZA (PNRR) - Programma “Garanzia di Occupabilità dei Lavoratori – GOL” - Avviso pubblico n. 10 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU - Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022 - Presentazione di operazioni per rendere disponibili le misure formative e per il lavoro - Percorso 4 - Lavoro e inclusione
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1072,7 +1270,7 @@ PIANO NAZIONALE DI RIPRESA E RESILIENZA (PNRR) Programma “Garanzia di Occupabi
 
 PIANO NAZIONALE DI RIPRESA E RESILIENZA (PNRR) - Programma “Garanzia di Occupabilità dei Lavoratori – GOL” - Avviso pubblico n. 10 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU - Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022 - Presentazione di operazioni per rendere disponibili le misure formative e per il lavoro - Percorso 4 - Lavoro e inclusione
 
-## 60. Bando per la selezione di partecipanti alla Winter school – Gaming e beni culturali – Scuola Nazionale Patrimonio Attività Culturali – M1C3|1.1 Strategie e piattaforme digitali per il patrimonio culturale
+## 71. Bando per la selezione di partecipanti alla Winter school – Gaming e beni culturali – Scuola Nazionale Patrimonio Attività Culturali – M1C3|1.1 Strategie e piattaforme digitali per il patrimonio culturale
 
 - Canale: bandi
 - Fonte: PNRR Cultura - Bandi e Avvisi
@@ -1090,7 +1288,7 @@ PIANO NAZIONALE DI RIPRESA E RESILIENZA (PNRR) - Programma “Garanzia di Occupa
 
 All’interno dell’investimento M1C3|1.1 Strategie e piattaforme digitali per il patrimonio culturale (sub-investimento 1.1.6 “Formazione e miglioramento delle competenze digitali”), la Scuola nazionale del patrimonio e ... L'articolo Bando per la selezione di partecipanti alla Winter school – Gaming e beni culturali – Scuola Nazionale Patrimonio Attività Culturali – M1C3|1.1 Strategie e piattaforme digitali per il patrimonio culturale proviene da PNRR Cultura .
 
-## 61. Gara per l’affidamento dei lavori di recupero e valorizzazione delle sorgenti del Fizzo e dell’Acquedotto Carolino – M1C3|2.3 Parchi e giardini storici
+## 72. Gara per l’affidamento dei lavori di recupero e valorizzazione delle sorgenti del Fizzo e dell’Acquedotto Carolino – M1C3|2.3 Parchi e giardini storici
 
 - Canale: bandi
 - Fonte: PNRR Cultura - Bandi e Avvisi
@@ -1108,7 +1306,7 @@ All’interno dell’investimento M1C3|1.1 Strategie e piattaforme digitali per 
 
 È avviata, nell’ambito della Componente 1 del progetto “Interventi di restauro e valorizzazione del complesso del Parco della Reggia di Caserta”, una procedura di gara ... L'articolo Gara per l’affidamento dei lavori di recupero e valorizzazione delle sorgenti del Fizzo e dell’Acquedotto Carolino – M1C3|2.3 Parchi e giardini storici proviene da PNRR Cultura .
 
-## 62. Approvazione dell’Avviso pubblico n. 4 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori (GOL) da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il lavoro”, Riforma 1.1 “Politiche attive del lavoro e formazione”, finanziato dall’Unione europea – Next Generation EU - Piano di attuazione provinciale di cui alla deliberazione della Giunta provinciale di data 15 luglio 2022 n. 1295 e s.m.
+## 73. Approvazione dell’Avviso pubblico n. 4 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori (GOL) da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il lavoro”, Riforma 1.1 “Politiche attive del lavoro e formazione”, finanziato dall’Unione europea – Next Generation EU - Piano di attuazione provinciale di cui alla deliberazione della Giunta provinciale di data 15 luglio 2022 n. 1295 e s.m.
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1126,7 +1324,7 @@ All’interno dell’investimento M1C3|1.1 Strategie e piattaforme digitali per 
 
 Approvazione dell’Avviso pubblico n. 4 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori (GOL) da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il lavoro”, Riforma 1.1 “Politiche attive del lavoro e formazione”, finanziato dall’Unione europea – Next Generation EU - Piano di attuazione provinciale di cui alla deliberazione della Giunta provinciale di data 15 luglio 2022 n. 1295 e s.m.
 
-## 63. MIC - PNRR - DIGITAL LIBRARY - ACCORDO QUADRO "3D E HIGH QUALITY" - Procedura di gara aperta per la conclusione di accordi quadro aventi ad oggetto l’affidamento di "servizi per la digitalizzazione del patrimonio culturale italiano – categoria 3D e high quality"
+## 74. MIC - PNRR - DIGITAL LIBRARY - ACCORDO QUADRO "3D E HIGH QUALITY" - Procedura di gara aperta per la conclusione di accordi quadro aventi ad oggetto l’affidamento di "servizi per la digitalizzazione del patrimonio culturale italiano – categoria 3D e high quality"
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1144,7 +1342,7 @@ Approvazione dell’Avviso pubblico n. 4 per l’attuazione del Programma Garanz
 
 MIC - PNRR - DIGITAL LIBRARY - ACCORDO QUADRO "3D E HIGH QUALITY" - Procedura di gara aperta per la conclusione di accordi quadro aventi ad oggetto l’affidamento di "servizi per la digitalizzazione del patrimonio culturale italiano – categoria 3D e high quality"
 
-## 64. Bando per la selezione di 10 progetti formativi di ricerca-azione per la convergenza digitale di musei, archivi e biblioteche “Digital MAB – Ecosistemi digitali tra musei, archivi e biblioteche”
+## 75. Bando per la selezione di 10 progetti formativi di ricerca-azione per la convergenza digitale di musei, archivi e biblioteche “Digital MAB – Ecosistemi digitali tra musei, archivi e biblioteche”
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1162,7 +1360,7 @@ MIC - PNRR - DIGITAL LIBRARY - ACCORDO QUADRO "3D E HIGH QUALITY" - Procedura di
 
 Bando per la selezione di 10 progetti formativi di ricerca-azione per la convergenza digitale di musei, archivi e biblioteche “Digital MAB – Ecosistemi digitali tra musei, archivi e biblioteche”
 
-## 65. Avviso pubblico N. 5/2024 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 “Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione Europea – Next Generation EU PAR GOL Sicilia 2021/2025 Deliberazione della Giunta Regionale di Governo n. 83 del 24 febbraio 2022 e s.m.i. Percorso n. 5 Attività formative per la Ricollocazione collettiva
+## 76. Avviso pubblico N. 5/2024 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 “Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione Europea – Next Generation EU PAR GOL Sicilia 2021/2025 Deliberazione della Giunta Regionale di Governo n. 83 del 24 febbraio 2022 e s.m.i. Percorso n. 5 Attività formative per la Ricollocazione collettiva
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1180,7 +1378,7 @@ Bando per la selezione di 10 progetti formativi di ricerca-azione per la converg
 
 Avviso pubblico N. 5/2024 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 “Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione Europea – Next Generation EU PAR GOL Sicilia 2021/2025 Deliberazione della Giunta Regionale di Governo n. 83 del 24 febbraio 2022 e s.m.i. Percorso n. 5 Attività formative per la Ricollocazione collettiva
 
-## 66. PROCEDURA DI GARA APERTA PER LA FORNITURA DI UN DATA CENTER MULTIPIATTAFORMA” E DEI RELATIVI SERVIZI DI ASSISTENZA TECNICA E DI MANUTENZIONE
+## 77. PROCEDURA DI GARA APERTA PER LA FORNITURA DI UN DATA CENTER MULTIPIATTAFORMA” E DEI RELATIVI SERVIZI DI ASSISTENZA TECNICA E DI MANUTENZIONE
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1198,7 +1396,7 @@ Avviso pubblico N. 5/2024 per l’attuazione del Programma Garanzia Occupabilit�
 
 PROCEDURA DI GARA APERTA PER LA FORNITURA DI UN DATA CENTER MULTIPIATTAFORMA” E DEI RELATIVI SERVIZI DI ASSISTENZA TECNICA E DI MANUTENZIONE
 
-## 67. Gara a procedura aperta ai sensi del D.lgs. 36/2023 per l’affidamento dei servizi di sviluppo, manutenzione evolutiva e gestione in esercizio della piattaforma e-learning della Fondazione Scuola dei beni e delle attività culturali
+## 78. Gara a procedura aperta ai sensi del D.lgs. 36/2023 per l’affidamento dei servizi di sviluppo, manutenzione evolutiva e gestione in esercizio della piattaforma e-learning della Fondazione Scuola dei beni e delle attività culturali
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1216,7 +1414,7 @@ PROCEDURA DI GARA APERTA PER LA FORNITURA DI UN DATA CENTER MULTIPIATTAFORMA” 
 
 Gara a procedura aperta ai sensi del D.lgs. 36/2023 per l’affidamento dei servizi di sviluppo, manutenzione evolutiva e gestione in esercizio della piattaforma e-learning della Fondazione Scuola dei beni e delle attività culturali
 
-## 68. Avviso pubblico n. 7 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022 Presentazione di operazioni per rendere disponibili misure formative a favore delle persone Cluster 1
+## 79. Avviso pubblico n. 7 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022 Presentazione di operazioni per rendere disponibili misure formative a favore delle persone Cluster 1
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1234,7 +1432,7 @@ Gara a procedura aperta ai sensi del D.lgs. 36/2023 per l’affidamento dei serv
 
 Avviso pubblico n. 7 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022 Presentazione di operazioni per rendere disponibili misure formative a favore delle persone Cluster 1
 
-## 69. Avviso n. 6 per la presentazione di candidature per l’individuazione dei soggetti accreditati al lavoro che si impegnano all’erogazione delle prestazioni per il lavoro a favore delle persone beneficiarie del percorso 1 Reinserimento Occupazionale, percorso 2 Aggiornamento (Upskilling) e percorso 3 Riqualificazione (Reskilling). Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU. Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022
+## 80. Avviso n. 6 per la presentazione di candidature per l’individuazione dei soggetti accreditati al lavoro che si impegnano all’erogazione delle prestazioni per il lavoro a favore delle persone beneficiarie del percorso 1 Reinserimento Occupazionale, percorso 2 Aggiornamento (Upskilling) e percorso 3 Riqualificazione (Reskilling). Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU. Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1252,7 +1450,7 @@ Avviso pubblico n. 7 per l’attuazione del Programma Garanzia Occupabilità dei
 
 Avviso n. 6 per la presentazione di candidature per l’individuazione dei soggetti accreditati al lavoro che si impegnano all’erogazione delle prestazioni per il lavoro a favore delle persone beneficiarie del percorso 1 Reinserimento Occupazionale, percorso 2 Aggiornamento (Upskilling) e percorso 3 Riqualificazione (Reskilling). Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU. Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022
 
-## 70. GARA A PROCEDURA APERTA PER L'AFFIDAMENTO DEI SERVIZI DI ATTIVAZIONE, ANIMAZIONE E CONDUZIONE DI 10 HUB TERRITORIALI NELL’AMBITO DEL PROGETTO “DICOLAB. CULTURA AL DIGITALE” – SUB-INVESTIMENTO PNRR 1.1.6 “FORMAZIONE E MIGLIORAMENTO DELLE COMPETENZE DIGITALI”
+## 81. GARA A PROCEDURA APERTA PER L'AFFIDAMENTO DEI SERVIZI DI ATTIVAZIONE, ANIMAZIONE E CONDUZIONE DI 10 HUB TERRITORIALI NELL’AMBITO DEL PROGETTO “DICOLAB. CULTURA AL DIGITALE” – SUB-INVESTIMENTO PNRR 1.1.6 “FORMAZIONE E MIGLIORAMENTO DELLE COMPETENZE DIGITALI”
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1270,7 +1468,7 @@ Avviso n. 6 per la presentazione di candidature per l’individuazione dei sogge
 
 GARA A PROCEDURA APERTA PER L'AFFIDAMENTO DEI SERVIZI DI ATTIVAZIONE, ANIMAZIONE E CONDUZIONE DI 10 HUB TERRITORIALI NELL’AMBITO DEL PROGETTO “DICOLAB. CULTURA AL DIGITALE” – SUB-INVESTIMENTO PNRR 1.1.6 “FORMAZIONE E MIGLIORAMENTO DELLE COMPETENZE DIGITALI”
 
-## 71. DGR n. 354 del 4 aprile 2024. Ratifica del DPGR n. 32 del 28 marzo 2024 avente ad oggetto: "Proroga del termine per la presentazione delle domande di aiuto previsto dal bando relativo alla Sottomisura "Ammodernamento delle macchine agricole che permettano l'introduzione di tecniche di agricoltura di precisione", Investimento 2.3 "Innovazione e meccanizzazione nel settore agricolo e alimentare" - Misura 2, Missione 2 - Rivoluzione verde e transizione ecologica, Componente 1 - Economia circolare e agricoltura sostenibile (M2C1), finanziato dall'Unione europea - NextGenerationEU. DGR n. 1599 del 19 dicembre 2023 e s.m.i.. Decreto del Ministro dell'agricoltura, della sovranità alimentare e delle foreste 26 marzo 2024 n. 144081." e modifiche alle disposizioni operative del bando medesimo, approvato con DGR n. 1599 del 19 dicembre 2023 e s.m.i.
+## 82. DGR n. 354 del 4 aprile 2024. Ratifica del DPGR n. 32 del 28 marzo 2024 avente ad oggetto: "Proroga del termine per la presentazione delle domande di aiuto previsto dal bando relativo alla Sottomisura "Ammodernamento delle macchine agricole che permettano l'introduzione di tecniche di agricoltura di precisione", Investimento 2.3 "Innovazione e meccanizzazione nel settore agricolo e alimentare" - Misura 2, Missione 2 - Rivoluzione verde e transizione ecologica, Componente 1 - Economia circolare e agricoltura sostenibile (M2C1), finanziato dall'Unione europea - NextGenerationEU. DGR n. 1599 del 19 dicembre 2023 e s.m.i.. Decreto del Ministro dell'agricoltura, della sovranità alimentare e delle foreste 26 marzo 2024 n. 144081." e modifiche alle disposizioni operative del bando medesimo, approvato con DGR n. 1599 del 19 dicembre 2023 e s.m.i.
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1288,7 +1486,7 @@ GARA A PROCEDURA APERTA PER L'AFFIDAMENTO DEI SERVIZI DI ATTIVAZIONE, ANIMAZIONE
 
 DGR n. 354 del 4 aprile 2024. Ratifica del DPGR n. 32 del 28 marzo 2024 avente ad oggetto: "Proroga del termine per la presentazione delle domande di aiuto previsto dal bando relativo alla Sottomisura "Ammodernamento delle macchine agricole che permettano l'introduzione di tecniche di agricoltura di precisione", Investimento 2.3 "Innovazione e meccanizzazione nel settore agricolo e alimentare" - Misura 2, Missione 2 - Rivoluzione verde e transizione ecologica, Componente 1 - Economia circolare e agricoltura sostenibile (M2C1), finanziato dall'Unione europea - NextGenerationEU. DGR n. 1599 del 19 dicembre 2023 e s.m.i.. Decreto del Ministro dell'agricoltura, della sovranità alimentare e delle foreste 26 marzo 2024 n. 144081." e modifiche alle disposizioni operative del bando medesimo, approvato con DGR n. 1599 del 19 dicembre 2023 e s.m.i.
 
-## 72. PROROGA Delibera Num. 52 del 15/01/2024 AVVISO PUBBLICO PER LA PRESENTAZIONE DI PROPOSTE D'INTERVENTO PER L' AMMODERNAMENTO DEI FRANTOI OLEARI NELL'AMBITO DEL PNRR - MISSIONE 2 COMPONENTE 1 - INNOVAZIONE E MECCANIZZAZIONE NEL SETTORE AGRICOLO E ALIMENTARE - REG. (UE) N. 2021/241 E DECRETO MASAF N.53262/2023 - DELIBERAZIONE GIUNTA REGIONALE N. 1816/2023 - PROROGA TERMINI PRESENTAZIONE DOMANDE DI SOSTEGNO E SUCCESSIVI TERMINI PROCEDIMENTALI. MODIFICHE TECNICHE AL BANDO Delibera Num. 99 del 22/01/2024 AVVISO PUBBLICO PER LA PRESENTAZIONE DI PROPOSTE D'INTERVENTO PER L' AMMODERNAMENTO DEI FRANTOI OLEARI NELL'AMBITO DEL PNRR - MISSIONE 2 COMPONENTE 1 - INNOVAZIONE E MECCANIZZAZIONE NEL SETTORE AGRICOLO E ALIMENTARE - REG. (UE) N. 2021/241 E DECRETO MASAF N.53262/2023 - DELIBERAZIONE GIUNTA REGIONALE N. 1816/2023 - MODIFICHE ALL'AVVISO PUBBLICO.
+## 83. PROROGA Delibera Num. 52 del 15/01/2024 AVVISO PUBBLICO PER LA PRESENTAZIONE DI PROPOSTE D'INTERVENTO PER L' AMMODERNAMENTO DEI FRANTOI OLEARI NELL'AMBITO DEL PNRR - MISSIONE 2 COMPONENTE 1 - INNOVAZIONE E MECCANIZZAZIONE NEL SETTORE AGRICOLO E ALIMENTARE - REG. (UE) N. 2021/241 E DECRETO MASAF N.53262/2023 - DELIBERAZIONE GIUNTA REGIONALE N. 1816/2023 - PROROGA TERMINI PRESENTAZIONE DOMANDE DI SOSTEGNO E SUCCESSIVI TERMINI PROCEDIMENTALI. MODIFICHE TECNICHE AL BANDO Delibera Num. 99 del 22/01/2024 AVVISO PUBBLICO PER LA PRESENTAZIONE DI PROPOSTE D'INTERVENTO PER L' AMMODERNAMENTO DEI FRANTOI OLEARI NELL'AMBITO DEL PNRR - MISSIONE 2 COMPONENTE 1 - INNOVAZIONE E MECCANIZZAZIONE NEL SETTORE AGRICOLO E ALIMENTARE - REG. (UE) N. 2021/241 E DECRETO MASAF N.53262/2023 - DELIBERAZIONE GIUNTA REGIONALE N. 1816/2023 - MODIFICHE ALL'AVVISO PUBBLICO.
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1306,7 +1504,7 @@ DGR n. 354 del 4 aprile 2024. Ratifica del DPGR n. 32 del 28 marzo 2024 avente a
 
 PROROGA Delibera Num. 52 del 15/01/2024 AVVISO PUBBLICO PER LA PRESENTAZIONE DI PROPOSTE D'INTERVENTO PER L' AMMODERNAMENTO DEI FRANTOI OLEARI NELL'AMBITO DEL PNRR - MISSIONE 2 COMPONENTE 1 - INNOVAZIONE E MECCANIZZAZIONE NEL SETTORE AGRICOLO E ALIMENTARE - REG. (UE) N. 2021/241 E DECRETO MASAF N.53262/2023 - DELIBERAZIONE GIUNTA REGIONALE N. 1816/2023 - PROROGA TERMINI PRESENTAZIONE DOMANDE DI SOSTEGNO E SUCCESSIVI TERMINI PROCEDIMENTALI. MODIFICHE TECNICHE AL BANDO Delibera Num. 99 del 22/01/2024 AVVISO PUBBLICO PER LA PRESENTAZIONE DI PROPOSTE D'INTERVENTO PER L' AMMODERNAMENTO DEI FRANTOI OLEARI NELL'AMBITO DEL PNRR - MISSIONE 2 COMPONENTE 1 - INNOVAZIONE E MECCANIZZAZIONE NEL SETTORE AGRICOLO E ALIMENTARE - REG. (UE) N. 2021/241 E DECRETO MASAF N.53262/2023 - DELIBERAZIONE GIUNTA REGIONALE N. 1816/2023 - MODIFICHE ALL'AVVISO PUBBLICO.
 
-## 73. Affidamento del servizio di digitalizzazione del patrimonio culturale della Regione Campania e servizi connessi – PNRR Missione 1 Componente 3 Investimento 1.1 Sub-investimento 1.1.5
+## 84. Affidamento del servizio di digitalizzazione del patrimonio culturale della Regione Campania e servizi connessi – PNRR Missione 1 Componente 3 Investimento 1.1 Sub-investimento 1.1.5
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1324,7 +1522,7 @@ PROROGA Delibera Num. 52 del 15/01/2024 AVVISO PUBBLICO PER LA PRESENTAZIONE DI 
 
 Affidamento del servizio di digitalizzazione del patrimonio culturale della Regione Campania e servizi connessi – PNRR Missione 1 Componente 3 Investimento 1.1 Sub-investimento 1.1.5
 
-## 74. PROCEDURA APPERTA TELEMATICA PER L'AFFIDAMENTO DEL SERVIZIO DI DIGITALIZZAZIONE DEI FONDI FOTOGRAFICI PER UN TOTALE DI 1.540.000 FOTOGRAFIE , DI PROPRIETA' DELL'ARCHIVIO STORICO LUCE DI CINECITTA' S.P.A. - IMPORTO A BASE DI GARA € 1.224.720,00 IVA ESCLUSA. CUP J89J21021210006 - CIG A009F0D18E
+## 85. PROCEDURA APPERTA TELEMATICA PER L'AFFIDAMENTO DEL SERVIZIO DI DIGITALIZZAZIONE DEI FONDI FOTOGRAFICI PER UN TOTALE DI 1.540.000 FOTOGRAFIE , DI PROPRIETA' DELL'ARCHIVIO STORICO LUCE DI CINECITTA' S.P.A. - IMPORTO A BASE DI GARA € 1.224.720,00 IVA ESCLUSA. CUP J89J21021210006 - CIG A009F0D18E
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1342,7 +1540,7 @@ Affidamento del servizio di digitalizzazione del patrimonio culturale della Regi
 
 PROCEDURA APPERTA TELEMATICA PER L'AFFIDAMENTO DEL SERVIZIO DI DIGITALIZZAZIONE DEI FONDI FOTOGRAFICI PER UN TOTALE DI 1.540.000 FOTOGRAFIE , DI PROPRIETA' DELL'ARCHIVIO STORICO LUCE DI CINECITTA' S.P.A. - IMPORTO A BASE DI GARA € 1.224.720,00 IVA ESCLUSA. CUP J89J21021210006 - CIG A009F0D18E
 
-## 75. Rifinanziamento con Deliberaztone della Giunta provinciale di Bolzano del 30/07/2024 n.636/2024 dell'avviso pubblico n. 1 per l'attuazione delle misure relative ai percorsi 1 (reinserimento lavorativo), 2 (upskilling), 3 (reskilling) del Programma nazionale per la Garanzia di Occupabilità dei Lavoratori (GOL) - PNRR M5C1 R1.1 - finanziato dall'Unione europea, Next Generation EU - PAR GOL della Provincia autonoma di Bolzano
+## 86. Rifinanziamento con Deliberaztone della Giunta provinciale di Bolzano del 30/07/2024 n.636/2024 dell'avviso pubblico n. 1 per l'attuazione delle misure relative ai percorsi 1 (reinserimento lavorativo), 2 (upskilling), 3 (reskilling) del Programma nazionale per la Garanzia di Occupabilità dei Lavoratori (GOL) - PNRR M5C1 R1.1 - finanziato dall'Unione europea, Next Generation EU - PAR GOL della Provincia autonoma di Bolzano
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1360,7 +1558,7 @@ PROCEDURA APPERTA TELEMATICA PER L'AFFIDAMENTO DEL SERVIZIO DI DIGITALIZZAZIONE 
 
 Rifinanziamento con Deliberaztone della Giunta provinciale di Bolzano del 30/07/2024 n.636/2024 dell'avviso pubblico n. 1 per l'attuazione delle misure relative ai percorsi 1 (reinserimento lavorativo), 2 (upskilling), 3 (reskilling) del Programma nazionale per la Garanzia di Occupabilità dei Lavoratori (GOL) - PNRR M5C1 R1.1 - finanziato dall'Unione europea, Next Generation EU - PAR GOL della Provincia autonoma di Bolzano
 
-## 76. Procedura di gara aperta ai sensi degli artt. 54, 60 e 145 del D.Lgs. n. 50/2016, da realizzarsi mediante Piattaforma Telematica, per la conclusione di un Accordo Quadro per l’affidamento dei servizi per la digitalizzazione del patrimonio culturale italiano - categoria “MICROFILM DI DOCUMENTI ARCHIVISTICI E BIBLIOGRAFICI”
+## 87. Procedura di gara aperta ai sensi degli artt. 54, 60 e 145 del D.Lgs. n. 50/2016, da realizzarsi mediante Piattaforma Telematica, per la conclusione di un Accordo Quadro per l’affidamento dei servizi per la digitalizzazione del patrimonio culturale italiano - categoria “MICROFILM DI DOCUMENTI ARCHIVISTICI E BIBLIOGRAFICI”
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -1378,7 +1576,7 @@ Rifinanziamento con Deliberaztone della Giunta provinciale di Bolzano del 30/07/
 
 Procedura di gara aperta ai sensi degli artt. 54, 60 e 145 del D.Lgs. n. 50/2016, da realizzarsi mediante Piattaforma Telematica, per la conclusione di un Accordo Quadro per l’affidamento dei servizi per la digitalizzazione del patrimonio culturale italiano - categoria “MICROFILM DI DOCUMENTI ARCHIVISTICI E BIBLIOGRAFICI”
 
-## 77. Procedura di gara aperta ai sensi degli artt. 54, 60 e 145 del D.Lgs. n. 50/2016, da realizzarsi mediante Piattaforma Telematica, per la conclusione di Accordi Quadro con più operatori economici per l’affidamento dei servizi per la digitalizzazione del patrimonio culturale italiano - categoria “OGGETTI MUSEALI”
+## 88. Procedura di gara aperta ai sensi degli artt. 54, 60 e 145 del D.Lgs. n. 50/2016, da realizzarsi mediante Piattaforma Telematica, per la conclusione di Accordi Quadro con più operatori economici per l’affidamento dei servizi per la digitalizzazione del patrimonio culturale italiano - categoria “OGGETTI MUSEALI”
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -1396,7 +1594,7 @@ Procedura di gara aperta ai sensi degli artt. 54, 60 e 145 del D.Lgs. n. 50/2016
 
 Procedura di gara aperta ai sensi degli artt. 54, 60 e 145 del D.Lgs. n. 50/2016, da realizzarsi mediante Piattaforma Telematica, per la conclusione di Accordi Quadro con più operatori economici per l’affidamento dei servizi per la digitalizzazione del patrimonio culturale italiano - categoria “OGGETTI MUSEALI”
 
-## 78. Procedura di gara aperta ai sensi degli artt. 54, 60 e 145 del D.Lgs. n. 50/2016, da realizzarsi mediante Piattaforma Telematica, per la conclusione di Accordi Quadro con più operatori economici per l’affidamento dei servizi per la digitalizzazione del patrimonio culturale italiano - categoria “CARTA” (BENI ARCHIVISTICI E LIBRARI) E “ARCHIVI FOTOGRAFICI” (POSITIVI, NEGATIVI, UNICUM)
+## 89. Procedura di gara aperta ai sensi degli artt. 54, 60 e 145 del D.Lgs. n. 50/2016, da realizzarsi mediante Piattaforma Telematica, per la conclusione di Accordi Quadro con più operatori economici per l’affidamento dei servizi per la digitalizzazione del patrimonio culturale italiano - categoria “CARTA” (BENI ARCHIVISTICI E LIBRARI) E “ARCHIVI FOTOGRAFICI” (POSITIVI, NEGATIVI, UNICUM)
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -1414,7 +1612,7 @@ Procedura di gara aperta ai sensi degli artt. 54, 60 e 145 del D.Lgs. n. 50/2016
 
 Procedura di gara aperta ai sensi degli artt. 54, 60 e 145 del D.Lgs. n. 50/2016, da realizzarsi mediante Piattaforma Telematica, per la conclusione di Accordi Quadro con più operatori economici per l’affidamento dei servizi per la digitalizzazione del patrimonio culturale italiano - categoria “CARTA” (BENI ARCHIVISTICI E LIBRARI) E “ARCHIVI FOTOGRAFICI” (POSITIVI, NEGATIVI, UNICUM)
 
-## 79. Avviso pubblico n. 5 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022 - Presentazione di candidature per l’individuazione di ulteriori soggetti accreditati al lavoro che si impegnano all’erogazione delle prestazioni per il lavoro a favore delle persone beneficiarie del percorso 1 Reinserimento Occupazionale, percorso 2 Aggiornamento (Upskilling) e percorso 3 Riqualificazione (Reskilling) –
+## 90. Avviso pubblico n. 5 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022 - Presentazione di candidature per l’individuazione di ulteriori soggetti accreditati al lavoro che si impegnano all’erogazione delle prestazioni per il lavoro a favore delle persone beneficiarie del percorso 1 Reinserimento Occupazionale, percorso 2 Aggiornamento (Upskilling) e percorso 3 Riqualificazione (Reskilling) –
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1432,7 +1630,7 @@ Procedura di gara aperta ai sensi degli artt. 54, 60 e 145 del D.Lgs. n. 50/2016
 
 Avviso pubblico n. 5 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022 - Presentazione di candidature per l’individuazione di ulteriori soggetti accreditati al lavoro che si impegnano all’erogazione delle prestazioni per il lavoro a favore delle persone beneficiarie del percorso 1 Reinserimento Occupazionale, percorso 2 Aggiornamento (Upskilling) e percorso 3 Riqualificazione (Reskilling) –
 
-## 80. Avviso di indizione di una procedura di dialogo competitivo per l’affidamento di un contratto avente ad oggetto la progettazione di dettaglio, la realizzazione, la messa in esercizio e la gestione di una piattaforma di Intelligenza Artificiale a supporto dell’assistenza sanitaria primaria ai sensi dell’art. 64 del d.lgs. n. 50/2016 - CIG 94572555B6
+## 91. Avviso di indizione di una procedura di dialogo competitivo per l’affidamento di un contratto avente ad oggetto la progettazione di dettaglio, la realizzazione, la messa in esercizio e la gestione di una piattaforma di Intelligenza Artificiale a supporto dell’assistenza sanitaria primaria ai sensi dell’art. 64 del d.lgs. n. 50/2016 - CIG 94572555B6
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1450,7 +1648,7 @@ Avviso pubblico n. 5 per l’attuazione del Programma Garanzia Occupabilità dei
 
 Avviso di indizione di una procedura di dialogo competitivo per l’affidamento di un contratto avente ad oggetto la progettazione di dettaglio, la realizzazione, la messa in esercizio e la gestione di una piattaforma di Intelligenza Artificiale a supporto dell’assistenza sanitaria primaria ai sensi dell’art. 64 del d.lgs. n. 50/2016 - CIG 94572555B6
 
-## 81. Procedura di gara aperta ai sensi degli articoli 54, 60 e 145 del D.Lgs n. 50/2016, da realizzarsi mediante piattaforma telematica, per la conclusione di Accordi Quadro con piùoperatori economici per l’affidamento dei servizi per la digitalizzazione del patrimonio culturale italiano –categoria “oggetti museali: beni di deposito (storico-artistici, archeologici) e grafici”
+## 92. Procedura di gara aperta ai sensi degli articoli 54, 60 e 145 del D.Lgs n. 50/2016, da realizzarsi mediante piattaforma telematica, per la conclusione di Accordi Quadro con piùoperatori economici per l’affidamento dei servizi per la digitalizzazione del patrimonio culturale italiano –categoria “oggetti museali: beni di deposito (storico-artistici, archeologici) e grafici”
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -1468,7 +1666,7 @@ Avviso di indizione di una procedura di dialogo competitivo per l’affidamento 
 
 Procedura di gara aperta ai sensi degli articoli 54, 60 e 145 del D.Lgs n. 50/2016, da realizzarsi mediante piattaforma telematica, per la conclusione di Accordi Quadro con piùoperatori economici per l’affidamento dei servizi per la digitalizzazione del patrimonio culturale italiano –categoria “oggetti museali: beni di deposito (storico-artistici, archeologici) e grafici”
 
-## 82. Procedura di gara aperta ai sensi degli articoli 54, 60 e 145 del D. Lgs n. 50/2016, da realizzarsi mediante piattaforma telematica per la conclusione di Accordi Quadro con più operatori economici per l’affidamento dei servizi per la digitalizzazione del patrimonio culturale italiano – categoria “Archivi fotografici: positivi, negativi, unicum, disegni”
+## 93. Procedura di gara aperta ai sensi degli articoli 54, 60 e 145 del D. Lgs n. 50/2016, da realizzarsi mediante piattaforma telematica per la conclusione di Accordi Quadro con più operatori economici per l’affidamento dei servizi per la digitalizzazione del patrimonio culturale italiano – categoria “Archivi fotografici: positivi, negativi, unicum, disegni”
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -1486,7 +1684,7 @@ Procedura di gara aperta ai sensi degli articoli 54, 60 e 145 del D.Lgs n. 50/20
 
 Procedura di gara aperta ai sensi degli articoli 54, 60 e 145 del D. Lgs n. 50/2016, da realizzarsi mediante piattaforma telematica per la conclusione di Accordi Quadro con più operatori economici per l’affidamento dei servizi per la digitalizzazione del patrimonio culturale italiano – categoria “Archivi fotografici: positivi, negativi, unicum, disegni”
 
-## 83. Avviso pubblico n. 1 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU - Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022 - Presentazione di candidature per l’individuazione dei soggetti accreditati al lavoro che si impegnano all’erogazione delle prestazioni per il lavoro a favore delle persone beneficiarie del percorso 1 Reinserimento Occupazionale, percorso 2 Aggiornamento (Upskilling) e percorso 3 Riqualificazione (Reskilling)
+## 94. Avviso pubblico n. 1 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU - Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022 - Presentazione di candidature per l’individuazione dei soggetti accreditati al lavoro che si impegnano all’erogazione delle prestazioni per il lavoro a favore delle persone beneficiarie del percorso 1 Reinserimento Occupazionale, percorso 2 Aggiornamento (Upskilling) e percorso 3 Riqualificazione (Reskilling)
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1504,7 +1702,7 @@ Procedura di gara aperta ai sensi degli articoli 54, 60 e 145 del D. Lgs n. 50/2
 
 Avviso pubblico n. 1 per l’attuazione del Programma Garanzia Occupabilità dei Lavoratori da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR), Missione 5 “Inclusione e coesione”, Componente 1 " Politiche per il Lavoro”, Riforma 1.1 “Politiche Attive del Lavoro e Formazione”, finanziato dall’Unione europea – Next Generation EU - Piano di Attuazione Regionale di cui alla delibera dell’Assemblea legislativa n. 81/2022 - Presentazione di candidature per l’individuazione dei soggetti accreditati al lavoro che si impegnano all’erogazione delle prestazioni per il lavoro a favore delle persone beneficiarie del percorso 1 Reinserimento Occupazionale, percorso 2 Aggiornamento (Upskilling) e percorso 3 Riqualificazione (Reskilling)
 
-## 84. GARA COMUNITARIA CENTRALIZZATA A PROCEDURA APERTA FINALIZZATA ALL’ACQUISIZIONE DI MAMMOGRAFI DIGITALI CON TOMOSINTESI PER LE AZIENDE SANITARIE E OSPEDALIERE DELLA REGIONE LAZIO PNRR – MISSIONE 6 SALUTE M6.C2 – 1.1.2. Ammodernamento del parco tecnologico e digitale ospedaliero
+## 95. GARA COMUNITARIA CENTRALIZZATA A PROCEDURA APERTA FINALIZZATA ALL’ACQUISIZIONE DI MAMMOGRAFI DIGITALI CON TOMOSINTESI PER LE AZIENDE SANITARIE E OSPEDALIERE DELLA REGIONE LAZIO PNRR – MISSIONE 6 SALUTE M6.C2 – 1.1.2. Ammodernamento del parco tecnologico e digitale ospedaliero
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1522,7 +1720,7 @@ Avviso pubblico n. 1 per l’attuazione del Programma Garanzia Occupabilità dei
 
 GARA COMUNITARIA CENTRALIZZATA A PROCEDURA APERTA FINALIZZATA ALL’ACQUISIZIONE DI MAMMOGRAFI DIGITALI CON TOMOSINTESI PER LE AZIENDE SANITARIE E OSPEDALIERE DELLA REGIONE LAZIO PNRR – MISSIONE 6 SALUTE M6.C2 – 1.1.2. Ammodernamento del parco tecnologico e digitale ospedaliero
 
-## 85. GARA COMUNITARIA CENTRALIZZATA A PROCEDURA APERTA FINALIZZATA ALL’ACQUISIZIONE DI TOMOGRAFI A RISONANZA MAGNETICA PER LE AZIENDE SANITARIE E OSPEDALIERE DELLA REGIONE LAZIO PNRR – MISSIONE 6 SALUTE M6.C2 – 1.1.2. Ammodernamento del parco tecnologico e digitale ospedaliero
+## 96. GARA COMUNITARIA CENTRALIZZATA A PROCEDURA APERTA FINALIZZATA ALL’ACQUISIZIONE DI TOMOGRAFI A RISONANZA MAGNETICA PER LE AZIENDE SANITARIE E OSPEDALIERE DELLA REGIONE LAZIO PNRR – MISSIONE 6 SALUTE M6.C2 – 1.1.2. Ammodernamento del parco tecnologico e digitale ospedaliero
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1540,7 +1738,7 @@ GARA COMUNITARIA CENTRALIZZATA A PROCEDURA APERTA FINALIZZATA ALL’ACQUISIZIONE
 
 GARA COMUNITARIA CENTRALIZZATA A PROCEDURA APERTA FINALIZZATA ALL’ACQUISIZIONE DI TOMOGRAFI A RISONANZA MAGNETICA PER LE AZIENDE SANITARIE E OSPEDALIERE DELLA REGIONE LAZIO PNRR – MISSIONE 6 SALUTE M6.C2 – 1.1.2. Ammodernamento del parco tecnologico e digitale ospedaliero
 
-## 86. Consip - Gara a procedura aperta per la conclusione di un Accordo quadro, avente ad oggetto l’affidamento di servizi applicativi e l’affidame nto di servizi di supporto in ambito “Sanità digitale - Sistemi informativi gestionali” per le PA del SSN
+## 97. Consip - Gara a procedura aperta per la conclusione di un Accordo quadro, avente ad oggetto l’affidamento di servizi applicativi e l’affidame nto di servizi di supporto in ambito “Sanità digitale - Sistemi informativi gestionali” per le PA del SSN
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -1558,7 +1756,7 @@ GARA COMUNITARIA CENTRALIZZATA A PROCEDURA APERTA FINALIZZATA ALL’ACQUISIZIONE
 
 Consip - Gara a procedura aperta per la conclusione di un Accordo quadro, avente ad oggetto l’affidamento di servizi applicativi e l’affidame nto di servizi di supporto in ambito “Sanità digitale - Sistemi informativi gestionali” per le PA del SSN
 
-## 87. Procedura Gara Aperta A Due Lotti: Lotto 1: 100 Autopompaserbatoio Alimentati A Gas Biometano Cup F59i22000340006 Lotto 2: 100 Autobottipompa Per Soccorso Aeroportuale Alimentati A Gas Biometano Cup F59i22000350006
+## 98. Procedura Gara Aperta A Due Lotti: Lotto 1: 100 Autopompaserbatoio Alimentati A Gas Biometano Cup F59i22000340006 Lotto 2: 100 Autobottipompa Per Soccorso Aeroportuale Alimentati A Gas Biometano Cup F59i22000350006
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -1576,7 +1774,7 @@ Consip - Gara a procedura aperta per la conclusione di un Accordo quadro, avente
 
 Procedura Gara Aperta A Due Lotti: Lotto 1: 100 Autopompaserbatoio Alimentati A Gas Biometano Cup F59i22000340006 Lotto 2: 100 Autobottipompa Per Soccorso Aeroportuale Alimentati A Gas Biometano Cup F59i22000350006
 
-## 88. Consip - Gara a procedura aperta per l’affidamento, in relazione a ciascun lotto, di un Accordo quadro per la fornitura di apparecchiature di radiologia – telecomandati e polifunzionali, servizi connessi, dispositivi e servizi opzionali per le pubbliche amministrazioni
+## 99. Consip - Gara a procedura aperta per l’affidamento, in relazione a ciascun lotto, di un Accordo quadro per la fornitura di apparecchiature di radiologia – telecomandati e polifunzionali, servizi connessi, dispositivi e servizi opzionali per le pubbliche amministrazioni
 
 - Canale: bandi
 - Fonte: Italia Domani - Amministrazioni Titolari
@@ -1594,7 +1792,7 @@ Procedura Gara Aperta A Due Lotti: Lotto 1: 100 Autopompaserbatoio Alimentati A 
 
 Consip - Gara a procedura aperta per l’affidamento, in relazione a ciascun lotto, di un Accordo quadro per la fornitura di apparecchiature di radiologia – telecomandati e polifunzionali, servizi connessi, dispositivi e servizi opzionali per le pubbliche amministrazioni
 
-## 89. GARA COMUNITARIA CENTRALIZZATA A PROCEDURA APERTA FINALIZZATA ALL’ACQUISIZIONE DI ACCELERATORI LINEARI PER LE AZIENDE SANITARIE E OSPEDALIERE IFO, SAN GIOVANNI ADDOLORATA, ROMA 1, VITERBO, FROSINONE PNRR – MISSIONE 6 SALUTE M6.C2 – 1.1.2. Ammodernamento del parco tecnologico e digitale ospedaliero
+## 100. GARA COMUNITARIA CENTRALIZZATA A PROCEDURA APERTA FINALIZZATA ALL’ACQUISIZIONE DI ACCELERATORI LINEARI PER LE AZIENDE SANITARIE E OSPEDALIERE IFO, SAN GIOVANNI ADDOLORATA, ROMA 1, VITERBO, FROSINONE PNRR – MISSIONE 6 SALUTE M6.C2 – 1.1.2. Ammodernamento del parco tecnologico e digitale ospedaliero
 
 - Canale: bandi
 - Fonte: Italia Domani - Soggetti Attuatori
@@ -1611,201 +1809,3 @@ Consip - Gara a procedura aperta per l’affidamento, in relazione a ciascun lot
 - URL: https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-soggetti-attuatori/gara-comunitaria-centralizzata-a-procedura-aperta-finalizzata-al.html
 
 GARA COMUNITARIA CENTRALIZZATA A PROCEDURA APERTA FINALIZZATA ALL’ACQUISIZIONE DI ACCELERATORI LINEARI PER LE AZIENDE SANITARIE E OSPEDALIERE IFO, SAN GIOVANNI ADDOLORATA, ROMA 1, VITERBO, FROSINONE PNRR – MISSIONE 6 SALUTE M6.C2 – 1.1.2. Ammodernamento del parco tecnologico e digitale ospedaliero
-
-## 90. Gara SDAPA a 5 Lotti per HUB del turismo digitale
-
-- Canale: bandi
-- Fonte: Italia Domani - Amministrazioni Titolari
-- Tipo: gara
-- Score: 75
-- Pubblicato: 2022-02-04T00:00:00.000Z
-- Tag: pnrr, italia-domani, amministrazioni-titolari, bandi, beneficiari, digitale, gare
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: Gara SDAPA a 5 Lotti per HUB del turismo digitale.; Gara SDAPA a 5 Lotti per HUB del turismo digitale
-- URL: https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-amministrazioni-titolari/gara-sdapa-a-5-lotti-per-hub-del-turismo-digitale.html
-
-Gara SDAPA a 5 Lotti per HUB del turismo digitale
-
-## 91. Decreto Direttoriale n. 1628 del 16-10-2020 - Bando PRIN 2020
-
-- Canale: bandi
-- Fonte: Italia Domani - Amministrazioni Titolari
-- Tipo: bando
-- Score: 75
-- Pubblicato: 2020-11-25T00:00:00.000Z
-- Tag: pnrr, italia-domani, amministrazioni-titolari, bandi, scadenza, normativa
-- Scadenze: 16-10-2020
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-amministrazioni-titolari/decreto-direttoriale-n--1628-del-16-10-2020---bando-prin-2020.html
-
-Decreto Direttoriale n. 1628 del 16-10-2020 - Bando PRIN 2020
-
-## 92. Avviso pubblico per il finanziamento di percorsi di Istruzione e Formazione Tecnica Superiore (I.F.T.S.) nelle filiere Agribusiness, Chimica-farmaceutica, Meccanica, Moda, ICT,
-
-- Canale: bandi
-- Fonte: Italia Domani - Soggetti Attuatori
-- Tipo: pnrr
-- Score: 75
-- Pubblicato: 2020-04-23T01:00:00.000Z
-- Tag: pnrr, italia-domani, soggetti-attuatori, bandi, scadenza, mica, scuola
-- Scadenze: Avviso pubblico per il finanziamento di percorsi di Istruzione e Formazione Tecnica Superiore (I.F.T.S.) nelle filiere Agribusiness, Chimica-farmaceutica, Meccanica, Moda, ICT,.; Avviso pubblico per il finanziamento di percorsi di Istruzione e Formazione Tecnica Superiore (I.F.T.S.) nelle filiere Agribusiness, Chimica-farmaceutica, Meccanica, Moda, ICT,
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-soggetti-attuatori/avviso-pubblico-per-il-finanziamento-di-percorsi-di-istruzione-e.html
-
-Avviso pubblico per il finanziamento di percorsi di Istruzione e Formazione Tecnica Superiore (I.F.T.S.) nelle filiere Agribusiness, Chimica-farmaceutica, Meccanica, Moda, ICT,
-
-## 93. Istituzione commissione e pubblicazione elenco ammessi – Avviso progetti fotografici architettura e paesaggio rurale – M1C3|2.2 Tutela e valorizzazione dell’architettura e del paesaggio rurale
-
-- Canale: bandi
-- Fonte: PNRR Cultura - Bandi e Avvisi
-- Tipo: pnrr
-- Score: 71
-- Pubblicato: 2026-02-25T16:25:16.000Z
-- Tag: pnrr, cultura, digitale, patrimonio, bandi, scadenza, beneficiari
-- Scadenze: 25 febbraio 2026
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: Istituzione commissione e pubblicazione elenco ammessi – Avviso progetti fotografici architettura e paesaggio rurale – M1C3|2.2 Tutela e valorizzazione dell’architettura e del paesaggio rurale.; L'articolo Istituzione commissione e pubblicazione elenco ammessi – Avviso progetti fotografici architettura e paesaggio rurale – M1C3|2.2 Tutela e valorizzazione dell’architettura e del paesaggio rurale proviene da PNRR Cultura .
-- URL: https://pnrr.cultura.gov.it/istituzione-commissione-e-pubblicazione-elenco-ammessi-avviso-progetti-fotografici-architettura-e-paesaggio-rurale-m1c32-2-tutela-e-valorizzazione-dellarchitettura-e-del-paesaggio-rurale/
-
-Con determina 25 febbraio 2026, n. 5 del Servizio I dell’Unità di Missione è istituita la Commissione di valutazione di cui all’art 6 dell’Avviso pubblico ... L'articolo Istituzione commissione e pubblicazione elenco ammessi – Avviso progetti fotografici architettura e paesaggio rurale – M1C3|2.2 Tutela e valorizzazione dell’architettura e del paesaggio rurale proviene da PNRR Cultura .
-
-## 94. Bando per la selezione dei partecipanti al programma "Accessibilità senza confini", visite studio in Finlandia e in Portogallo
-
-- Canale: bandi
-- Fonte: Italia Domani - Soggetti Attuatori
-- Tipo: bando
-- Score: 71
-- Pubblicato: 2025-10-13T01:00:00.000Z
-- Tag: pnrr, italia-domani, soggetti-attuatori, bandi, beneficiari, accessibilita
-- Scadenze: n/d
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: Bando per la selezione dei partecipanti al programma "Accessibilità senza confini", visite studio in Finlandia e in Portogallo.; Bando per la selezione dei partecipanti al programma "Accessibilità senza confini", visite studio in Finlandia e in Portogallo
-- URL: https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-soggetti-attuatori/bando-per-la-selezione-dei-partecipanti-al-programma--accessibil.html
-
-Bando per la selezione dei partecipanti al programma "Accessibilità senza confini", visite studio in Finlandia e in Portogallo
-
-## 95. Avviso pubblico per la presentazione di proposte inerenti alla ideazione e realizzazione di allestimenti accessibili presso i luoghi della cultura (archivi, biblioteche, musei, aree e parchi archeologici, complessi monumentali) privati e pubblici non afferenti al MiC da finanziare nell’ambito del PNRR Missione 1 – Digitalizzazione, innovazione, competitività e cultura Misura 1 – “Patrimonio culturale per la prossima generazione” Componente 3 – Turismo e Cultura 4.0 (M1C3-3) Investimento 1.2 “Rimozione delle barriere fisiche e cognitive in musei, biblioteche e archivi per consentire un più ampio accesso e partecipazione alla cultura” finanziato dall’Unione europea - NextGenerationEU
-
-- Canale: bandi
-- Fonte: Italia Domani - Amministrazioni Titolari
-- Tipo: pnrr
-- Score: 71
-- Pubblicato: 2025-04-14T01:00:00.000Z
-- Tag: pnrr, italia-domani, amministrazioni-titolari, bandi, scadenza, beneficiari, digitale, cultura
-- Scadenze: Avviso pubblico per la presentazione di proposte inerenti alla ideazione e realizzazione di allestimenti accessibili presso i luoghi della cultura (archivi, biblioteche, musei, aree e parchi archeologici, complessi monumentali) privati e pubblici non afferenti al MiC da finanziare nell’ambito del PNRR Missione 1 – Digitalizzazione, innovazione, competitività e cultura Misura 1 – “Patrimonio culturale per la prossima generazione” Componente 3 – Turismo e Cultura 4.0 (M1C3-3) Investimento 1.2 “Rimozione delle barriere fisiche e cognitive in musei, biblioteche e archivi per consentire un più ampio accesso e partecipazione alla cultura” finanziato dall’Unione europea - NextGenerationEU.; Avviso pubblico per la presentazione di proposte inerenti alla ideazione e realizzazione di allestimenti accessibili presso i luoghi della cultura (archivi, biblioteche, musei, aree e parchi archeologici, complessi monumentali) privati e pubblici non afferenti al MiC da finanziare nell’ambito del PNRR Missione 1 – Digitalizzazione, innovazione, competitività e cultura Misura 1 – “Patrimonio culturale per la prossima generazione” Componente 3 – Turismo e Cultura 4.0 (M1C3-3) Investimento 1.2 “Rimozione delle barriere fisiche e cognitive in musei, biblioteche e archivi per consentire un più ampio accesso e partecipazione alla cultura” finanziato dall’Unione europea - NextGenerationEU
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: Avviso pubblico per la presentazione di proposte inerenti alla ideazione e realizzazione di allestimenti accessibili presso i luoghi della cultura (archivi, biblioteche, musei, aree e parchi archeologici, complessi monumentali) privati e pubblici non afferenti al MiC da finanziare nell’ambito del PNRR Missione 1 – Digitalizzazione, innovazione, competitività e cultura Misura 1 – “Patrimonio culturale per la prossima generazione” Componente 3 – Turismo e Cultura 4.0 (M1C3-3) Investimento 1.2 “Rimozione delle barriere fisiche e cognitive in musei, biblioteche e archivi per consentire un più ampio accesso e partecipazione alla cultura” finanziato dall’Unione europea - NextGenerationEU.; Avviso pubblico per la presentazione di proposte inerenti alla ideazione e realizzazione di allestimenti accessibili presso i luoghi della cultura (archivi, biblioteche, musei, aree e parchi archeologici, complessi monumentali) privati e pubblici non afferenti al MiC da finanziare nell’ambito del PNRR Missione 1 – Digitalizzazione, innovazione, competitività e cultura Misura 1 – “Patrimonio culturale per la prossima generazione” Componente 3 – Turismo e Cultura 4.0 (M1C3-3) Investimento 1.2 “Rimozione delle barriere fisiche e cognitive in musei, biblioteche e archivi per consentire un più ampio accesso e partecipazione alla cultura” finanziato dall’Unione europea - NextGenerationEU
-- URL: https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-amministrazioni-titolari/avviso-pubblico-per-la-presentazione-di-proposte-inerenti-alla-i.html
-
-Avviso pubblico per la presentazione di proposte inerenti alla ideazione e realizzazione di allestimenti accessibili presso i luoghi della cultura (archivi, biblioteche, musei, aree e parchi archeologici, complessi monumentali) privati e pubblici non afferenti al MiC da finanziare nell’ambito del PNRR Missione 1 – Digitalizzazione, innovazione, competitività e cultura Misura 1 – “Patrimonio culturale per la prossima generazione” Componente 3 – Turismo e Cultura 4.0 (M1C3-3) Investimento 1.2 “Rimozione delle barriere fisiche e cognitive in musei, biblioteche e archivi per consentire un più ampio accesso e partecipazione alla cultura” finanziato dall’Unione europea - NextGenerationEU
-
-## 96. Avviso di selezione mediante banca dati collaboratori, n. 1 Collaboratore: revisore editoriale e correttore bozze
-
-- Canale: bandi
-- Fonte: Italia Domani - Soggetti Attuatori
-- Tipo: pnrr
-- Score: 71
-- Pubblicato: 2025-03-06T00:00:00.000Z
-- Tag: pnrr, italia-domani, soggetti-attuatori, bandi, scadenza, digitale
-- Scadenze: 1 Collaboratore: revisore editoriale e correttore bozze.; 1 Collaboratore: revisore editoriale e correttore bozze
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-soggetti-attuatori/avviso-di-selezione-mediante-banca-dati-collaboratori--n--1-coll.html
-
-Avviso di selezione mediante banca dati collaboratori, n. 1 Collaboratore: revisore editoriale e correttore bozze
-
-## 97. Avviso pubblico rivolto ai Comuni insulari marini con territorio prevalentemente periferico e ultraperiferico, per la selezione di proposte di intervento finalizzate al recupero delle aree urbane e all'inclusione sociale per la realizzazione di nuove palestre pubbliche da finanziare nell'ambito del PNRR, Missione 5 - Inclusione e Coesione, Componente 2 - Infrastrutture sociali, famiglie, comunità e terzo settore (M5C2), Misura 3, Investimento 3.1 "Sport e Inclusione Sociale", finanziato dall'Unione europea - Next Generation EU.
-
-- Canale: bandi
-- Fonte: Italia Domani - Amministrazioni Titolari
-- Tipo: pnrr
-- Score: 71
-- Pubblicato: 2024-08-05T01:00:00.000Z
-- Tag: pnrr, italia-domani, amministrazioni-titolari, bandi, scadenza, beneficiari, cyber, comuni
-- Scadenze: Avviso pubblico rivolto ai Comuni insulari marini con territorio prevalentemente periferico e ultraperiferico, per la selezione di proposte di intervento finalizzate al recupero delle aree urbane e all'inclusione sociale per la realizzazione di nuove palestre pubbliche da finanziare nell'ambito del PNRR, Missione 5 - Inclusione e Coesione, Componente 2 - Infrastrutture sociali, famiglie, comunità e terzo settore (M5C2), Misura 3, Investimento 3.1 "Sport e Inclusione Sociale", finanziato dall'Unione europea - Next Generation EU..; Avviso pubblico rivolto ai Comuni insulari marini con territorio prevalentemente periferico e ultraperiferico, per la selezione di proposte di intervento finalizzate al recupero delle aree urbane e all'inclusione sociale per la realizzazione di nuove palestre pubbliche da finanziare nell'ambito del PNRR, Missione 5 - Inclusione e Coesione, Componente 2 - Infrastrutture sociali, famiglie, comunità e terzo settore (M5C2), Misura 3, Investimento 3.1 "Sport e Inclusione Sociale", finanziato dall'Unione europea - Next Generation EU.
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: Avviso pubblico rivolto ai Comuni insulari marini con territorio prevalentemente periferico e ultraperiferico, per la selezione di proposte di intervento finalizzate al recupero delle aree urbane e all'inclusione sociale per la realizzazione di nuove palestre pubbliche da finanziare nell'ambito del PNRR, Missione 5 - Inclusione e Coesione, Componente 2 - Infrastrutture sociali, famiglie, comunità e terzo settore (M5C2), Misura 3, Investimento 3.1 "Sport e Inclusione Sociale", finanziato dall'Unione europea - Next Generation EU..; Avviso pubblico rivolto ai Comuni insulari marini con territorio prevalentemente periferico e ultraperiferico, per la selezione di proposte di intervento finalizzate al recupero delle aree urbane e all'inclusione sociale per la realizzazione di nuove palestre pubbliche da finanziare nell'ambito del PNRR, Missione 5 - Inclusione e Coesione, Componente 2 - Infrastrutture sociali, famiglie, comunità e terzo settore (M5C2), Misura 3, Investimento 3.1 "Sport e Inclusione Sociale", finanziato dall'Unione europea - Next Generation EU.
-- URL: https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-amministrazioni-titolari/avviso-pubblico-rivolto-ai-comuni-insulari-marini-con-territorio.html
-
-Avviso pubblico rivolto ai Comuni insulari marini con territorio prevalentemente periferico e ultraperiferico, per la selezione di proposte di intervento finalizzate al recupero delle aree urbane e all'inclusione sociale per la realizzazione di nuove palestre pubbliche da finanziare nell'ambito del PNRR, Missione 5 - Inclusione e Coesione, Componente 2 - Infrastrutture sociali, famiglie, comunità e terzo settore (M5C2), Misura 3, Investimento 3.1 "Sport e Inclusione Sociale", finanziato dall'Unione europea - Next Generation EU.
-
-## 98. Avviso pubblico per la ricerca di n.1 esperta/o nel settore tecnologie dell’informazione e della comunicazione, per attività di supporto nella definizione delle scelte strategiche e operative e nella valutazione dei processi di evoluzione delle infrastrutture tecnologiche da assegnare all’Istituto centrale per la digitalizzazione del patrimonio culturale – Digital Library del Ministero della Cultura
-
-- Canale: bandi
-- Fonte: Italia Domani - Amministrazioni Titolari
-- Tipo: pnrr
-- Score: 71
-- Pubblicato: 2024-07-12T01:00:00.000Z
-- Tag: pnrr, italia-domani, amministrazioni-titolari, bandi, scadenza, beneficiari, digitale, comuni, scuola, cultura
-- Scadenze: Avviso pubblico per la ricerca di n.1 esperta/o nel settore tecnologie dell’informazione e della comunicazione, per attività di supporto nella definizione delle scelte strategiche e operative e nella valutazione dei processi di evoluzione delle infrastrutture tecnologiche da assegnare all’Istituto centrale per la digitalizzazione del patrimonio culturale – Digital Library del Ministero della Cultura.; Avviso pubblico per la ricerca di n.1 esperta/o nel settore tecnologie dell’informazione e della comunicazione, per attività di supporto nella definizione delle scelte strategiche e operative e nella valutazione dei processi di evoluzione delle infrastrutture tecnologiche da assegnare all’Istituto centrale per la digitalizzazione del patrimonio culturale – Digital Library del Ministero della Cultura
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: Avviso pubblico per la ricerca di n.1 esperta/o nel settore tecnologie dell’informazione e della comunicazione, per attività di supporto nella definizione delle scelte strategiche e operative e nella valutazione dei processi di evoluzione delle infrastrutture tecnologiche da assegnare all’Istituto centrale per la digitalizzazione del patrimonio culturale – Digital Library del Ministero della Cultura.; Avviso pubblico per la ricerca di n.1 esperta/o nel settore tecnologie dell’informazione e della comunicazione, per attività di supporto nella definizione delle scelte strategiche e operative e nella valutazione dei processi di evoluzione delle infrastrutture tecnologiche da assegnare all’Istituto centrale per la digitalizzazione del patrimonio culturale – Digital Library del Ministero della Cultura
-- URL: https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-amministrazioni-titolari/avviso-pubblico-per-la-ricerca-di-n-1-esperta-o-nel-settore-tecn.html
-
-Avviso pubblico per la ricerca di n.1 esperta/o nel settore tecnologie dell’informazione e della comunicazione, per attività di supporto nella definizione delle scelte strategiche e operative e nella valutazione dei processi di evoluzione delle infrastrutture tecnologiche da assegnare all’Istituto centrale per la digitalizzazione del patrimonio culturale – Digital Library del Ministero della Cultura
-
-## 99. Avviso pubblico per la selezione di progetti finanziati a valere sulle risorse del PNRR di cui alla Missione 5 – Componente 3 – Investimento – 3. “Interventi socio-educativi strutturati per combattere la povertà educativa nel Mezzogiorno a sostegno del Terzo Settore” - Annualità 2024.
-
-- Canale: bandi
-- Fonte: Italia Domani - Amministrazioni Titolari
-- Tipo: pnrr
-- Score: 71
-- Pubblicato: 2024-01-15T00:00:00.000Z
-- Tag: pnrr, italia-domani, amministrazioni-titolari, bandi, scadenza, cyber
-- Scadenze: “Interventi socio-educativi strutturati per combattere la povertà educativa nel Mezzogiorno a sostegno del Terzo Settore” - Annualità 2024..; “Interventi socio-educativi strutturati per combattere la povertà educativa nel Mezzogiorno a sostegno del Terzo Settore” - Annualità 2024.
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: n/d
-- URL: https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-amministrazioni-titolari/avviso-pubblico-per-la-selezione-di-progetti-finanziati-a-valere.html
-
-Avviso pubblico per la selezione di progetti finanziati a valere sulle risorse del PNRR di cui alla Missione 5 – Componente 3 – Investimento – 3. “Interventi socio-educativi strutturati per combattere la povertà educativa nel Mezzogiorno a sostegno del Terzo Settore” - Annualità 2024.
-
-## 100. Avviso pubblico per la ricerca di n. 1 Agronomo e Forestale da finanziare nell’ambito del PNRR, Misura 1 C1 Investimento 2.2 “Task force digitalizzazione, monitoraggio e performance” Sub Investimento 2.2.1 “Assistenza tecnica a livello centrale e locale” – Piano Territoriale della Regione Campania, finanziato dall’Unione europea – NeXtGenerationEU
-
-- Canale: bandi
-- Fonte: Italia Domani - Soggetti Attuatori
-- Tipo: pnrr
-- Score: 71
-- Pubblicato: 2023-11-27T00:00:00.000Z
-- Tag: pnrr, italia-domani, soggetti-attuatori, bandi, scadenza, beneficiari, digitale, scuola, regioni
-- Scadenze: 1 Agronomo e Forestale da finanziare nell’ambito del PNRR, Misura 1 C1 Investimento 2.2 “Task force digitalizzazione, monitoraggio e performance” Sub Investimento 2.2.1 “Assistenza tecnica a livello centrale e locale” – Piano Territoriale della Regione Campania, finanziato dall’Unione europea – NeXtGenerationEU.; 1 Agronomo e Forestale da finanziare nell’ambito del PNRR, Misura 1 C1 Investimento 2.2 “Task force digitalizzazione, monitoraggio e performance” Sub Investimento 2.2.1 “Assistenza tecnica a livello centrale e locale” – Piano Territoriale della Regione Campania, finanziato dall’Unione europea – NeXtGenerationEU
-- Importi: n/d
-- CIG: n/d
-- CUP: n/d
-- Requisiti: n/d
-- Beneficiari: 1 Agronomo e Forestale da finanziare nell’ambito del PNRR, Misura 1 C1 Investimento 2.2 “Task force digitalizzazione, monitoraggio e performance” Sub Investimento 2.2.1 “Assistenza tecnica a livello centrale e locale” – Piano Territoriale della Regione Campania, finanziato dall’Unione europea – NeXtGenerationEU.; 1 Agronomo e Forestale da finanziare nell’ambito del PNRR, Misura 1 C1 Investimento 2.2 “Task force digitalizzazione, monitoraggio e performance” Sub Investimento 2.2.1 “Assistenza tecnica a livello centrale e locale” – Piano Territoriale della Regione Campania, finanziato dall’Unione europea – NeXtGenerationEU
-- URL: https://www.italiadomani.gov.it/content/sogei-ng/it/it/opportunita/bandi-soggetti-attuatori/avviso-pubblico-per-la-ricerca-di-n--1-agronomo-e-forestale-da-f.html
-
-Avviso pubblico per la ricerca di n. 1 Agronomo e Forestale da finanziare nell’ambito del PNRR, Misura 1 C1 Investimento 2.2 “Task force digitalizzazione, monitoraggio e performance” Sub Investimento 2.2.1 “Assistenza tecnica a livello centrale e locale” – Piano Territoriale della Regione Campania, finanziato dall’Unione europea – NeXtGenerationEU

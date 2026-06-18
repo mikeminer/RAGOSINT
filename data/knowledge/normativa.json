@@ -1,40 +1,8 @@
 {
-  "generatedAt": "2026-06-18T13:02:21.618Z",
+  "generatedAt": "2026-06-18T14:27:57.552Z",
   "channel": "normativa",
-  "count": 233,
+  "count": 218,
   "alerts": [
-    {
-      "id": "0ae73f054f9cbb73",
-      "title": "Sistema di informazione visti (VIS)",
-      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: Sistema di informazione visti (VIS)",
-      "url": "https://www.garanteprivacy.it/sistema-informazione-visti-vis",
-      "channel": "normativa",
-      "sourceId": "garante-privacy-ai",
-      "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.440Z",
-      "tags": [
-        "garante",
-        "privacy",
-        "gdpr",
-        "ai",
-        "ai-act",
-        "scraping",
-        "biometria",
-        "chatbot",
-        "digitale",
-        "gare"
-      ],
-      "kind": "normativa",
-      "score": 100,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
     {
       "id": "948aecd21d748567",
       "title": "Sistema d'Informazione Schengen (SIS)",
@@ -43,7 +11,7 @@
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.440Z",
+      "publishedAt": "2026-06-18T14:27:56.920Z",
       "tags": [
         "garante",
         "privacy",
@@ -68,46 +36,14 @@
       }
     },
     {
-      "id": "6f1ac6f35af79cce",
-      "title": "Audizioni, memorie e note istituzionali",
-      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: Audizioni, memorie e note istituzionali",
-      "url": "https://www.garanteprivacy.it/home/attivita-e-documenti/documenti/audizioni",
+      "id": "64da116016f48e3b",
+      "title": "Codice Privacy e Normativa italiana",
+      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: Codice Privacy e Normativa italiana",
+      "url": "https://www.garanteprivacy.it/il-codice-e-normativa-italiana",
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.439Z",
-      "tags": [
-        "garante",
-        "privacy",
-        "gdpr",
-        "ai",
-        "ai-act",
-        "scraping",
-        "biometria",
-        "chatbot",
-        "digitale",
-        "gare"
-      ],
-      "kind": "normativa",
-      "score": 100,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "94c29fec1c75fb10",
-      "title": "Protocolli e convenzioni",
-      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: Protocolli e convenzioni",
-      "url": "https://www.garanteprivacy.it/home/attivita-e-documenti/protocolli-d-intesa",
-      "channel": "normativa",
-      "sourceId": "garante-privacy-ai",
-      "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.439Z",
+      "publishedAt": "2026-06-18T14:27:56.920Z",
       "tags": [
         "garante",
         "privacy",
@@ -139,7 +75,103 @@
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.437Z",
+      "publishedAt": "2026-06-18T14:27:56.919Z",
+      "tags": [
+        "garante",
+        "privacy",
+        "gdpr",
+        "ai",
+        "ai-act",
+        "scraping",
+        "biometria",
+        "chatbot",
+        "digitale",
+        "gare"
+      ],
+      "kind": "normativa",
+      "score": 100,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "6f1ac6f35af79cce",
+      "title": "Audizioni, memorie e note istituzionali",
+      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: Audizioni, memorie e note istituzionali",
+      "url": "https://www.garanteprivacy.it/home/attivita-e-documenti/documenti/audizioni",
+      "channel": "normativa",
+      "sourceId": "garante-privacy-ai",
+      "sourceName": "Garante Privacy - AI e protezione dati",
+      "publishedAt": "2026-06-18T14:27:56.919Z",
+      "tags": [
+        "garante",
+        "privacy",
+        "gdpr",
+        "ai",
+        "ai-act",
+        "scraping",
+        "biometria",
+        "chatbot",
+        "digitale",
+        "gare"
+      ],
+      "kind": "normativa",
+      "score": 100,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "94c29fec1c75fb10",
+      "title": "Protocolli e convenzioni",
+      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: Protocolli e convenzioni",
+      "url": "https://www.garanteprivacy.it/home/attivita-e-documenti/protocolli-d-intesa",
+      "channel": "normativa",
+      "sourceId": "garante-privacy-ai",
+      "sourceName": "Garante Privacy - AI e protezione dati",
+      "publishedAt": "2026-06-18T14:27:56.919Z",
+      "tags": [
+        "garante",
+        "privacy",
+        "gdpr",
+        "ai",
+        "ai-act",
+        "scraping",
+        "biometria",
+        "chatbot",
+        "digitale",
+        "gare"
+      ],
+      "kind": "normativa",
+      "score": 100,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "0ae73f054f9cbb73",
+      "title": "Sistema di informazione visti (VIS)",
+      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: Sistema di informazione visti (VIS)",
+      "url": "https://www.garanteprivacy.it/sistema-informazione-visti-vis",
+      "channel": "normativa",
+      "sourceId": "garante-privacy-ai",
+      "sourceName": "Garante Privacy - AI e protezione dati",
+      "publishedAt": "2026-06-18T14:27:56.919Z",
       "tags": [
         "garante",
         "privacy",
@@ -171,7 +203,7 @@
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.436Z",
+      "publishedAt": "2026-06-18T14:27:56.918Z",
       "tags": [
         "garante",
         "privacy",
@@ -203,7 +235,7 @@
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.436Z",
+      "publishedAt": "2026-06-18T14:27:56.918Z",
       "tags": [
         "garante",
         "privacy",
@@ -235,7 +267,7 @@
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.436Z",
+      "publishedAt": "2026-06-18T14:27:56.918Z",
       "tags": [
         "garante",
         "privacy",
@@ -267,71 +299,7 @@
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.436Z",
-      "tags": [
-        "garante",
-        "privacy",
-        "gdpr",
-        "ai",
-        "ai-act",
-        "scraping",
-        "biometria",
-        "chatbot",
-        "digitale",
-        "gare"
-      ],
-      "kind": "normativa",
-      "score": 100,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "f4e60cb45b3aa0ba",
-      "title": "Codice etico",
-      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: Codice etico",
-      "url": "https://www.garanteprivacy.it/home/autorita/codice-etico",
-      "channel": "normativa",
-      "sourceId": "garante-privacy-ai",
-      "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.435Z",
-      "tags": [
-        "garante",
-        "privacy",
-        "gdpr",
-        "ai",
-        "ai-act",
-        "scraping",
-        "biometria",
-        "chatbot",
-        "digitale",
-        "gare"
-      ],
-      "kind": "normativa",
-      "score": 100,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "b0583944ddfc4f54",
-      "title": "L'ufficio",
-      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: L'ufficio",
-      "url": "https://www.garanteprivacy.it/home/autorita/ufficio",
-      "channel": "normativa",
-      "sourceId": "garante-privacy-ai",
-      "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.435Z",
+      "publishedAt": "2026-06-18T14:27:56.918Z",
       "tags": [
         "garante",
         "privacy",
@@ -363,7 +331,7 @@
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.435Z",
+      "publishedAt": "2026-06-18T14:27:56.917Z",
       "tags": [
         "garante",
         "privacy",
@@ -395,103 +363,7 @@
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.435Z",
-      "tags": [
-        "garante",
-        "privacy",
-        "gdpr",
-        "ai",
-        "ai-act",
-        "scraping",
-        "biometria",
-        "chatbot",
-        "digitale",
-        "gare"
-      ],
-      "kind": "normativa",
-      "score": 100,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "f4f60d4c1e9adaee",
-      "title": "Podcast",
-      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: Podcast",
-      "url": "https://www.garanteprivacy.it/podcast",
-      "channel": "normativa",
-      "sourceId": "garante-privacy-ai",
-      "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.434Z",
-      "tags": [
-        "garante",
-        "privacy",
-        "gdpr",
-        "ai",
-        "ai-act",
-        "scraping",
-        "biometria",
-        "chatbot",
-        "digitale",
-        "gare"
-      ],
-      "kind": "normativa",
-      "score": 100,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "5389c59256a6a2f5",
-      "title": "Il Garante",
-      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: Il Garante",
-      "url": "https://www.garanteprivacy.it/home/autorita",
-      "channel": "normativa",
-      "sourceId": "garante-privacy-ai",
-      "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.434Z",
-      "tags": [
-        "garante",
-        "privacy",
-        "gdpr",
-        "ai",
-        "ai-act",
-        "scraping",
-        "biometria",
-        "chatbot",
-        "digitale",
-        "gare"
-      ],
-      "kind": "normativa",
-      "score": 100,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "f0c31ab81335ee41",
-      "title": "Collegio",
-      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: Collegio",
-      "url": "https://www.garanteprivacy.it/home/autorita/collegio",
-      "channel": "normativa",
-      "sourceId": "garante-privacy-ai",
-      "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.434Z",
+      "publishedAt": "2026-06-18T14:27:56.917Z",
       "tags": [
         "garante",
         "privacy",
@@ -523,7 +395,7 @@
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.434Z",
+      "publishedAt": "2026-06-18T14:27:56.916Z",
       "tags": [
         "garante",
         "privacy",
@@ -555,7 +427,7 @@
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.434Z",
+      "publishedAt": "2026-06-18T14:27:56.916Z",
       "tags": [
         "garante",
         "privacy",
@@ -580,14 +452,14 @@
       }
     },
     {
-      "id": "8706cae3199eabbc",
-      "title": "ENG",
-      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: ENG",
-      "url": "https://www.garanteprivacy.it/c/portal/update_language?p_l_id=9328032&languageId=en_US&redirect=/homeen",
+      "id": "f4e60cb45b3aa0ba",
+      "title": "Codice etico",
+      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: Codice etico",
+      "url": "https://www.garanteprivacy.it/home/autorita/codice-etico",
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.433Z",
+      "publishedAt": "2026-06-18T14:27:56.916Z",
       "tags": [
         "garante",
         "privacy",
@@ -612,14 +484,14 @@
       }
     },
     {
-      "id": "d5a19d87b52a85d5",
-      "title": "Garante per la protezione dei dati personali",
-      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: Garante per la protezione dei dati personali",
-      "url": "https://www.garanteprivacy.it/home",
+      "id": "b0583944ddfc4f54",
+      "title": "L'ufficio",
+      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: L'ufficio",
+      "url": "https://www.garanteprivacy.it/home/autorita/ufficio",
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.433Z",
+      "publishedAt": "2026-06-18T14:27:56.916Z",
       "tags": [
         "garante",
         "privacy",
@@ -651,7 +523,7 @@
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.433Z",
+      "publishedAt": "2026-06-18T14:27:56.915Z",
       "tags": [
         "garante",
         "privacy",
@@ -683,7 +555,7 @@
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.433Z",
+      "publishedAt": "2026-06-18T14:27:56.915Z",
       "tags": [
         "garante",
         "privacy",
@@ -708,14 +580,14 @@
       }
     },
     {
-      "id": "d899dbae82437432",
-      "title": "linkedin",
-      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: linkedin",
-      "url": "http://www.linkedin.com/company/autorit-garante-per-la-protezione-dei-dati-personali",
+      "id": "f4f60d4c1e9adaee",
+      "title": "Podcast",
+      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: Podcast",
+      "url": "https://www.garanteprivacy.it/podcast",
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.432Z",
+      "publishedAt": "2026-06-18T14:27:56.915Z",
       "tags": [
         "garante",
         "privacy",
@@ -740,46 +612,14 @@
       }
     },
     {
-      "id": "2d80f7a2922fd22a",
-      "title": "instagram",
-      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: instagram",
-      "url": "http://www.instagram.com/garanteprivacy/",
+      "id": "f0c31ab81335ee41",
+      "title": "Collegio",
+      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: Collegio",
+      "url": "https://www.garanteprivacy.it/home/autorita/collegio",
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.432Z",
-      "tags": [
-        "garante",
-        "privacy",
-        "gdpr",
-        "ai",
-        "ai-act",
-        "scraping",
-        "biometria",
-        "chatbot",
-        "digitale",
-        "gare"
-      ],
-      "kind": "normativa",
-      "score": 100,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "5adb509dc0e1b9b2",
-      "title": "youtube",
-      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: youtube",
-      "url": "http://www.youtube.com/videogaranteprivacy",
-      "channel": "normativa",
-      "sourceId": "garante-privacy-ai",
-      "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.432Z",
+      "publishedAt": "2026-06-18T14:27:56.915Z",
       "tags": [
         "garante",
         "privacy",
@@ -811,7 +651,7 @@
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.432Z",
+      "publishedAt": "2026-06-18T14:27:56.914Z",
       "tags": [
         "garante",
         "privacy",
@@ -836,6 +676,203 @@
       }
     },
     {
+      "id": "8706cae3199eabbc",
+      "title": "ENG",
+      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: ENG",
+      "url": "https://www.garanteprivacy.it/c/portal/update_language?p_l_id=9328032&languageId=en_US&redirect=/homeen",
+      "channel": "normativa",
+      "sourceId": "garante-privacy-ai",
+      "sourceName": "Garante Privacy - AI e protezione dati",
+      "publishedAt": "2026-06-18T14:27:56.914Z",
+      "tags": [
+        "garante",
+        "privacy",
+        "gdpr",
+        "ai",
+        "ai-act",
+        "scraping",
+        "biometria",
+        "chatbot",
+        "digitale",
+        "gare"
+      ],
+      "kind": "normativa",
+      "score": 100,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "d5a19d87b52a85d5",
+      "title": "Garante per la protezione dei dati personali",
+      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: Garante per la protezione dei dati personali",
+      "url": "https://www.garanteprivacy.it/home",
+      "channel": "normativa",
+      "sourceId": "garante-privacy-ai",
+      "sourceName": "Garante Privacy - AI e protezione dati",
+      "publishedAt": "2026-06-18T14:27:56.914Z",
+      "tags": [
+        "garante",
+        "privacy",
+        "gdpr",
+        "ai",
+        "ai-act",
+        "scraping",
+        "biometria",
+        "chatbot",
+        "digitale",
+        "gare"
+      ],
+      "kind": "normativa",
+      "score": 100,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "d899dbae82437432",
+      "title": "linkedin",
+      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: linkedin",
+      "url": "http://www.linkedin.com/company/autorit-garante-per-la-protezione-dei-dati-personali",
+      "channel": "normativa",
+      "sourceId": "garante-privacy-ai",
+      "sourceName": "Garante Privacy - AI e protezione dati",
+      "publishedAt": "2026-06-18T14:27:56.913Z",
+      "tags": [
+        "garante",
+        "privacy",
+        "gdpr",
+        "ai",
+        "ai-act",
+        "scraping",
+        "biometria",
+        "chatbot",
+        "digitale",
+        "gare"
+      ],
+      "kind": "normativa",
+      "score": 100,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "2d80f7a2922fd22a",
+      "title": "instagram",
+      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: instagram",
+      "url": "http://www.instagram.com/garanteprivacy/",
+      "channel": "normativa",
+      "sourceId": "garante-privacy-ai",
+      "sourceName": "Garante Privacy - AI e protezione dati",
+      "publishedAt": "2026-06-18T14:27:56.913Z",
+      "tags": [
+        "garante",
+        "privacy",
+        "gdpr",
+        "ai",
+        "ai-act",
+        "scraping",
+        "biometria",
+        "chatbot",
+        "digitale",
+        "gare"
+      ],
+      "kind": "normativa",
+      "score": 100,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "5adb509dc0e1b9b2",
+      "title": "youtube",
+      "summary": "Link rilevato da Garante Privacy - AI e protezione dati: youtube",
+      "url": "http://www.youtube.com/videogaranteprivacy",
+      "channel": "normativa",
+      "sourceId": "garante-privacy-ai",
+      "sourceName": "Garante Privacy - AI e protezione dati",
+      "publishedAt": "2026-06-18T14:27:56.913Z",
+      "tags": [
+        "garante",
+        "privacy",
+        "gdpr",
+        "ai",
+        "ai-act",
+        "scraping",
+        "biometria",
+        "chatbot",
+        "digitale",
+        "gare"
+      ],
+      "kind": "normativa",
+      "score": 100,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "3987c497c3f58575",
+      "title": "Intervista al Sottosegretario Butti a \"Il Sole 24 Ore\"",
+      "summary": "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Intervista al Sottosegretario Butti a \"Il Sole 24 Ore\"",
+      "url": "https://innovazione.gov.it/notizie/interviste/butti-dopo-il-pnrr-servono-finanziamenti-piu-stabili",
+      "channel": "normativa",
+      "sourceId": "dtd-news",
+      "sourceName": "Dipartimento Trasformazione Digitale - Notizie",
+      "publishedAt": "2026-06-18T14:27:56.703Z",
+      "tags": [
+        "dipartimento-trasformazione-digitale",
+        "pa-digitale",
+        "pnrr",
+        "cloud-pa",
+        "anpr",
+        "spid",
+        "sanita-digitale",
+        "scadenza",
+        "beneficiari",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 100,
+      "fields": {
+        "deadlines": [
+          "Intervista al Sottosegretario Butti a \"Il Sole 24 Ore\".",
+          "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Intervista al Sottosegretario Butti a \"Il Sole 24 Ore\""
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Intervista al Sottosegretario Butti a \"Il Sole 24 Ore\""
+        ]
+      }
+    },
+    {
       "id": "68a109c751ffdeec",
       "title": "Progettare con qualità: l’accessibilità al centro del design system del Paese",
       "summary": "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Progettare con qualità: l’accessibilità al centro del design system del Paese",
@@ -843,7 +880,7 @@
       "channel": "normativa",
       "sourceId": "dtd-news",
       "sourceName": "Dipartimento Trasformazione Digitale - Notizie",
-      "publishedAt": "2026-06-18T13:02:18.363Z",
+      "publishedAt": "2026-06-18T14:27:56.703Z",
       "tags": [
         "dipartimento-trasformazione-digitale",
         "pa-digitale",
@@ -881,7 +918,7 @@
       "channel": "normativa",
       "sourceId": "dtd-news",
       "sourceName": "Dipartimento Trasformazione Digitale - Notizie",
-      "publishedAt": "2026-06-18T13:02:18.363Z",
+      "publishedAt": "2026-06-18T14:27:56.703Z",
       "tags": [
         "dipartimento-trasformazione-digitale",
         "pa-digitale",
@@ -908,43 +945,6 @@
       }
     },
     {
-      "id": "3987c497c3f58575",
-      "title": "Intervista al Sottosegretario Butti a \"Il Sole 24 Ore\"",
-      "summary": "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Intervista al Sottosegretario Butti a \"Il Sole 24 Ore\"",
-      "url": "https://innovazione.gov.it/notizie/interviste/butti-dopo-il-pnrr-servono-finanziamenti-piu-stabili",
-      "channel": "normativa",
-      "sourceId": "dtd-news",
-      "sourceName": "Dipartimento Trasformazione Digitale - Notizie",
-      "publishedAt": "2026-06-18T13:02:18.362Z",
-      "tags": [
-        "dipartimento-trasformazione-digitale",
-        "pa-digitale",
-        "pnrr",
-        "cloud-pa",
-        "anpr",
-        "spid",
-        "sanita-digitale",
-        "scadenza",
-        "beneficiari",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 100,
-      "fields": {
-        "deadlines": [
-          "Intervista al Sottosegretario Butti a \"Il Sole 24 Ore\".",
-          "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Intervista al Sottosegretario Butti a \"Il Sole 24 Ore\""
-        ],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Intervista al Sottosegretario Butti a \"Il Sole 24 Ore\""
-        ]
-      }
-    },
-    {
       "id": "bc81cd33066d0ff1",
       "title": "Proposal for the Cloud and AI Development Act (CADA)",
       "summary": "Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Proposal for the Cloud and AI Development Act (CADA)",
@@ -952,7 +952,7 @@
       "channel": "normativa",
       "sourceId": "eu-ai-act-framework",
       "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
-      "publishedAt": "2026-06-18T13:02:18.310Z",
+      "publishedAt": "2026-06-18T14:27:56.620Z",
       "tags": [
         "commissione-europea",
         "ai-act",
@@ -982,7 +982,7 @@
       "channel": "normativa",
       "sourceId": "eu-ai-act-framework",
       "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
-      "publishedAt": "2026-06-18T13:02:18.310Z",
+      "publishedAt": "2026-06-18T14:27:56.620Z",
       "tags": [
         "commissione-europea",
         "ai-act",
@@ -1011,7 +1011,7 @@
       "channel": "normativa",
       "sourceId": "eu-ai-act-framework",
       "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
-      "publishedAt": "2026-06-18T13:02:18.309Z",
+      "publishedAt": "2026-06-18T14:27:56.619Z",
       "tags": [
         "commissione-europea",
         "ai-act",
@@ -1040,103 +1040,13 @@
       "channel": "normativa",
       "sourceId": "eu-ai-act-framework",
       "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
-      "publishedAt": "2026-06-18T13:02:18.304Z",
+      "publishedAt": "2026-06-18T14:27:56.616Z",
       "tags": [
         "commissione-europea",
         "ai-act",
         "gpai",
         "high-risk-ai",
         "obblighi-ai",
-        "pnrr",
-        "ai"
-      ],
-      "kind": "normativa",
-      "score": 100,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "dd92f9aa357031ac",
-      "title": "AI Factories",
-      "summary": "Link rilevato da Commissione Europea - AI Office e AI Act: AI Factories",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-factories",
-      "channel": "normativa",
-      "sourceId": "eu-ai-office",
-      "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.278Z",
-      "tags": [
-        "commissione-europea",
-        "ai-office",
-        "ai-act",
-        "gpai",
-        "high-risk-ai",
-        "digital-strategy",
-        "pnrr",
-        "ai-factories"
-      ],
-      "kind": "normativa",
-      "score": 100,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "093e7ab96c298771",
-      "title": "Funding",
-      "summary": "Link rilevato da Commissione Europea - AI Office e AI Act: Funding",
-      "url": "https://digital-strategy.ec.europa.eu/en/funding",
-      "channel": "normativa",
-      "sourceId": "eu-ai-office",
-      "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.276Z",
-      "tags": [
-        "commissione-europea",
-        "ai-office",
-        "ai-act",
-        "gpai",
-        "high-risk-ai",
-        "digital-strategy",
-        "pnrr",
-        "eu-funding"
-      ],
-      "kind": "normativa",
-      "score": 100,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "de93d0ed0fcd22f9",
-      "title": "AI Act",
-      "summary": "Link rilevato da Commissione Europea - AI Office e AI Act: AI Act",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/european-approach-artificial-intelligence",
-      "channel": "normativa",
-      "sourceId": "eu-ai-office",
-      "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.276Z",
-      "tags": [
-        "commissione-europea",
-        "ai-office",
-        "ai-act",
-        "gpai",
-        "high-risk-ai",
-        "digital-strategy",
         "pnrr",
         "ai"
       ],
@@ -1159,7 +1069,7 @@
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.143Z",
+      "publishedAt": "2026-06-18T14:27:56.581Z",
       "tags": [
         "esma",
         "dora",
@@ -1253,35 +1163,6 @@
       }
     },
     {
-      "id": "a422edfe349cb9d6",
-      "title": "State of the Digital Decade 2026 - Closing structural gaps and mobilising investments for 2030 and beyond",
-      "summary": "Link rilevato da Commissione Europea - Quadro regolatorio AI Act: State of the Digital Decade 2026 - Closing structural gaps and mobilising investments for 2030 and beyond",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/state-digital-decade-2026-closing-structural-gaps-and-mobilising-investments-2030-and-beyond",
-      "channel": "normativa",
-      "sourceId": "eu-ai-act-framework",
-      "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
-      "publishedAt": "2026-06-18T13:02:18.310Z",
-      "tags": [
-        "commissione-europea",
-        "ai-act",
-        "gpai",
-        "high-risk-ai",
-        "obblighi-ai",
-        "pnrr",
-        "pa-digitale"
-      ],
-      "kind": "normativa",
-      "score": 96,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
       "id": "49a515089c56cc08",
       "title": "Three studies on various aspects of article 5 of the AI Act",
       "summary": "Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Three studies on various aspects of article 5 of the AI Act",
@@ -1289,7 +1170,7 @@
       "channel": "normativa",
       "sourceId": "eu-ai-act-framework",
       "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
-      "publishedAt": "2026-06-18T13:02:18.310Z",
+      "publishedAt": "2026-06-18T14:27:56.620Z",
       "tags": [
         "commissione-europea",
         "ai-act",
@@ -1311,23 +1192,22 @@
       }
     },
     {
-      "id": "1c42101e361a0b24",
-      "title": "Accessibility statement",
-      "summary": "Link rilevato da Commissione Europea - AI Office e AI Act: Accessibility statement",
-      "url": "https://digital-strategy.ec.europa.eu/en/pages/accessibility",
+      "id": "a422edfe349cb9d6",
+      "title": "State of the Digital Decade 2026 - Closing structural gaps and mobilising investments for 2030 and beyond",
+      "summary": "Link rilevato da Commissione Europea - Quadro regolatorio AI Act: State of the Digital Decade 2026 - Closing structural gaps and mobilising investments for 2030 and beyond",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/state-digital-decade-2026-closing-structural-gaps-and-mobilising-investments-2030-and-beyond",
       "channel": "normativa",
-      "sourceId": "eu-ai-office",
-      "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.280Z",
+      "sourceId": "eu-ai-act-framework",
+      "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
+      "publishedAt": "2026-06-18T14:27:56.619Z",
       "tags": [
         "commissione-europea",
-        "ai-office",
         "ai-act",
         "gpai",
         "high-risk-ai",
-        "digital-strategy",
+        "obblighi-ai",
         "pnrr",
-        "accessibilita"
+        "pa-digitale"
       ],
       "kind": "normativa",
       "score": 96,
@@ -1348,7 +1228,7 @@
       "channel": "normativa",
       "sourceId": "eu-ai-office",
       "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.279Z",
+      "publishedAt": "2026-06-18T14:27:56.553Z",
       "tags": [
         "commissione-europea",
         "ai-office",
@@ -1443,66 +1323,6 @@
       }
     },
     {
-      "id": "03e7164524c40738",
-      "title": "Privacy policy",
-      "summary": "Link rilevato da Commissione Europea - AI Office e AI Act: Privacy policy",
-      "url": "https://commission.europa.eu/privacy-policy-websites-managed-european-commission_en",
-      "channel": "normativa",
-      "sourceId": "eu-ai-office",
-      "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.281Z",
-      "tags": [
-        "commissione-europea",
-        "ai-office",
-        "ai-act",
-        "gpai",
-        "high-risk-ai",
-        "digital-strategy",
-        "privacy",
-        "pnrr"
-      ],
-      "kind": "normativa",
-      "score": 94,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "05553a6264184d7e",
-      "title": "Privacy statement",
-      "summary": "Link rilevato da Commissione Europea - AI Office e AI Act: Privacy statement",
-      "url": "https://digital-strategy.ec.europa.eu/en/pages/legal-notice#ecl-inpage-km0gfb8o",
-      "channel": "normativa",
-      "sourceId": "eu-ai-office",
-      "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.280Z",
-      "tags": [
-        "commissione-europea",
-        "ai-office",
-        "ai-act",
-        "gpai",
-        "high-risk-ai",
-        "digital-strategy",
-        "privacy",
-        "pnrr"
-      ],
-      "kind": "normativa",
-      "score": 94,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
       "id": "a63174829ffb64db",
       "title": "Joint ESAs Technical Advice on two EC delegated acts under the DORA specifying further criteria for critical ICT third-party service providers",
       "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: Joint ESAs Technical Advice on two EC delegated acts under the DORA specifying further criteria for critical ICT third-party service providers",
@@ -1510,7 +1330,7 @@
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.156Z",
+      "publishedAt": "2026-06-18T14:27:56.584Z",
       "tags": [
         "esma",
         "dora",
@@ -1544,7 +1364,7 @@
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.155Z",
+      "publishedAt": "2026-06-18T14:27:56.583Z",
       "tags": [
         "esma",
         "dora",
@@ -1567,108 +1387,6 @@
       }
     },
     {
-      "id": "554de84939638093",
-      "title": "Approfondisci l'argomento",
-      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: Approfondisci l'argomento",
-      "url": "https://www.agid.gov.it/it/agenzia/attuazione-misure-pnrr",
-      "channel": "normativa",
-      "sourceId": "agid-home",
-      "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.749Z",
-      "tags": [
-        "agid",
-        "pa-digitale",
-        "ai",
-        "accessibilita",
-        "conservazione",
-        "eidas",
-        "appalti-innovativi",
-        "beneficiari",
-        "pnrr",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 92,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "Link rilevato da AgID - Notizie, linee guida e PA digitale: Approfondisci l'argomento"
-        ]
-      }
-    },
-    {
-      "id": "aca897ec761ee455",
-      "title": "VAI AL PROGETTO",
-      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: VAI AL PROGETTO",
-      "url": "https://www.agid.gov.it/it/agenzia/attuazione-misure-pnrr/sportello-digitale-unico-single-digitale-gateway",
-      "channel": "normativa",
-      "sourceId": "agid-home",
-      "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.749Z",
-      "tags": [
-        "agid",
-        "pa-digitale",
-        "ai",
-        "accessibilita",
-        "conservazione",
-        "eidas",
-        "appalti-innovativi",
-        "beneficiari",
-        "pnrr",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 92,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "Link rilevato da AgID - Notizie, linee guida e PA digitale: VAI AL PROGETTO"
-        ]
-      }
-    },
-    {
-      "id": "aa01b00a4c3821be",
-      "title": "VAI AL PROGETTO",
-      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: VAI AL PROGETTO",
-      "url": "https://www.agid.gov.it/it/agenzia/attuazione-misure-pnrr/citizen-inclusion",
-      "channel": "normativa",
-      "sourceId": "agid-home",
-      "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.749Z",
-      "tags": [
-        "agid",
-        "pa-digitale",
-        "ai",
-        "accessibilita",
-        "conservazione",
-        "eidas",
-        "appalti-innovativi",
-        "beneficiari",
-        "pnrr",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 92,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "Link rilevato da AgID - Notizie, linee guida e PA digitale: VAI AL PROGETTO"
-        ]
-      }
-    },
-    {
       "id": "bb28ba46914f4ef6",
       "title": "Convegni, eventi, patrocinio",
       "summary": "Link rilevato da Garante Privacy - AI e protezione dati: Convegni, eventi, patrocinio",
@@ -1676,7 +1394,7 @@
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.436Z",
+      "publishedAt": "2026-06-18T14:27:56.918Z",
       "tags": [
         "garante",
         "privacy",
@@ -1711,7 +1429,7 @@
       "channel": "normativa",
       "sourceId": "garante-privacy-ai",
       "sourceName": "Garante Privacy - AI e protezione dati",
-      "publishedAt": "2026-06-18T13:02:18.435Z",
+      "publishedAt": "2026-06-18T14:27:56.917Z",
       "tags": [
         "garante",
         "privacy",
@@ -1739,6 +1457,108 @@
       }
     },
     {
+      "id": "554de84939638093",
+      "title": "Approfondisci l'argomento",
+      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: Approfondisci l'argomento",
+      "url": "https://www.agid.gov.it/it/agenzia/attuazione-misure-pnrr",
+      "channel": "normativa",
+      "sourceId": "agid-home",
+      "sourceName": "AgID - Notizie, linee guida e PA digitale",
+      "publishedAt": "2026-06-18T14:27:56.897Z",
+      "tags": [
+        "agid",
+        "pa-digitale",
+        "ai",
+        "accessibilita",
+        "conservazione",
+        "eidas",
+        "appalti-innovativi",
+        "beneficiari",
+        "pnrr",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 92,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Link rilevato da AgID - Notizie, linee guida e PA digitale: Approfondisci l'argomento"
+        ]
+      }
+    },
+    {
+      "id": "aca897ec761ee455",
+      "title": "VAI AL PROGETTO",
+      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: VAI AL PROGETTO",
+      "url": "https://www.agid.gov.it/it/agenzia/attuazione-misure-pnrr/sportello-digitale-unico-single-digitale-gateway",
+      "channel": "normativa",
+      "sourceId": "agid-home",
+      "sourceName": "AgID - Notizie, linee guida e PA digitale",
+      "publishedAt": "2026-06-18T14:27:56.897Z",
+      "tags": [
+        "agid",
+        "pa-digitale",
+        "ai",
+        "accessibilita",
+        "conservazione",
+        "eidas",
+        "appalti-innovativi",
+        "beneficiari",
+        "pnrr",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 92,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Link rilevato da AgID - Notizie, linee guida e PA digitale: VAI AL PROGETTO"
+        ]
+      }
+    },
+    {
+      "id": "aa01b00a4c3821be",
+      "title": "VAI AL PROGETTO",
+      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: VAI AL PROGETTO",
+      "url": "https://www.agid.gov.it/it/agenzia/attuazione-misure-pnrr/citizen-inclusion",
+      "channel": "normativa",
+      "sourceId": "agid-home",
+      "sourceName": "AgID - Notizie, linee guida e PA digitale",
+      "publishedAt": "2026-06-18T14:27:56.897Z",
+      "tags": [
+        "agid",
+        "pa-digitale",
+        "ai",
+        "accessibilita",
+        "conservazione",
+        "eidas",
+        "appalti-innovativi",
+        "beneficiari",
+        "pnrr",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 92,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Link rilevato da AgID - Notizie, linee guida e PA digitale: VAI AL PROGETTO"
+        ]
+      }
+    },
+    {
       "id": "df625c08b9bfa71c",
       "title": "Dichiarazione di accessibilità",
       "summary": "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Dichiarazione di accessibilità",
@@ -1746,7 +1566,7 @@
       "channel": "normativa",
       "sourceId": "dtd-news",
       "sourceName": "Dipartimento Trasformazione Digitale - Notizie",
-      "publishedAt": "2026-06-18T13:02:18.363Z",
+      "publishedAt": "2026-06-18T14:27:56.703Z",
       "tags": [
         "dipartimento-trasformazione-digitale",
         "pa-digitale",
@@ -1773,72 +1593,6 @@
       }
     },
     {
-      "id": "e6b93b6b6f26cd3d",
-      "title": "ANPR: I certificati di stato civile ora disponibili online",
-      "summary": "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: ANPR: I certificati di stato civile ora disponibili online",
-      "url": "https://innovazione.gov.it/notizie/articoli/anpr-i-certificati-di-stato-civile-ora-disponibili-online",
-      "channel": "normativa",
-      "sourceId": "dtd-news",
-      "sourceName": "Dipartimento Trasformazione Digitale - Notizie",
-      "publishedAt": "2026-06-18T13:02:18.361Z",
-      "tags": [
-        "dipartimento-trasformazione-digitale",
-        "pa-digitale",
-        "pnrr",
-        "cloud-pa",
-        "anpr",
-        "spid",
-        "sanita-digitale",
-        "beneficiari",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 92,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: ANPR: I certificati di stato civile ora disponibili online"
-        ]
-      }
-    },
-    {
-      "id": "7b6e2f6481aaa81f",
-      "title": "Interoperabilità",
-      "summary": "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Interoperabilità",
-      "url": "https://innovazione.gov.it/argomenti/interoperabilita",
-      "channel": "normativa",
-      "sourceId": "dtd-news",
-      "sourceName": "Dipartimento Trasformazione Digitale - Notizie",
-      "publishedAt": "2026-06-18T13:02:18.361Z",
-      "tags": [
-        "dipartimento-trasformazione-digitale",
-        "pa-digitale",
-        "pnrr",
-        "cloud-pa",
-        "anpr",
-        "spid",
-        "sanita-digitale",
-        "beneficiari",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 92,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Interoperabilità"
-        ]
-      }
-    },
-    {
       "id": "142985a08c013e35",
       "title": "ANPR",
       "summary": "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: ANPR",
@@ -1846,7 +1600,7 @@
       "channel": "normativa",
       "sourceId": "dtd-news",
       "sourceName": "Dipartimento Trasformazione Digitale - Notizie",
-      "publishedAt": "2026-06-18T13:02:18.360Z",
+      "publishedAt": "2026-06-18T14:27:56.702Z",
       "tags": [
         "dipartimento-trasformazione-digitale",
         "pa-digitale",
@@ -1879,7 +1633,7 @@
       "channel": "normativa",
       "sourceId": "dtd-news",
       "sourceName": "Dipartimento Trasformazione Digitale - Notizie",
-      "publishedAt": "2026-06-18T13:02:18.360Z",
+      "publishedAt": "2026-06-18T14:27:56.702Z",
       "tags": [
         "dipartimento-trasformazione-digitale",
         "pa-digitale",
@@ -1901,6 +1655,72 @@
         "requirements": [],
         "beneficiaries": [
           "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: SPID"
+        ]
+      }
+    },
+    {
+      "id": "e6b93b6b6f26cd3d",
+      "title": "ANPR: I certificati di stato civile ora disponibili online",
+      "summary": "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: ANPR: I certificati di stato civile ora disponibili online",
+      "url": "https://innovazione.gov.it/notizie/articoli/anpr-i-certificati-di-stato-civile-ora-disponibili-online",
+      "channel": "normativa",
+      "sourceId": "dtd-news",
+      "sourceName": "Dipartimento Trasformazione Digitale - Notizie",
+      "publishedAt": "2026-06-18T14:27:56.702Z",
+      "tags": [
+        "dipartimento-trasformazione-digitale",
+        "pa-digitale",
+        "pnrr",
+        "cloud-pa",
+        "anpr",
+        "spid",
+        "sanita-digitale",
+        "beneficiari",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 92,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: ANPR: I certificati di stato civile ora disponibili online"
+        ]
+      }
+    },
+    {
+      "id": "7b6e2f6481aaa81f",
+      "title": "Interoperabilità",
+      "summary": "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Interoperabilità",
+      "url": "https://innovazione.gov.it/argomenti/interoperabilita",
+      "channel": "normativa",
+      "sourceId": "dtd-news",
+      "sourceName": "Dipartimento Trasformazione Digitale - Notizie",
+      "publishedAt": "2026-06-18T14:27:56.702Z",
+      "tags": [
+        "dipartimento-trasformazione-digitale",
+        "pa-digitale",
+        "pnrr",
+        "cloud-pa",
+        "anpr",
+        "spid",
+        "sanita-digitale",
+        "beneficiari",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 92,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Link rilevato da Dipartimento Trasformazione Digitale - Notizie: Interoperabilità"
         ]
       }
     },
@@ -2010,6 +1830,38 @@
       }
     },
     {
+      "id": "1743cd922ea486e3",
+      "title": "Joint ESAs Report in response to the European Commission consultation pursuant to Article 58(3) of Regulation (EU) 2022/2554 (DORA) (17 December 2025)",
+      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: Joint ESAs Report in response to the European Commission consultation pursuant to Article 58(3) of Regulation (EU) 2022/2554 (DORA) (17 December 2025)",
+      "url": "https://www.esma.europa.eu/sites/default/files/2025-12/JC-2025-85_Joint_ESAs_Report_in_response_to_the_European_Commission_consultation_pursuant_to_Article_58_3__of_Regulation__EU__20222554__DORA_.pdf",
+      "channel": "normativa",
+      "sourceId": "esma-dora",
+      "sourceName": "ESMA - DORA e resilienza operativa digitale",
+      "publishedAt": "2026-06-18T14:27:56.589Z",
+      "tags": [
+        "esma",
+        "dora",
+        "finanza-digitale",
+        "ict-risk",
+        "outsourcing-ict",
+        "incident-reporting",
+        "scadenza",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 88,
+      "fields": {
+        "deadlines": [
+          "17 December 2025"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
       "id": "a2ad0432f2c630cb",
       "title": "ESAs Opinion on the rejection of the RTS on subcontracting under DORA (7 March 2025)",
       "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: ESAs Opinion on the rejection of the RTS on subcontracting under DORA (7 March 2025)",
@@ -2017,7 +1869,7 @@
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.159Z",
+      "publishedAt": "2026-06-18T14:27:56.588Z",
       "tags": [
         "esma",
         "dora",
@@ -2042,106 +1894,6 @@
       }
     },
     {
-      "id": "5be55d3b86bf341e",
-      "title": "Preparing for the DORA Oversight Framework: CTPP Designation and Next Steps (14 May 2025)",
-      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: Preparing for the DORA Oversight Framework: CTPP Designation and Next Steps (14 May 2025)",
-      "url": "https://www.esma.europa.eu/sites/default/files/2025-05/Preparing_for_DORA_OVS_framework_CTPP_designation_and_next_steps.pdf",
-      "channel": "normativa",
-      "sourceId": "esma-dora",
-      "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.159Z",
-      "tags": [
-        "esma",
-        "dora",
-        "finanza-digitale",
-        "ict-risk",
-        "outsourcing-ict",
-        "incident-reporting",
-        "scadenza",
-        "beneficiari",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 88,
-      "fields": {
-        "deadlines": [
-          "14 May 2025"
-        ],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "Preparing for the DORA Oversight Framework: CTPP Designation and Next Steps (14 May 2025).",
-          "Link rilevato da ESMA - DORA e resilienza operativa digitale: Preparing for the DORA Oversight Framework: CTPP Designation and Next Steps (14 May 2025)"
-        ]
-      }
-    },
-    {
-      "id": "f4d52851e1130b53",
-      "title": "Second joint ESAs public hearing on DORA policy products (23 January 2024)",
-      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: Second joint ESAs public hearing on DORA policy products (23 January 2024)",
-      "url": "https://www.esma.europa.eu/sites/default/files/2024-01/2024-01-23_DORA_public_hearing.pdf",
-      "channel": "normativa",
-      "sourceId": "esma-dora",
-      "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.158Z",
-      "tags": [
-        "esma",
-        "dora",
-        "finanza-digitale",
-        "ict-risk",
-        "outsourcing-ict",
-        "incident-reporting",
-        "scadenza",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 88,
-      "fields": {
-        "deadlines": [
-          "23 January 2024"
-        ],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "b87d95d417aff46e",
-      "title": "Second batch of policy products under DORA (17 July 2024)",
-      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: Second batch of policy products under DORA (17 July 2024)",
-      "url": "https://www.esma.europa.eu/press-news/esma-news/esas-published-second-batch-policy-products-under-dora",
-      "channel": "normativa",
-      "sourceId": "esma-dora",
-      "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.158Z",
-      "tags": [
-        "esma",
-        "dora",
-        "finanza-digitale",
-        "ict-risk",
-        "outsourcing-ict",
-        "incident-reporting",
-        "scadenza",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 88,
-      "fields": {
-        "deadlines": [
-          "17 July 2024"
-        ],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
       "id": "4e5d084496b80753",
       "title": "Joint Final report on the draft technical standards on subcontracting under DORA (26 July 2024)",
       "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: Joint Final report on the draft technical standards on subcontracting under DORA (26 July 2024)",
@@ -2149,7 +1901,7 @@
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.158Z",
+      "publishedAt": "2026-06-18T14:27:56.587Z",
       "tags": [
         "esma",
         "dora",
@@ -2181,7 +1933,7 @@
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.158Z",
+      "publishedAt": "2026-06-18T14:27:56.587Z",
       "tags": [
         "esma",
         "dora",
@@ -2207,6 +1959,38 @@
       }
     },
     {
+      "id": "b87d95d417aff46e",
+      "title": "Second batch of policy products under DORA (17 July 2024)",
+      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: Second batch of policy products under DORA (17 July 2024)",
+      "url": "https://www.esma.europa.eu/press-news/esma-news/esas-published-second-batch-policy-products-under-dora",
+      "channel": "normativa",
+      "sourceId": "esma-dora",
+      "sourceName": "ESMA - DORA e resilienza operativa digitale",
+      "publishedAt": "2026-06-18T14:27:56.586Z",
+      "tags": [
+        "esma",
+        "dora",
+        "finanza-digitale",
+        "ict-risk",
+        "outsourcing-ict",
+        "incident-reporting",
+        "scadenza",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 88,
+      "fields": {
+        "deadlines": [
+          "17 July 2024"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
       "id": "4267e59b5288d0eb",
       "title": "Joint ESAs public event on DORA – Technical discussion (6 February 2023)",
       "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: Joint ESAs public event on DORA – Technical discussion (6 February 2023)",
@@ -2214,7 +1998,7 @@
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.157Z",
+      "publishedAt": "2026-06-18T14:27:56.585Z",
       "tags": [
         "esma",
         "dora",
@@ -2246,7 +2030,7 @@
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.157Z",
+      "publishedAt": "2026-06-18T14:27:56.585Z",
       "tags": [
         "esma",
         "dora",
@@ -2262,6 +2046,38 @@
       "fields": {
         "deadlines": [
           "13 July 2023"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "f4d52851e1130b53",
+      "title": "Second joint ESAs public hearing on DORA policy products (23 January 2024)",
+      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: Second joint ESAs public hearing on DORA policy products (23 January 2024)",
+      "url": "https://www.esma.europa.eu/sites/default/files/2024-01/2024-01-23_DORA_public_hearing.pdf",
+      "channel": "normativa",
+      "sourceId": "esma-dora",
+      "sourceName": "ESMA - DORA e resilienza operativa digitale",
+      "publishedAt": "2026-06-18T14:27:56.585Z",
+      "tags": [
+        "esma",
+        "dora",
+        "finanza-digitale",
+        "ict-risk",
+        "outsourcing-ict",
+        "incident-reporting",
+        "scadenza",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 88,
+      "fields": {
+        "deadlines": [
+          "23 January 2024"
         ],
         "amounts": [],
         "cig": [],
@@ -2315,7 +2131,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.750Z",
+      "publishedAt": "2026-06-18T14:27:56.898Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -2349,7 +2165,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.746Z",
+      "publishedAt": "2026-06-18T14:27:56.894Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -2419,7 +2235,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.747Z",
+      "publishedAt": "2026-06-18T14:27:56.895Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -2446,62 +2262,6 @@
       }
     },
     {
-      "id": "ed98d9ea83a18f52",
-      "title": "AI Act Whistleblower Tool",
-      "summary": "Link rilevato da Commissione Europea - Quadro regolatorio AI Act: AI Act Whistleblower Tool",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-act-whistleblower-tool",
-      "channel": "normativa",
-      "sourceId": "eu-ai-act-framework",
-      "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
-      "publishedAt": "2026-06-18T13:02:18.311Z",
-      "tags": [
-        "commissione-europea",
-        "ai-act",
-        "gpai",
-        "high-risk-ai",
-        "obblighi-ai",
-        "pnrr"
-      ],
-      "kind": "normativa",
-      "score": 82,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "38d08472451a3dca",
-      "title": "Questions & Answers on the AI Act",
-      "summary": "Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Questions & Answers on the AI Act",
-      "url": "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act",
-      "channel": "normativa",
-      "sourceId": "eu-ai-act-framework",
-      "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
-      "publishedAt": "2026-06-18T13:02:18.309Z",
-      "tags": [
-        "commissione-europea",
-        "ai-act",
-        "gpai",
-        "high-risk-ai",
-        "obblighi-ai",
-        "pnrr"
-      ],
-      "kind": "normativa",
-      "score": 82,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
       "id": "09fa49ef7624ee0d",
       "title": "Standardisation of the AI Act",
       "summary": "Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Standardisation of the AI Act",
@@ -2509,35 +2269,7 @@
       "channel": "normativa",
       "sourceId": "eu-ai-act-framework",
       "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
-      "publishedAt": "2026-06-18T13:02:18.309Z",
-      "tags": [
-        "commissione-europea",
-        "ai-act",
-        "gpai",
-        "high-risk-ai",
-        "obblighi-ai",
-        "pnrr"
-      ],
-      "kind": "normativa",
-      "score": 82,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "6957a54637dc6f58",
-      "title": "AI Act enforcement gets independent expert support",
-      "summary": "Link rilevato da Commissione Europea - Quadro regolatorio AI Act: AI Act enforcement gets independent expert support",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/ai-act-enforcement-gets-independent-expert-support",
-      "channel": "normativa",
-      "sourceId": "eu-ai-act-framework",
-      "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
-      "publishedAt": "2026-06-18T13:02:18.309Z",
+      "publishedAt": "2026-06-18T14:27:56.619Z",
       "tags": [
         "commissione-europea",
         "ai-act",
@@ -2565,7 +2297,7 @@
       "channel": "normativa",
       "sourceId": "eu-ai-act-framework",
       "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
-      "publishedAt": "2026-06-18T13:02:18.308Z",
+      "publishedAt": "2026-06-18T14:27:56.618Z",
       "tags": [
         "commissione-europea",
         "ai-act",
@@ -2593,7 +2325,7 @@
       "channel": "normativa",
       "sourceId": "eu-ai-act-framework",
       "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
-      "publishedAt": "2026-06-18T13:02:18.308Z",
+      "publishedAt": "2026-06-18T14:27:56.618Z",
       "tags": [
         "commissione-europea",
         "ai-act",
@@ -2614,21 +2346,20 @@
       }
     },
     {
-      "id": "45fe751e3f57a294",
-      "title": "Template for the public summary of training content of GPAI models",
-      "summary": "Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Template for the public summary of training content of GPAI models",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/explanatory-notice-and-template-public-summary-training-content-general-purpose-ai-models",
+      "id": "38d08472451a3dca",
+      "title": "Questions & Answers on the AI Act",
+      "summary": "Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Questions & Answers on the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act",
       "channel": "normativa",
       "sourceId": "eu-ai-act-framework",
       "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
-      "publishedAt": "2026-06-18T13:02:18.307Z",
+      "publishedAt": "2026-06-18T14:27:56.618Z",
       "tags": [
         "commissione-europea",
         "ai-act",
         "gpai",
         "high-risk-ai",
         "obblighi-ai",
-        "beneficiari",
         "pnrr"
       ],
       "kind": "normativa",
@@ -2639,10 +2370,35 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": [
-          "Template for the public summary of training content of GPAI models.",
-          "Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Template for the public summary of training content of GPAI models"
-        ]
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "24449543f1c0da74",
+      "title": "guidelines on the AI system definition of the AI Act",
+      "summary": "Link rilevato da Commissione Europea - Quadro regolatorio AI Act: guidelines on the AI system definition of the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application",
+      "channel": "normativa",
+      "sourceId": "eu-ai-act-framework",
+      "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
+      "publishedAt": "2026-06-18T14:27:56.617Z",
+      "tags": [
+        "commissione-europea",
+        "ai-act",
+        "gpai",
+        "high-risk-ai",
+        "obblighi-ai",
+        "pnrr"
+      ],
+      "kind": "normativa",
+      "score": 82,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
       }
     },
     {
@@ -2653,7 +2409,7 @@
       "channel": "normativa",
       "sourceId": "eu-ai-act-framework",
       "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
-      "publishedAt": "2026-06-18T13:02:18.305Z",
+      "publishedAt": "2026-06-18T14:27:56.617Z",
       "tags": [
         "commissione-europea",
         "ai-act",
@@ -2685,7 +2441,7 @@
       "channel": "normativa",
       "sourceId": "eu-ai-act-framework",
       "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
-      "publishedAt": "2026-06-18T13:02:18.305Z",
+      "publishedAt": "2026-06-18T14:27:56.617Z",
       "tags": [
         "commissione-europea",
         "ai-act",
@@ -2710,20 +2466,53 @@
       }
     },
     {
-      "id": "24449543f1c0da74",
-      "title": "guidelines on the AI system definition of the AI Act",
-      "summary": "Link rilevato da Commissione Europea - Quadro regolatorio AI Act: guidelines on the AI system definition of the AI Act",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application",
+      "id": "45fe751e3f57a294",
+      "title": "Template for the public summary of training content of GPAI models",
+      "summary": "Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Template for the public summary of training content of GPAI models",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/explanatory-notice-and-template-public-summary-training-content-general-purpose-ai-models",
       "channel": "normativa",
       "sourceId": "eu-ai-act-framework",
       "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
-      "publishedAt": "2026-06-18T13:02:18.304Z",
+      "publishedAt": "2026-06-18T14:27:56.617Z",
       "tags": [
         "commissione-europea",
         "ai-act",
         "gpai",
         "high-risk-ai",
         "obblighi-ai",
+        "beneficiari",
+        "pnrr"
+      ],
+      "kind": "normativa",
+      "score": 82,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Template for the public summary of training content of GPAI models.",
+          "Link rilevato da Commissione Europea - Quadro regolatorio AI Act: Template for the public summary of training content of GPAI models"
+        ]
+      }
+    },
+    {
+      "id": "1b2530051c7ac131",
+      "title": "European Digital Innovation Hubs (EDIHs)",
+      "summary": "Link rilevato da Commissione Europea - AI Office e AI Act: European Digital Innovation Hubs (EDIHs)",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/edihs",
+      "channel": "normativa",
+      "sourceId": "eu-ai-office",
+      "sourceName": "Commissione Europea - AI Office e AI Act",
+      "publishedAt": "2026-06-18T14:27:56.553Z",
+      "tags": [
+        "commissione-europea",
+        "ai-office",
+        "ai-act",
+        "gpai",
+        "high-risk-ai",
+        "digital-strategy",
         "pnrr"
       ],
       "kind": "normativa",
@@ -2738,20 +2527,21 @@
       }
     },
     {
-      "id": "0e817f2b31df8cf7",
-      "title": "AI Act",
-      "summary": "Link rilevato da Commissione Europea - Quadro regolatorio AI Act: AI Act",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+      "id": "f786ed3b615721b4",
+      "title": "Upcoming guidelines supporting the implementation of the AI Act",
+      "summary": "Link rilevato da Commissione Europea - AI Office e AI Act: Upcoming guidelines supporting the implementation of the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines",
       "channel": "normativa",
-      "sourceId": "eu-ai-act-framework",
-      "sourceName": "Commissione Europea - Quadro regolatorio AI Act",
-      "publishedAt": "2026-06-18T13:02:18.291Z",
+      "sourceId": "eu-ai-office",
+      "sourceName": "Commissione Europea - AI Office e AI Act",
+      "publishedAt": "2026-06-18T14:27:56.553Z",
       "tags": [
         "commissione-europea",
+        "ai-office",
         "ai-act",
         "gpai",
         "high-risk-ai",
-        "obblighi-ai",
+        "digital-strategy",
         "pnrr"
       ],
       "kind": "normativa",
@@ -2773,7 +2563,7 @@
       "channel": "normativa",
       "sourceId": "eu-ai-office",
       "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.280Z",
+      "publishedAt": "2026-06-18T14:27:56.553Z",
       "tags": [
         "commissione-europea",
         "ai-office",
@@ -2803,184 +2593,6 @@
       }
     },
     {
-      "id": "81786d7586cd3686",
-      "title": "AI Act Advisory Forum",
-      "summary": "Link rilevato da Commissione Europea - AI Office e AI Act: AI Act Advisory Forum",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-advisory-forum",
-      "channel": "normativa",
-      "sourceId": "eu-ai-office",
-      "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.280Z",
-      "tags": [
-        "commissione-europea",
-        "ai-office",
-        "ai-act",
-        "gpai",
-        "high-risk-ai",
-        "digital-strategy",
-        "pnrr"
-      ],
-      "kind": "normativa",
-      "score": 82,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "aa2e838a861fe9b2",
-      "title": "AI Act Scientific Panel",
-      "summary": "Link rilevato da Commissione Europea - AI Office e AI Act: AI Act Scientific Panel",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-scientific-panel",
-      "channel": "normativa",
-      "sourceId": "eu-ai-office",
-      "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.280Z",
-      "tags": [
-        "commissione-europea",
-        "ai-office",
-        "ai-act",
-        "gpai",
-        "high-risk-ai",
-        "digital-strategy",
-        "beneficiari",
-        "pnrr"
-      ],
-      "kind": "normativa",
-      "score": 82,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "AI Act Scientific Panel.",
-          "Link rilevato da Commissione Europea - AI Office e AI Act: AI Act Scientific Panel"
-        ]
-      }
-    },
-    {
-      "id": "3964a29ee2471087",
-      "title": "AI Act",
-      "summary": "Link rilevato da Commissione Europea - AI Office e AI Act: AI Act",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
-      "channel": "normativa",
-      "sourceId": "eu-ai-office",
-      "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.279Z",
-      "tags": [
-        "commissione-europea",
-        "ai-office",
-        "ai-act",
-        "gpai",
-        "high-risk-ai",
-        "digital-strategy",
-        "pnrr"
-      ],
-      "kind": "normativa",
-      "score": 82,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "f786ed3b615721b4",
-      "title": "Upcoming guidelines supporting the implementation of the AI Act",
-      "summary": "Link rilevato da Commissione Europea - AI Office e AI Act: Upcoming guidelines supporting the implementation of the AI Act",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/supporting-implementation-ai-act-clear-guidelines",
-      "channel": "normativa",
-      "sourceId": "eu-ai-office",
-      "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.279Z",
-      "tags": [
-        "commissione-europea",
-        "ai-office",
-        "ai-act",
-        "gpai",
-        "high-risk-ai",
-        "digital-strategy",
-        "pnrr"
-      ],
-      "kind": "normativa",
-      "score": 82,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "1b2530051c7ac131",
-      "title": "European Digital Innovation Hubs (EDIHs)",
-      "summary": "Link rilevato da Commissione Europea - AI Office e AI Act: European Digital Innovation Hubs (EDIHs)",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/edihs",
-      "channel": "normativa",
-      "sourceId": "eu-ai-office",
-      "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.278Z",
-      "tags": [
-        "commissione-europea",
-        "ai-office",
-        "ai-act",
-        "gpai",
-        "high-risk-ai",
-        "digital-strategy",
-        "pnrr"
-      ],
-      "kind": "normativa",
-      "score": 82,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "9256c11c19309b44",
-      "title": "Any question on the AI Act? Visit our Single Information Platform",
-      "summary": "Link rilevato da Commissione Europea - AI Office e AI Act: Any question on the AI Act? Visit our Single Information Platform",
-      "url": "https://ai-act-service-desk.ec.europa.eu/en",
-      "channel": "normativa",
-      "sourceId": "eu-ai-office",
-      "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.278Z",
-      "tags": [
-        "commissione-europea",
-        "ai-office",
-        "ai-act",
-        "gpai",
-        "high-risk-ai",
-        "digital-strategy",
-        "pnrr"
-      ],
-      "kind": "normativa",
-      "score": 82,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
       "id": "ae55eb9464d631e7",
       "title": "general-purpose AI (GPAI)",
       "summary": "Link rilevato da Commissione Europea - AI Office e AI Act: general-purpose AI (GPAI)",
@@ -2988,7 +2600,7 @@
       "channel": "normativa",
       "sourceId": "eu-ai-office",
       "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.277Z",
+      "publishedAt": "2026-06-18T14:27:56.552Z",
       "tags": [
         "commissione-europea",
         "ai-office",
@@ -3021,36 +2633,7 @@
       "channel": "normativa",
       "sourceId": "eu-ai-office",
       "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.277Z",
-      "tags": [
-        "commissione-europea",
-        "ai-office",
-        "ai-act",
-        "gpai",
-        "high-risk-ai",
-        "digital-strategy",
-        "pnrr"
-      ],
-      "kind": "normativa",
-      "score": 82,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "7be12fa42e83680d",
-      "title": "AI omnibus",
-      "summary": "Link rilevato da Commissione Europea - AI Office e AI Act: AI omnibus",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-ai-regulation-proposal",
-      "channel": "normativa",
-      "sourceId": "eu-ai-office",
-      "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.277Z",
+      "publishedAt": "2026-06-18T14:27:56.552Z",
       "tags": [
         "commissione-europea",
         "ai-office",
@@ -3079,7 +2662,7 @@
       "channel": "normativa",
       "sourceId": "eu-ai-office",
       "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.277Z",
+      "publishedAt": "2026-06-18T14:27:56.552Z",
       "tags": [
         "commissione-europea",
         "ai-office",
@@ -3098,39 +2681,6 @@
         "cup": [],
         "requirements": [],
         "beneficiaries": []
-      }
-    },
-    {
-      "id": "cfb30427bdcc7790",
-      "title": "AI innovation package",
-      "summary": "Link rilevato da Commissione Europea - AI Office e AI Act: AI innovation package",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_24_383",
-      "channel": "normativa",
-      "sourceId": "eu-ai-office",
-      "sourceName": "Commissione Europea - AI Office e AI Act",
-      "publishedAt": "2026-06-18T13:02:18.277Z",
-      "tags": [
-        "commissione-europea",
-        "ai-office",
-        "ai-act",
-        "gpai",
-        "high-risk-ai",
-        "digital-strategy",
-        "beneficiari",
-        "pnrr"
-      ],
-      "kind": "normativa",
-      "score": 82,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "AI innovation package.",
-          "Link rilevato da Commissione Europea - AI Office e AI Act: AI innovation package"
-        ]
       }
     },
     {
@@ -3347,7 +2897,7 @@
       "channel": "normativa",
       "sourceId": "esma-mica",
       "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.219Z",
+      "publishedAt": "2026-06-18T14:27:56.667Z",
       "tags": [
         "esma",
         "mica",
@@ -3376,7 +2926,36 @@
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.157Z",
+      "publishedAt": "2026-06-18T14:27:56.585Z",
+      "tags": [
+        "esma",
+        "dora",
+        "finanza-digitale",
+        "ict-risk",
+        "outsourcing-ict",
+        "incident-reporting",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 80,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "13a95fa7bc6b40c8",
+      "title": "DORA Oversight",
+      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: DORA Oversight",
+      "url": "https://www.esma.europa.eu/dora-oversight",
+      "channel": "normativa",
+      "sourceId": "esma-dora",
+      "sourceName": "ESMA - DORA e resilienza operativa digitale",
+      "publishedAt": "2026-06-18T14:27:56.584Z",
       "tags": [
         "esma",
         "dora",
@@ -3405,7 +2984,7 @@
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.156Z",
+      "publishedAt": "2026-06-18T14:27:56.584Z",
       "tags": [
         "esma",
         "dora",
@@ -3434,98 +3013,7 @@
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.156Z",
-      "tags": [
-        "esma",
-        "dora",
-        "finanza-digitale",
-        "ict-risk",
-        "outsourcing-ict",
-        "incident-reporting",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 80,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "8ad88285a0d26a00",
-      "title": "main page on the register reporting",
-      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: main page on the register reporting",
-      "url": "https://eba.europa.eu/activities/direct-supervision-and-oversight/digital-operational-resilience-act/preparation-dora-application",
-      "channel": "normativa",
-      "sourceId": "esma-dora",
-      "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.155Z",
-      "tags": [
-        "esma",
-        "dora",
-        "finanza-digitale",
-        "ict-risk",
-        "outsourcing-ict",
-        "incident-reporting",
-        "beneficiari",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 80,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "main page on the register reporting.",
-          "Link rilevato da ESMA - DORA e resilienza operativa digitale: main page on the register reporting"
-        ]
-      }
-    },
-    {
-      "id": "13a95fa7bc6b40c8",
-      "title": "DORA Oversight",
-      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: DORA Oversight",
-      "url": "https://www.esma.europa.eu/dora-oversight",
-      "channel": "normativa",
-      "sourceId": "esma-dora",
-      "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.155Z",
-      "tags": [
-        "esma",
-        "dora",
-        "finanza-digitale",
-        "ict-risk",
-        "outsourcing-ict",
-        "incident-reporting",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 80,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "98285f9000e567f3",
-      "title": "a public statement",
-      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: a public statement",
-      "url": "https://www.esma.europa.eu/sites/default/files/2024-12/JC_2024_99_ESAs_Statement_on_DORA_application.pdf",
-      "channel": "normativa",
-      "sourceId": "esma-dora",
-      "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.154Z",
+      "publishedAt": "2026-06-18T14:27:56.584Z",
       "tags": [
         "esma",
         "dora",
@@ -3554,7 +3042,7 @@
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.153Z",
+      "publishedAt": "2026-06-18T14:27:56.583Z",
       "tags": [
         "esma",
         "dora",
@@ -3576,14 +3064,14 @@
       }
     },
     {
-      "id": "8ba07d3c6cb184be",
-      "title": "https://www.esma.europa.eu/sites/default/files/2024-11/JC-GL-2024-36_Guidelines_on_DORA_oversight_cooperation.pdf",
-      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: https://www.esma.europa.eu/sites/default/files/2024-11/JC-GL-2024-36_Guidelines_on_DORA_oversight_cooperation.pdf",
-      "url": "https://www.esma.europa.eu/sites/default/files/2024-11/JC-GL-2024-36_Guidelines_on_DORA_oversight_cooperation.pdf",
+      "id": "98285f9000e567f3",
+      "title": "a public statement",
+      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: a public statement",
+      "url": "https://www.esma.europa.eu/sites/default/files/2024-12/JC_2024_99_ESAs_Statement_on_DORA_application.pdf",
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.152Z",
+      "publishedAt": "2026-06-18T14:27:56.583Z",
       "tags": [
         "esma",
         "dora",
@@ -3591,7 +3079,35 @@
         "ict-risk",
         "outsourcing-ict",
         "incident-reporting",
-        "importo",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 80,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "8ad88285a0d26a00",
+      "title": "main page on the register reporting",
+      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: main page on the register reporting",
+      "url": "https://eba.europa.eu/activities/direct-supervision-and-oversight/digital-operational-resilience-act/preparation-dora-application",
+      "channel": "normativa",
+      "sourceId": "esma-dora",
+      "sourceName": "ESMA - DORA e resilienza operativa digitale",
+      "publishedAt": "2026-06-18T14:27:56.583Z",
+      "tags": [
+        "esma",
+        "dora",
+        "finanza-digitale",
+        "ict-risk",
+        "outsourcing-ict",
+        "incident-reporting",
         "beneficiari",
         "digitale"
       ],
@@ -3599,45 +3115,14 @@
       "score": 80,
       "fields": {
         "deadlines": [],
-        "amounts": [
-          ".euro"
-        ],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "https://www.esma.europa.eu/sites/default/files/2024-11/JC-GL-2024-36_Guidelines_on_DORA_oversight_cooperation.pdf.",
-          "Link rilevato da ESMA - DORA e resilienza operativa digitale: https://www.esma.europa.eu/sites/default/files/2024-11/JC-GL-2024-36_Guidelines_on_DORA_oversight_cooperation.pdf"
-        ]
-      }
-    },
-    {
-      "id": "c055b455f6886689",
-      "title": "European Single Access Point (ESAP)",
-      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: European Single Access Point (ESAP)",
-      "url": "https://www.esma.europa.eu/esmas-activities/data/european-single-access-point-esap",
-      "channel": "normativa",
-      "sourceId": "esma-dora",
-      "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.151Z",
-      "tags": [
-        "esma",
-        "dora",
-        "finanza-digitale",
-        "ict-risk",
-        "outsourcing-ict",
-        "incident-reporting",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 80,
-      "fields": {
-        "deadlines": [],
         "amounts": [],
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "main page on the register reporting.",
+          "Link rilevato da ESMA - DORA e resilienza operativa digitale: main page on the register reporting"
+        ]
       }
     },
     {
@@ -3648,7 +3133,7 @@
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.150Z",
+      "publishedAt": "2026-06-18T14:27:56.582Z",
       "tags": [
         "esma",
         "dora",
@@ -3677,7 +3162,7 @@
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.150Z",
+      "publishedAt": "2026-06-18T14:27:56.582Z",
       "tags": [
         "esma",
         "dora",
@@ -3706,7 +3191,7 @@
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.150Z",
+      "publishedAt": "2026-06-18T14:27:56.582Z",
       "tags": [
         "esma",
         "dora",
@@ -3729,14 +3214,79 @@
       }
     },
     {
-      "id": "76ea75c8bb6c1c47",
-      "title": "Digital Finance and Innovation",
-      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: Digital Finance and Innovation",
-      "url": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation",
+      "id": "c055b455f6886689",
+      "title": "European Single Access Point (ESAP)",
+      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: European Single Access Point (ESAP)",
+      "url": "https://www.esma.europa.eu/esmas-activities/data/european-single-access-point-esap",
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.149Z",
+      "publishedAt": "2026-06-18T14:27:56.582Z",
+      "tags": [
+        "esma",
+        "dora",
+        "finanza-digitale",
+        "ict-risk",
+        "outsourcing-ict",
+        "incident-reporting",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 80,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "8ba07d3c6cb184be",
+      "title": "https://www.esma.europa.eu/sites/default/files/2024-11/JC-GL-2024-36_Guidelines_on_DORA_oversight_cooperation.pdf",
+      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: https://www.esma.europa.eu/sites/default/files/2024-11/JC-GL-2024-36_Guidelines_on_DORA_oversight_cooperation.pdf",
+      "url": "https://www.esma.europa.eu/sites/default/files/2024-11/JC-GL-2024-36_Guidelines_on_DORA_oversight_cooperation.pdf",
+      "channel": "normativa",
+      "sourceId": "esma-dora",
+      "sourceName": "ESMA - DORA e resilienza operativa digitale",
+      "publishedAt": "2026-06-18T14:27:56.582Z",
+      "tags": [
+        "esma",
+        "dora",
+        "finanza-digitale",
+        "ict-risk",
+        "outsourcing-ict",
+        "incident-reporting",
+        "importo",
+        "beneficiari",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 80,
+      "fields": {
+        "deadlines": [],
+        "amounts": [
+          ".euro"
+        ],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "https://www.esma.europa.eu/sites/default/files/2024-11/JC-GL-2024-36_Guidelines_on_DORA_oversight_cooperation.pdf.",
+          "Link rilevato da ESMA - DORA e resilienza operativa digitale: https://www.esma.europa.eu/sites/default/files/2024-11/JC-GL-2024-36_Guidelines_on_DORA_oversight_cooperation.pdf"
+        ]
+      }
+    },
+    {
+      "id": "eeda66093ceec217",
+      "title": "Data Reporting Services Providers",
+      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: Data Reporting Services Providers",
+      "url": "https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/data-reporting-services-providers",
+      "channel": "normativa",
+      "sourceId": "esma-dora",
+      "sourceName": "ESMA - DORA e resilienza operativa digitale",
+      "publishedAt": "2026-06-18T14:27:56.581Z",
       "tags": [
         "esma",
         "dora",
@@ -3765,7 +3315,7 @@
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.147Z",
+      "publishedAt": "2026-06-18T14:27:56.581Z",
       "tags": [
         "esma",
         "dora",
@@ -3787,43 +3337,14 @@
       }
     },
     {
-      "id": "eeda66093ceec217",
-      "title": "Data Reporting Services Providers",
-      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: Data Reporting Services Providers",
-      "url": "https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/data-reporting-services-providers",
+      "id": "76ea75c8bb6c1c47",
+      "title": "Digital Finance and Innovation",
+      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: Digital Finance and Innovation",
+      "url": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation",
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.144Z",
-      "tags": [
-        "esma",
-        "dora",
-        "finanza-digitale",
-        "ict-risk",
-        "outsourcing-ict",
-        "incident-reporting",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 80,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "163ff0ec701aaf74",
-      "title": "Procurement Opportunities",
-      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: Procurement Opportunities",
-      "url": "https://www.esma.europa.eu/about-esma/procurements",
-      "channel": "normativa",
-      "sourceId": "esma-dora",
-      "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.143Z",
+      "publishedAt": "2026-06-18T14:27:56.581Z",
       "tags": [
         "esma",
         "dora",
@@ -3852,7 +3373,7 @@
       "channel": "normativa",
       "sourceId": "esma-dora",
       "sourceName": "ESMA - DORA e resilienza operativa digitale",
-      "publishedAt": "2026-06-18T13:02:18.139Z",
+      "publishedAt": "2026-06-18T14:27:56.580Z",
       "tags": [
         "esma",
         "dora",
@@ -3875,6 +3396,35 @@
           "Transparency and Access to Documents.",
           "Link rilevato da ESMA - DORA e resilienza operativa digitale: Transparency and Access to Documents"
         ]
+      }
+    },
+    {
+      "id": "163ff0ec701aaf74",
+      "title": "Procurement Opportunities",
+      "summary": "Link rilevato da ESMA - DORA e resilienza operativa digitale: Procurement Opportunities",
+      "url": "https://www.esma.europa.eu/about-esma/procurements",
+      "channel": "normativa",
+      "sourceId": "esma-dora",
+      "sourceName": "ESMA - DORA e resilienza operativa digitale",
+      "publishedAt": "2026-06-18T14:27:56.580Z",
+      "tags": [
+        "esma",
+        "dora",
+        "finanza-digitale",
+        "ict-risk",
+        "outsourcing-ict",
+        "incident-reporting",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 80,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
       }
     },
     {
@@ -4357,7 +3907,7 @@
       "channel": "normativa",
       "sourceId": "esma-mica",
       "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.218Z",
+      "publishedAt": "2026-06-18T14:27:56.666Z",
       "tags": [
         "esma",
         "mica",
@@ -4518,7 +4068,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.751Z",
+      "publishedAt": "2026-06-18T14:27:56.899Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -4551,7 +4101,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.751Z",
+      "publishedAt": "2026-06-18T14:27:56.899Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -4585,7 +4135,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.751Z",
+      "publishedAt": "2026-06-18T14:27:56.899Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -4611,6 +4161,39 @@
       }
     },
     {
+      "id": "79b9b28ec803f800",
+      "title": "SPID",
+      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: SPID",
+      "url": "https://www.agid.gov.it/it/piattaforme/spid",
+      "channel": "normativa",
+      "sourceId": "agid-home",
+      "sourceName": "AgID - Notizie, linee guida e PA digitale",
+      "publishedAt": "2026-06-18T14:27:56.898Z",
+      "tags": [
+        "agid",
+        "pa-digitale",
+        "ai",
+        "accessibilita",
+        "conservazione",
+        "eidas",
+        "appalti-innovativi",
+        "beneficiari",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 72,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Link rilevato da AgID - Notizie, linee guida e PA digitale: SPID"
+        ]
+      }
+    },
+    {
       "id": "250de2cb22a4008d",
       "title": "eIDAS",
       "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: eIDAS",
@@ -4618,7 +4201,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.750Z",
+      "publishedAt": "2026-06-18T14:27:56.898Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -4652,7 +4235,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.750Z",
+      "publishedAt": "2026-06-18T14:27:56.898Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -4685,7 +4268,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.750Z",
+      "publishedAt": "2026-06-18T14:27:56.898Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -4711,6 +4294,39 @@
       }
     },
     {
+      "id": "056fe0e61567a48a",
+      "title": "Linee Guida sull'accessibilità degli strumenti informatici per soggetti privati",
+      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: Linee Guida sull'accessibilità degli strumenti informatici per soggetti privati",
+      "url": "https://www.agid.gov.it/sites/agid/files/2024-06/Linee%20guida%20sull%27accessibilit%C3%A0%20degli%20strumenti%20informatici%20-%20Soggetti%20privati.pdf",
+      "channel": "normativa",
+      "sourceId": "agid-home",
+      "sourceName": "AgID - Notizie, linee guida e PA digitale",
+      "publishedAt": "2026-06-18T14:27:56.897Z",
+      "tags": [
+        "agid",
+        "pa-digitale",
+        "ai",
+        "accessibilita",
+        "conservazione",
+        "eidas",
+        "appalti-innovativi",
+        "beneficiari",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 72,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Link rilevato da AgID - Notizie, linee guida e PA digitale: Linee Guida sull'accessibilità degli strumenti informatici per soggetti privati"
+        ]
+      }
+    },
+    {
       "id": "ec73b00c4b436dc4",
       "title": "Vai alla pagina del Piano Triennale",
       "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: Vai alla pagina del Piano Triennale",
@@ -4718,7 +4334,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.749Z",
+      "publishedAt": "2026-06-18T14:27:56.897Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -4745,14 +4361,14 @@
       }
     },
     {
-      "id": "79b9b28ec803f800",
-      "title": "SPID",
-      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: SPID",
-      "url": "https://www.agid.gov.it/it/piattaforme/spid",
+      "id": "bf6ea585f04f1e32",
+      "title": "Linee Guida per il procurement di Intelligenza Artificiale nella PA",
+      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: Linee Guida per il procurement di Intelligenza Artificiale nella PA",
+      "url": "https://www.agid.gov.it/sites/agid/files/2026-03/LLGG%20procurement_per%20consultazione%20pubblica.pdf",
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.749Z",
+      "publishedAt": "2026-06-18T14:27:56.896Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -4773,7 +4389,8 @@
         "cup": [],
         "requirements": [],
         "beneficiaries": [
-          "Link rilevato da AgID - Notizie, linee guida e PA digitale: SPID"
+          "Linee Guida per il procurement di Intelligenza Artificiale nella PA.",
+          "Link rilevato da AgID - Notizie, linee guida e PA digitale: Linee Guida per il procurement di Intelligenza Artificiale nella PA"
         ]
       }
     },
@@ -4785,7 +4402,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.748Z",
+      "publishedAt": "2026-06-18T14:27:56.896Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -4819,7 +4436,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.748Z",
+      "publishedAt": "2026-06-18T14:27:56.896Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -4853,7 +4470,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.748Z",
+      "publishedAt": "2026-06-18T14:27:56.896Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -4880,14 +4497,14 @@
       }
     },
     {
-      "id": "056fe0e61567a48a",
-      "title": "Linee Guida sull'accessibilità degli strumenti informatici per soggetti privati",
-      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: Linee Guida sull'accessibilità degli strumenti informatici per soggetti privati",
-      "url": "https://www.agid.gov.it/sites/agid/files/2024-06/Linee%20guida%20sull%27accessibilit%C3%A0%20degli%20strumenti%20informatici%20-%20Soggetti%20privati.pdf",
+      "id": "9a2f7816278988ff",
+      "title": "Vai all'articolo",
+      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: Vai all'articolo",
+      "url": "https://www.agid.gov.it/it/notizie/dati-pubblici-piu-accessibili-di-qualita-e-facili-da-consultare-grazie-allia-arrivano",
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.748Z",
+      "publishedAt": "2026-06-18T14:27:56.895Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -4908,7 +4525,7 @@
         "cup": [],
         "requirements": [],
         "beneficiaries": [
-          "Link rilevato da AgID - Notizie, linee guida e PA digitale: Linee Guida sull'accessibilità degli strumenti informatici per soggetti privati"
+          "Link rilevato da AgID - Notizie, linee guida e PA digitale: Vai all'articolo"
         ]
       }
     },
@@ -4920,7 +4537,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.747Z",
+      "publishedAt": "2026-06-18T14:27:56.895Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -4954,7 +4571,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.747Z",
+      "publishedAt": "2026-06-18T14:27:56.895Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -4981,139 +4598,6 @@
       }
     },
     {
-      "id": "bf6ea585f04f1e32",
-      "title": "Linee Guida per il procurement di Intelligenza Artificiale nella PA",
-      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: Linee Guida per il procurement di Intelligenza Artificiale nella PA",
-      "url": "https://www.agid.gov.it/sites/agid/files/2026-03/LLGG%20procurement_per%20consultazione%20pubblica.pdf",
-      "channel": "normativa",
-      "sourceId": "agid-home",
-      "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.747Z",
-      "tags": [
-        "agid",
-        "pa-digitale",
-        "ai",
-        "accessibilita",
-        "conservazione",
-        "eidas",
-        "appalti-innovativi",
-        "beneficiari",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 72,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "Linee Guida per il procurement di Intelligenza Artificiale nella PA.",
-          "Link rilevato da AgID - Notizie, linee guida e PA digitale: Linee Guida per il procurement di Intelligenza Artificiale nella PA"
-        ]
-      }
-    },
-    {
-      "id": "35f396448f8dde64",
-      "title": "Linee Guida",
-      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: Linee Guida",
-      "url": "https://www.agid.gov.it/it/linee-guida",
-      "channel": "normativa",
-      "sourceId": "agid-home",
-      "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.746Z",
-      "tags": [
-        "agid",
-        "pa-digitale",
-        "ai",
-        "accessibilita",
-        "conservazione",
-        "eidas",
-        "appalti-innovativi",
-        "beneficiari",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 72,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "Link rilevato da AgID - Notizie, linee guida e PA digitale: Linee Guida"
-        ]
-      }
-    },
-    {
-      "id": "46ae27397865cd07",
-      "title": "Academy",
-      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: Academy",
-      "url": "https://www.agid.gov.it/it/academy",
-      "channel": "normativa",
-      "sourceId": "agid-home",
-      "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.746Z",
-      "tags": [
-        "agid",
-        "pa-digitale",
-        "ai",
-        "accessibilita",
-        "conservazione",
-        "eidas",
-        "appalti-innovativi",
-        "beneficiari",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 72,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "Link rilevato da AgID - Notizie, linee guida e PA digitale: Academy"
-        ]
-      }
-    },
-    {
-      "id": "9a2f7816278988ff",
-      "title": "Vai all'articolo",
-      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: Vai all'articolo",
-      "url": "https://www.agid.gov.it/it/notizie/dati-pubblici-piu-accessibili-di-qualita-e-facili-da-consultare-grazie-allia-arrivano",
-      "channel": "normativa",
-      "sourceId": "agid-home",
-      "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.746Z",
-      "tags": [
-        "agid",
-        "pa-digitale",
-        "ai",
-        "accessibilita",
-        "conservazione",
-        "eidas",
-        "appalti-innovativi",
-        "beneficiari",
-        "digitale"
-      ],
-      "kind": "normativa",
-      "score": 72,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "Link rilevato da AgID - Notizie, linee guida e PA digitale: Vai all'articolo"
-        ]
-      }
-    },
-    {
       "id": "970ff1d0b85adf96",
       "title": "Appalti innovativi",
       "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: Appalti innovativi",
@@ -5121,7 +4605,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.745Z",
+      "publishedAt": "2026-06-18T14:27:56.894Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -5155,7 +4639,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.745Z",
+      "publishedAt": "2026-06-18T14:27:56.894Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -5188,7 +4672,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.745Z",
+      "publishedAt": "2026-06-18T14:27:56.894Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -5215,6 +4699,72 @@
       }
     },
     {
+      "id": "35f396448f8dde64",
+      "title": "Linee Guida",
+      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: Linee Guida",
+      "url": "https://www.agid.gov.it/it/linee-guida",
+      "channel": "normativa",
+      "sourceId": "agid-home",
+      "sourceName": "AgID - Notizie, linee guida e PA digitale",
+      "publishedAt": "2026-06-18T14:27:56.894Z",
+      "tags": [
+        "agid",
+        "pa-digitale",
+        "ai",
+        "accessibilita",
+        "conservazione",
+        "eidas",
+        "appalti-innovativi",
+        "beneficiari",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 72,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Link rilevato da AgID - Notizie, linee guida e PA digitale: Linee Guida"
+        ]
+      }
+    },
+    {
+      "id": "46ae27397865cd07",
+      "title": "Academy",
+      "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: Academy",
+      "url": "https://www.agid.gov.it/it/academy",
+      "channel": "normativa",
+      "sourceId": "agid-home",
+      "sourceName": "AgID - Notizie, linee guida e PA digitale",
+      "publishedAt": "2026-06-18T14:27:56.894Z",
+      "tags": [
+        "agid",
+        "pa-digitale",
+        "ai",
+        "accessibilita",
+        "conservazione",
+        "eidas",
+        "appalti-innovativi",
+        "beneficiari",
+        "digitale"
+      ],
+      "kind": "normativa",
+      "score": 72,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Link rilevato da AgID - Notizie, linee guida e PA digitale: Academy"
+        ]
+      }
+    },
+    {
       "id": "85dbbe3d7ca4c61f",
       "title": "Accessibilità e usabilità",
       "summary": "Link rilevato da AgID - Notizie, linee guida e PA digitale: Accessibilità e usabilità",
@@ -5222,7 +4772,7 @@
       "channel": "normativa",
       "sourceId": "agid-home",
       "sourceName": "AgID - Notizie, linee guida e PA digitale",
-      "publishedAt": "2026-06-18T13:02:18.744Z",
+      "publishedAt": "2026-06-18T14:27:56.893Z",
       "tags": [
         "agid",
         "pa-digitale",
@@ -5255,7 +4805,7 @@
       "channel": "normativa",
       "sourceId": "edpb-news",
       "sourceName": "EDPB - News e linee guida privacy UE",
-      "publishedAt": "2026-06-18T13:02:18.374Z",
+      "publishedAt": "2026-06-18T14:27:56.695Z",
       "tags": [
         "edpb",
         "privacy",
@@ -5317,7 +4867,7 @@
       "channel": "normativa",
       "sourceId": "edpb-news",
       "sourceName": "EDPB - News e linee guida privacy UE",
-      "publishedAt": "2026-06-18T13:02:18.376Z",
+      "publishedAt": "2026-06-18T14:27:56.696Z",
       "tags": [
         "edpb",
         "privacy",
@@ -5694,6 +5244,34 @@
       }
     },
     {
+      "id": "2cb9d5c07dc3e44c",
+      "title": "▸ List of grandfathering periods",
+      "summary": "Link rilevato da ESMA - MiCA e digital finance: ▸ List of grandfathering periods",
+      "url": "https://www.esma.europa.eu/sites/default/files/2024-12/List_of_MiCA_grandfathering_periods_art._143_3.pdf",
+      "channel": "normativa",
+      "sourceId": "esma-mica",
+      "sourceName": "ESMA - MiCA e digital finance",
+      "publishedAt": "2026-06-18T14:27:56.668Z",
+      "tags": [
+        "esma",
+        "mica",
+        "crypto",
+        "casp",
+        "stablecoin",
+        "digital-finance"
+      ],
+      "kind": "normativa",
+      "score": 62,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
       "id": "1602548819aba42d",
       "title": "Competent authorities (Article 93 MiCAR)",
       "summary": "Link rilevato da ESMA - MiCA e digital finance: Competent authorities (Article 93 MiCAR)",
@@ -5701,7 +5279,7 @@
       "channel": "normativa",
       "sourceId": "esma-mica",
       "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.221Z",
+      "publishedAt": "2026-06-18T14:27:56.668Z",
       "tags": [
         "esma",
         "mica",
@@ -5729,7 +5307,7 @@
       "channel": "normativa",
       "sourceId": "esma-mica",
       "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.221Z",
+      "publishedAt": "2026-06-18T14:27:56.668Z",
       "tags": [
         "esma",
         "mica",
@@ -5757,7 +5335,7 @@
       "channel": "normativa",
       "sourceId": "esma-mica",
       "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.221Z",
+      "publishedAt": "2026-06-18T14:27:56.668Z",
       "tags": [
         "esma",
         "mica",
@@ -5785,67 +5363,7 @@
       "channel": "normativa",
       "sourceId": "esma-mica",
       "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.221Z",
-      "tags": [
-        "esma",
-        "mica",
-        "crypto",
-        "casp",
-        "stablecoin",
-        "digital-finance"
-      ],
-      "kind": "normativa",
-      "score": 62,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "065ac514a1009723",
-      "title": "MiCA White Paper Reporting Manual",
-      "summary": "Link rilevato da ESMA - MiCA e digital finance: MiCA White Paper Reporting Manual",
-      "url": "https://www.esma.europa.eu/sites/default/files/2025-08/mica_taxonomy_reporting_manual_v1.0.pdf",
-      "channel": "normativa",
-      "sourceId": "esma-mica",
-      "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.220Z",
-      "tags": [
-        "esma",
-        "mica",
-        "crypto",
-        "casp",
-        "stablecoin",
-        "digital-finance",
-        "beneficiari"
-      ],
-      "kind": "normativa",
-      "score": 62,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "MiCA White Paper Reporting Manual.",
-          "Link rilevato da ESMA - MiCA e digital finance: MiCA White Paper Reporting Manual"
-        ]
-      }
-    },
-    {
-      "id": "2cb9d5c07dc3e44c",
-      "title": "▸ List of grandfathering periods",
-      "summary": "Link rilevato da ESMA - MiCA e digital finance: ▸ List of grandfathering periods",
-      "url": "https://www.esma.europa.eu/sites/default/files/2024-12/List_of_MiCA_grandfathering_periods_art._143_3.pdf",
-      "channel": "normativa",
-      "sourceId": "esma-mica",
-      "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.220Z",
+      "publishedAt": "2026-06-18T14:27:56.668Z",
       "tags": [
         "esma",
         "mica",
@@ -5873,7 +5391,7 @@
       "channel": "normativa",
       "sourceId": "esma-mica",
       "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.219Z",
+      "publishedAt": "2026-06-18T14:27:56.667Z",
       "tags": [
         "esma",
         "mica",
@@ -5905,7 +5423,7 @@
       "channel": "normativa",
       "sourceId": "esma-mica",
       "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.219Z",
+      "publishedAt": "2026-06-18T14:27:56.667Z",
       "tags": [
         "esma",
         "mica",
@@ -5926,21 +5444,22 @@
       }
     },
     {
-      "id": "64cde46a642a4397",
-      "title": "Statement to support the smooth implementation of MiCA standards and format",
-      "summary": "Link rilevato da ESMA - MiCA e digital finance: Statement to support the smooth implementation of MiCA standards and format",
-      "url": "https://www.esma.europa.eu/sites/default/files/2025-11/ESMA75-1303207761-6284_Statement_to_support_the_smooth_implementation_of_MiCA_standards_and_format.pdf",
+      "id": "065ac514a1009723",
+      "title": "MiCA White Paper Reporting Manual",
+      "summary": "Link rilevato da ESMA - MiCA e digital finance: MiCA White Paper Reporting Manual",
+      "url": "https://www.esma.europa.eu/sites/default/files/2025-08/mica_taxonomy_reporting_manual_v1.0.pdf",
       "channel": "normativa",
       "sourceId": "esma-mica",
       "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.218Z",
+      "publishedAt": "2026-06-18T14:27:56.667Z",
       "tags": [
         "esma",
         "mica",
         "crypto",
         "casp",
         "stablecoin",
-        "digital-finance"
+        "digital-finance",
+        "beneficiari"
       ],
       "kind": "normativa",
       "score": 62,
@@ -5950,18 +5469,21 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "MiCA White Paper Reporting Manual.",
+          "Link rilevato da ESMA - MiCA e digital finance: MiCA White Paper Reporting Manual"
+        ]
       }
     },
     {
-      "id": "cbc060fbf236a2a9",
-      "title": "relevant MiCA technical standards",
-      "summary": "Link rilevato da ESMA - MiCA e digital finance: relevant MiCA technical standards",
-      "url": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32024R2984",
+      "id": "625e768fcfb401d5",
+      "title": "↓ Non-compliant entities",
+      "summary": "Link rilevato da ESMA - MiCA e digital finance: ↓ Non-compliant entities",
+      "url": "https://www.esma.europa.eu/sites/default/files/2024-12/NCASP.csv",
       "channel": "normativa",
       "sourceId": "esma-mica",
       "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.218Z",
+      "publishedAt": "2026-06-18T14:27:56.666Z",
       "tags": [
         "esma",
         "mica",
@@ -5989,7 +5511,7 @@
       "channel": "normativa",
       "sourceId": "esma-mica",
       "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.217Z",
+      "publishedAt": "2026-06-18T14:27:56.666Z",
       "tags": [
         "esma",
         "mica",
@@ -6021,7 +5543,63 @@
       "channel": "normativa",
       "sourceId": "esma-mica",
       "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.217Z",
+      "publishedAt": "2026-06-18T14:27:56.666Z",
+      "tags": [
+        "esma",
+        "mica",
+        "crypto",
+        "casp",
+        "stablecoin",
+        "digital-finance"
+      ],
+      "kind": "normativa",
+      "score": 62,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "64cde46a642a4397",
+      "title": "Statement to support the smooth implementation of MiCA standards and format",
+      "summary": "Link rilevato da ESMA - MiCA e digital finance: Statement to support the smooth implementation of MiCA standards and format",
+      "url": "https://www.esma.europa.eu/sites/default/files/2025-11/ESMA75-1303207761-6284_Statement_to_support_the_smooth_implementation_of_MiCA_standards_and_format.pdf",
+      "channel": "normativa",
+      "sourceId": "esma-mica",
+      "sourceName": "ESMA - MiCA e digital finance",
+      "publishedAt": "2026-06-18T14:27:56.666Z",
+      "tags": [
+        "esma",
+        "mica",
+        "crypto",
+        "casp",
+        "stablecoin",
+        "digital-finance"
+      ],
+      "kind": "normativa",
+      "score": 62,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "cbc060fbf236a2a9",
+      "title": "relevant MiCA technical standards",
+      "summary": "Link rilevato da ESMA - MiCA e digital finance: relevant MiCA technical standards",
+      "url": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32024R2984",
+      "channel": "normativa",
+      "sourceId": "esma-mica",
+      "sourceName": "ESMA - MiCA e digital finance",
+      "publishedAt": "2026-06-18T14:27:56.666Z",
       "tags": [
         "esma",
         "mica",
@@ -6049,7 +5627,7 @@
       "channel": "normativa",
       "sourceId": "esma-mica",
       "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.214Z",
+      "publishedAt": "2026-06-18T14:27:56.665Z",
       "tags": [
         "esma",
         "mica",
@@ -6077,7 +5655,7 @@
       "channel": "normativa",
       "sourceId": "esma-mica",
       "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.214Z",
+      "publishedAt": "2026-06-18T14:27:56.665Z",
       "tags": [
         "esma",
         "mica",
@@ -6109,35 +5687,7 @@
       "channel": "normativa",
       "sourceId": "esma-mica",
       "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.214Z",
-      "tags": [
-        "esma",
-        "mica",
-        "crypto",
-        "casp",
-        "stablecoin",
-        "digital-finance"
-      ],
-      "kind": "normativa",
-      "score": 62,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "625e768fcfb401d5",
-      "title": "↓ Non-compliant entities",
-      "summary": "Link rilevato da ESMA - MiCA e digital finance: ↓ Non-compliant entities",
-      "url": "https://www.esma.europa.eu/sites/default/files/2024-12/NCASP.csv",
-      "channel": "normativa",
-      "sourceId": "esma-mica",
-      "sourceName": "ESMA - MiCA e digital finance",
-      "publishedAt": "2026-06-18T13:02:18.214Z",
+      "publishedAt": "2026-06-18T14:27:56.665Z",
       "tags": [
         "esma",
         "mica",
