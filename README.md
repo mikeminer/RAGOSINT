@@ -40,6 +40,8 @@ RAGOSINT e' una pipeline OSINT/RAG-ready per un gruppo di ingegneri che vuole tr
 - Bandi: `/feed/bandi.xml`
 - Aggregato: `/feed.xml`
 
+Il feed **Normativa** serve per monitorare aggiornamenti giuridici e normativi che possono impattare appalti, PNRR, Pubblica Amministrazione, privacy, lavoro, digitale, regioni, regolamenti e giurisprudenza. Oggi raccoglie fonti ufficiali Gazzetta Ufficiale su Serie Generale, Corte Costituzionale, Unione Europea e Regioni.
+
 ## Aggiornamento feed RSS
 
 I feed RSS si aggiornano automaticamente, ma il progetto non usa un database persistente: ogni feed viene generato dalla pipeline serverless quando viene richiesto.
