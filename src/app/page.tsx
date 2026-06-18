@@ -24,12 +24,13 @@ export const revalidate = 1800;
 
 export default async function Home() {
   const [allResult, bandiResult, normativaResult] = await Promise.all([
-    collectAlerts({ channel: "all", limit: 32 }),
-    collectAlerts({ channel: "bandi", limit: 20 }),
-    collectAlerts({ channel: "normativa", limit: 20 }),
+    collectAlerts({ channel: "all", limit: 260 }),
+    collectAlerts({ channel: "bandi", limit: 220 }),
+    collectAlerts({ channel: "normativa", limit: 120 }),
   ]);
   const latestBandi = bandiResult.alerts.slice(0, 8);
   const latestNormativa = normativaResult.alerts.slice(0, 8);
+  const allSignals = allResult.alerts.slice(0, 80);
 
   return (
     <main className="teletext-main">
@@ -177,6 +178,10 @@ export default async function Home() {
               kicker="Normativa / compliance / PA digitale"
               href="/api/alerts?channel=normativa"
               alerts={latestNormativa}
+            />
+            <AllSignalsSection
+              alerts={allSignals}
+              total={allResult.stats.totalAlerts}
             />
           </div>
         </div>
@@ -399,6 +404,55 @@ function SignalSection({
       <div className="mt-4 grid gap-3">
         {alerts.map((alert) => (
           <AlertCard key={alert.id} alert={alert} />
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function AllSignalsSection({ alerts, total }: { alerts: Alert[]; total: number }) {
+  return (
+    <section>
+      <div className="teletext-section-heading">
+        <div>
+          <p className="teletext-section-kicker">Archivio operativo</p>
+          <h2 className="teletext-section-title">Tutti i segnali</h2>
+        </div>
+        <div className="flex flex-wrap justify-end gap-3">
+          <a className="teletext-json-link inline-flex items-center gap-2" href="/api/alerts?channel=all">
+            JSON tutto
+            <ArrowUpRight size={16} aria-hidden="true" />
+          </a>
+          <a className="teletext-json-link inline-flex items-center gap-2" href="/feed.xml">
+            RSS tutto
+            <ArrowUpRight size={16} aria-hidden="true" />
+          </a>
+        </div>
+      </div>
+
+      <div className="teletext-signal-list">
+        <div className="teletext-signal-count">
+          {alerts.length} segnali visibili su {total} indicizzati
+        </div>
+        {alerts.map((alert) => (
+          <a
+            key={alert.id}
+            className="teletext-signal-row"
+            href={alert.url}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className={`teletext-signal-channel teletext-signal-channel-${alert.channel}`}>
+              {alert.channel}
+            </span>
+            <span className="teletext-signal-main">
+              <span className="teletext-signal-title">{alert.title}</span>
+              <span className="teletext-signal-meta">
+                {alert.sourceName} · {formatDate(alert.publishedAt)} · score {alert.score}
+              </span>
+            </span>
+            <ArrowUpRight size={15} aria-hidden="true" />
+          </a>
         ))}
       </div>
     </section>

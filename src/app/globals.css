@@ -478,6 +478,108 @@ select {
     line-height: 1.55;
   }
 
+  .teletext-signal-list {
+    margin-top: 14px;
+    border: 3px solid var(--tt-blue);
+    background: var(--tt-black);
+  }
+
+  .teletext-signal-count {
+    border-bottom: 2px solid var(--tt-blue);
+    background: var(--tt-yellow);
+    padding: 7px 10px;
+    color: var(--tt-black);
+    font-size: 0.78rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .teletext-signal-row {
+    display: grid;
+    grid-template-columns: 92px minmax(0, 1fr) 22px;
+    gap: 10px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 215, 255, 0.5);
+    padding: 9px 10px;
+    color: var(--tt-white);
+  }
+
+  .teletext-signal-row:last-child {
+    border-bottom: 0;
+  }
+
+  .teletext-signal-row:hover,
+  .teletext-signal-row:focus-visible {
+    background: #111100;
+    color: var(--tt-yellow);
+    outline: 2px solid var(--tt-yellow);
+    outline-offset: -2px;
+  }
+
+  .teletext-signal-channel {
+    border: 2px solid var(--tt-white);
+    background: var(--tt-blue);
+    padding: 3px 5px;
+    color: var(--tt-white);
+    font-size: 0.7rem;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .teletext-signal-channel-normativa {
+    background: var(--tt-magenta);
+    color: var(--tt-black);
+  }
+
+  .teletext-signal-channel-bandi {
+    background: var(--tt-green);
+    color: var(--tt-black);
+  }
+
+  .teletext-signal-main {
+    display: grid;
+    min-width: 0;
+    gap: 3px;
+  }
+
+  .teletext-signal-title {
+    overflow: hidden;
+    color: inherit;
+    font-size: 0.88rem;
+    font-weight: 900;
+    line-height: 1.25;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .teletext-signal-meta {
+    overflow: hidden;
+    color: var(--tt-dim);
+    font-size: 0.72rem;
+    font-weight: 800;
+    line-height: 1.2;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 640px) {
+    .teletext-signal-row {
+      grid-template-columns: 1fr 22px;
+    }
+
+    .teletext-signal-channel {
+      grid-column: 1 / -1;
+      width: fit-content;
+    }
+
+    .teletext-signal-title,
+    .teletext-signal-meta {
+      white-space: normal;
+    }
+  }
+
   .teletext-fields {
     display: grid;
     gap: 8px;
