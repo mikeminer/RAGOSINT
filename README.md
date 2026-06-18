@@ -127,8 +127,8 @@ API equivalenti:
 ### Bandi, gare e PNRR
 
 - Gazzetta Ufficiale - 5a Serie Speciale Contratti Pubblici
-- ANAC - Open Data Contratti Pubblici
-- ANAC - Open Contracting Data Standard
+- ANAC - Piattaforma Contratti Pubblici via Developers Italia
+- ANAC OCDS - Open Contracting Data Registry
 - Acquisti in Rete PA - MEPA
 - Italia Domani - Amministrazioni Titolari
 - Italia Domani - Soggetti Attuatori
@@ -137,9 +137,9 @@ API equivalenti:
 - START Toscana - Gare e Appalti
 - Regione Toscana - Bandi di Gara e Contratti
 - Universita di Bologna - Bandi
-- Universita di Bologna - Portale Appalti
+- Universita di Bologna - Gare di appalto
 - Comune di Bologna - Bandi di Gara
-- ESTAR Toscana - Consulta Gare
+- ESTAR Toscana - START Sanita Bandi
 - AUSL Bologna - Bandi di Gara
 - EuroHPC JU - AI Factories Access Calls
 - EuroHPC JU - Supercomputers Access Calls
@@ -150,6 +150,8 @@ API equivalenti:
 - IT4LIA AI Factory - Repository
 
 La pipeline monitora anche opportunita europee HPC/AI: access call EuroHPC, AI Factories, bandi di ricerca e innovazione, grant collegati a Horizon Europe/Digital Europe e segnali IT4LIA utili per startup, PMI, PA, universita e ricerca.
+
+Nota operativa: le pagine dirette ANAC `dati.anticorruzione.it/opendata` e `ocds_it` sono mantenute in configurazione come riferimento, ma disattivate dal refresh automatico perche' possono rispondere alle fetch serverless con `Request Rejected`/HTTP 403. Il monitor attivo usa quindi fonti pubbliche alternative e stabili per PCP/OCDS, evitando falsi errori nel feed.
 
 Le fonti sono configurate in `src/data/sources.json`.
 

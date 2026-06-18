@@ -2,12 +2,12 @@
 type: osint-monitor
 project: RAGOSINT
 channel: normativa
-generated: 2026-06-18T11:44:54.429Z
+generated: 2026-06-18T12:02:02.422Z
 ---
 
 # RAGOSINT - normativa
 
-Snapshot generata: 2026-06-18T11:44:54.429Z
+Snapshot generata: 2026-06-18T12:02:02.422Z
 Alert indicizzati: 75
 
 ## 1. n. 106 ORDINANZA 5 maggio - 16 giugno 2026
