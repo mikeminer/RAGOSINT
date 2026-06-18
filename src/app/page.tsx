@@ -7,6 +7,7 @@ import {
   Download,
   FileText,
   GitBranch,
+  Github,
   Network,
   Radar,
   RefreshCw,
@@ -45,6 +46,15 @@ export default async function Home() {
             <div className="flex flex-wrap gap-2">
               <FeedButton href="/feed/normativa.xml" label="Normativa" />
               <FeedButton href="/feed/bandi.xml" label="Bandi" />
+              <a
+                className="inline-flex h-10 items-center gap-2 rounded-md border border-white/20 px-3 text-sm font-medium hover:bg-white/10"
+                href="https://github.com/mikeminer/RAGOSINT"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Github size={16} aria-hidden="true" />
+                GitHub
+              </a>
               <a
                 className="inline-flex h-10 items-center gap-2 rounded-md border border-white/20 px-3 text-sm font-medium hover:bg-white/10"
                 href="/api/semantic?q=pnrr%20digitale&channel=all"
@@ -178,6 +188,25 @@ export default async function Home() {
               <DownloadLink href="/api/vector-store?channel=all" label="Vector store" icon={<Database size={15} aria-hidden="true" />} />
               <DownloadLink href="/api/notify/slack?channel=bandi" label="Slack digest" icon={<Bell size={15} aria-hidden="true" />} />
             </div>
+          </div>
+
+          <div className="rounded-md border border-black/10 bg-white p-4 shadow-sm">
+            <h2 className="text-base font-semibold">Fonte GitHub</h2>
+            <a
+              className="mt-4 flex items-center justify-between rounded-md border border-black/10 p-3 text-sm font-semibold hover:border-[#36d399]"
+              href="https://github.com/mikeminer/RAGOSINT"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="inline-flex items-center gap-2">
+                <Github size={16} aria-hidden="true" />
+                mikeminer/RAGOSINT
+              </span>
+              <ArrowUpRight size={15} aria-hidden="true" />
+            </a>
+            <p className="mt-3 text-sm leading-6 text-black/60">
+              Repository pubblico del MVP: codice sorgente, README, pipeline OSINT/RAG, fonti e brain Obsidian.
+            </p>
           </div>
 
           <div className="rounded-md border border-black/10 bg-white p-4 shadow-sm">
