@@ -16,6 +16,8 @@ export type Source = {
   tags: string[];
   timeoutMs?: number;
   allowInvalidCertificate?: boolean;
+  cloudBlocked?: boolean;
+  disabledReason?: string;
 };
 
 export type AlertKind = "bando" | "gara" | "pnrr" | "avviso" | "esito" | "news" | "normativa";

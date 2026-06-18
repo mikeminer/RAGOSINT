@@ -143,11 +143,15 @@ const HTML_SIGNAL_TERMS = [
 const DEFAULT_FETCH_TIMEOUT_MS = 20_000;
 
 export function getSources(channel: ChannelFilter = "all"): Source[] {
-  const allSources = sources as Source[];
+  const allSources = (sources as Source[]).filter((source) => !isCloudBlocked(source));
   if (channel === "all") {
     return allSources;
   }
   return allSources.filter((source) => source.channel === channel);
+}
+
+function isCloudBlocked(source: Source) {
+  return source.cloudBlocked === true && process.env.VERCEL === "1";
 }
 
 export function parseChannel(value: string | null | undefined): ChannelFilter {

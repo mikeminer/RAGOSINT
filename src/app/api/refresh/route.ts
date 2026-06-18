@@ -2,6 +2,7 @@ import { collectAlerts } from "@/lib/osint";
 import { sendSlackDigest } from "@/lib/slack";
 
 export const dynamic = "force-dynamic";
+export const preferredRegion = "fra1";
 
 export async function GET(request: Request) {
   return refresh(request);

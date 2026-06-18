@@ -441,7 +441,9 @@
     "enabled": true,
     "tags": ["pnrr", "cultura", "digitale", "patrimonio", "bandi"],
     "timeoutMs": 30000,
-    "allowInvalidCertificate": true
+    "allowInvalidCertificate": true,
+    "cloudBlocked": true,
+    "disabledReason": "Il dominio pnrr.cultura.gov.it va in timeout da Vercel/cloud; resta attivo per ingest locale e Obsidian."
   },
   {
     "id": "eu-digital-strategy-funding",
