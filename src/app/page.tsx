@@ -30,7 +30,7 @@ export default async function Home() {
   ]);
   const latestBandi = bandiResult.alerts.slice(0, 8);
   const latestNormativa = normativaResult.alerts.slice(0, 8);
-  const allSignals = allResult.alerts.slice(0, 80);
+  const allSignals = allResult.alerts;
 
   return (
     <main className="teletext-main">
@@ -432,7 +432,7 @@ function AllSignalsSection({ alerts, total }: { alerts: Alert[]; total: number }
 
       <div className="teletext-signal-list">
         <div className="teletext-signal-count">
-          {alerts.length} segnali visibili su {total} indicizzati
+          Tutti i {total} segnali indicizzati
         </div>
         {alerts.map((alert) => (
           <a

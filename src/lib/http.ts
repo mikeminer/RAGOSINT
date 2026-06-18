@@ -4,7 +4,7 @@ import type { ChannelFilter } from "@/lib/types";
 import { createZip } from "@/lib/zip";
 
 export async function rssResponse(channel: ChannelFilter = "all") {
-  const limit = channel === "normativa" ? 120 : 220;
+  const limit = channel === "all" ? 260 : channel === "normativa" ? 120 : 220;
   const result = await collectAlerts({ channel, limit });
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://ragosint.vercel.app";
 
