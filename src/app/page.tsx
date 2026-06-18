@@ -28,7 +28,8 @@ export default async function Home() {
     collectAlerts({ channel: "bandi", limit: 20 }),
     collectAlerts({ channel: "normativa", limit: 20 }),
   ]);
-  const latest = allResult.alerts.slice(0, 10);
+  const latestBandi = bandiResult.alerts.slice(0, 8);
+  const latestNormativa = normativaResult.alerts.slice(0, 8);
 
   return (
     <main className="teletext-main">
@@ -164,21 +165,19 @@ export default async function Home() {
             />
           </div>
 
-          <div className="teletext-section-heading">
-            <div>
-              <p className="teletext-section-kicker">Alert prioritari</p>
-              <h2 className="teletext-section-title">Segnali recenti</h2>
-            </div>
-            <a className="teletext-json-link inline-flex items-center gap-2" href="/api/alerts">
-              JSON
-              <ArrowUpRight size={16} aria-hidden="true" />
-            </a>
-          </div>
-
-          <div className="grid gap-3">
-            {latest.map((alert) => (
-              <AlertCard key={alert.id} alert={alert} />
-            ))}
+          <div className="grid gap-6">
+            <SignalSection
+              title="Segnali recenti bandi"
+              kicker="Bandi / gare / PNRR"
+              href="/api/alerts?channel=bandi"
+              alerts={latestBandi}
+            />
+            <SignalSection
+              title="Segnali recenti normativa"
+              kicker="Normativa / compliance / PA digitale"
+              href="/api/alerts?channel=normativa"
+              alerts={latestNormativa}
+            />
           </div>
         </div>
 
@@ -362,6 +361,39 @@ function ChannelPanel({
           <span key={item.tag} className="teletext-chip">
             {item.tag}
           </span>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function SignalSection({
+  title,
+  kicker,
+  href,
+  alerts,
+}: {
+  title: string;
+  kicker: string;
+  href: string;
+  alerts: Alert[];
+}) {
+  return (
+    <section>
+      <div className="teletext-section-heading">
+        <div>
+          <p className="teletext-section-kicker">{kicker}</p>
+          <h2 className="teletext-section-title">{title}</h2>
+        </div>
+        <a className="teletext-json-link inline-flex items-center gap-2" href={href}>
+          JSON
+          <ArrowUpRight size={16} aria-hidden="true" />
+        </a>
+      </div>
+
+      <div className="mt-4 grid gap-3">
+        {alerts.map((alert) => (
+          <AlertCard key={alert.id} alert={alert} />
         ))}
       </div>
     </section>
