@@ -456,28 +456,38 @@ function FieldSummary({ alert }: { alert: Alert }) {
     requirements: [],
     beneficiaries: [],
   };
-  const chips = [
-    fields.deadlines.length > 0 ? `scadenze ${fields.deadlines.length}` : null,
-    fields.amounts.length > 0 ? `importi ${fields.amounts.length}` : null,
-    fields.cig.length > 0 ? `CIG ${fields.cig.length}` : null,
-    fields.cup.length > 0 ? `CUP ${fields.cup.length}` : null,
-    fields.requirements.length > 0 ? `requisiti ${fields.requirements.length}` : null,
-    fields.beneficiaries.length > 0 ? `beneficiari ${fields.beneficiaries.length}` : null,
-  ].filter((chip): chip is string => Boolean(chip));
-
-  if (chips.length === 0) {
-    return null;
-  }
+  const fieldGroups = [
+    { label: "Scadenze", values: fields.deadlines, empty: "Non rilevate", always: true, emphasis: true },
+    { label: "Importi", values: fields.amounts },
+    { label: "CIG", values: fields.cig },
+    { label: "CUP", values: fields.cup },
+    { label: "Requisiti", values: fields.requirements },
+    { label: "Beneficiari", values: fields.beneficiaries },
+  ].filter((group) => group.always || group.values.length > 0);
 
   return (
-    <div className="mt-3 flex flex-wrap gap-2">
-      {chips.map((chip) => (
-        <span key={chip} className="teletext-chip">
-          {chip}
-        </span>
+    <dl className="teletext-fields">
+      {fieldGroups.map((group) => (
+        <div
+          key={group.label}
+          className={`teletext-field ${group.emphasis ? "teletext-field-deadline" : ""} ${
+            group.values.length === 0 ? "teletext-field-empty" : ""
+          }`}
+        >
+          <dt>{group.label}</dt>
+          {(group.values.length > 0 ? group.values.slice(0, 2) : [group.empty]).map((value) => (
+            <dd key={value}>{formatFieldValue(value)}</dd>
+          ))}
+          {group.values.length > 2 ? <dd>+{group.values.length - 2} altri valori rilevati</dd> : null}
+        </div>
       ))}
-    </div>
+    </dl>
   );
+}
+
+function formatFieldValue(value = "") {
+  const compact = value.replace(/\s+/g, " ").trim();
+  return compact.length > 150 ? `${compact.slice(0, 147)}...` : compact;
 }
 
 function PipelineItem({ icon, title, text }: { icon: React.ReactNode; title: string; text: string }) {
