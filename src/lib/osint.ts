@@ -179,7 +179,7 @@ export async function collectAlerts(input: number | CollectOptions = 80): Promis
   });
 
   const fallbackAlerts = (seedAlerts as Alert[]).filter((alert) => channel === "all" || alert.channel === channel);
-  const alerts = dedupeAlerts(fetchedAlerts.length > 0 ? fetchedAlerts : fallbackAlerts)
+  const alerts = filterExpiredBandi(dedupeAlerts(fetchedAlerts.length > 0 ? fetchedAlerts : fallbackAlerts))
     .sort((a, b) => b.score - a.score || Date.parse(b.publishedAt) - Date.parse(a.publishedAt))
     .slice(0, limit);
 
@@ -624,6 +624,155 @@ function dedupeAlerts(alerts: Alert[]) {
   });
 
   return Array.from(seen.values());
+}
+
+function filterExpiredBandi(alerts: Alert[]) {
+  const now = new Date();
+  const today = startOfRomeDay(now);
+  return alerts.filter((alert) => !isExpiredBando(alert, today, now));
+}
+
+function isExpiredBando(alert: Alert, today: Date, now: Date) {
+  if (alert.channel !== "bandi") {
+    return false;
+  }
+
+  const dates = extractDeadlineDates(alert);
+  if (dates.length > 0) {
+    return dates.every((date) => date.getTime() < today.getTime());
+  }
+
+  const publishedAt = Date.parse(alert.publishedAt);
+  if (!Number.isFinite(publishedAt)) {
+    return false;
+  }
+
+  const ageDays = (now.getTime() - publishedAt) / 86_400_000;
+  return ageDays > 180;
+}
+
+function extractDeadlineDates(alert: Alert) {
+  const fullContext = `${alert.title} ${alert.summary}`;
+  const contextHasDeadline = hasDeadlineContext(fullContext);
+  const values = alert.fields?.deadlines?.length ? alert.fields.deadlines : [fullContext];
+  const dates = values.flatMap((value) => {
+    if (!hasDeadlineContext(value) && !(isDateOnly(value) && contextHasDeadline)) {
+      return [];
+    }
+
+    return extractDates(value);
+  });
+
+  const seen = new Set<string>();
+  return dates.filter((date) => {
+    const key = date.toISOString().slice(0, 10);
+    if (seen.has(key)) {
+      return false;
+    }
+    seen.add(key);
+    return true;
+  });
+}
+
+function extractDates(value: string) {
+  const dates: Date[] = [];
+  const numericRe = /\b(\d{1,2})[/-](\d{1,2})[/-](\d{2,4})\b/g;
+  const textualRe =
+    /\b(\d{1,2})\s+(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre|january|february|march|april|may|june|july|august|september|october|november|december)\s+(\d{4})\b/gi;
+
+  for (const match of value.matchAll(numericRe)) {
+    const date = makeDate(Number(match[3]), Number(match[2]), Number(match[1]));
+    if (date) {
+      dates.push(date);
+    }
+  }
+
+  for (const match of value.matchAll(textualRe)) {
+    const date = makeDate(Number(match[3]), monthNumber(match[2]), Number(match[1]));
+    if (date) {
+      dates.push(date);
+    }
+  }
+
+  return dates;
+}
+
+function makeDate(year: number, month: number, day: number) {
+  const fullYear = year < 100 ? (year >= 70 ? 1900 + year : 2000 + year) : year;
+  if (fullYear < 2000 || fullYear > 2100 || month < 1 || month > 12 || day < 1 || day > 31) {
+    return null;
+  }
+
+  const date = new Date(Date.UTC(fullYear, month - 1, day));
+  if (date.getUTCFullYear() !== fullYear || date.getUTCMonth() !== month - 1 || date.getUTCDate() !== day) {
+    return null;
+  }
+
+  return date;
+}
+
+function startOfRomeDay(value: Date) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Rome",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(value);
+  const record = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return new Date(Date.UTC(Number(record.year), Number(record.month) - 1, Number(record.day)));
+}
+
+function hasDeadlineContext(value: string) {
+  const normalized = normalizeText(value);
+  return [
+    "scadenza",
+    "scade",
+    "termine",
+    "termini",
+    "entro",
+    "proroga",
+    "presentazione domande",
+    "presentazione offerte",
+    "presentazione candidature",
+    "deadline",
+    "closing date",
+    "submission deadline",
+    "apply by",
+  ].some((term) => normalized.includes(term));
+}
+
+function isDateOnly(value: string) {
+  return /^(\d{1,2}[/-]\d{1,2}[/-]\d{2,4}|\d{1,2}\s+\p{L}+\s+\d{4})$/iu.test(value.trim());
+}
+
+function monthNumber(value: string) {
+  const months: Record<string, number> = {
+    gennaio: 1,
+    january: 1,
+    febbraio: 2,
+    february: 2,
+    marzo: 3,
+    march: 3,
+    aprile: 4,
+    april: 4,
+    maggio: 5,
+    may: 5,
+    giugno: 6,
+    june: 6,
+    luglio: 7,
+    july: 7,
+    agosto: 8,
+    august: 8,
+    settembre: 9,
+    september: 9,
+    ottobre: 10,
+    october: 10,
+    novembre: 11,
+    november: 11,
+    dicembre: 12,
+    december: 12,
+  };
+  return months[normalizeText(value)] ?? 0;
 }
 
 function asArray<T>(value: T | T[] | undefined): T[] {

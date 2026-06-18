@@ -344,6 +344,11 @@ function ChannelPanel({
           <p className="teletext-muted mt-1">
             {result.stats.totalAlerts} alert da {result.stats.activeSources} fonti
           </p>
+          {result.channel === "bandi" ? (
+            <p className="teletext-muted mt-2">
+              Bandi scaduti esclusi: restano segnali con scadenza non passata o opportunita recenti senza scadenza esplicita.
+            </p>
+          ) : null}
         </div>
         <div className="flex flex-wrap gap-2">
           <a className="teletext-link-button" href={href}>

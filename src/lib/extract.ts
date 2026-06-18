@@ -47,6 +47,22 @@ const BENEFICIARY_TERMS = [
   "universita",
 ];
 
+const DEADLINE_TERMS = [
+  "scadenza",
+  "scade",
+  "termine",
+  "termini",
+  "entro",
+  "proroga",
+  "presentazione domande",
+  "presentazione offerte",
+  "presentazione candidature",
+  "deadline",
+  "closing date",
+  "submission deadline",
+  "apply by",
+];
+
 export function extractFields(title: string, summary: string): ExtractedFields {
   const text = normalize(`${title}. ${summary}`);
   return {
@@ -71,19 +87,8 @@ export function fieldsToTags(fields: ExtractedFields) {
 }
 
 function extractDeadlineSentences(text: string) {
-  const dateMatches = extractMatches(text, DATE_RE);
-  const deadlineSentences = extractSentencesByTerms(text, [
-    "scadenza",
-    "termine",
-    "entro",
-    "presentazione",
-    "ore",
-    "deadline",
-    "closing date",
-    "opening date",
-    "submission",
-    "apply",
-  ]);
+  const deadlineSentences = extractSentencesByTerms(text, DEADLINE_TERMS);
+  const dateMatches = deadlineSentences.flatMap((sentence) => extractMatches(sentence, DATE_RE));
   return [...dateMatches, ...deadlineSentences].slice(0, 8);
 }
 

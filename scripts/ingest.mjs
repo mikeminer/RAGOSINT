@@ -56,6 +56,21 @@ const BENEFICIARY_TERMS = [
   "aziende sanitarie",
   "universita",
 ];
+const DEADLINE_TERMS = [
+  "scadenza",
+  "scade",
+  "termine",
+  "termini",
+  "entro",
+  "proroga",
+  "presentazione domande",
+  "presentazione offerte",
+  "presentazione candidature",
+  "deadline",
+  "closing date",
+  "submission deadline",
+  "apply by",
+];
 const HTML_SIGNAL_TERMS = [
   "bando",
   "bandi",
@@ -160,7 +175,7 @@ settled.forEach((result, index) => {
   }
 });
 
-const deduped = dedupe(alerts)
+const deduped = filterExpiredBandi(dedupe(alerts))
   .sort((a, b) => b.score - a.score || Date.parse(b.publishedAt) - Date.parse(a.publishedAt))
   .slice(0, 700);
 
@@ -543,21 +558,11 @@ function extractMetaDescription(html) {
 
 function extractFields(title, summary) {
   const text = `${title}. ${summary}`.replace(/\s+/g, " ").trim();
+  const deadlineSentences = extractSentencesByTerms(text, DEADLINE_TERMS);
   return {
     deadlines: unique([
-      ...extractMatches(text, DATE_RE),
-      ...extractSentencesByTerms(text, [
-        "scadenza",
-        "termine",
-        "entro",
-        "presentazione",
-        "ore",
-        "deadline",
-        "closing date",
-        "opening date",
-        "submission",
-        "apply",
-      ]),
+      ...deadlineSentences.flatMap((sentence) => extractMatches(sentence, DATE_RE)),
+      ...deadlineSentences,
     ]).slice(0, 8),
     amounts: unique(extractMatches(text, EURO_RE)),
     cig: unique(extractMatches(text, CIG_RE)).filter((value) => /[0-9]/.test(value)),
@@ -709,6 +714,141 @@ function dedupe(items) {
     if (!existing || item.score > existing.score) map.set(key, item);
   });
   return Array.from(map.values());
+}
+
+function filterExpiredBandi(items) {
+  const now = new Date();
+  const today = startOfRomeDay(now);
+  return items.filter((alert) => !isExpiredBando(alert, today, now));
+}
+
+function isExpiredBando(alert, today, now) {
+  if (alert.channel !== "bandi") {
+    return false;
+  }
+
+  const dates = extractDeadlineDates(alert);
+  if (dates.length > 0) {
+    return dates.every((date) => date.getTime() < today.getTime());
+  }
+
+  const publishedAt = Date.parse(alert.publishedAt);
+  if (!Number.isFinite(publishedAt)) {
+    return false;
+  }
+
+  const ageDays = (now.getTime() - publishedAt) / 86400000;
+  return ageDays > 180;
+}
+
+function extractDeadlineDates(alert) {
+  const fullContext = `${alert.title} ${alert.summary}`;
+  const contextHasDeadline = hasDeadlineContext(fullContext);
+  const values = alert.fields?.deadlines?.length ? alert.fields.deadlines : [fullContext];
+  const dates = values.flatMap((value) => {
+    if (!hasDeadlineContext(value) && !(isDateOnly(value) && contextHasDeadline)) {
+      return [];
+    }
+
+    return extractDates(value);
+  });
+
+  const seen = new Set();
+  return dates.filter((date) => {
+    const key = date.toISOString().slice(0, 10);
+    if (seen.has(key)) {
+      return false;
+    }
+    seen.add(key);
+    return true;
+  });
+}
+
+function extractDates(value) {
+  const dates = [];
+  const numericRe = /\b(\d{1,2})[/-](\d{1,2})[/-](\d{2,4})\b/g;
+  const textualRe =
+    /\b(\d{1,2})\s+(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre|january|february|march|april|may|june|july|august|september|october|november|december)\s+(\d{4})\b/gi;
+
+  for (const match of value.matchAll(numericRe)) {
+    const date = makeDate(Number(match[3]), Number(match[2]), Number(match[1]));
+    if (date) {
+      dates.push(date);
+    }
+  }
+
+  for (const match of value.matchAll(textualRe)) {
+    const date = makeDate(Number(match[3]), monthNumber(match[2]), Number(match[1]));
+    if (date) {
+      dates.push(date);
+    }
+  }
+
+  return dates;
+}
+
+function makeDate(year, month, day) {
+  const fullYear = year < 100 ? (year >= 70 ? 1900 + year : 2000 + year) : year;
+  if (fullYear < 2000 || fullYear > 2100 || month < 1 || month > 12 || day < 1 || day > 31) {
+    return null;
+  }
+
+  const date = new Date(Date.UTC(fullYear, month - 1, day));
+  if (date.getUTCFullYear() !== fullYear || date.getUTCMonth() !== month - 1 || date.getUTCDate() !== day) {
+    return null;
+  }
+
+  return date;
+}
+
+function startOfRomeDay(value) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Rome",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(value);
+  const record = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return new Date(Date.UTC(Number(record.year), Number(record.month) - 1, Number(record.day)));
+}
+
+function hasDeadlineContext(value) {
+  const normalized = normalizeText(value);
+  return DEADLINE_TERMS.some((term) => normalized.includes(normalizeText(term)));
+}
+
+function isDateOnly(value) {
+  return /^(\d{1,2}[/-]\d{1,2}[/-]\d{2,4}|\d{1,2}\s+\p{L}+\s+\d{4})$/iu.test(value.trim());
+}
+
+function monthNumber(value) {
+  const months = {
+    gennaio: 1,
+    january: 1,
+    febbraio: 2,
+    february: 2,
+    marzo: 3,
+    march: 3,
+    aprile: 4,
+    april: 4,
+    maggio: 5,
+    may: 5,
+    giugno: 6,
+    june: 6,
+    luglio: 7,
+    july: 7,
+    agosto: 8,
+    august: 8,
+    settembre: 9,
+    september: 9,
+    ottobre: 10,
+    october: 10,
+    novembre: 11,
+    november: 11,
+    dicembre: 12,
+    december: 12,
+  };
+  return months[normalizeText(value)] ?? 0;
 }
 
 function asArray(value) {

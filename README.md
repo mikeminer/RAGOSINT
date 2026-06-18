@@ -14,6 +14,8 @@ RAGOSINT e' un sistema operativo OSINT/RAG per trasformare fonti pubbliche itali
 
 Questo non e' un semplice scraper: e' una pipeline viva che recupera fonti ufficiali, normalizza i contenuti, estrae scadenze/importi/CIG/CUP/requisiti/beneficiari, costruisce un vector store e rende tutto consultabile come feed, report, API semantica e vault Obsidian.
 
+Nel canale bandi il monitor esclude i bandi scaduti quando la scadenza e' rilevabile. I segnali senza scadenza esplicita restano solo se recenti, cosi' il feed non diventa un archivio di opportunita gia' chiuse.
+
 Provalo subito:
 
 - MVP live: https://ragosint.vercel.app/
