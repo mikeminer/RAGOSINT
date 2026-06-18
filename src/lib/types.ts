@@ -15,6 +15,7 @@ export type Source = {
   enabled: boolean;
   tags: string[];
   timeoutMs?: number;
+  allowInvalidCertificate?: boolean;
 };
 
 export type AlertKind = "bando" | "gara" | "pnrr" | "avviso" | "esito" | "news" | "normativa";

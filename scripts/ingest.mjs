@@ -1,4 +1,6 @@
 import { createHash } from "node:crypto";
+import { request as httpRequest } from "node:http";
+import { request as httpsRequest } from "node:https";
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { XMLParser } from "fast-xml-parser";
 
@@ -222,19 +224,7 @@ async function fetchSource(source) {
     return [];
   }
 
-  const response = await fetch(source.url, {
-    headers: {
-      accept: "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
-      "user-agent": "ragosint/0.1 (+https://ragosint.vercel.app)",
-    },
-    signal: AbortSignal.timeout(fetchTimeoutMs(source)),
-  });
-
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status}`);
-  }
-
-  const xml = await response.text();
+  const xml = await fetchSourceText(source, "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8");
   const parsed = parser.parse(xml);
   const channel = parsed?.rss?.channel ?? parsed?.feed;
   const items = asArray(channel?.item ?? channel?.entry);
@@ -242,19 +232,7 @@ async function fetchSource(source) {
 }
 
 async function fetchHtmlSource(source) {
-  const response = await fetch(source.url, {
-    headers: {
-      accept: "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
-      "user-agent": "ragosint/0.1 (+https://ragosint.vercel.app)",
-    },
-    signal: AbortSignal.timeout(fetchTimeoutMs(source)),
-  });
-
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status}`);
-  }
-
-  const html = await response.text();
+  const html = await fetchSourceText(source, "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8");
   const links = extractRelevantLinks(html, source).slice(0, 28);
   if (links.length > 0) {
     return links.map((link) => normalizeHtmlSignal(link, source));
@@ -270,6 +248,79 @@ async function fetchHtmlSource(source) {
       source,
     ),
   ];
+}
+
+async function fetchSourceText(source, accept) {
+  const headers = {
+    accept,
+    "user-agent": "ragosint/0.1 (+https://ragosint.vercel.app)",
+  };
+
+  if (source.allowInvalidCertificate) {
+    return fetchTextWithNode(source.url, source, headers);
+  }
+
+  const response = await fetch(source.url, {
+    headers: {
+      accept,
+      "user-agent": "ragosint/0.1 (+https://ragosint.vercel.app)",
+    },
+    signal: AbortSignal.timeout(fetchTimeoutMs(source)),
+  });
+
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`);
+  }
+
+  return response.text();
+}
+
+function fetchTextWithNode(url, source, headers, redirects = 0) {
+  return new Promise((resolve, reject) => {
+    const target = new URL(url);
+    const request = target.protocol === "http:" ? httpRequest : httpsRequest;
+    const timeoutMs = fetchTimeoutMs(source);
+    const requestOptions = {
+      method: "GET",
+      headers,
+      timeout: timeoutMs,
+      rejectUnauthorized: target.protocol === "https:" && source.allowInvalidCertificate ? false : undefined,
+    };
+
+    const req = request(target, requestOptions, (response) => {
+      const status = response.statusCode ?? 0;
+      const location = response.headers.location;
+
+      if (status >= 300 && status < 400 && location) {
+        response.resume();
+        if (redirects >= 5) {
+          reject(new Error(`Troppi redirect da ${source.name}`));
+          return;
+        }
+        resolve(fetchTextWithNode(new URL(location, target).toString(), source, headers, redirects + 1));
+        return;
+      }
+
+      if (status < 200 || status >= 300) {
+        response.resume();
+        reject(new Error(`HTTP ${status}`));
+        return;
+      }
+
+      let body = "";
+      response.setEncoding("utf8");
+      response.on("data", (chunk) => {
+        body += chunk;
+      });
+      response.on("end", () => resolve(body));
+    });
+
+    req.on("timeout", () => {
+      req.destroy(new Error(`Timeout ${timeoutMs}ms`));
+    });
+    req.on("error", reject);
+    req.end();
+  });
 }
 
 function fetchTimeoutMs(source) {

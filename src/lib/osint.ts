@@ -1,4 +1,6 @@
 import { createHash } from "node:crypto";
+import { request as httpRequest } from "node:http";
+import { request as httpsRequest } from "node:https";
 import { XMLParser } from "fast-xml-parser";
 import seedAlerts from "@/data/seed-alerts.json";
 import sources from "@/data/sources.json";
@@ -296,20 +298,7 @@ export function buildMarkdownReport(result: CollectResult) {
 
 async function fetchSource(source: Source): Promise<Alert[]> {
   if (source.type === "rss") {
-    const response = await fetch(source.url, {
-      headers: {
-        accept: "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
-        "user-agent": "ragosint/0.1 (+https://ragosint.vercel.app)",
-      },
-      next: { revalidate: 3600 },
-      signal: AbortSignal.timeout(fetchTimeoutMs(source)),
-    });
-
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status} da ${source.name}`);
-    }
-
-    const xml = await response.text();
+    const xml = await fetchSourceText(source, "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8");
     return parseRss(xml, source);
   }
 
@@ -321,9 +310,31 @@ async function fetchSource(source: Source): Promise<Alert[]> {
 }
 
 async function fetchHtmlSource(source: Source): Promise<Alert[]> {
+  const html = await fetchSourceText(source, "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8");
+  const links = extractRelevantLinks(html, source).slice(0, 28);
+
+  if (links.length > 0) {
+    return links.map((link) => normalizeHtmlSignal(link, source));
+  }
+
+  const title = cleanText(extractTitle(html) || source.name);
+  const summary = cleanText(extractMetaDescription(html) || `Pagina istituzionale monitorata da RAGOSINT: ${source.name}.`);
+  return [normalizeHtmlSignal({ title, url: source.url, summary }, source)];
+}
+
+async function fetchSourceText(source: Source, accept: string) {
+  const headers = {
+    accept,
+    "user-agent": "ragosint/0.1 (+https://ragosint.vercel.app)",
+  };
+
+  if (source.allowInvalidCertificate) {
+    return fetchTextWithNode(source.url, source, headers);
+  }
+
   const response = await fetch(source.url, {
     headers: {
-      accept: "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
+      accept,
       "user-agent": "ragosint/0.1 (+https://ragosint.vercel.app)",
     },
     next: { revalidate: 3600 },
@@ -334,16 +345,55 @@ async function fetchHtmlSource(source: Source): Promise<Alert[]> {
     throw new Error(`HTTP ${response.status} da ${source.name}`);
   }
 
-  const html = await response.text();
-  const links = extractRelevantLinks(html, source).slice(0, 28);
+  return response.text();
+}
 
-  if (links.length > 0) {
-    return links.map((link) => normalizeHtmlSignal(link, source));
-  }
+function fetchTextWithNode(url: string, source: Source, headers: Record<string, string>, redirects = 0): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const target = new URL(url);
+    const request = target.protocol === "http:" ? httpRequest : httpsRequest;
+    const timeoutMs = fetchTimeoutMs(source);
+    const requestOptions = {
+      method: "GET",
+      headers,
+      timeout: timeoutMs,
+      rejectUnauthorized: target.protocol === "https:" && source.allowInvalidCertificate ? false : undefined,
+    };
 
-  const title = cleanText(extractTitle(html) || source.name);
-  const summary = cleanText(extractMetaDescription(html) || `Pagina istituzionale monitorata da RAGOSINT: ${source.name}.`);
-  return [normalizeHtmlSignal({ title, url: source.url, summary }, source)];
+    const req = request(target, requestOptions, (response) => {
+      const status = response.statusCode ?? 0;
+      const location = response.headers.location;
+
+      if (status >= 300 && status < 400 && location) {
+        response.resume();
+        if (redirects >= 5) {
+          reject(new Error(`Troppi redirect da ${source.name}`));
+          return;
+        }
+        resolve(fetchTextWithNode(new URL(location, target).toString(), source, headers, redirects + 1));
+        return;
+      }
+
+      if (status < 200 || status >= 300) {
+        response.resume();
+        reject(new Error(`HTTP ${status} da ${source.name}`));
+        return;
+      }
+
+      let body = "";
+      response.setEncoding("utf8");
+      response.on("data", (chunk: string) => {
+        body += chunk;
+      });
+      response.on("end", () => resolve(body));
+    });
+
+    req.on("timeout", () => {
+      req.destroy(new Error(`Timeout ${timeoutMs}ms da ${source.name}`));
+    });
+    req.on("error", reject);
+    req.end();
+  });
 }
 
 function parseRss(xml: string, source: Source): Alert[] {

@@ -440,7 +440,8 @@
     "trust": "official",
     "enabled": true,
     "tags": ["pnrr", "cultura", "digitale", "patrimonio", "bandi"],
-    "timeoutMs": 30000
+    "timeoutMs": 30000,
+    "allowInvalidCertificate": true
   },
   {
     "id": "eu-digital-strategy-funding",
