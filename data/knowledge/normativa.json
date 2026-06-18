@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T09:42:11.494Z",
+  "generatedAt": "2026-06-18T10:13:51.553Z",
   "channel": "normativa",
   "count": 82,
   "alerts": [
@@ -17,11 +17,23 @@
         "normativa",
         "corte-costituzionale",
         "sentenze",
+        "scadenza",
         "pnrr",
         "cyber"
       ],
       "kind": "normativa",
-      "score": 88
+      "score": 96,
+      "fields": {
+        "deadlines": [
+          "16 giugno 2026",
+          "Parlamento - Immunita' parlamentari - Utilizzazione, da parte della Commissione parlamentare d'inchiesta sul fenomeno delle mafie e sulle altre associazioni criminali, anche straniere, di intercettazioni telefoniche e di messaggistica elettronica del senatore Roberto Maria Ferdinando Scarpinato, in assenza di autorizzazione del Senato della Repubblica - Ricors.........(T-260106)"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "119329a93f3c07d2",
@@ -37,11 +49,23 @@
         "normativa",
         "unione-europea",
         "regolamenti",
+        "scadenza",
         "pnrr",
         "cyber"
       ],
       "kind": "normativa",
-      "score": 88
+      "score": 96,
+      "fields": {
+        "deadlines": [
+          "11 dicembre 2025",
+          "20 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "9d3a6a1b604ec045",
@@ -58,10 +82,21 @@
         "leggi",
         "decreti",
         "italia",
+        "scadenza",
         "cyber"
       ],
       "kind": "normativa",
-      "score": 76
+      "score": 84,
+      "fields": {
+        "deadlines": [
+          "18 marzo 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "9342206908827f0b",
@@ -77,11 +112,26 @@
         "normativa",
         "corte-costituzionale",
         "sentenze",
+        "scadenza",
+        "beneficiari",
         "cyber",
         "comuni"
       ],
       "kind": "normativa",
-      "score": 74
+      "score": 82,
+      "fields": {
+        "deadlines": [
+          "11 giugno 2026",
+          "Energia - Impianti alimentati da fonti rinnovabili (FER) - Tariffe incentivanti - Novella volta a rimodularle in senso peggiorativo, con contestuale deroga a favore di enti locali o scuole - Applicabilita' della deroga anche agli impianti di societa' in house costituite da enti locali - Omessa previsione - Denunciata lesione dei principi di eguaglianza, per i profili della irragionevolezz.........(T-260103)"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Energia - Impianti alimentati da fonti rinnovabili (FER) - Tariffe incentivanti - Novella volta a rimodularle in senso peggiorativo, con contestuale deroga a favore di enti locali o scuole - Applicabilita' della deroga anche agli impianti di societa' in house costituite da enti locali - Omessa previsione - Denunciata lesione dei principi di eguaglianza, per i profili della irragionevolezz.........(T-260103)"
+        ]
+      }
     },
     {
       "id": "ddd4e396395a64e6",
@@ -97,96 +147,25 @@
         "normativa",
         "corte-costituzionale",
         "sentenze",
+        "scadenza",
         "cyber",
         "comuni",
-        "cultura"
+        "cultura",
+        "regioni"
       ],
       "kind": "normativa",
-      "score": 74
-    },
-    {
-      "id": "833fccd4263ef293",
-      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
-      "summary": "Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di lisdexamfetamina dimesilato, «Minalix». (26A02984)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02984/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:33.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
-        "italia",
-        "pnrr",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 70
-    },
-    {
-      "id": "171b6103c3a08a1c",
-      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
-      "summary": "Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di lansoprazolo, «Lansoprazolo EG Stada». (26A02977)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02977/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:30.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
-        "italia",
-        "pnrr",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 70
-    },
-    {
-      "id": "6817fffa995b269a",
-      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
-      "summary": "Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di metilfenidato, «Noku». (26A02978)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02978/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:30.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
-        "italia",
-        "pnrr",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 70
-    },
-    {
-      "id": "a3fefd3e92de99c7",
-      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
-      "summary": "Modifica dell'autorizzazione all'immissione in commercio dei medicinali per uso umano «Rifinah», «Rifadin» e «Rifater». (26A02976)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02976/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:29.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
-        "italia",
-        "pnrr",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 70
+      "score": 82,
+      "fields": {
+        "deadlines": [
+          "18 maggio 2026",
+          "Giustizia amministrativa - Processo amministrativo - Sottoscrizione del ricorso da parte del difensore con indicazione della procura speciale - Previsione, come interpretata dal diritto vivente, che non dispone, analogamente a quanto previsto per il processo civile, che il giudice, quando ril.........(26C00110)"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "35e79a453ee84772",
@@ -203,31 +182,23 @@
         "leggi",
         "decreti",
         "italia",
+        "scadenza",
         "pnrr"
       ],
       "kind": "normativa",
-      "score": 70
-    },
-    {
-      "id": "b85c966c430ab718",
-      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
-      "summary": "Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di ticagrelor e acido acetilsalicilico, «Turcer». (26A02963)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02963/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:24.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
-        "italia",
-        "pnrr",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 70
+      "score": 78,
+      "fields": {
+        "deadlines": [
+          "24 aprile 2026",
+          "13 dicembre 2024",
+          "2 ottobre 2025"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "bf177d980489c16a",
@@ -243,10 +214,21 @@
         "normativa",
         "unione-europea",
         "regolamenti",
+        "scadenza",
         "pnrr"
       ],
       "kind": "normativa",
-      "score": 70
+      "score": 78,
+      "fields": {
+        "deadlines": [
+          "17 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "352ffd87229d34f3",
@@ -262,10 +244,21 @@
         "normativa",
         "unione-europea",
         "regolamenti",
+        "scadenza",
         "pnrr"
       ],
       "kind": "normativa",
-      "score": 70
+      "score": 78,
+      "fields": {
+        "deadlines": [
+          "17 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "5e556858e11bc616",
@@ -281,10 +274,22 @@
         "normativa",
         "unione-europea",
         "regolamenti",
+        "scadenza",
         "pnrr"
       ],
       "kind": "normativa",
-      "score": 70
+      "score": 78,
+      "fields": {
+        "deadlines": [
+          "2 febbraio 2026",
+          "17 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "0060200640a8f0af",
@@ -300,10 +305,25 @@
         "normativa",
         "unione-europea",
         "regolamenti",
+        "scadenza",
+        "requisiti",
         "pnrr"
       ],
       "kind": "normativa",
-      "score": 70
+      "score": 78,
+      "fields": {
+        "deadlines": [
+          "3 febbraio 2026",
+          "17 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [
+          "Regolamento delegato (UE) 2026/285 della Commissione, del 3 febbraio 2026, che integra il regolamento (UE) 2024/3012 del Parlamento europeo e del Consiglio stabilendo le metodologie di certificazione per le attivita' di assorbimento permanente del carbonio - Pubblicato il 17 aprile 2026 (26CE1433)"
+        ],
+        "beneficiaries": []
+      }
     },
     {
       "id": "d36544a19ce056e8",
@@ -319,10 +339,22 @@
         "normativa",
         "unione-europea",
         "regolamenti",
+        "scadenza",
         "pnrr"
       ],
       "kind": "normativa",
-      "score": 70
+      "score": 78,
+      "fields": {
+        "deadlines": [
+          "16 aprile 2026",
+          "17 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "c3e95cb79d7c4899",
@@ -338,10 +370,22 @@
         "normativa",
         "unione-europea",
         "regolamenti",
+        "scadenza",
         "pnrr"
       ],
       "kind": "normativa",
-      "score": 70
+      "score": 78,
+      "fields": {
+        "deadlines": [
+          "16 aprile 2026",
+          "17 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "1743c3251b6e14cc",
@@ -357,10 +401,22 @@
         "normativa",
         "unione-europea",
         "regolamenti",
+        "scadenza",
         "pnrr"
       ],
       "kind": "normativa",
-      "score": 70
+      "score": 78,
+      "fields": {
+        "deadlines": [
+          "16 aprile 2026",
+          "17 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "253f3c9d623fd269",
@@ -376,10 +432,22 @@
         "normativa",
         "unione-europea",
         "regolamenti",
+        "scadenza",
         "pnrr"
       ],
       "kind": "normativa",
-      "score": 70
+      "score": 78,
+      "fields": {
+        "deadlines": [
+          "10 dicembre 2025",
+          "20 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "d2d94b6db4667213",
@@ -395,10 +463,22 @@
         "normativa",
         "unione-europea",
         "regolamenti",
+        "scadenza",
         "pnrr"
       ],
       "kind": "normativa",
-      "score": 70
+      "score": 78,
+      "fields": {
+        "deadlines": [
+          "5 dicembre 2025",
+          "20 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "81585248cbb9e9f0",
@@ -414,10 +494,22 @@
         "normativa",
         "unione-europea",
         "regolamenti",
+        "scadenza",
         "pnrr"
       ],
       "kind": "normativa",
-      "score": 70
+      "score": 78,
+      "fields": {
+        "deadlines": [
+          "11 dicembre 2025",
+          "20 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "46e4ea95d5eae001",
@@ -433,10 +525,22 @@
         "normativa",
         "unione-europea",
         "regolamenti",
+        "scadenza",
         "pnrr"
       ],
       "kind": "normativa",
-      "score": 70
+      "score": 78,
+      "fields": {
+        "deadlines": [
+          "12 gennaio 2026",
+          "20 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "14c14541be58de45",
@@ -452,10 +556,22 @@
         "normativa",
         "unione-europea",
         "regolamenti",
+        "scadenza",
         "pnrr"
       ],
       "kind": "normativa",
-      "score": 70
+      "score": 78,
+      "fields": {
+        "deadlines": [
+          "27 marzo 2026",
+          "20 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "bfc70c69a21d30cd",
@@ -471,10 +587,22 @@
         "normativa",
         "unione-europea",
         "regolamenti",
+        "scadenza",
         "pnrr"
       ],
       "kind": "normativa",
-      "score": 70
+      "score": 78,
+      "fields": {
+        "deadlines": [
+          "27 marzo 2026",
+          "20 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "f06ea847a1cd2f05",
@@ -490,10 +618,22 @@
         "normativa",
         "unione-europea",
         "regolamenti",
+        "scadenza",
         "pnrr"
       ],
       "kind": "normativa",
-      "score": 70
+      "score": 78,
+      "fields": {
+        "deadlines": [
+          "27 marzo 2026",
+          "20 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "8c65cd8750f6515e",
@@ -509,31 +649,23 @@
         "normativa",
         "unione-europea",
         "regolamenti",
+        "scadenza",
         "pnrr"
       ],
       "kind": "normativa",
-      "score": 70
-    },
-    {
-      "id": "2aaa3cedf6d73f9a",
-      "title": "MINISTERO DELL'AMBIENTE E DELLA SICUREZZA ENERGETICA - COMUNICATO",
-      "summary": "Riconoscimento dell'associazione di protezione ambientale denominata «5 Terre Academy O.D.V.». (26A02980)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02980/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:31.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
-        "italia",
-        "cyber",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 68
+      "score": 78,
+      "fields": {
+        "deadlines": [
+          "18 febbraio 2026",
+          "19 febbraio 2026",
+          "17 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "3cd26e1737647382",
@@ -550,10 +682,22 @@
         "leggi",
         "decreti",
         "italia",
+        "scadenza",
         "cyber"
       ],
       "kind": "normativa",
-      "score": 68
+      "score": 76,
+      "fields": {
+        "deadlines": [
+          "8 giugno 2026",
+          "Liquidazione coatta amministrativa della «I-FID societa' fiduciaria e di revisione S.r.l.», in Pessinetto e nomina del commissario liquidatore."
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "75024bcc5262ec71",
@@ -570,10 +714,22 @@
         "leggi",
         "decreti",
         "italia",
+        "scadenza",
         "cyber"
       ],
       "kind": "normativa",
-      "score": 68
+      "score": 76,
+      "fields": {
+        "deadlines": [
+          "22 maggio 2026",
+          "Sostituzione del commissario liquidatore della «Partenopea parcheggi societa' cooperativa a r.l.», in Napoli, in liquidazione coatta amministrativa."
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "4ce112cdd06585e5",
@@ -590,11 +746,23 @@
         "leggi",
         "decreti",
         "italia",
+        "scadenza",
         "lavoro",
         "cyber"
       ],
       "kind": "normativa",
-      "score": 68
+      "score": 76,
+      "fields": {
+        "deadlines": [
+          "26 maggio 2026",
+          "Liquidazione coatta amministrativa della «Future service 2000 societa' cooperativa di produzione e lavoro», in Roma e nomina del commissario liquidatore."
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "61abcadd9666c6cf",
@@ -611,10 +779,182 @@
         "leggi",
         "decreti",
         "italia",
+        "scadenza",
         "cyber"
       ],
       "kind": "normativa",
-      "score": 68
+      "score": 76,
+      "fields": {
+        "deadlines": [
+          "22 maggio 2026",
+          "Sostituzione del commissario liquidatore della «Societa' cooperativa sociale tipo B Pinna Eleonora - in liquidazione coatta amministrativa», in Serramanna."
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "833fccd4263ef293",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "summary": "Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di lisdexamfetamina dimesilato, «Minalix». (26A02984)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02984/SG",
+      "channel": "normativa",
+      "sourceId": "guri-sg",
+      "sourceName": "Gazzetta Ufficiale - Serie Generale",
+      "publishedAt": "2026-06-17T17:32:33.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "leggi",
+        "decreti",
+        "italia",
+        "beneficiari",
+        "pnrr",
+        "comuni"
+      ],
+      "kind": "normativa",
+      "score": 70,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "AGENZIA ITALIANA DEL FARMACO - COMUNICATO."
+        ]
+      }
+    },
+    {
+      "id": "171b6103c3a08a1c",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "summary": "Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di lansoprazolo, «Lansoprazolo EG Stada». (26A02977)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02977/SG",
+      "channel": "normativa",
+      "sourceId": "guri-sg",
+      "sourceName": "Gazzetta Ufficiale - Serie Generale",
+      "publishedAt": "2026-06-17T17:32:30.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "leggi",
+        "decreti",
+        "italia",
+        "beneficiari",
+        "pnrr",
+        "comuni"
+      ],
+      "kind": "normativa",
+      "score": 70,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "AGENZIA ITALIANA DEL FARMACO - COMUNICATO."
+        ]
+      }
+    },
+    {
+      "id": "6817fffa995b269a",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "summary": "Modifica dell'autorizzazione all'immissione in commercio del medicinale per uso umano, a base di metilfenidato, «Noku». (26A02978)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02978/SG",
+      "channel": "normativa",
+      "sourceId": "guri-sg",
+      "sourceName": "Gazzetta Ufficiale - Serie Generale",
+      "publishedAt": "2026-06-17T17:32:30.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "leggi",
+        "decreti",
+        "italia",
+        "beneficiari",
+        "pnrr",
+        "comuni"
+      ],
+      "kind": "normativa",
+      "score": 70,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "AGENZIA ITALIANA DEL FARMACO - COMUNICATO."
+        ]
+      }
+    },
+    {
+      "id": "a3fefd3e92de99c7",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "summary": "Modifica dell'autorizzazione all'immissione in commercio dei medicinali per uso umano «Rifinah», «Rifadin» e «Rifater». (26A02976)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02976/SG",
+      "channel": "normativa",
+      "sourceId": "guri-sg",
+      "sourceName": "Gazzetta Ufficiale - Serie Generale",
+      "publishedAt": "2026-06-17T17:32:29.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "leggi",
+        "decreti",
+        "italia",
+        "beneficiari",
+        "pnrr",
+        "comuni"
+      ],
+      "kind": "normativa",
+      "score": 70,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "AGENZIA ITALIANA DEL FARMACO - COMUNICATO."
+        ]
+      }
+    },
+    {
+      "id": "b85c966c430ab718",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "summary": "Autorizzazione all'immissione in commercio del medicinale per uso umano, a base di ticagrelor e acido acetilsalicilico, «Turcer». (26A02963)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02963/SG",
+      "channel": "normativa",
+      "sourceId": "guri-sg",
+      "sourceName": "Gazzetta Ufficiale - Serie Generale",
+      "publishedAt": "2026-06-17T17:32:24.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "leggi",
+        "decreti",
+        "italia",
+        "beneficiari",
+        "pnrr",
+        "comuni"
+      ],
+      "kind": "normativa",
+      "score": 70,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "AGENZIA ITALIANA DEL FARMACO - COMUNICATO."
+        ]
+      }
     },
     {
       "id": "4bd02731b97770ee",
@@ -630,10 +970,54 @@
         "normativa",
         "unione-europea",
         "regolamenti",
+        "scadenza",
         "gare"
       ],
       "kind": "normativa",
-      "score": 62
+      "score": 70,
+      "fields": {
+        "deadlines": [
+          "30 marzo 2026",
+          "20 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "2aaa3cedf6d73f9a",
+      "title": "MINISTERO DELL'AMBIENTE E DELLA SICUREZZA ENERGETICA - COMUNICATO",
+      "summary": "Riconoscimento dell'associazione di protezione ambientale denominata «5 Terre Academy O.D.V.». (26A02980)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02980/SG",
+      "channel": "normativa",
+      "sourceId": "guri-sg",
+      "sourceName": "Gazzetta Ufficiale - Serie Generale",
+      "publishedAt": "2026-06-17T17:32:31.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "leggi",
+        "decreti",
+        "italia",
+        "beneficiari",
+        "cyber",
+        "comuni"
+      ],
+      "kind": "normativa",
+      "score": 68,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "MINISTERO DELL'AMBIENTE E DELLA SICUREZZA ENERGETICA - COMUNICATO."
+        ]
+      }
     },
     {
       "id": "90203c6fa7c225e6",
@@ -650,10 +1034,22 @@
         "leggi",
         "decreti",
         "italia",
+        "scadenza",
         "comuni"
       ],
       "kind": "normativa",
-      "score": 56
+      "score": 64,
+      "fields": {
+        "deadlines": [
+          "4 giugno 2026",
+          "14 marzo 2025"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "86efa769be565203",
@@ -669,10 +1065,21 @@
         "normativa",
         "regioni",
         "enti-locali",
+        "scadenza",
         "comuni"
       ],
       "kind": "normativa",
-      "score": 56
+      "score": 64,
+      "fields": {
+        "deadlines": [
+          "18 aprile 2025"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "646a525f8c2677e8",
@@ -688,10 +1095,22 @@
         "normativa",
         "leggi",
         "decreti",
-        "italia"
+        "italia",
+        "scadenza"
       ],
       "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "13 aprile 2026",
+          "15 marzo 2010"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "af72d2bc7340b266",
@@ -708,30 +1127,21 @@
         "leggi",
         "decreti",
         "italia",
+        "scadenza",
         "tributi"
       ],
       "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "51ee408369810ba4",
-      "title": "CORTE SUPREMA DI CASSAZIONE - COMUNICATO",
-      "summary": "Annuncio di una proposta di legge di iniziativa popolare (26A03125)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A03125/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:37.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
-        "italia",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "12 giugno 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "66d02823867f6f41",
@@ -747,10 +1157,23 @@
         "normativa",
         "leggi",
         "decreti",
-        "italia"
+        "italia",
+        "scadenza",
+        "regioni"
       ],
       "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "4 giugno 2026",
+          "17 aprile 2025"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "63eeea97cc3b0174",
@@ -767,10 +1190,27 @@
         "leggi",
         "decreti",
         "italia",
+        "scadenza",
+        "beneficiari",
         "comuni"
       ],
       "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "4 giugno 2026",
+          "14 novembre 2024",
+          "17 gennaio 2025",
+          "2 febbraio 2025"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Proroga dello stato di emergenza in conseguenza degli eccezionali eventi meteorologici verificatisi nei giorni dal 10 al 14 novembre 2024 nel territorio dei Comuni di Acireale, di Giarre e di Riposto della Citta' metropolitana di Catania e il 16 e 17 gennaio 2025 e il 2 febbraio 2025 nel territorio della Citta' metropolitana di Messina."
+        ]
+      }
     },
     {
       "id": "41da297f178c462b",
@@ -786,10 +1226,21 @@
         "normativa",
         "leggi",
         "decreti",
-        "italia"
+        "italia",
+        "scadenza"
       ],
       "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "29 maggio 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "2da26526ce6f19af",
@@ -805,10 +1256,21 @@
         "normativa",
         "leggi",
         "decreti",
-        "italia"
+        "italia",
+        "scadenza"
       ],
       "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "29 maggio 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "e14de23a42c591fc",
@@ -824,10 +1286,22 @@
         "normativa",
         "leggi",
         "decreti",
-        "italia"
+        "italia",
+        "scadenza"
       ],
       "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "4 giugno 2026",
+          "17 aprile 2025"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "f22ff14246f2f780",
@@ -843,10 +1317,21 @@
         "normativa",
         "leggi",
         "decreti",
-        "italia"
+        "italia",
+        "scadenza"
       ],
       "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "29 maggio 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "370864c9a5199dc4",
@@ -862,10 +1347,21 @@
         "normativa",
         "leggi",
         "decreti",
-        "italia"
+        "italia",
+        "scadenza"
       ],
       "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "29 maggio 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "df548bcad73e3f7e",
@@ -881,70 +1377,22 @@
         "normativa",
         "leggi",
         "decreti",
-        "italia"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "6ee228edf61af6eb",
-      "title": "MINISTERO DELL'INTERNO - COMUNICATO",
-      "summary": "Fusione per incorporazione della Parrocchia di S. Martino, in Valgrana, della Parrocchia di S. Ambrogio e della Parrocchia di S. Anna, in Castelmagno, della Parrocchia di S. Michele, in Montemale, della Parrocchia di S. Giacomo, della Parrocchia di S. Giovanni Battista, della Parrocchia di S. Pietro in Vincoli e della Parrocchia di S. Lucia, in Monterosso Grana e della Parrocchia di S. Ponzio, in Pradleves nella Parrocchia Santa Maria della Valle, in Valgrana. (26A02987)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02987/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:34.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
         "italia",
-        "comuni"
+        "scadenza"
       ],
       "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "d991c49dc48e387c",
-      "title": "MINISTERO DELL'INTERNO - COMUNICATO",
-      "summary": "Riconoscimento della personalita' giuridica della Fondazione di religione «Fondazione Caritas Veronese», in Verona. (26A02985)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02985/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:33.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
-        "italia",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "0cb1249e8f02c1fc",
-      "title": "MINISTERO DELL'INTERNO - COMUNICATO",
-      "summary": "Fusione per incorporazione della Parrocchia S. Bernardo nella Parrocchia Santi Ambrogio e Antonio, entrambe in Casnate con Bernate, con contestuale mutamento della denominazione in Parrocchia Santi Antonio e Bernardo. (26A02986)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02986/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:33.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
-        "italia",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "29 maggio 2026",
+          "Conferimento dell'onorificenza di Commendatore dell'Ordine della «Stella d'Italia»."
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "840aca1602f57716",
@@ -961,10 +1409,23 @@
         "leggi",
         "decreti",
         "italia",
+        "scadenza",
         "tributi"
       ],
       "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "22 maggio 2026",
+          "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 22 maggio 2026.",
+          "Modalita' di attuazione del contributo sotto forma di credito d'imposta per l'acquisto di gasolio e benzina a favore delle imprese ittiche."
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "5aa1c667f810160c",
@@ -981,30 +1442,22 @@
         "leggi",
         "decreti",
         "italia",
+        "scadenza",
         "tributi"
       ],
       "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "33d0ac86cc84441c",
-      "title": "MINISTERO DELL'INTERNO - COMUNICATO",
-      "summary": "Riconoscimento della personalita' giuridica del Santuario Diocesano di Santa Lucia - Divina Misericordia, in Caserta, frazione Centurano. (26A02975)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02975/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:29.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
-        "italia",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "4 maggio 2026",
+          "24 luglio 2024"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "5706aa2816bee016",
@@ -1021,10 +1474,25 @@
         "leggi",
         "decreti",
         "italia",
+        "scadenza",
+        "beneficiari",
         "tributi"
       ],
       "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "4 maggio 2026",
+          "30 dicembre 2025"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "199, in tema di incremento di contributo a copertura delle spese rimaste a carico dei beneficiari in conseguenza del mancato completamento degli interventi interessati dal Superbonus."
+        ]
+      }
     },
     {
       "id": "4526934f6baf19b4",
@@ -1040,10 +1508,22 @@
         "normativa",
         "leggi",
         "decreti",
-        "italia"
+        "italia",
+        "scadenza"
       ],
       "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "8 maggio 2026",
+          "15 dicembre 2022"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
     },
     {
       "id": "1c7f77adf97d720f",
@@ -1060,10 +1540,24 @@
         "leggi",
         "decreti",
         "italia",
+        "scadenza",
+        "beneficiari",
         "comuni"
       ],
       "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "Concessione delle medaglie d'argento al valore dell'Arma dei carabinieri."
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "MINISTERO DELLA DIFESA - COMUNICATO."
+        ]
+      }
     },
     {
       "id": "c6c68184b3f72437",
@@ -1080,10 +1574,25 @@
         "leggi",
         "decreti",
         "italia",
+        "scadenza",
+        "beneficiari",
         "comuni"
       ],
       "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "13 dicembre 2022",
+          "29 marzo 2023"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "PRESIDENZA DEL CONSIGLIO DEI MINISTRI - COMMISSARIO STRAORDINARIO RICOSTRUZIONE SISMA 2016 - COMUNICATO."
+        ]
+      }
     },
     {
       "id": "032c697564e152ea",
@@ -1100,10 +1609,24 @@
         "leggi",
         "decreti",
         "italia",
+        "scadenza",
+        "beneficiari",
         "comuni"
       ],
       "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "13 ottobre 2022"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "PRESIDENZA DEL CONSIGLIO DEI MINISTRI - COMMISSARIO STRAORDINARIO RICOSTRUZIONE SISMA 2016 - COMUNICATO."
+        ]
+      }
     },
     {
       "id": "6bc686f6167594e1",
@@ -1120,10 +1643,25 @@
         "leggi",
         "decreti",
         "italia",
+        "scadenza",
+        "beneficiari",
         "comuni"
       ],
       "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "22 dicembre 2025",
+          "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - COMUNICATO."
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - COMUNICATO."
+        ]
+      }
     },
     {
       "id": "1de88d737603b4c0",
@@ -1140,10 +1678,840 @@
         "leggi",
         "decreti",
         "italia",
+        "scadenza",
+        "beneficiari",
         "comuni"
       ],
       "kind": "normativa",
-      "score": 50
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "23 dicembre 2020"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "PRESIDENZA DEL CONSIGLIO DEI MINISTRI - COMMISSARIO STRAORDINARIO RICOSTRUZIONE SISMA 2016 - COMUNICATO."
+        ]
+      }
+    },
+    {
+      "id": "6b416341f4a999f8",
+      "title": "n. 107 ORDINANZA 20 maggio - 16 giugno 2026",
+      "summary": "Giudizio sull'ammissibilita' di ricorso per conflitto di attribuzione tra poteri dello Stato. Parlamento - Immunita' parlamentari - Procedimento penale nei confronti del senatore Armando Siri, senatore all'epoca dei fatti - Precedente conflitto tra poteri, concluso con la declaratoria di non spettanza al Senato del potere di adottare la deliberazione del 9 marzo 2022, e conseguente suo annullamento, con cui quest'ultimo aveva negato al GUP del Tribunale ordin.........(T-260107)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/T-260107/S1",
+      "channel": "normativa",
+      "sourceId": "guri-s1",
+      "sourceName": "Gazzetta Ufficiale - Corte Costituzionale",
+      "publishedAt": "2026-06-15T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "corte-costituzionale",
+        "sentenze",
+        "scadenza"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "16 giugno 2026",
+          "9 marzo 2022",
+          "Parlamento - Immunita' parlamentari - Procedimento penale nei confronti del senatore Armando Siri, senatore all'epoca dei fatti - Precedente conflitto tra poteri, concluso con la declaratoria di non spettanza al Senato del potere di adottare la deliberazione del 9 marzo 2022, e conseguente suo annullamento, con cui quest'ultimo aveva negato al GUP del Tribunale ordin.........(T-260107)"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "deaad0b0ee2707e6",
+      "title": "REGOLAMENTO 30 marzo 2026, n. 808",
+      "summary": "Regolamento (UE) 2026/808 del Parlamento europeo e del Consiglio, del 30 marzo 2026, che modifica il regolamento (UE) n. 806/2014 per quanto riguarda le misure di intervento precoce, le condizioni per la risoluzione e il finanziamento dell'azione di risoluzione (Testo rilevante ai fini del SEE) - Pubblicato il 20 aprile 2026 (26CE1437)",
+      "url": "http://www.gazzettaufficiale.it/do/gazzetta/unione_europea/3/pdfPaginato?numPagina=92&dataPubblicazioneGazzetta=20260615&numeroGazzetta=46&tipoSerie=S2&tipoSupplemento=GU&numeroSupplemento=0&edizione=0&elenco30giorni=false",
+      "channel": "normativa",
+      "sourceId": "guri-s2",
+      "sourceName": "Gazzetta Ufficiale - Unione Europea",
+      "publishedAt": "2026-06-14T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "unione-europea",
+        "regolamenti",
+        "scadenza"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "30 marzo 2026",
+          "20 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "fd617939d0375e02",
+      "title": "DIRETTIVA 30 marzo 2026, n. 805",
+      "summary": "Direttiva (UE) 2026/805 del Parlamento europeo e del Consiglio, del 30 marzo 2026, recante modifica della direttiva 2000/60/CE, che istituisce un quadro per l'azione comunitaria in materia di acque, della direttiva 2006/118/CE, sulla protezione delle acque sotterranee dall'inquinamento e dal deterioramento, e della direttiva 2008/105/CE, relativa a standard di qualita' ambientale nel settore della politica delle acque (Testo rilevante ai fini del SEE) - Pubblicata il 20 aprile 2026 (26CE1439)",
+      "url": "http://www.gazzettaufficiale.it/do/gazzetta/unione_europea/3/pdfPaginato?numPagina=174&dataPubblicazioneGazzetta=20260615&numeroGazzetta=46&tipoSerie=S2&tipoSupplemento=GU&numeroSupplemento=0&edizione=0&elenco30giorni=false",
+      "channel": "normativa",
+      "sourceId": "guri-s2",
+      "sourceName": "Gazzetta Ufficiale - Unione Europea",
+      "publishedAt": "2026-06-14T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "unione-europea",
+        "regolamenti",
+        "scadenza",
+        "beneficiari",
+        "comuni"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "30 marzo 2026",
+          "20 aprile 2026",
+          "Direttiva (UE) 2026/805 del Parlamento europeo e del Consiglio, del 30 marzo 2026, recante modifica della direttiva 2000/60/CE, che istituisce un quadro per l'azione comunitaria in materia di acque, della direttiva 2006/118/CE, sulla protezione delle acque sotterranee dall'inquinamento e dal deterioramento, e della direttiva 2008/105/CE, relativa a standard di qualita' ambientale nel settore della politica delle acque (Testo rilevante ai fini del SEE) - Pubblicata il 20 aprile 2026 (26CE1439)"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "Direttiva (UE) 2026/805 del Parlamento europeo e del Consiglio, del 30 marzo 2026, recante modifica della direttiva 2000/60/CE, che istituisce un quadro per l'azione comunitaria in materia di acque, della direttiva 2006/118/CE, sulla protezione delle acque sotterranee dall'inquinamento e dal deterioramento, e della direttiva 2008/105/CE, relativa a standard di qualita' ambientale nel settore della politica delle acque (Testo rilevante ai fini del SEE) - Pubblicata il 20 aprile 2026 (26CE1439)"
+        ]
+      }
+    },
+    {
+      "id": "18af13ee276e5caf",
+      "title": "DIRETTIVA 30 marzo 2026, n. 806",
+      "summary": "Direttiva (UE) 2026/806 del Parlamento europeo e del Consiglio, del 30 marzo 2026, che modifica la direttiva 2014/59/UE per quanto riguarda le misure di intervento precoce, le condizioni per la risoluzione e il finanziamento dell'azione di risoluzione e la direttiva 2014/24/UE per quanto riguarda i servizi di valutazione nel quadro della risoluzione (Testo rilevante ai fini del SEE) - Pubblicata il 20 aprile 2026 (26CE1440)",
+      "url": "http://www.gazzettaufficiale.it/do/gazzetta/unione_europea/3/pdfPaginato?numPagina=258&dataPubblicazioneGazzetta=20260615&numeroGazzetta=46&tipoSerie=S2&tipoSupplemento=GU&numeroSupplemento=0&edizione=0&elenco30giorni=false",
+      "channel": "normativa",
+      "sourceId": "guri-s2",
+      "sourceName": "Gazzetta Ufficiale - Unione Europea",
+      "publishedAt": "2026-06-14T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "unione-europea",
+        "regolamenti",
+        "scadenza"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "30 marzo 2026",
+          "20 aprile 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "748f620b9a7bbd46",
+      "title": "REGIONE VALLE D'AOSTA - LEGGE REGIONALE 8 aprile 2025, n. 9",
+      "summary": "Iniziative a sostegno della valorizzazione dell'identita' culturale valdostana. (26R00102)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/26R00102/S3",
+      "channel": "normativa",
+      "sourceId": "guri-s3",
+      "sourceName": "Gazzetta Ufficiale - Regioni",
+      "publishedAt": "2026-06-12T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "regioni",
+        "enti-locali",
+        "scadenza",
+        "cultura"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "8 aprile 2025"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "789c2246484314e2",
+      "title": "REGIONE PIEMONTE - LEGGE REGIONALE 24 dicembre 2025, n. 24",
+      "summary": "Disposizioni urgenti. (26R00078)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/26R00078/S3",
+      "channel": "normativa",
+      "sourceId": "guri-s3",
+      "sourceName": "Gazzetta Ufficiale - Regioni",
+      "publishedAt": "2026-06-12T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "regioni",
+        "enti-locali",
+        "scadenza"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "24 dicembre 2025"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "5d4627aac9a7cb35",
+      "title": "REGIONE LOMBARDIA - LEGGE REGIONALE 30 dicembre 2025, n. 20",
+      "summary": "Legge di stabilita' 2026-2028. (26R00042)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/26R00042/S3",
+      "channel": "normativa",
+      "sourceId": "guri-s3",
+      "sourceName": "Gazzetta Ufficiale - Regioni",
+      "publishedAt": "2026-06-12T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "regioni",
+        "enti-locali",
+        "scadenza"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "30 dicembre 2025"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "947c1f30baa9d55e",
+      "title": "REGIONE TRENTINO-ALTO ADIGE (PROVINCIA AUTONOMA DI BOLZANO) - DECRETO DEL PRESIDENTE DELLA PROVINCIA 23 aprile 2025, n. 8",
+      "summary": "Regolamento di esecuzione sull'attivita' di noleggio autobus con conducente. (25R00322)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/25R00322/S3",
+      "channel": "normativa",
+      "sourceId": "guri-s3",
+      "sourceName": "Gazzetta Ufficiale - Regioni",
+      "publishedAt": "2026-06-12T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "regioni",
+        "enti-locali",
+        "scadenza",
+        "comuni"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "23 aprile 2025"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "84f3982226cd170e",
+      "title": "REGIONE TRENTINO-ALTO ADIGE (PROVINCIA AUTONOMA DI BOLZANO) - DECRETO DEL PRESIDENTE DELLA PROVINCIA 22 maggio 2025, n. 9",
+      "summary": "Modifiche del regolamento di esecuzione in materia di tutela delle acque. (25R00323)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/25R00323/S3",
+      "channel": "normativa",
+      "sourceId": "guri-s3",
+      "sourceName": "Gazzetta Ufficiale - Regioni",
+      "publishedAt": "2026-06-12T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "regioni",
+        "enti-locali",
+        "scadenza",
+        "comuni"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "22 maggio 2025"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "98c48373d91a4b68",
+      "title": "REGIONE TRENTINO-ALTO ADIGE (PROVINCIA AUTONOMA DI BOLZANO) - DECRETO DEL PRESIDENTE DELLA PROVINCIA 28 maggio 2025, n. 10",
+      "summary": "Modifica del regolamento concernente le procedure amministrative relative alle funzioni delegate in materia di previdenza integrativa regionale. (25R00324)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/25R00324/S3",
+      "channel": "normativa",
+      "sourceId": "guri-s3",
+      "sourceName": "Gazzetta Ufficiale - Regioni",
+      "publishedAt": "2026-06-12T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "regioni",
+        "enti-locali",
+        "scadenza",
+        "comuni"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "28 maggio 2025"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "3f4f6608d12e98d3",
+      "title": "REGIONE TRENTINO-ALTO ADIGE (PROVINCIA AUTONOMA DI BOLZANO) - DECRETO DEL PRESIDENTE DELLA PROVINCIA 3 giugno 2025, n. 11",
+      "summary": "Regolamento di esecuzione sul conferimento di incarichi dirigenziali di prima e di seconda fascia. (25R00325)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/25R00325/S3",
+      "channel": "normativa",
+      "sourceId": "guri-s3",
+      "sourceName": "Gazzetta Ufficiale - Regioni",
+      "publishedAt": "2026-06-12T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "regioni",
+        "enti-locali",
+        "scadenza",
+        "comuni"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "3 giugno 2025"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "43671bd96276315b",
+      "title": "REGIONE TRENTINO-ALTO ADIGE (PROVINCIA AUTONOMA DI BOLZANO) - DECRETO DEL PRESIDENTE DELLA PROVINCIA 4 giugno 2025, n. 12",
+      "summary": "Modifica del regolamento di esecuzione sul rilevamento unificato di reddito e patrimonio. (25R00326)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/25R00326/S3",
+      "channel": "normativa",
+      "sourceId": "guri-s3",
+      "sourceName": "Gazzetta Ufficiale - Regioni",
+      "publishedAt": "2026-06-12T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "regioni",
+        "enti-locali",
+        "scadenza",
+        "comuni",
+        "cultura"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "4 giugno 2025"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "e51e75b3b2096c56",
+      "title": "REGIONE TOSCANA - LEGGE REGIONALE 20 agosto 2025, n. 49",
+      "summary": "Gestione multifunzionale del bosco e degli ecosistemi forestali, sviluppo sostenibile, tutela e valorizzazione dell'ambiente, competenze ai fini del vincolo idrogeologico nei parchi e nelle riserve naturali regionali. Modifiche alle leggi regionali 39/2000, 30/2015 e 65/1997. (25R00289)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/25R00289/S3",
+      "channel": "normativa",
+      "sourceId": "guri-s3",
+      "sourceName": "Gazzetta Ufficiale - Regioni",
+      "publishedAt": "2026-06-12T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "regioni",
+        "enti-locali",
+        "scadenza"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "20 agosto 2025",
+          "Gestione multifunzionale del bosco e degli ecosistemi forestali, sviluppo sostenibile, tutela e valorizzazione dell'ambiente, competenze ai fini del vincolo idrogeologico nei parchi e nelle riserve naturali regionali."
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "560b9414fb17a762",
+      "title": "REGIONE LAZIO - LEGGE REGIONALE 8 agosto 2025, n. 13",
+      "summary": "Rendiconto generale della Regione Lazio per l'esercizio finanziario 2024. (26R00052)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/26R00052/S3",
+      "channel": "normativa",
+      "sourceId": "guri-s3",
+      "sourceName": "Gazzetta Ufficiale - Regioni",
+      "publishedAt": "2026-06-12T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "regioni",
+        "enti-locali",
+        "scadenza"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "8 agosto 2025"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "14aa8441406b70c2",
+      "title": "REGIONE SICILIA - LEGGE 5 gennaio 2026, n. 2",
+      "summary": "Bilancio di previsione della Regione siciliana per il triennio 2026-2028. (26R00037)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/26R00037/S3",
+      "channel": "normativa",
+      "sourceId": "guri-s3",
+      "sourceName": "Gazzetta Ufficiale - Regioni",
+      "publishedAt": "2026-06-12T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "regioni",
+        "enti-locali",
+        "scadenza"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "5 gennaio 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "6aec40fca9f90962",
+      "title": "n. 104 ORDINANZA 4 maggio - 11 giugno 2026",
+      "summary": "Giudizio di legittimita' costituzionale in via incidentale. Giudizio costituzionale - Contraddittorio - Giudizi di esdebitazione relativi a procedure di liquidazione controllata - Omessa notifica, da parte dei giudici a quibus, delle ordinanze di rimessione ai creditori ammessi al passivo e agli altri creditori nei cui riguardi e' stato in concreto suscitato il contraddittorio - Necessita' di integrazione del contraddittorio nei loro confronti - Restituzione de.........(T-260104)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/T-260104/S1",
+      "channel": "normativa",
+      "sourceId": "guri-s1",
+      "sourceName": "Gazzetta Ufficiale - Corte Costituzionale",
+      "publishedAt": "2026-06-10T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "corte-costituzionale",
+        "sentenze",
+        "scadenza"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "11 giugno 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "b6a8a3485700f394",
+      "title": "n. 105 ORDINANZA 4 maggio - 11 giugno 2026",
+      "summary": "Giudizio di legittimita' costituzionale in via incidentale. Reati e pene - Furto in abitazione - Trattamento sanzionatorio - Possibilita' di diminuire la pena fino a un terzo quando per la natura, la specie, i mezzi, le modalita' o circostanze dell'azione, ovvero per la particolare tenuita' del danno o del pericolo, il fatto risulti di lieve entita' - Omessa previsione - Denunciata violazione dei principi di ragionevolezza, eguaglianza e della finalita' riedu.........(T-260105)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/T-260105/S1",
+      "channel": "normativa",
+      "sourceId": "guri-s1",
+      "sourceName": "Gazzetta Ufficiale - Corte Costituzionale",
+      "publishedAt": "2026-06-10T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "corte-costituzionale",
+        "sentenze",
+        "scadenza"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "11 giugno 2026"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "f29d7bc13b1833fd",
+      "title": "n. 96 ORDINANZA (Atto di promovimento) 11 maggio 2026",
+      "summary": "Ordinanza dell'11 maggio 2026 del Giudice di Pace di Varese nel procedimento penale a carico di S. S.. Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00114)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26C00114/S1",
+      "channel": "normativa",
+      "sourceId": "guri-s1",
+      "sourceName": "Gazzetta Ufficiale - Corte Costituzionale",
+      "publishedAt": "2026-05-10T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "corte-costituzionale",
+        "sentenze",
+        "scadenza"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "11 maggio 2026",
+          "Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00114)"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "4364027d2b8908d0",
+      "title": "n. 97 ORDINANZA (Atto di promovimento) 11 maggio 2026",
+      "summary": "Ordinanza dell'11 maggio 2026 del Giudice di Pace di Varese nel procedimento penale a carico di G. F.. Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00115)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26C00115/S1",
+      "channel": "normativa",
+      "sourceId": "guri-s1",
+      "sourceName": "Gazzetta Ufficiale - Corte Costituzionale",
+      "publishedAt": "2026-05-10T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "corte-costituzionale",
+        "sentenze",
+        "scadenza"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "11 maggio 2026",
+          "Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00115)"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "18b5a59f6dd8735c",
+      "title": "n. 93 ORDINANZA (Atto di promovimento) 4 maggio 2026",
+      "summary": "Ordinanza del 4 maggio 2026 del Giudice di Pace di Varese nel procedimento penale a carico di B. E. . Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00111)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26C00111/S1",
+      "channel": "normativa",
+      "sourceId": "guri-s1",
+      "sourceName": "Gazzetta Ufficiale - Corte Costituzionale",
+      "publishedAt": "2026-05-03T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "corte-costituzionale",
+        "sentenze",
+        "scadenza"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "4 maggio 2026",
+          "Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00111)"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "59682ec62b63ea58",
+      "title": "n. 94 ORDINANZA (Atto di promovimento) 4 maggio 2026",
+      "summary": "Ordinanza del 4 maggio 2026 del Giudice di Pace di Varese nel procedimento penale a carico di F. N.. Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00112)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26C00112/S1",
+      "channel": "normativa",
+      "sourceId": "guri-s1",
+      "sourceName": "Gazzetta Ufficiale - Corte Costituzionale",
+      "publishedAt": "2026-05-03T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "corte-costituzionale",
+        "sentenze",
+        "scadenza"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "4 maggio 2026",
+          "Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00112)"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "55a853628331a722",
+      "title": "n. 95 ORDINANZA (Atto di promovimento) 4 maggio 2026",
+      "summary": "Ordinanza del 4 maggio 2026 del Giudice di Pace di Varese nel procedimento penale a carico di S. G.. Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00113)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26C00113/S1",
+      "channel": "normativa",
+      "sourceId": "guri-s1",
+      "sourceName": "Gazzetta Ufficiale - Corte Costituzionale",
+      "publishedAt": "2026-05-03T22:00:00.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "corte-costituzionale",
+        "sentenze",
+        "scadenza"
+      ],
+      "kind": "normativa",
+      "score": 58,
+      "fields": {
+        "deadlines": [
+          "4 maggio 2026",
+          "Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00113)"
+        ],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": []
+      }
+    },
+    {
+      "id": "51ee408369810ba4",
+      "title": "CORTE SUPREMA DI CASSAZIONE - COMUNICATO",
+      "summary": "Annuncio di una proposta di legge di iniziativa popolare (26A03125)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A03125/SG",
+      "channel": "normativa",
+      "sourceId": "guri-sg",
+      "sourceName": "Gazzetta Ufficiale - Serie Generale",
+      "publishedAt": "2026-06-17T17:32:37.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "leggi",
+        "decreti",
+        "italia",
+        "beneficiari",
+        "comuni"
+      ],
+      "kind": "normativa",
+      "score": 50,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "CORTE SUPREMA DI CASSAZIONE - COMUNICATO."
+        ]
+      }
+    },
+    {
+      "id": "6ee228edf61af6eb",
+      "title": "MINISTERO DELL'INTERNO - COMUNICATO",
+      "summary": "Fusione per incorporazione della Parrocchia di S. Martino, in Valgrana, della Parrocchia di S. Ambrogio e della Parrocchia di S. Anna, in Castelmagno, della Parrocchia di S. Michele, in Montemale, della Parrocchia di S. Giacomo, della Parrocchia di S. Giovanni Battista, della Parrocchia di S. Pietro in Vincoli e della Parrocchia di S. Lucia, in Monterosso Grana e della Parrocchia di S. Ponzio, in Pradleves nella Parrocchia Santa Maria della Valle, in Valgrana. (26A02987)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02987/SG",
+      "channel": "normativa",
+      "sourceId": "guri-sg",
+      "sourceName": "Gazzetta Ufficiale - Serie Generale",
+      "publishedAt": "2026-06-17T17:32:34.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "leggi",
+        "decreti",
+        "italia",
+        "beneficiari",
+        "comuni"
+      ],
+      "kind": "normativa",
+      "score": 50,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "MINISTERO DELL'INTERNO - COMUNICATO."
+        ]
+      }
+    },
+    {
+      "id": "d991c49dc48e387c",
+      "title": "MINISTERO DELL'INTERNO - COMUNICATO",
+      "summary": "Riconoscimento della personalita' giuridica della Fondazione di religione «Fondazione Caritas Veronese», in Verona. (26A02985)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02985/SG",
+      "channel": "normativa",
+      "sourceId": "guri-sg",
+      "sourceName": "Gazzetta Ufficiale - Serie Generale",
+      "publishedAt": "2026-06-17T17:32:33.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "leggi",
+        "decreti",
+        "italia",
+        "beneficiari",
+        "comuni"
+      ],
+      "kind": "normativa",
+      "score": 50,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "MINISTERO DELL'INTERNO - COMUNICATO."
+        ]
+      }
+    },
+    {
+      "id": "0cb1249e8f02c1fc",
+      "title": "MINISTERO DELL'INTERNO - COMUNICATO",
+      "summary": "Fusione per incorporazione della Parrocchia S. Bernardo nella Parrocchia Santi Ambrogio e Antonio, entrambe in Casnate con Bernate, con contestuale mutamento della denominazione in Parrocchia Santi Antonio e Bernardo. (26A02986)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02986/SG",
+      "channel": "normativa",
+      "sourceId": "guri-sg",
+      "sourceName": "Gazzetta Ufficiale - Serie Generale",
+      "publishedAt": "2026-06-17T17:32:33.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "leggi",
+        "decreti",
+        "italia",
+        "beneficiari",
+        "comuni"
+      ],
+      "kind": "normativa",
+      "score": 50,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "MINISTERO DELL'INTERNO - COMUNICATO."
+        ]
+      }
+    },
+    {
+      "id": "33d0ac86cc84441c",
+      "title": "MINISTERO DELL'INTERNO - COMUNICATO",
+      "summary": "Riconoscimento della personalita' giuridica del Santuario Diocesano di Santa Lucia - Divina Misericordia, in Caserta, frazione Centurano. (26A02975)",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02975/SG",
+      "channel": "normativa",
+      "sourceId": "guri-sg",
+      "sourceName": "Gazzetta Ufficiale - Serie Generale",
+      "publishedAt": "2026-06-17T17:32:29.000Z",
+      "tags": [
+        "guri",
+        "normativa",
+        "leggi",
+        "decreti",
+        "italia",
+        "beneficiari",
+        "comuni"
+      ],
+      "kind": "normativa",
+      "score": 50,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "MINISTERO DELL'INTERNO - COMUNICATO."
+        ]
+      }
     },
     {
       "id": "a06bd438c7d9f60c",
@@ -1160,10 +2528,21 @@
         "leggi",
         "decreti",
         "italia",
+        "beneficiari",
         "comuni"
       ],
       "kind": "normativa",
-      "score": 50
+      "score": 50,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "AGENZIA ITALIANA DEL FARMACO - COMUNICATO."
+        ]
+      }
     },
     {
       "id": "201f82d51a215fe7",
@@ -1180,414 +2559,21 @@
         "leggi",
         "decreti",
         "italia",
+        "beneficiari",
         "comuni"
       ],
       "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "6b416341f4a999f8",
-      "title": "n. 107 ORDINANZA 20 maggio - 16 giugno 2026",
-      "summary": "Giudizio sull'ammissibilita' di ricorso per conflitto di attribuzione tra poteri dello Stato. Parlamento - Immunita' parlamentari - Procedimento penale nei confronti del senatore Armando Siri, senatore all'epoca dei fatti - Precedente conflitto tra poteri, concluso con la declaratoria di non spettanza al Senato del potere di adottare la deliberazione del 9 marzo 2022, e conseguente suo annullamento, con cui quest'ultimo aveva negato al GUP del Tribunale ordin.........(T-260107)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/T-260107/S1",
-      "channel": "normativa",
-      "sourceId": "guri-s1",
-      "sourceName": "Gazzetta Ufficiale - Corte Costituzionale",
-      "publishedAt": "2026-06-15T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "corte-costituzionale",
-        "sentenze"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "deaad0b0ee2707e6",
-      "title": "REGOLAMENTO 30 marzo 2026, n. 808",
-      "summary": "Regolamento (UE) 2026/808 del Parlamento europeo e del Consiglio, del 30 marzo 2026, che modifica il regolamento (UE) n. 806/2014 per quanto riguarda le misure di intervento precoce, le condizioni per la risoluzione e il finanziamento dell'azione di risoluzione (Testo rilevante ai fini del SEE) - Pubblicato il 20 aprile 2026 (26CE1437)",
-      "url": "http://www.gazzettaufficiale.it/do/gazzetta/unione_europea/3/pdfPaginato?numPagina=92&dataPubblicazioneGazzetta=20260615&numeroGazzetta=46&tipoSerie=S2&tipoSupplemento=GU&numeroSupplemento=0&edizione=0&elenco30giorni=false",
-      "channel": "normativa",
-      "sourceId": "guri-s2",
-      "sourceName": "Gazzetta Ufficiale - Unione Europea",
-      "publishedAt": "2026-06-14T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "unione-europea",
-        "regolamenti"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "fd617939d0375e02",
-      "title": "DIRETTIVA 30 marzo 2026, n. 805",
-      "summary": "Direttiva (UE) 2026/805 del Parlamento europeo e del Consiglio, del 30 marzo 2026, recante modifica della direttiva 2000/60/CE, che istituisce un quadro per l'azione comunitaria in materia di acque, della direttiva 2006/118/CE, sulla protezione delle acque sotterranee dall'inquinamento e dal deterioramento, e della direttiva 2008/105/CE, relativa a standard di qualita' ambientale nel settore della politica delle acque (Testo rilevante ai fini del SEE) - Pubblicata il 20 aprile 2026 (26CE1439)",
-      "url": "http://www.gazzettaufficiale.it/do/gazzetta/unione_europea/3/pdfPaginato?numPagina=174&dataPubblicazioneGazzetta=20260615&numeroGazzetta=46&tipoSerie=S2&tipoSupplemento=GU&numeroSupplemento=0&edizione=0&elenco30giorni=false",
-      "channel": "normativa",
-      "sourceId": "guri-s2",
-      "sourceName": "Gazzetta Ufficiale - Unione Europea",
-      "publishedAt": "2026-06-14T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "unione-europea",
-        "regolamenti",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "18af13ee276e5caf",
-      "title": "DIRETTIVA 30 marzo 2026, n. 806",
-      "summary": "Direttiva (UE) 2026/806 del Parlamento europeo e del Consiglio, del 30 marzo 2026, che modifica la direttiva 2014/59/UE per quanto riguarda le misure di intervento precoce, le condizioni per la risoluzione e il finanziamento dell'azione di risoluzione e la direttiva 2014/24/UE per quanto riguarda i servizi di valutazione nel quadro della risoluzione (Testo rilevante ai fini del SEE) - Pubblicata il 20 aprile 2026 (26CE1440)",
-      "url": "http://www.gazzettaufficiale.it/do/gazzetta/unione_europea/3/pdfPaginato?numPagina=258&dataPubblicazioneGazzetta=20260615&numeroGazzetta=46&tipoSerie=S2&tipoSupplemento=GU&numeroSupplemento=0&edizione=0&elenco30giorni=false",
-      "channel": "normativa",
-      "sourceId": "guri-s2",
-      "sourceName": "Gazzetta Ufficiale - Unione Europea",
-      "publishedAt": "2026-06-14T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "unione-europea",
-        "regolamenti"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "748f620b9a7bbd46",
-      "title": "REGIONE VALLE D'AOSTA - LEGGE REGIONALE 8 aprile 2025, n. 9",
-      "summary": "Iniziative a sostegno della valorizzazione dell'identita' culturale valdostana. (26R00102)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/26R00102/S3",
-      "channel": "normativa",
-      "sourceId": "guri-s3",
-      "sourceName": "Gazzetta Ufficiale - Regioni",
-      "publishedAt": "2026-06-12T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "regioni",
-        "enti-locali",
-        "cultura"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "789c2246484314e2",
-      "title": "REGIONE PIEMONTE - LEGGE REGIONALE 24 dicembre 2025, n. 24",
-      "summary": "Disposizioni urgenti. (26R00078)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/26R00078/S3",
-      "channel": "normativa",
-      "sourceId": "guri-s3",
-      "sourceName": "Gazzetta Ufficiale - Regioni",
-      "publishedAt": "2026-06-12T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "regioni",
-        "enti-locali"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "5d4627aac9a7cb35",
-      "title": "REGIONE LOMBARDIA - LEGGE REGIONALE 30 dicembre 2025, n. 20",
-      "summary": "Legge di stabilita' 2026-2028. (26R00042)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/26R00042/S3",
-      "channel": "normativa",
-      "sourceId": "guri-s3",
-      "sourceName": "Gazzetta Ufficiale - Regioni",
-      "publishedAt": "2026-06-12T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "regioni",
-        "enti-locali"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "947c1f30baa9d55e",
-      "title": "REGIONE TRENTINO-ALTO ADIGE (PROVINCIA AUTONOMA DI BOLZANO) - DECRETO DEL PRESIDENTE DELLA PROVINCIA 23 aprile 2025, n. 8",
-      "summary": "Regolamento di esecuzione sull'attivita' di noleggio autobus con conducente. (25R00322)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/25R00322/S3",
-      "channel": "normativa",
-      "sourceId": "guri-s3",
-      "sourceName": "Gazzetta Ufficiale - Regioni",
-      "publishedAt": "2026-06-12T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "regioni",
-        "enti-locali",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "84f3982226cd170e",
-      "title": "REGIONE TRENTINO-ALTO ADIGE (PROVINCIA AUTONOMA DI BOLZANO) - DECRETO DEL PRESIDENTE DELLA PROVINCIA 22 maggio 2025, n. 9",
-      "summary": "Modifiche del regolamento di esecuzione in materia di tutela delle acque. (25R00323)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/25R00323/S3",
-      "channel": "normativa",
-      "sourceId": "guri-s3",
-      "sourceName": "Gazzetta Ufficiale - Regioni",
-      "publishedAt": "2026-06-12T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "regioni",
-        "enti-locali",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "98c48373d91a4b68",
-      "title": "REGIONE TRENTINO-ALTO ADIGE (PROVINCIA AUTONOMA DI BOLZANO) - DECRETO DEL PRESIDENTE DELLA PROVINCIA 28 maggio 2025, n. 10",
-      "summary": "Modifica del regolamento concernente le procedure amministrative relative alle funzioni delegate in materia di previdenza integrativa regionale. (25R00324)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/25R00324/S3",
-      "channel": "normativa",
-      "sourceId": "guri-s3",
-      "sourceName": "Gazzetta Ufficiale - Regioni",
-      "publishedAt": "2026-06-12T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "regioni",
-        "enti-locali",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "3f4f6608d12e98d3",
-      "title": "REGIONE TRENTINO-ALTO ADIGE (PROVINCIA AUTONOMA DI BOLZANO) - DECRETO DEL PRESIDENTE DELLA PROVINCIA 3 giugno 2025, n. 11",
-      "summary": "Regolamento di esecuzione sul conferimento di incarichi dirigenziali di prima e di seconda fascia. (25R00325)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/25R00325/S3",
-      "channel": "normativa",
-      "sourceId": "guri-s3",
-      "sourceName": "Gazzetta Ufficiale - Regioni",
-      "publishedAt": "2026-06-12T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "regioni",
-        "enti-locali",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "43671bd96276315b",
-      "title": "REGIONE TRENTINO-ALTO ADIGE (PROVINCIA AUTONOMA DI BOLZANO) - DECRETO DEL PRESIDENTE DELLA PROVINCIA 4 giugno 2025, n. 12",
-      "summary": "Modifica del regolamento di esecuzione sul rilevamento unificato di reddito e patrimonio. (25R00326)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/25R00326/S3",
-      "channel": "normativa",
-      "sourceId": "guri-s3",
-      "sourceName": "Gazzetta Ufficiale - Regioni",
-      "publishedAt": "2026-06-12T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "regioni",
-        "enti-locali",
-        "comuni",
-        "cultura"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "e51e75b3b2096c56",
-      "title": "REGIONE TOSCANA - LEGGE REGIONALE 20 agosto 2025, n. 49",
-      "summary": "Gestione multifunzionale del bosco e degli ecosistemi forestali, sviluppo sostenibile, tutela e valorizzazione dell'ambiente, competenze ai fini del vincolo idrogeologico nei parchi e nelle riserve naturali regionali. Modifiche alle leggi regionali 39/2000, 30/2015 e 65/1997. (25R00289)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/25R00289/S3",
-      "channel": "normativa",
-      "sourceId": "guri-s3",
-      "sourceName": "Gazzetta Ufficiale - Regioni",
-      "publishedAt": "2026-06-12T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "regioni",
-        "enti-locali"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "560b9414fb17a762",
-      "title": "REGIONE LAZIO - LEGGE REGIONALE 8 agosto 2025, n. 13",
-      "summary": "Rendiconto generale della Regione Lazio per l'esercizio finanziario 2024. (26R00052)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/26R00052/S3",
-      "channel": "normativa",
-      "sourceId": "guri-s3",
-      "sourceName": "Gazzetta Ufficiale - Regioni",
-      "publishedAt": "2026-06-12T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "regioni",
-        "enti-locali"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "14aa8441406b70c2",
-      "title": "REGIONE SICILIA - LEGGE 5 gennaio 2026, n. 2",
-      "summary": "Bilancio di previsione della Regione siciliana per il triennio 2026-2028. (26R00037)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/13/26R00037/S3",
-      "channel": "normativa",
-      "sourceId": "guri-s3",
-      "sourceName": "Gazzetta Ufficiale - Regioni",
-      "publishedAt": "2026-06-12T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "regioni",
-        "enti-locali"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "6aec40fca9f90962",
-      "title": "n. 104 ORDINANZA 4 maggio - 11 giugno 2026",
-      "summary": "Giudizio di legittimita' costituzionale in via incidentale. Giudizio costituzionale - Contraddittorio - Giudizi di esdebitazione relativi a procedure di liquidazione controllata - Omessa notifica, da parte dei giudici a quibus, delle ordinanze di rimessione ai creditori ammessi al passivo e agli altri creditori nei cui riguardi e' stato in concreto suscitato il contraddittorio - Necessita' di integrazione del contraddittorio nei loro confronti - Restituzione de.........(T-260104)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/T-260104/S1",
-      "channel": "normativa",
-      "sourceId": "guri-s1",
-      "sourceName": "Gazzetta Ufficiale - Corte Costituzionale",
-      "publishedAt": "2026-06-10T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "corte-costituzionale",
-        "sentenze"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "b6a8a3485700f394",
-      "title": "n. 105 ORDINANZA 4 maggio - 11 giugno 2026",
-      "summary": "Giudizio di legittimita' costituzionale in via incidentale. Reati e pene - Furto in abitazione - Trattamento sanzionatorio - Possibilita' di diminuire la pena fino a un terzo quando per la natura, la specie, i mezzi, le modalita' o circostanze dell'azione, ovvero per la particolare tenuita' del danno o del pericolo, il fatto risulti di lieve entita' - Omessa previsione - Denunciata violazione dei principi di ragionevolezza, eguaglianza e della finalita' riedu.........(T-260105)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/T-260105/S1",
-      "channel": "normativa",
-      "sourceId": "guri-s1",
-      "sourceName": "Gazzetta Ufficiale - Corte Costituzionale",
-      "publishedAt": "2026-06-10T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "corte-costituzionale",
-        "sentenze"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "f29d7bc13b1833fd",
-      "title": "n. 96 ORDINANZA (Atto di promovimento) 11 maggio 2026",
-      "summary": "Ordinanza dell'11 maggio 2026 del Giudice di Pace di Varese nel procedimento penale a carico di S. S.. Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00114)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26C00114/S1",
-      "channel": "normativa",
-      "sourceId": "guri-s1",
-      "sourceName": "Gazzetta Ufficiale - Corte Costituzionale",
-      "publishedAt": "2026-05-10T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "corte-costituzionale",
-        "sentenze"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "4364027d2b8908d0",
-      "title": "n. 97 ORDINANZA (Atto di promovimento) 11 maggio 2026",
-      "summary": "Ordinanza dell'11 maggio 2026 del Giudice di Pace di Varese nel procedimento penale a carico di G. F.. Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00115)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26C00115/S1",
-      "channel": "normativa",
-      "sourceId": "guri-s1",
-      "sourceName": "Gazzetta Ufficiale - Corte Costituzionale",
-      "publishedAt": "2026-05-10T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "corte-costituzionale",
-        "sentenze"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "18b5a59f6dd8735c",
-      "title": "n. 93 ORDINANZA (Atto di promovimento) 4 maggio 2026",
-      "summary": "Ordinanza del 4 maggio 2026 del Giudice di Pace di Varese nel procedimento penale a carico di B. E. . Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00111)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26C00111/S1",
-      "channel": "normativa",
-      "sourceId": "guri-s1",
-      "sourceName": "Gazzetta Ufficiale - Corte Costituzionale",
-      "publishedAt": "2026-05-03T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "corte-costituzionale",
-        "sentenze"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "59682ec62b63ea58",
-      "title": "n. 94 ORDINANZA (Atto di promovimento) 4 maggio 2026",
-      "summary": "Ordinanza del 4 maggio 2026 del Giudice di Pace di Varese nel procedimento penale a carico di F. N.. Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00112)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26C00112/S1",
-      "channel": "normativa",
-      "sourceId": "guri-s1",
-      "sourceName": "Gazzetta Ufficiale - Corte Costituzionale",
-      "publishedAt": "2026-05-03T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "corte-costituzionale",
-        "sentenze"
-      ],
-      "kind": "normativa",
-      "score": 50
-    },
-    {
-      "id": "55a853628331a722",
-      "title": "n. 95 ORDINANZA (Atto di promovimento) 4 maggio 2026",
-      "summary": "Ordinanza del 4 maggio 2026 del Giudice di Pace di Varese nel procedimento penale a carico di S. G.. Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00113)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26C00113/S1",
-      "channel": "normativa",
-      "sourceId": "guri-s1",
-      "sourceName": "Gazzetta Ufficiale - Corte Costituzionale",
-      "publishedAt": "2026-05-03T22:00:00.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "corte-costituzionale",
-        "sentenze"
-      ],
-      "kind": "normativa",
-      "score": 50
+      "score": 50,
+      "fields": {
+        "deadlines": [],
+        "amounts": [],
+        "cig": [],
+        "cup": [],
+        "requirements": [],
+        "beneficiaries": [
+          "AGENZIA ITALIANA DEL FARMACO - COMUNICATO."
+        ]
+      }
     }
   ],
   "errors": []

@@ -1,11 +1,13 @@
 import {
   Activity,
   ArrowUpRight,
+  Bell,
   Briefcase,
   Database,
   Download,
   FileText,
   GitBranch,
+  Network,
   Radar,
   RefreshCw,
   Rss,
@@ -43,6 +45,13 @@ export default async function Home() {
             <div className="flex flex-wrap gap-2">
               <FeedButton href="/feed/normativa.xml" label="Normativa" />
               <FeedButton href="/feed/bandi.xml" label="Bandi" />
+              <a
+                className="inline-flex h-10 items-center gap-2 rounded-md border border-white/20 px-3 text-sm font-medium hover:bg-white/10"
+                href="/api/semantic?q=pnrr%20digitale&channel=all"
+              >
+                <Network size={16} aria-hidden="true" />
+                Semantic
+              </a>
               <a
                 className="inline-flex h-10 items-center gap-2 rounded-md border border-white/20 px-3 text-sm font-medium hover:bg-white/10"
                 href="/api/brain.zip"
@@ -152,9 +161,10 @@ export default async function Home() {
             <h2 className="text-base font-semibold">Pipeline</h2>
             <div className="mt-4 space-y-3 text-sm text-black/65">
               <PipelineItem icon={<Radar size={16} aria-hidden="true" />} title="Recupera" text="Legge RSS e fonti pubbliche ufficiali." />
-              <PipelineItem icon={<GitBranch size={16} aria-hidden="true" />} title="Normalizza" text="Deduplica, tagga e assegna score operativo." />
-              <PipelineItem icon={<Database size={16} aria-hidden="true" />} title="Indicizza" text="Genera JSON chunk-ready e brain Obsidian." />
-              <PipelineItem icon={<Rss size={16} aria-hidden="true" />} title="Distribuisce" text="Pubblica alert, report e feed su Vercel." />
+              <PipelineItem icon={<GitBranch size={16} aria-hidden="true" />} title="Estrae" text="Rileva scadenze, importi, CIG, CUP, requisiti e beneficiari." />
+              <PipelineItem icon={<Database size={16} aria-hidden="true" />} title="Indicizza" text="Genera knowledge JSON, embeddings e vector store." />
+              <PipelineItem icon={<Network size={16} aria-hidden="true" />} title="Brain" text="Crea vault Obsidian con link semantici e grafo locale." />
+              <PipelineItem icon={<Rss size={16} aria-hidden="true" />} title="Distribuisce" text="Pubblica alert, report, feed e Slack digest opzionale." />
             </div>
           </div>
 
@@ -164,6 +174,9 @@ export default async function Home() {
               <DownloadLink href="/api/brain.zip" label="Vault completa" />
               <DownloadLink href="/api/brain/normativa.zip" label="Solo normativa" />
               <DownloadLink href="/api/brain/bandi.zip" label="Solo bandi" />
+              <DownloadLink href="/api/semantic?q=pnrr%20cloud&channel=bandi" label="Ricerca semantica" icon={<Network size={15} aria-hidden="true" />} />
+              <DownloadLink href="/api/vector-store?channel=all" label="Vector store" icon={<Database size={15} aria-hidden="true" />} />
+              <DownloadLink href="/api/notify/slack?channel=bandi" label="Slack digest" icon={<Bell size={15} aria-hidden="true" />} />
             </div>
           </div>
 
@@ -281,11 +294,11 @@ function ChannelPanel({
   );
 }
 
-function DownloadLink({ href, label }: { href: string; label: string }) {
+function DownloadLink({ href, label, icon }: { href: string; label: string; icon?: React.ReactNode }) {
   return (
     <a className="inline-flex items-center justify-between rounded-md border border-black/10 px-3 py-2 text-sm font-semibold hover:border-[#36d399]" href={href}>
       <span>{label}</span>
-      <Download size={15} aria-hidden="true" />
+      {icon ?? <Download size={15} aria-hidden="true" />}
     </a>
   );
 }
@@ -305,6 +318,7 @@ function AlertCard({ alert }: { alert: Alert }) {
       </div>
       <h3 className="text-lg font-semibold leading-snug">{alert.title}</h3>
       <p className="mt-2 line-clamp-2 text-sm leading-6 text-black/65">{alert.summary}</p>
+      <FieldSummary alert={alert} />
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
         <div className="flex flex-wrap gap-2">
           {alert.tags.slice(0, 5).map((tag) => (
@@ -324,6 +338,39 @@ function AlertCard({ alert }: { alert: Alert }) {
         </a>
       </div>
     </article>
+  );
+}
+
+function FieldSummary({ alert }: { alert: Alert }) {
+  const fields = alert.fields ?? {
+    deadlines: [],
+    amounts: [],
+    cig: [],
+    cup: [],
+    requirements: [],
+    beneficiaries: [],
+  };
+  const chips = [
+    fields.deadlines.length > 0 ? `scadenze ${fields.deadlines.length}` : null,
+    fields.amounts.length > 0 ? `importi ${fields.amounts.length}` : null,
+    fields.cig.length > 0 ? `CIG ${fields.cig.length}` : null,
+    fields.cup.length > 0 ? `CUP ${fields.cup.length}` : null,
+    fields.requirements.length > 0 ? `requisiti ${fields.requirements.length}` : null,
+    fields.beneficiaries.length > 0 ? `beneficiari ${fields.beneficiaries.length}` : null,
+  ].filter((chip): chip is string => Boolean(chip));
+
+  if (chips.length === 0) {
+    return null;
+  }
+
+  return (
+    <div className="mt-3 flex flex-wrap gap-2">
+      {chips.map((chip) => (
+        <span key={chip} className="rounded-md bg-[#f2f2ed] px-2 py-1 font-mono text-xs text-black/55">
+          {chip}
+        </span>
+      ))}
+    </div>
   );
 }
 

@@ -1,4 +1,5 @@
 import { collectAlerts } from "@/lib/osint";
+import { sendSlackDigest } from "@/lib/slack";
 
 export const dynamic = "force-dynamic";
 
@@ -11,9 +12,10 @@ export async function POST(request: Request) {
 }
 
 async function refresh(request: Request) {
+  const url = new URL(request.url);
   const secret = process.env.CRON_SECRET;
   const authHeader = request.headers.get("authorization");
-  const querySecret = new URL(request.url).searchParams.get("secret");
+  const querySecret = url.searchParams.get("secret");
 
   if (secret && authHeader !== `Bearer ${secret}` && querySecret !== secret) {
     return Response.json({ ok: false, error: "Unauthorized refresh" }, { status: 401 });
@@ -24,10 +26,13 @@ async function refresh(request: Request) {
     collectAlerts({ channel: "bandi", limit: 100 }),
     collectAlerts({ channel: "normativa", limit: 100 }),
   ]);
+  const shouldNotifySlack = url.searchParams.get("notify") === "slack" || process.env.SLACK_NOTIFY_ON_REFRESH === "true";
+  const slack = shouldNotifySlack ? await sendSlackDigest(all) : { ok: false, skipped: true, reason: "Slack non richiesto" };
 
   return Response.json({
     ok: true,
     refreshedAt: all.generatedAt,
+    slack,
     channels: {
       all: { alerts: all.stats.totalAlerts, sources: all.stats.activeSources, errors: all.errors },
       bandi: { alerts: bandi.stats.totalAlerts, sources: bandi.stats.activeSources, errors: bandi.errors },

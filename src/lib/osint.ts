@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import { XMLParser } from "fast-xml-parser";
 import seedAlerts from "@/data/seed-alerts.json";
 import sources from "@/data/sources.json";
+import { extractFields, fieldsToTags } from "@/lib/extract";
 import type { Alert, AlertKind, Channel, ChannelFilter, CollectOptions, CollectResult, Source } from "@/lib/types";
 
 const parser = new XMLParser({
@@ -29,6 +30,33 @@ const TAG_RULES: { tag: string; terms: string[] }[] = [
   { tag: "sanita", terms: ["sanita", "salute", "asl", "azienda sanitaria", "ospedale"] },
   { tag: "scuola", terms: ["scuola", "istruzione", "universita", "ricerca", "its"] },
   { tag: "cultura", terms: ["cultura", "patrimonio", "museo", "archivio", "biblioteca"] },
+  { tag: "anac", terms: ["anac", "anticorruzione", "bdncp", "contratti pubblici"] },
+  { tag: "mepa", terms: ["mepa", "consip", "acquistinrete", "acquisti in rete"] },
+  { tag: "asl", terms: ["asl", "ausl", "azienda usl", "azienda sanitaria locale"] },
+  { tag: "universita", terms: ["universita", "università", "ateneo", "unibo", "politecnico"] },
+  { tag: "regioni", terms: ["regione", "regionale", "start toscana", "lombardia"] },
+];
+
+const HTML_SIGNAL_TERMS = [
+  "bando",
+  "bandi",
+  "gara",
+  "gare",
+  "appalto",
+  "appalti",
+  "avviso",
+  "avvisi",
+  "pnrr",
+  "cig",
+  "cup",
+  "affidamento",
+  "procedura",
+  "manifestazione",
+  "indagine",
+  "contratti",
+  "mepa",
+  "anac",
+  "opendata",
 ];
 
 export function getSources(channel: ChannelFilter = "all"): Source[] {
@@ -164,6 +192,12 @@ export function buildMarkdownReport(result: CollectResult) {
       `- Score: ${alert.score}`,
       `- Pubblicato: ${formatDateTime(alert.publishedAt)}`,
       `- Tag: ${alert.tags.join(", ")}`,
+      `- Scadenze: ${formatList(alert.fields?.deadlines)}`,
+      `- Importi: ${formatList(alert.fields?.amounts)}`,
+      `- CIG: ${formatList(alert.fields?.cig)}`,
+      `- CUP: ${formatList(alert.fields?.cup)}`,
+      `- Requisiti: ${formatList(alert.fields?.requirements)}`,
+      `- Beneficiari: ${formatList(alert.fields?.beneficiaries)}`,
       `- URL: ${alert.url}`,
       "",
       alert.summary,
@@ -180,13 +214,35 @@ export function buildMarkdownReport(result: CollectResult) {
 }
 
 async function fetchSource(source: Source): Promise<Alert[]> {
-  if (source.type !== "rss") {
-    return [];
+  if (source.type === "rss") {
+    const response = await fetch(source.url, {
+      headers: {
+        accept: "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
+        "user-agent": "ragosint/0.1 (+https://rssmonitorbandi.vercel.app)",
+      },
+      next: { revalidate: 3600 },
+      signal: AbortSignal.timeout(12000),
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status} da ${source.name}`);
+    }
+
+    const xml = await response.text();
+    return parseRss(xml, source);
   }
 
+  if (source.type === "html") {
+    return fetchHtmlSource(source);
+  }
+
+  return [];
+}
+
+async function fetchHtmlSource(source: Source): Promise<Alert[]> {
   const response = await fetch(source.url, {
     headers: {
-      accept: "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
+      accept: "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
       "user-agent": "ragosint/0.1 (+https://rssmonitorbandi.vercel.app)",
     },
     next: { revalidate: 3600 },
@@ -197,8 +253,16 @@ async function fetchSource(source: Source): Promise<Alert[]> {
     throw new Error(`HTTP ${response.status} da ${source.name}`);
   }
 
-  const xml = await response.text();
-  return parseRss(xml, source);
+  const html = await response.text();
+  const links = extractRelevantLinks(html, source).slice(0, 28);
+
+  if (links.length > 0) {
+    return links.map((link) => normalizeHtmlSignal(link, source));
+  }
+
+  const title = cleanText(extractTitle(html) || source.name);
+  const summary = cleanText(extractMetaDescription(html) || `Pagina istituzionale monitorata da RAGOSINT: ${source.name}.`);
+  return [normalizeHtmlSignal({ title, url: source.url, summary }, source)];
 }
 
 function parseRss(xml: string, source: Source): Alert[] {
@@ -233,7 +297,8 @@ function normalizeRssItem(item: Record<string, unknown>, source: Source): Alert 
   }
 
   const fullText = `${title} ${summary}`;
-  const tags = inferTags(fullText, source.tags);
+  const fields = extractFields(title, summary);
+  const tags = inferTags(fullText, [...source.tags, ...fieldsToTags(fields)]);
   const kind = inferKind(fullText, source);
 
   return {
@@ -248,7 +313,83 @@ function normalizeRssItem(item: Record<string, unknown>, source: Source): Alert 
     tags,
     kind,
     score: scoreAlert(fullText, tags, kind, source.channel),
+    fields,
   };
+}
+
+function normalizeHtmlSignal(
+  signal: { title: string; url: string; summary?: string },
+  source: Source,
+): Alert {
+  const title = cleanText(signal.title) || source.name;
+  const url = normalizeUrl(signal.url, source.homepage);
+  const summary =
+    cleanText(signal.summary ?? "") ||
+    `Segnale OSINT rilevato su ${source.name}. Verificare la pagina originale per documenti, allegati e scadenze.`;
+  const fullText = `${title} ${summary} ${url}`;
+  const fields = extractFields(title, summary);
+  const tags = inferTags(fullText, [...source.tags, ...fieldsToTags(fields)]);
+  const kind = inferKind(fullText, source);
+
+  return {
+    id: hashId(`${source.id}:${url}:${title}`),
+    title,
+    summary,
+    url,
+    channel: source.channel,
+    sourceId: source.id,
+    sourceName: source.name,
+    publishedAt: new Date().toISOString(),
+    tags,
+    kind,
+    score: scoreAlert(fullText, tags, kind, source.channel),
+    fields,
+  };
+}
+
+function extractRelevantLinks(html: string, source: Source) {
+  const anchorRe = /<a\b[^>]*href=["']?([^"'\s>]+)["']?[^>]*>([\s\S]*?)<\/a>/gi;
+  const links: { title: string; url: string; summary?: string }[] = [];
+  const seen = new Set<string>();
+
+  for (const match of html.matchAll(anchorRe)) {
+    const href = decodeHtmlEntities(match[1] ?? "").trim();
+    const title = cleanText(match[2] ?? "");
+    if (!href || href.startsWith("#") || href.startsWith("mailto:") || href.startsWith("tel:")) {
+      continue;
+    }
+
+    const url = normalizeUrl(href, source.homepage);
+    const haystack = normalizeText(`${title} ${url}`);
+    const relevant = HTML_SIGNAL_TERMS.some((term) => haystack.includes(normalizeText(term)));
+    if (!title || !relevant || seen.has(url)) {
+      continue;
+    }
+
+    seen.add(url);
+    links.push({
+      title,
+      url,
+      summary: `Link rilevato da ${source.name}: ${title}`,
+    });
+  }
+
+  return links;
+}
+
+function extractTitle(html: string) {
+  return readRegex(html, /<title[^>]*>([\s\S]*?)<\/title>/i);
+}
+
+function extractMetaDescription(html: string) {
+  return (
+    readRegex(html, /<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)["'][^>]*>/i) ||
+    readRegex(html, /<meta[^>]+content=["']([^"']+)["'][^>]+name=["']description["'][^>]*>/i)
+  );
+}
+
+function readRegex(value: string, re: RegExp) {
+  return value.match(re)?.[1] ?? "";
 }
 
 function inferTags(text: string, sourceTags: string[]) {
@@ -422,6 +563,10 @@ function formatDateTime(value: string) {
     timeStyle: "short",
     timeZone: "Europe/Rome",
   }).format(new Date(value));
+}
+
+function formatList(values: string[] | undefined) {
+  return values && values.length > 0 ? values.join("; ") : "n/d";
 }
 
 export { CHANNELS };

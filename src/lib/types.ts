@@ -30,6 +30,16 @@ export type Alert = {
   tags: string[];
   kind: AlertKind;
   score: number;
+  fields: ExtractedFields;
+};
+
+export type ExtractedFields = {
+  deadlines: string[];
+  amounts: string[];
+  cig: string[];
+  cup: string[];
+  requirements: string[];
+  beneficiaries: string[];
 };
 
 export type CollectOptions = {

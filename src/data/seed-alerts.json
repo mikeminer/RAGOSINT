@@ -10,7 +10,15 @@
     "publishedAt": "2026-06-18T00:00:00.000Z",
     "tags": ["pnrr", "bandi", "monitoraggio"],
     "kind": "bando",
-    "score": 72
+    "score": 72,
+    "fields": {
+      "deadlines": [],
+      "amounts": [],
+      "cig": [],
+      "cup": [],
+      "requirements": ["Requisiti da verificare sul bando ufficiale."],
+      "beneficiaries": ["Soggetti beneficiari indicati dalla fonte PNRR."]
+    }
   },
   {
     "id": "seed-guri-gare",
@@ -23,7 +31,15 @@
     "publishedAt": "2026-06-17T00:00:00.000Z",
     "tags": ["gare", "appalti", "guri"],
     "kind": "gara",
-    "score": 64
+    "score": 64,
+    "fields": {
+      "deadlines": [],
+      "amounts": [],
+      "cig": [],
+      "cup": [],
+      "requirements": [],
+      "beneficiaries": []
+    }
   },
   {
     "id": "seed-normativa-guri",
@@ -36,6 +52,14 @@
     "publishedAt": "2026-06-18T00:00:00.000Z",
     "tags": ["normativa", "guri", "leggi", "decreti"],
     "kind": "normativa",
-    "score": 68
+    "score": 68,
+    "fields": {
+      "deadlines": [],
+      "amounts": [],
+      "cig": [],
+      "cup": [],
+      "requirements": [],
+      "beneficiaries": []
+    }
   }
 ]

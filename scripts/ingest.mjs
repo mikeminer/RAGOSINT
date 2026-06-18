@@ -12,7 +12,37 @@ const parser = new XMLParser({
   trimValues: true,
 });
 
-const enabledSources = sources.filter((source) => source.enabled && source.type === "rss");
+const CIG_RE = /\b(?:CIG[:\s-]*)?([A-Z0-9]{10})\b/g;
+const CUP_RE = /\b(?:CUP[:\s-]*)?([A-Z][0-9A-Z]{14})\b/g;
+const EURO_RE = /(?:€|EUR|euro)\s?[\d.]+(?:,\d{2})?|[\d.]+(?:,\d{2})?\s?(?:€|euro|EUR)/gi;
+const DATE_RE = /\b(?:\d{1,2}[/-]\d{1,2}[/-]\d{2,4}|\d{1,2}\s+(?:gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\s+\d{4})\b/gi;
+const REQUIREMENT_TERMS = ["requisiti", "requisito", "abilitazione", "iscrizione", "soa", "fatturato", "certificazione", "esperienza", "operatori economici"];
+const BENEFICIARY_TERMS = ["beneficiari", "soggetti beneficiari", "destinatari", "soggetti ammessi", "microimprese", "pmi", "enti locali", "comuni", "aziende sanitarie", "universita"];
+const HTML_SIGNAL_TERMS = [
+  "bando",
+  "bandi",
+  "gara",
+  "gare",
+  "appalto",
+  "appalti",
+  "avviso",
+  "avvisi",
+  "pnrr",
+  "cig",
+  "cup",
+  "affidamento",
+  "procedura",
+  "manifestazione",
+  "indagine",
+  "contratti",
+  "mepa",
+  "anac",
+  "opendata",
+];
+const VECTOR_SIZE = 256;
+const STOPWORDS = new Set(["che", "con", "del", "della", "delle", "degli", "dei", "per", "nel", "nella", "sono", "alla", "alle", "gli", "una", "uno", "sul", "sulla", "the", "and", "for"]);
+
+const enabledSources = sources.filter((source) => source.enabled);
 const settled = await Promise.allSettled(enabledSources.map(fetchSource));
 const errors = [];
 const alerts = [];
@@ -50,6 +80,7 @@ await writeFile(
   new URL("index.json", knowledgeDir),
   JSON.stringify({ generatedAt, chunks: byChannel.all.map(toChunk) }, null, 2),
 );
+await writeFile(new URL("vector-store.json", knowledgeDir), JSON.stringify(buildVectorStore(byChannel.all), null, 2));
 
 await writeFile(new URL("RAGOSINT - Index.md", brainDir), toIndexMarkdown(generatedAt, byChannel));
 await writeFile(new URL("RAGOSINT - Bandi.md", brainDir), toMarkdown("bandi", generatedAt, byChannel.bandi));
@@ -63,6 +94,14 @@ if (errors.length > 0) {
 }
 
 async function fetchSource(source) {
+  if (source.type === "html") {
+    return fetchHtmlSource(source);
+  }
+
+  if (source.type !== "rss") {
+    return [];
+  }
+
   const response = await fetch(source.url, {
     headers: {
       accept: "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
@@ -82,6 +121,37 @@ async function fetchSource(source) {
   return items.map((item) => normalizeItem(item, source)).filter(Boolean);
 }
 
+async function fetchHtmlSource(source) {
+  const response = await fetch(source.url, {
+    headers: {
+      accept: "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
+      "user-agent": "ragosint/0.1 (+https://rssmonitorbandi.vercel.app)",
+    },
+    signal: AbortSignal.timeout(20000),
+  });
+
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`);
+  }
+
+  const html = await response.text();
+  const links = extractRelevantLinks(html, source).slice(0, 28);
+  if (links.length > 0) {
+    return links.map((link) => normalizeHtmlSignal(link, source));
+  }
+
+  return [
+    normalizeHtmlSignal(
+      {
+        title: cleanText(extractTitle(html) || source.name),
+        url: source.url,
+        summary: cleanText(extractMetaDescription(html) || `Pagina istituzionale monitorata da RAGOSINT: ${source.name}.`),
+      },
+      source,
+    ),
+  ];
+}
+
 function normalizeItem(item, source) {
   const title = cleanText(readValue(item.title));
   const summary = cleanText(readValue(item.description) || readValue(item.summary) || readValue(item["content:encoded"]));
@@ -91,7 +161,8 @@ function normalizeItem(item, source) {
   if (!title || !url) return null;
 
   const text = `${title} ${summary}`;
-  const tags = inferTags(text, source.tags);
+  const fields = extractFields(title, summary);
+  const tags = inferTags(text, [...source.tags, ...fieldsToTags(fields)]);
   const kind = inferKind(text, source);
 
   return {
@@ -106,6 +177,34 @@ function normalizeItem(item, source) {
     tags,
     kind,
     score: score(text, tags, kind, source.channel),
+    fields,
+  };
+}
+
+function normalizeHtmlSignal(signal, source) {
+  const title = cleanText(signal.title) || source.name;
+  const url = normalizeUrl(signal.url, source.homepage);
+  const summary =
+    cleanText(signal.summary ?? "") ||
+    `Segnale OSINT rilevato su ${source.name}. Verificare la pagina originale per documenti, allegati e scadenze.`;
+  const text = `${title} ${summary} ${url}`;
+  const fields = extractFields(title, summary);
+  const tags = inferTags(text, [...source.tags, ...fieldsToTags(fields)]);
+  const kind = inferKind(text, source);
+
+  return {
+    id: hash(`${source.id}:${url}:${title}`),
+    title,
+    summary,
+    url,
+    channel: source.channel,
+    sourceId: source.id,
+    sourceName: source.name,
+    publishedAt: new Date().toISOString(),
+    tags,
+    kind,
+    score: score(text, tags, kind, source.channel),
+    fields,
   };
 }
 
@@ -133,8 +232,58 @@ function toChunk(alert) {
       tags: alert.tags,
       kind: alert.kind,
       score: alert.score,
+      fields: alert.fields,
     },
   };
+}
+
+function buildVectorStore(channelAlerts) {
+  return {
+    model: "ragosint-hash-embedding-v1",
+    dimensions: VECTOR_SIZE,
+    generatedAt,
+    documents: channelAlerts.map((alert) => ({
+      id: `vec-${alert.id}`,
+      alertId: alert.id,
+      channel: alert.channel,
+      title: alert.title,
+      url: alert.url,
+      vector: embedText(`${alert.title}\n${alert.summary}\n${alert.tags.join(" ")}\n${JSON.stringify(alert.fields ?? emptyFields())}`),
+      metadata: {
+        score: alert.score,
+        sourceName: alert.sourceName,
+        tags: alert.tags,
+      },
+    })),
+  };
+}
+
+function embedText(text) {
+  const vector = new Array(VECTOR_SIZE).fill(0);
+  tokenizeVector(text).forEach((token) => {
+    const index = hash32(token) % VECTOR_SIZE;
+    vector[index] += 1;
+  });
+  const norm = Math.sqrt(vector.reduce((sum, value) => sum + value * value, 0)) || 1;
+  return vector.map((value) => Number((value / norm).toFixed(6)));
+}
+
+function tokenizeVector(text) {
+  return text
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .split(/[^a-z0-9]+/)
+    .filter((token) => token.length > 2 && !STOPWORDS.has(token));
+}
+
+function hash32(value) {
+  let h = 2166136261;
+  for (let i = 0; i < value.length; i += 1) {
+    h ^= value.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
 }
 
 function toIndexMarkdown(generatedAtValue, grouped) {
@@ -164,6 +313,11 @@ function toIndexMarkdown(generatedAtValue, grouped) {
     "",
     "- [[RAGOSINT - Bandi]]",
     "- [[RAGOSINT - Normativa]]",
+    "",
+    "## Ricerca semantica",
+    "",
+    "- /api/semantic?q=pnrr&channel=bandi",
+    "- /api/vector-store?channel=all",
   ].join("\n");
 }
 
@@ -177,6 +331,12 @@ function toMarkdown(channel, generatedAtValue, channelAlerts) {
     `- Score: ${alert.score}`,
     `- Pubblicato: ${alert.publishedAt}`,
     `- Tag: ${alert.tags.join(", ")}`,
+    `- Scadenze: ${formatList(alert.fields?.deadlines)}`,
+    `- Importi: ${formatList(alert.fields?.amounts)}`,
+    `- CIG: ${formatList(alert.fields?.cig)}`,
+    `- CUP: ${formatList(alert.fields?.cup)}`,
+    `- Requisiti: ${formatList(alert.fields?.requirements)}`,
+    `- Beneficiari: ${formatList(alert.fields?.beneficiaries)}`,
     `- URL: ${alert.url}`,
     "",
     alert.summary,
@@ -200,6 +360,92 @@ function toMarkdown(channel, generatedAtValue, channelAlerts) {
   ].join("\n");
 }
 
+function extractRelevantLinks(html, source) {
+  const anchorRe = /<a\b[^>]*href=["']?([^"'\s>]+)["']?[^>]*>([\s\S]*?)<\/a>/gi;
+  const links = [];
+  const seen = new Set();
+
+  for (const match of html.matchAll(anchorRe)) {
+    const href = decodeHtml(match[1] ?? "").trim();
+    const title = cleanText(match[2] ?? "");
+    if (!href || href.startsWith("#") || href.startsWith("mailto:") || href.startsWith("tel:")) {
+      continue;
+    }
+
+    const url = normalizeUrl(href, source.homepage);
+    const haystack = normalizeText(`${title} ${url}`);
+    const relevant = HTML_SIGNAL_TERMS.some((term) => haystack.includes(normalizeText(term)));
+    if (!title || !relevant || seen.has(url)) {
+      continue;
+    }
+
+    seen.add(url);
+    links.push({
+      title,
+      url,
+      summary: `Link rilevato da ${source.name}: ${title}`,
+    });
+  }
+
+  return links;
+}
+
+function extractTitle(html) {
+  return readRegex(html, /<title[^>]*>([\s\S]*?)<\/title>/i);
+}
+
+function extractMetaDescription(html) {
+  return (
+    readRegex(html, /<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)["'][^>]*>/i) ||
+    readRegex(html, /<meta[^>]+content=["']([^"']+)["'][^>]+name=["']description["'][^>]*>/i)
+  );
+}
+
+function extractFields(title, summary) {
+  const text = `${title}. ${summary}`.replace(/\s+/g, " ").trim();
+  return {
+    deadlines: unique([...extractMatches(text, DATE_RE), ...extractSentencesByTerms(text, ["scadenza", "termine", "entro", "presentazione", "ore"])]).slice(0, 8),
+    amounts: unique(extractMatches(text, EURO_RE)),
+    cig: unique(extractMatches(text, CIG_RE)).filter((value) => /[0-9]/.test(value)),
+    cup: unique(extractMatches(text, CUP_RE)).filter((value) => value.length === 15),
+    requirements: unique(extractSentencesByTerms(text, REQUIREMENT_TERMS)).slice(0, 5),
+    beneficiaries: unique(extractSentencesByTerms(text, BENEFICIARY_TERMS)).slice(0, 5),
+  };
+}
+
+function fieldsToTags(fields) {
+  const tags = [];
+  if (fields.deadlines.length > 0) tags.push("scadenza");
+  if (fields.amounts.length > 0) tags.push("importo");
+  if (fields.cig.length > 0) tags.push("cig");
+  if (fields.cup.length > 0) tags.push("cup");
+  if (fields.requirements.length > 0) tags.push("requisiti");
+  if (fields.beneficiaries.length > 0) tags.push("beneficiari");
+  return tags;
+}
+
+function extractMatches(text, re) {
+  return Array.from(text.matchAll(re), (match) => cleanMatch(match[1] ?? match[0]));
+}
+
+function extractSentencesByTerms(text, terms) {
+  return text
+    .split(/(?<=[.!?])\s+|\n+/)
+    .map((sentence) => sentence.trim())
+    .filter((sentence) => {
+      const normalized = asciiLower(sentence);
+      return normalized && terms.some((term) => normalized.includes(asciiLower(term)));
+    });
+}
+
+function cleanMatch(value) {
+  return value.replace(/^[\s:,-]+|[\s:,-]+$/g, "").trim();
+}
+
+function unique(values) {
+  return Array.from(new Set(values.filter(Boolean))).slice(0, 12);
+}
+
 function inferTags(text, sourceTags) {
   const normalized = normalizeText(text);
   const tags = new Set(sourceTags);
@@ -215,7 +461,14 @@ function inferTags(text, sourceTags) {
     gare: ["gara", "appalto", "affidamento", "procedura aperta"],
     scadenza: ["scadenza", "termine", "presentazione domande"],
     comuni: ["comune", "comuni", "enti locali", "provincia"],
+    sanita: ["sanita", "salute", "asl", "azienda sanitaria", "ospedale"],
+    scuola: ["scuola", "istruzione", "universita", "ricerca", "its"],
     cultura: ["cultura", "patrimonio", "museo", "archivio", "biblioteca"],
+    anac: ["anac", "anticorruzione", "bdncp", "contratti pubblici"],
+    mepa: ["mepa", "consip", "acquistinrete", "acquisti in rete"],
+    asl: ["asl", "ausl", "azienda usl", "azienda sanitaria locale"],
+    universita: ["universita", "università", "ateneo", "unibo", "politecnico"],
+    regioni: ["regione", "regionale", "start toscana", "lombardia"],
   };
 
   Object.entries(rules).forEach(([tag, terms]) => {
@@ -316,6 +569,10 @@ function decodeHtml(value) {
     .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)));
 }
 
+function readRegex(value, re) {
+  return value.match(re)?.[1] ?? "";
+}
+
 function normalizeText(value) {
   return value
     .normalize("NFD")
@@ -323,6 +580,28 @@ function normalizeText(value) {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, " ")
     .trim();
+}
+
+function asciiLower(value) {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
+function formatList(values) {
+  return values && values.length > 0 ? values.join("; ") : "n/d";
+}
+
+function emptyFields() {
+  return {
+    deadlines: [],
+    amounts: [],
+    cig: [],
+    cup: [],
+    requirements: [],
+    beneficiaries: [],
+  };
 }
 
 function hash(value) {

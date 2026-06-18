@@ -33,6 +33,9 @@ API equivalenti:
 - `/api/alerts?channel=bandi`
 - `/api/report?channel=normativa`
 - `/api/search?q=cloud&channel=bandi`
+- `/api/semantic?q=cloud%20software&channel=bandi`
+- `/api/vector-store?channel=all`
+- `/api/notify/slack?channel=bandi`
 
 ## Fonti iniziali
 
@@ -46,9 +49,20 @@ API equivalenti:
 ### Bandi, gare e PNRR
 
 - Gazzetta Ufficiale - 5a Serie Speciale Contratti Pubblici
+- ANAC - Open Data Contratti Pubblici
+- ANAC - Open Contracting Data Standard
+- Acquisti in Rete PA - MEPA
 - Italia Domani - Amministrazioni Titolari
 - Italia Domani - Soggetti Attuatori
 - PNRR Cultura - Bandi e Avvisi
+- Regione Lombardia - Bandi
+- START Toscana - Gare e Appalti
+- Regione Toscana - Bandi di Gara e Contratti
+- Universita di Bologna - Bandi
+- Universita di Bologna - Portale Appalti
+- Comune di Bologna - Bandi di Gara
+- ESTAR Toscana - Consulta Gare
+- AUSL Bologna - Bandi di Gara
 
 Le fonti sono configurate in `src/data/sources.json`.
 
@@ -56,15 +70,40 @@ Le fonti sono configurate in `src/data/sources.json`.
 
 ```mermaid
 flowchart LR
-  A[Fonti pubbliche] --> B[Fetcher RSS]
-  B --> C[Normalizer]
+  A[Fonti pubbliche RSS/HTML] --> B[Fetcher OSINT]
+  B --> C[Normalizer + extractor]
   C --> D[Deduplica + scoring]
   D --> E[Knowledge JSON]
-  D --> F[Obsidian vault ZIP]
-  D --> G[RSS feed]
-  F --> H[Vercel download]
-  G --> I[Vercel feed]
+  D --> F[Vector store]
+  D --> G[Obsidian vault ZIP]
+  D --> H[RSS feed]
+  F --> I[Ricerca semantica API]
+  G --> J[Download da Vercel]
+  J --> K[Obsidian locale + grafo]
+  H --> L[Feed normativa/bandi]
+  D --> M[Slack digest opzionale]
 ```
+
+Il flow passa quindi anche da Obsidian: Vercel genera una vault Markdown pronta da scaricare, tu la apri in locale e visualizzi il grafo. La parte semantica resta esposta come API/Vercel e ogni nota del vault contiene un link alla ricerca semantica per trovare alert simili.
+
+## Estrazione campi
+
+Ogni alert viene arricchito con:
+
+- scadenze e termini;
+- importi;
+- CIG;
+- CUP;
+- requisiti;
+- soggetti beneficiari.
+
+Questi campi finiscono in:
+
+- JSON API;
+- report Markdown;
+- note Obsidian;
+- vector store;
+- ricerca semantica.
 
 ## Knowledge base
 
@@ -74,13 +113,47 @@ Lo script di ingest genera:
 - `data/knowledge/bandi.json`
 - `data/knowledge/normativa.json`
 - `data/knowledge/index.json`
+- `data/knowledge/vector-store.json`
 - `brain/RAGOSINT - Index.md`
 - `brain/RAGOSINT - Bandi.md`
 - `brain/RAGOSINT - Normativa.md`
 
-`data/knowledge/index.json` contiene chunk gia' pronti per un retriever vettoriale.
+`data/knowledge/index.json` contiene chunk gia' pronti per un retriever. `data/knowledge/vector-store.json` contiene embeddings locali deterministici, dependency-free, utili come baseline per ricerca semantica e sostituibili in seguito con OpenAI embeddings, pgvector, Qdrant, Weaviate o altro vector database.
 
 La vault scaricabile viene invece generata runtime da `src/lib/obsidian.ts` e compressa da `src/lib/zip.ts`, senza database e senza storage persistente.
+
+## Ricerca semantica
+
+Endpoint:
+
+```bash
+curl "https://rssmonitorbandi.vercel.app/api/semantic?q=pnrr%20cloud&channel=bandi"
+curl "https://rssmonitorbandi.vercel.app/api/vector-store?channel=all"
+```
+
+Il modello `ragosint-hash-embedding-v1` e' una baseline locale: indicizza titolo, sintesi, tag e campi estratti. Serve per avere subito un vector store gratuito su Vercel; per produzione si puo' sostituire `src/lib/vector.ts` con embeddings esterni.
+
+## Slack
+
+Configurare su Vercel:
+
+```bash
+SLACK_WEBHOOK_URL=https://hooks.slack.com/services/...
+SLACK_NOTIFY_SECRET=un-segreto-lungo
+SLACK_NOTIFY_ON_REFRESH=false
+```
+
+Invio manuale:
+
+```bash
+curl "https://rssmonitorbandi.vercel.app/api/notify/slack?channel=bandi&secret=$SLACK_NOTIFY_SECRET"
+```
+
+Invio durante refresh:
+
+```bash
+curl "https://rssmonitorbandi.vercel.app/api/refresh?notify=slack&secret=$CRON_SECRET"
+```
 
 ## Avvio locale
 
@@ -110,9 +183,7 @@ NEXT_PUBLIC_SITE_URL=https://rssmonitorbandi.vercel.app
 
 ## Roadmap
 
-- aggiungere fonti ANAC, MEPA, enti regionali, universita', comuni e ASL;
-- estrarre scadenze, importi, CIG/CUP, requisiti, soggetti beneficiari;
-- aggiungere embeddings e vector store;
-- collegare il brain Obsidian alla ricerca semantica;
+- aggiungere parser dedicati per portali complessi ANAC/MEPA e singole centrali acquisto;
+- sostituire gli embeddings locali con un provider embedding esterno quando serve ranking piu' fine;
 - generare alert personalizzati per profili aziendali o aree di competenza;
-- integrare notifiche Telegram, email o Slack.
+- integrare notifiche Telegram o email oltre Slack.

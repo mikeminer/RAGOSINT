@@ -76,9 +76,15 @@ function readmeNote(result: CollectResult, generated: string) {
     "- [[Fonti/_Index|Fonti]]",
     "- [[Tags/_Index|Tags]]",
     "",
+    "## API operative",
+    "",
+    "- Ricerca semantica: https://rssmonitorbandi.vercel.app/api/semantic?q=pnrr&channel=bandi",
+    "- Vector store JSON: https://rssmonitorbandi.vercel.app/api/vector-store?channel=all",
+    "- Notifica Slack: https://rssmonitorbandi.vercel.app/api/notify/slack?channel=all",
+    "",
     "## Flusso",
     "",
-    "Fonti pubbliche -> Vercel -> normalizzazione -> note Markdown -> ZIP Obsidian -> grafo locale.",
+    "Fonti pubbliche -> Vercel -> normalizzazione -> estrazione campi -> vector store -> note Markdown -> ZIP Obsidian -> grafo locale.",
   ].join("\n");
 }
 
@@ -110,6 +116,12 @@ function dashboardNote(result: CollectResult, generated: string) {
     "## Alert prioritari",
     "",
     ...result.alerts.slice(0, 40).map((alert) => `- [[${channelFolder(alert.channel)}/${alertFileName(alert)}|${escapePipes(alert.title)}]]`),
+    "",
+    "## Ricerca semantica",
+    "",
+    "- [PNRR e digitale](https://rssmonitorbandi.vercel.app/api/semantic?q=pnrr%20digitale&channel=all)",
+    "- [Gare ICT e cloud](https://rssmonitorbandi.vercel.app/api/semantic?q=gara%20cloud%20software&channel=bandi)",
+    "- [Normativa contratti pubblici](https://rssmonitorbandi.vercel.app/api/semantic?q=contratti%20pubblici&channel=normativa)",
   ].join("\n");
 }
 
@@ -193,6 +205,7 @@ function tagNote(tag: string, alerts: Alert[]) {
 
 function alertNote(alert: Alert) {
   const tagLinks = alert.tags.map((tag) => `[[Tags/${safeFileName(tag)}|${tag}]]`).join(" ");
+  const fields = alert.fields ?? emptyFields();
   return [
     "---",
     "type: alert",
@@ -203,6 +216,13 @@ function alertNote(alert: Alert) {
     `published: ${alert.publishedAt}`,
     `source: ${yamlString(alert.sourceName)}`,
     `url: ${yamlString(alert.url)}`,
+    "fields:",
+    `  deadlines: ${yamlArray(fields.deadlines)}`,
+    `  amounts: ${yamlArray(fields.amounts)}`,
+    `  cig: ${yamlArray(fields.cig)}`,
+    `  cup: ${yamlArray(fields.cup)}`,
+    `  requirements: ${yamlArray(fields.requirements)}`,
+    `  beneficiaries: ${yamlArray(fields.beneficiaries)}`,
     "tags:",
     ...alert.tags.map((tag) => `  - ${yamlString(tag)}`),
     "---",
@@ -216,6 +236,19 @@ function alertNote(alert: Alert) {
     "## Sintesi",
     "",
     alert.summary,
+    "",
+    "## Campi estratti",
+    "",
+    fieldList("Scadenze", fields.deadlines),
+    fieldList("Importi", fields.amounts),
+    fieldList("CIG", fields.cig),
+    fieldList("CUP", fields.cup),
+    fieldList("Requisiti", fields.requirements),
+    fieldList("Soggetti beneficiari", fields.beneficiaries),
+    "",
+    "## Ricerca semantica",
+    "",
+    `[Apri risultati simili](${semanticSearchUrl(alert)})`,
     "",
     "## Fonte originale",
     "",
@@ -283,6 +316,35 @@ function safeFileName(value: string) {
 
 function yamlString(value: string) {
   return JSON.stringify(value);
+}
+
+function yamlArray(values: string[]) {
+  return `[${values.map((value) => yamlString(value)).join(", ")}]`;
+}
+
+function fieldList(label: string, values: string[]) {
+  if (values.length === 0) {
+    return `- ${label}: n/d`;
+  }
+
+  return [`- ${label}:`, ...values.map((value) => `  - ${value}`)].join("\n");
+}
+
+function semanticSearchUrl(alert: Alert) {
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://rssmonitorbandi.vercel.app";
+  const query = encodeURIComponent(`${alert.title} ${alert.tags.slice(0, 4).join(" ")}`);
+  return `${siteUrl.replace(/\/$/, "")}/api/semantic?q=${query}&channel=${alert.channel}`;
+}
+
+function emptyFields(): Alert["fields"] {
+  return {
+    deadlines: [],
+    amounts: [],
+    cig: [],
+    cup: [],
+    requirements: [],
+    beneficiaries: [],
+  };
 }
 
 function escapePipes(value: string) {
