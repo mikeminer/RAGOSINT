@@ -516,10 +516,6 @@ select {
     color: var(--tt-yellow);
   }
 
-  .teletext-field-empty dd {
-    color: var(--tt-dim);
-  }
-
   .teletext-tag,
   .teletext-chip {
     display: inline-flex;

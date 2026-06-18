@@ -462,25 +462,27 @@ function FieldSummary({ alert }: { alert: Alert }) {
     beneficiaries: [],
   };
   const fieldGroups = [
-    { label: "Scadenze", values: fields.deadlines, empty: "Non rilevate", always: true, emphasis: true },
+    { label: "Scadenze", values: fields.deadlines, emphasis: true },
     { label: "Importi", values: fields.amounts },
     { label: "CIG", values: fields.cig },
     { label: "CUP", values: fields.cup },
     { label: "Requisiti", values: fields.requirements },
     { label: "Beneficiari", values: fields.beneficiaries },
-  ].filter((group) => group.always || group.values.length > 0);
+  ].filter((group) => group.values.length > 0);
+
+  if (fieldGroups.length === 0) {
+    return null;
+  }
 
   return (
     <dl className="teletext-fields">
       {fieldGroups.map((group) => (
         <div
           key={group.label}
-          className={`teletext-field ${group.emphasis ? "teletext-field-deadline" : ""} ${
-            group.values.length === 0 ? "teletext-field-empty" : ""
-          }`}
+          className={`teletext-field ${group.emphasis ? "teletext-field-deadline" : ""}`}
         >
           <dt>{group.label}</dt>
-          {(group.values.length > 0 ? group.values.slice(0, 2) : [group.empty]).map((value) => (
+          {group.values.slice(0, 2).map((value) => (
             <dd key={value}>{formatFieldValue(value)}</dd>
           ))}
           {group.values.length > 2 ? <dd>+{group.values.length - 2} altri valori rilevati</dd> : null}
