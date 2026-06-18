@@ -16,6 +16,7 @@ import {
   Search,
   ShieldCheck,
 } from "lucide-react";
+import Image from "next/image";
 import { channelLabel, collectAlerts } from "@/lib/osint";
 import type { Alert, CollectResult } from "@/lib/types";
 
@@ -41,7 +42,14 @@ export default async function Home() {
           <nav className="teletext-nav">
             <div className="teletext-brand">
               <div className="teletext-logo">
-                <Radar size={22} strokeWidth={2.5} aria-hidden="true" />
+                <Image
+                  src="/ragosint-icon.png"
+                  alt=""
+                  width={38}
+                  height={38}
+                  priority
+                  className="teletext-logo-image"
+                />
               </div>
               <div>
                 <p className="teletext-eyebrow">OSINT / RAG / Obsidian</p>

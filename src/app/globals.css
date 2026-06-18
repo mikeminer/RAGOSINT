@@ -135,6 +135,13 @@ select {
     color: var(--tt-black);
   }
 
+  .teletext-logo-image {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    image-rendering: pixelated;
+  }
+
   .teletext-eyebrow {
     color: var(--tt-cyan);
     font-size: 0.72rem;

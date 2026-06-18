@@ -17,6 +17,23 @@ export const metadata: Metadata = {
   title: "RAGOSINT",
   description:
     "Radar OSINT/RAG per sviluppatori tech: monitora normative digitali, bandi, gare d'appalto e PNRR, trasformando fonti pubbliche italiane ed europee in segnali operativi, requisiti tecnici e opportunita di progetto.",
+  icons: {
+    icon: [
+      {
+        url: "/ragosint-icon.png",
+        sizes: "67x67",
+        type: "image/png",
+      },
+    ],
+    shortcut: "/ragosint-icon.png",
+    apple: [
+      {
+        url: "/ragosint-icon.png",
+        sizes: "67x67",
+        type: "image/png",
+      },
+    ],
+  },
   openGraph: {
     title: "RAGOSINT",
     description:
