@@ -15,9 +15,47 @@ const parser = new XMLParser({
 const CIG_RE = /\b(?:CIG[:\s-]*)?([A-Z0-9]{10})\b/g;
 const CUP_RE = /\b(?:CUP[:\s-]*)?([A-Z][0-9A-Z]{14})\b/g;
 const EURO_RE = /(?:€|EUR|euro)\s?[\d.]+(?:,\d{2})?|[\d.]+(?:,\d{2})?\s?(?:€|euro|EUR)/gi;
-const DATE_RE = /\b(?:\d{1,2}[/-]\d{1,2}[/-]\d{2,4}|\d{1,2}\s+(?:gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\s+\d{4})\b/gi;
-const REQUIREMENT_TERMS = ["requisiti", "requisito", "abilitazione", "iscrizione", "soa", "fatturato", "certificazione", "esperienza", "operatori economici"];
-const BENEFICIARY_TERMS = ["beneficiari", "soggetti beneficiari", "destinatari", "soggetti ammessi", "microimprese", "pmi", "enti locali", "comuni", "aziende sanitarie", "universita"];
+const DATE_RE = /\b(?:\d{1,2}[/-]\d{1,2}[/-]\d{2,4}|\d{1,2}\s+(?:gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre|january|february|march|april|may|june|july|august|september|october|november|december)\s+\d{4})\b/gi;
+const REQUIREMENT_TERMS = [
+  "requisiti",
+  "requisito",
+  "abilitazione",
+  "iscrizione",
+  "soa",
+  "fatturato",
+  "certificazione",
+  "esperienza",
+  "operatori economici",
+  "requirements",
+  "eligibility",
+  "eligible",
+  "submission",
+  "application",
+  "applicants",
+];
+const BENEFICIARY_TERMS = [
+  "beneficiari",
+  "soggetti beneficiari",
+  "destinatari",
+  "soggetti ammessi",
+  "microimprese",
+  "pmi",
+  "smes",
+  "startups",
+  "startup",
+  "public administrations",
+  "pa",
+  "academia",
+  "research organisations",
+  "research organizations",
+  "universities",
+  "companies",
+  "industry",
+  "enti locali",
+  "comuni",
+  "aziende sanitarie",
+  "universita",
+];
 const HTML_SIGNAL_TERMS = [
   "bando",
   "bandi",
@@ -38,6 +76,28 @@ const HTML_SIGNAL_TERMS = [
   "mepa",
   "anac",
   "opendata",
+  "call",
+  "calls",
+  "proposal",
+  "proposals",
+  "access",
+  "funding",
+  "grant",
+  "grants",
+  "deadline",
+  "eligible",
+  "eurohpc",
+  "supercomputer",
+  "supercomputers",
+  "ai factories",
+  "ai factory",
+  "it4lia",
+  "opportunita",
+  "opportunities",
+  "services",
+  "innovation",
+  "horizon",
+  "digital europe",
 ];
 const VECTOR_SIZE = 256;
 const STOPWORDS = new Set(["che", "con", "del", "della", "delle", "degli", "dei", "per", "nel", "nella", "sono", "alla", "alle", "gli", "una", "uno", "sul", "sulla", "the", "and", "for"]);
@@ -404,7 +464,21 @@ function extractMetaDescription(html) {
 function extractFields(title, summary) {
   const text = `${title}. ${summary}`.replace(/\s+/g, " ").trim();
   return {
-    deadlines: unique([...extractMatches(text, DATE_RE), ...extractSentencesByTerms(text, ["scadenza", "termine", "entro", "presentazione", "ore"])]).slice(0, 8),
+    deadlines: unique([
+      ...extractMatches(text, DATE_RE),
+      ...extractSentencesByTerms(text, [
+        "scadenza",
+        "termine",
+        "entro",
+        "presentazione",
+        "ore",
+        "deadline",
+        "closing date",
+        "opening date",
+        "submission",
+        "apply",
+      ]),
+    ]).slice(0, 8),
     amounts: unique(extractMatches(text, EURO_RE)),
     cig: unique(extractMatches(text, CIG_RE)).filter((value) => /[0-9]/.test(value)),
     cup: unique(extractMatches(text, CUP_RE)).filter((value) => value.length === 15),
@@ -469,6 +543,10 @@ function inferTags(text, sourceTags) {
     asl: ["asl", "ausl", "azienda usl", "azienda sanitaria locale"],
     universita: ["universita", "università", "ateneo", "unibo", "politecnico"],
     regioni: ["regione", "regionale", "start toscana", "lombardia"],
+    eurohpc: ["eurohpc", "eurohpc ju", "supercomputing", "hpc", "supercomputer", "supercomputers"],
+    "ai-factories": ["ai factories", "ai factory", "factory antennas", "industrial innovation"],
+    it4lia: ["it4lia", "italian ai factory", "cineca", "leonardo", "bologna tecnopolo"],
+    "eu-funding": ["call for proposals", "access call", "funding", "grant", "grants", "horizon europe", "digital europe"],
   };
 
   Object.entries(rules).forEach(([tag, terms]) => {
@@ -482,10 +560,33 @@ function inferKind(text, source) {
   const normalized = normalizeText(`${source.category} ${text}`);
   if (source.channel === "normativa") return "normativa";
   if (normalized.includes("aggiudicazione") || normalized.includes("esito")) return "esito";
+  if (
+    normalized.includes("call for proposals") ||
+    normalized.includes("access call") ||
+    normalized.includes("calls") ||
+    normalized.includes("funding") ||
+    normalized.includes("grant")
+  ) {
+    return "bando";
+  }
+  if (
+    normalized.includes("regular access") ||
+    normalized.includes("extreme scale access") ||
+    normalized.includes("benchmark access") ||
+    normalized.includes("development access") ||
+    normalized.includes("large scale access") ||
+    normalized.includes("fast lane access") ||
+    normalized.includes("playground access")
+  ) {
+    return "bando";
+  }
   if (normalized.includes("gara") || normalized.includes("appalto") || normalized.includes("affidamento")) return "gara";
   if (normalized.includes("bando")) return "bando";
   if (normalized.includes("pnrr")) return "pnrr";
   if (normalized.includes("avviso")) return "avviso";
+  if (normalized.includes("opportunity") || normalized.includes("opportunities") || normalized.includes("opportunita")) {
+    return "avviso";
+  }
   return "news";
 }
 
@@ -496,6 +597,9 @@ function score(text, tags, kind, channel) {
   if (tags.includes("normativa")) value += 10;
   if (tags.includes("pnrr")) value += 20;
   if (tags.includes("digitale") || tags.includes("cyber") || tags.includes("ai")) value += 18;
+  if (tags.includes("eurohpc") || tags.includes("ai-factories") || tags.includes("it4lia") || tags.includes("eu-funding")) {
+    value += 24;
+  }
   if (tags.includes("gare") || kind === "gara" || kind === "bando") value += 12;
   if (tags.includes("scadenza")) value += 8;
   if (normalized.includes("comune") || normalized.includes("enti locali")) value += 6;

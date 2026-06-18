@@ -22,8 +22,8 @@ async function refresh(request: Request) {
   }
 
   const [all, bandi, normativa] = await Promise.all([
-    collectAlerts({ channel: "all", limit: 160 }),
-    collectAlerts({ channel: "bandi", limit: 100 }),
+    collectAlerts({ channel: "all", limit: 260 }),
+    collectAlerts({ channel: "bandi", limit: 220 }),
     collectAlerts({ channel: "normativa", limit: 100 }),
   ]);
   const shouldNotifySlack = url.searchParams.get("notify") === "slack" || process.env.SLACK_NOTIFY_ON_REFRESH === "true";

@@ -35,6 +35,10 @@ const TAG_RULES: { tag: string; terms: string[] }[] = [
   { tag: "asl", terms: ["asl", "ausl", "azienda usl", "azienda sanitaria locale"] },
   { tag: "universita", terms: ["universita", "università", "ateneo", "unibo", "politecnico"] },
   { tag: "regioni", terms: ["regione", "regionale", "start toscana", "lombardia"] },
+  { tag: "eurohpc", terms: ["eurohpc", "eurohpc ju", "supercomputing", "hpc", "supercomputer", "supercomputers"] },
+  { tag: "ai-factories", terms: ["ai factories", "ai factory", "factory antennas", "industrial innovation"] },
+  { tag: "it4lia", terms: ["it4lia", "italian ai factory", "cineca", "leonardo", "bologna tecnopolo"] },
+  { tag: "eu-funding", terms: ["call for proposals", "access call", "funding", "grant", "grants", "horizon europe", "digital europe"] },
 ];
 
 const HTML_SIGNAL_TERMS = [
@@ -57,6 +61,28 @@ const HTML_SIGNAL_TERMS = [
   "mepa",
   "anac",
   "opendata",
+  "call",
+  "calls",
+  "proposal",
+  "proposals",
+  "access",
+  "funding",
+  "grant",
+  "grants",
+  "deadline",
+  "eligible",
+  "eurohpc",
+  "supercomputer",
+  "supercomputers",
+  "ai factories",
+  "ai factory",
+  "it4lia",
+  "opportunita",
+  "opportunities",
+  "services",
+  "innovation",
+  "horizon",
+  "digital europe",
 ];
 
 export function getSources(channel: ChannelFilter = "all"): Source[] {
@@ -409,10 +435,33 @@ function inferKind(text: string, source: Source): AlertKind {
   const normalized = normalizeText(`${source.category} ${text}`);
   if (source.channel === "normativa") return "normativa";
   if (normalized.includes("aggiudicazione") || normalized.includes("esito")) return "esito";
+  if (
+    normalized.includes("call for proposals") ||
+    normalized.includes("access call") ||
+    normalized.includes("calls") ||
+    normalized.includes("funding") ||
+    normalized.includes("grant")
+  ) {
+    return "bando";
+  }
+  if (
+    normalized.includes("regular access") ||
+    normalized.includes("extreme scale access") ||
+    normalized.includes("benchmark access") ||
+    normalized.includes("development access") ||
+    normalized.includes("large scale access") ||
+    normalized.includes("fast lane access") ||
+    normalized.includes("playground access")
+  ) {
+    return "bando";
+  }
   if (normalized.includes("gara") || normalized.includes("appalto") || normalized.includes("affidamento")) return "gara";
   if (normalized.includes("bando")) return "bando";
   if (normalized.includes("pnrr")) return "pnrr";
   if (normalized.includes("avviso")) return "avviso";
+  if (normalized.includes("opportunity") || normalized.includes("opportunities") || normalized.includes("opportunita")) {
+    return "avviso";
+  }
   return "news";
 }
 
@@ -424,6 +473,9 @@ function scoreAlert(text: string, tags: string[], kind: AlertKind, channel: Chan
   if (tags.includes("normativa")) score += 10;
   if (tags.includes("pnrr")) score += 20;
   if (tags.includes("digitale") || tags.includes("cyber") || tags.includes("ai")) score += 18;
+  if (tags.includes("eurohpc") || tags.includes("ai-factories") || tags.includes("it4lia") || tags.includes("eu-funding")) {
+    score += 24;
+  }
   if (tags.includes("gare") || kind === "gara" || kind === "bando") score += 12;
   if (tags.includes("scadenza")) score += 8;
   if (normalized.includes("comune") || normalized.includes("enti locali")) score += 6;

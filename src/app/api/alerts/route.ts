@@ -4,7 +4,7 @@ export const revalidate = 1800;
 
 export async function GET(request: Request) {
   const channel = parseChannel(new URL(request.url).searchParams.get("channel"));
-  const result = await collectAlerts({ channel, limit: 120 });
+  const result = await collectAlerts({ channel, limit: channel === "normativa" ? 120 : 220 });
 
   return Response.json(result, {
     headers: {

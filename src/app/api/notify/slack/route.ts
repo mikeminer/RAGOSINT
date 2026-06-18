@@ -22,7 +22,7 @@ async function notifySlack(request: Request) {
     return Response.json({ ok: false, error: "Unauthorized Slack notification" }, { status: 401 });
   }
 
-  const result = await collectAlerts({ channel, limit: 60 });
+  const result = await collectAlerts({ channel, limit: channel === "normativa" ? 60 : 120 });
   const slack = await sendSlackDigest(result);
 
   return Response.json({

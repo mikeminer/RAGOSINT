@@ -141,6 +141,15 @@ API equivalenti:
 - Comune di Bologna - Bandi di Gara
 - ESTAR Toscana - Consulta Gare
 - AUSL Bologna - Bandi di Gara
+- EuroHPC JU - AI Factories Access Calls
+- EuroHPC JU - Supercomputers Access Calls
+- EuroHPC JU - Research and Innovation Calls
+- EuroHPC JU - AI for Science and Collaborative EU Projects
+- IT4LIA AI Factory - Opportunita e servizi
+- IT4LIA AI Factory - News
+- IT4LIA AI Factory - Repository
+
+La pipeline monitora anche opportunita europee HPC/AI: access call EuroHPC, AI Factories, bandi di ricerca e innovazione, grant collegati a Horizon Europe/Digital Europe e segnali IT4LIA utili per startup, PMI, PA, universita e ricerca.
 
 Le fonti sono configurate in `src/data/sources.json`.
 

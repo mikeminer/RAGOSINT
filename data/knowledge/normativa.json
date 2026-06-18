@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-18T10:13:51.553Z",
+  "generatedAt": "2026-06-18T11:44:54.429Z",
   "channel": "normativa",
-  "count": 82,
+  "count": 75,
   "alerts": [
     {
       "id": "f1270db3fc7ff1e4",
@@ -18,6 +18,7 @@
         "corte-costituzionale",
         "sentenze",
         "scadenza",
+        "beneficiari",
         "pnrr",
         "cyber"
       ],
@@ -32,7 +33,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Parlamento - Immunita' parlamentari - Utilizzazione, da parte della Commissione parlamentare d'inchiesta sul fenomeno delle mafie e sulle altre associazioni criminali, anche straniere, di intercettazioni telefoniche e di messaggistica elettronica del senatore Roberto Maria Ferdinando Scarpinato, in assenza di autorizzazione del Senato della Repubblica - Ricors.........(T-260106)"
+        ]
       }
     },
     {
@@ -50,6 +53,7 @@
         "unione-europea",
         "regolamenti",
         "scadenza",
+        "beneficiari",
         "pnrr",
         "cyber"
       ],
@@ -64,7 +68,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "451/2008 del Parlamento europeo e del Consiglio per quanto riguarda posizioni specifiche della classificazione statistica dei prodotti associata alle attivita' (CPA) - Pubblicato il 20 aprile 2026 (26CE1443)"
+        ]
       }
     },
     {
@@ -83,6 +89,7 @@
         "decreti",
         "italia",
         "scadenza",
+        "beneficiari",
         "cyber"
       ],
       "kind": "normativa",
@@ -95,7 +102,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Parere sul contratto di programma 2023-2026 tra l'Ente nazionale per l'aviazione civile (ENAC) e la societa' Aeroporto Guglielmo Marconi di Bologna S.p.a."
+        ]
       }
     },
     {
@@ -148,6 +157,7 @@
         "corte-costituzionale",
         "sentenze",
         "scadenza",
+        "beneficiari",
         "cyber",
         "comuni",
         "cultura",
@@ -164,7 +174,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Giustizia amministrativa - Processo amministrativo - Sottoscrizione del ricorso da parte del difensore con indicazione della procura speciale - Previsione, come interpretata dal diritto vivente, che non dispone, analogamente a quanto previsto per il processo civile, che il giudice, quando ril.........(26C00110)"
+        ]
       }
     },
     {
@@ -275,6 +287,7 @@
         "unione-europea",
         "regolamenti",
         "scadenza",
+        "beneficiari",
         "pnrr"
       ],
       "kind": "normativa",
@@ -288,7 +301,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "853/2004 del Parlamento europeo e del Consiglio per quanto riguarda la macellazione d'urgenza di ungulati domestici al di fuori del macello - Pubblicato il 17 aprile 2026 (26CE1432)"
+        ]
       }
     },
     {
@@ -307,6 +322,7 @@
         "regolamenti",
         "scadenza",
         "requisiti",
+        "beneficiari",
         "pnrr"
       ],
       "kind": "normativa",
@@ -322,7 +338,9 @@
         "requirements": [
           "Regolamento delegato (UE) 2026/285 della Commissione, del 3 febbraio 2026, che integra il regolamento (UE) 2024/3012 del Parlamento europeo e del Consiglio stabilendo le metodologie di certificazione per le attivita' di assorbimento permanente del carbonio - Pubblicato il 17 aprile 2026 (26CE1433)"
         ],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Regolamento delegato (UE) 2026/285 della Commissione, del 3 febbraio 2026, che integra il regolamento (UE) 2024/3012 del Parlamento europeo e del Consiglio stabilendo le metodologie di certificazione per le attivita' di assorbimento permanente del carbonio - Pubblicato il 17 aprile 2026 (26CE1433)"
+        ]
       }
     },
     {
@@ -371,6 +389,7 @@
         "unione-europea",
         "regolamenti",
         "scadenza",
+        "beneficiari",
         "pnrr"
       ],
       "kind": "normativa",
@@ -384,7 +403,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "1308/2013 del Parlamento europeo e del Consiglio - Pubblicato il 17 aprile 2026 (26CE1435)"
+        ]
       }
     },
     {
@@ -402,6 +423,7 @@
         "unione-europea",
         "regolamenti",
         "scadenza",
+        "beneficiari",
         "pnrr"
       ],
       "kind": "normativa",
@@ -415,7 +437,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Regolamento di esecuzione (UE) 2026/857 della Commissione, del 16 aprile 2026, che modifica il regolamento di esecuzione (UE) 2025/2091 per quanto riguarda la conservazione dei campioni di medicinali veterinari riconfezionati ai fini del commercio parallelo - Pubblicato il 17 aprile 2026 (26CE1436)"
+        ]
       }
     },
     {
@@ -433,6 +457,7 @@
         "unione-europea",
         "regolamenti",
         "scadenza",
+        "beneficiari",
         "pnrr"
       ],
       "kind": "normativa",
@@ -446,7 +471,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Regolamento delegato (UE) 2026/47 della Commissione, del 10 dicembre 2025, che modifica gli allegati V e VI del regolamento (UE) 2019/2152 del Parlamento europeo e del Consiglio e il regolamento delegato (UE) 2021/1704 della Commissione per quanto riguarda le informazioni statistiche che devono essere fornite dalle autorita' fiscali e doganali - Pubblicato il 20 aprile 2026 (26CE1441)"
+        ]
       }
     },
     {
@@ -464,6 +491,7 @@
         "unione-europea",
         "regolamenti",
         "scadenza",
+        "beneficiari",
         "pnrr"
       ],
       "kind": "normativa",
@@ -477,7 +505,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Regolamento delegato (UE) 2026/879 della Commissione, del 5 dicembre 2025, recante rettifica di alcune versioni linguistiche del regolamento delegato (UE) 2023/1669 che integra il regolamento (UE) 2017/1369 del Parlamento europeo e del Consiglio per quanto riguarda l'etichettatura energetica degli smartphone e dei tablet - Pubblicato il 20 aprile 2026 (26CE1442)"
+        ]
       }
     },
     {
@@ -495,6 +525,7 @@
         "unione-europea",
         "regolamenti",
         "scadenza",
+        "beneficiari",
         "pnrr"
       ],
       "kind": "normativa",
@@ -508,7 +539,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Regolamento delegato (UE) 2026/881 della Commissione, dell'11 dicembre 2025, che integra il regolamento (UE) 2024/2847 del Parlamento europeo e del Consiglio specificando i termini e le condizioni per l'applicazione dei motivi connessi alla cibersicurezza relativamente al ritardo nella diffusione delle notifiche - Pubblicato il 20 aprile 2026 (26CE1444)"
+        ]
       }
     },
     {
@@ -526,6 +559,7 @@
         "unione-europea",
         "regolamenti",
         "scadenza",
+        "beneficiari",
         "pnrr"
       ],
       "kind": "normativa",
@@ -539,7 +573,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Direttiva delegata (UE) 2026/74 della Commissione, del 12 gennaio 2026, che modifica l'allegato II della direttiva (UE) 2024/1799 del Parlamento europeo e del Consiglio che promuove la riparazione dei beni al fine di includere gli apparecchi per il riscaldamento d'ambiente locale per uso domestico di cui al regolamento (UE) 2024/1103 della Commissione in merito alle specifiche di progettazione ecocompatibile degli apparecchi per il riscaldamento d'ambiente locale e dei dispositivi di controllo separati - Pubblicata il 20 aprile 2026 (26CE1445)"
+        ]
       }
     },
     {
@@ -557,6 +593,7 @@
         "unione-europea",
         "regolamenti",
         "scadenza",
+        "beneficiari",
         "pnrr"
       ],
       "kind": "normativa",
@@ -570,7 +607,10 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Decisione (UE) 2026/865 della Commissione, del 27 marzo 2026, relativa all'avvio dell'esame dettagliato di determinati obiettivi prestazionali inclusi nel progetto rivisto di piano di miglioramento delle prestazioni per i blocchi funzionali di spazio aereo per il quarto periodo di riferimento presentato da Belgio, Germania, Francia, Lussemburgo e Paesi Bassi a norma del regolamento (CE) n.",
+          "549/2004 del Parlamento europeo e del Consiglio [notificata con il numero C(2026) 2003] - Pubblicata il 20 aprile 2026 (26CE1446)"
+        ]
       }
     },
     {
@@ -588,6 +628,7 @@
         "unione-europea",
         "regolamenti",
         "scadenza",
+        "beneficiari",
         "pnrr"
       ],
       "kind": "normativa",
@@ -601,7 +642,10 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Decisione (UE) 2026/866 della Commissione, del 27 marzo 2026, relativa all'avvio dell'esame dettagliato di determinati obiettivi prestazionali inclusi nel progetto rivisto di piano di miglioramento delle prestazioni per i blocchi funzionali di spazio aereo per il quarto periodo di riferimento presentato dalla Svizzera a norma del regolamento (CE) n.",
+          "549/2004 del Parlamento europeo e del Consiglio [notificata con il numero C(2026) 2002] - Pubblicata il 20 aprile 2026 (26CE1447)"
+        ]
       }
     },
     {
@@ -619,6 +663,7 @@
         "unione-europea",
         "regolamenti",
         "scadenza",
+        "beneficiari",
         "pnrr"
       ],
       "kind": "normativa",
@@ -632,7 +677,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "549/2004 del Parlamento europeo e del Consiglio [notificata con il numero C(2026) 2012] - Pubblicata il 20 aprile 2026 (26CE1448)"
+        ]
       }
     },
     {
@@ -650,6 +697,7 @@
         "unione-europea",
         "regolamenti",
         "scadenza",
+        "beneficiari",
         "pnrr"
       ],
       "kind": "normativa",
@@ -664,7 +712,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "1107/2009 del Parlamento europeo e del Consiglio, e che modifica il regolamento di esecuzione (UE) n."
+        ]
       }
     },
     {
@@ -715,6 +765,7 @@
         "decreti",
         "italia",
         "scadenza",
+        "beneficiari",
         "cyber"
       ],
       "kind": "normativa",
@@ -728,7 +779,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Sostituzione del commissario liquidatore della «Partenopea parcheggi societa' cooperativa a r.l.», in Napoli, in liquidazione coatta amministrativa."
+        ]
       }
     },
     {
@@ -971,6 +1024,7 @@
         "unione-europea",
         "regolamenti",
         "scadenza",
+        "beneficiari",
         "gare"
       ],
       "kind": "normativa",
@@ -984,7 +1038,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Direttiva (UE) 2026/804 del Parlamento europeo e del Consiglio, del 30 marzo 2026, che modifica la direttiva 2014/49/UE per quanto riguarda l'ambito di applicazione della protezione dei depositi, l'uso dei fondi dei sistemi di garanzia dei depositi, la cooperazione transfrontaliera e la trasparenza (Testo rilevante ai fini del SEE) - Pubblicata il 20 aprile 2026 (26CE1438)"
+        ]
       }
     },
     {
@@ -1035,6 +1091,7 @@
         "decreti",
         "italia",
         "scadenza",
+        "beneficiari",
         "comuni"
       ],
       "kind": "normativa",
@@ -1048,7 +1105,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Proroga dello stato di emergenza in conseguenza dell'evento franoso verificatosi, a partire dal giorno 14 marzo 2025, nel territorio del Comune di Palagano, in localita' Boccassuolo."
+        ]
       }
     },
     {
@@ -1659,7 +1718,8 @@
         "cup": [],
         "requirements": [],
         "beneficiaries": [
-          "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - COMUNICATO."
+          "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - COMUNICATO.",
+          "Modifica ordinaria del disciplinare della indicazione geografica protetta (IGP) dei prodotti agricoli «Patata della Sila» ai sensi del regolamento (UE) 2024/1143 e del decreto 22 dicembre 2025."
         ]
       }
     },
@@ -1711,7 +1771,8 @@
         "normativa",
         "corte-costituzionale",
         "sentenze",
-        "scadenza"
+        "scadenza",
+        "beneficiari"
       ],
       "kind": "normativa",
       "score": 58,
@@ -1725,7 +1786,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Parlamento - Immunita' parlamentari - Procedimento penale nei confronti del senatore Armando Siri, senatore all'epoca dei fatti - Precedente conflitto tra poteri, concluso con la declaratoria di non spettanza al Senato del potere di adottare la deliberazione del 9 marzo 2022, e conseguente suo annullamento, con cui quest'ultimo aveva negato al GUP del Tribunale ordin.........(T-260107)"
+        ]
       }
     },
     {
@@ -1742,7 +1805,8 @@
         "normativa",
         "unione-europea",
         "regolamenti",
-        "scadenza"
+        "scadenza",
+        "beneficiari"
       ],
       "kind": "normativa",
       "score": 58,
@@ -1755,7 +1819,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Regolamento (UE) 2026/808 del Parlamento europeo e del Consiglio, del 30 marzo 2026, che modifica il regolamento (UE) n."
+        ]
       }
     },
     {
@@ -1807,7 +1873,8 @@
         "normativa",
         "unione-europea",
         "regolamenti",
-        "scadenza"
+        "scadenza",
+        "beneficiari"
       ],
       "kind": "normativa",
       "score": 58,
@@ -1820,7 +1887,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Direttiva (UE) 2026/806 del Parlamento europeo e del Consiglio, del 30 marzo 2026, che modifica la direttiva 2014/59/UE per quanto riguarda le misure di intervento precoce, le condizioni per la risoluzione e il finanziamento dell'azione di risoluzione e la direttiva 2014/24/UE per quanto riguarda i servizi di valutazione nel quadro della risoluzione (Testo rilevante ai fini del SEE) - Pubblicata il 20 aprile 2026 (26CE1440)"
+        ]
       }
     },
     {
@@ -2046,6 +2115,7 @@
         "regioni",
         "enti-locali",
         "scadenza",
+        "beneficiari",
         "comuni",
         "cultura"
       ],
@@ -2059,7 +2129,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Modifica del regolamento di esecuzione sul rilevamento unificato di reddito e patrimonio."
+        ]
       }
     },
     {
@@ -2076,7 +2148,8 @@
         "normativa",
         "regioni",
         "enti-locali",
-        "scadenza"
+        "scadenza",
+        "beneficiari"
       ],
       "kind": "normativa",
       "score": 58,
@@ -2089,7 +2162,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Gestione multifunzionale del bosco e degli ecosistemi forestali, sviluppo sostenibile, tutela e valorizzazione dell'ambiente, competenze ai fini del vincolo idrogeologico nei parchi e nelle riserve naturali regionali."
+        ]
       }
     },
     {
@@ -2164,7 +2239,8 @@
         "normativa",
         "corte-costituzionale",
         "sentenze",
-        "scadenza"
+        "scadenza",
+        "beneficiari"
       ],
       "kind": "normativa",
       "score": 58,
@@ -2176,7 +2252,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Giudizio costituzionale - Contraddittorio - Giudizi di esdebitazione relativi a procedure di liquidazione controllata - Omessa notifica, da parte dei giudici a quibus, delle ordinanze di rimessione ai creditori ammessi al passivo e agli altri creditori nei cui riguardi e' stato in concreto suscitato il contraddittorio - Necessita' di integrazione del contraddittorio nei loro confronti - Restituzione de.........(T-260104)"
+        ]
       }
     },
     {
@@ -2193,7 +2271,8 @@
         "normativa",
         "corte-costituzionale",
         "sentenze",
-        "scadenza"
+        "scadenza",
+        "beneficiari"
       ],
       "kind": "normativa",
       "score": 58,
@@ -2205,7 +2284,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Reati e pene - Furto in abitazione - Trattamento sanzionatorio - Possibilita' di diminuire la pena fino a un terzo quando per la natura, la specie, i mezzi, le modalita' o circostanze dell'azione, ovvero per la particolare tenuita' del danno o del pericolo, il fatto risulti di lieve entita' - Omessa previsione - Denunciata violazione dei principi di ragionevolezza, eguaglianza e della finalita' riedu.........(T-260105)"
+        ]
       }
     },
     {
@@ -2222,7 +2303,8 @@
         "normativa",
         "corte-costituzionale",
         "sentenze",
-        "scadenza"
+        "scadenza",
+        "beneficiari"
       ],
       "kind": "normativa",
       "score": 58,
@@ -2235,7 +2317,10 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Ordinanza dell'11 maggio 2026 del Giudice di Pace di Varese nel procedimento penale a carico di S.",
+          "Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00114)"
+        ]
       }
     },
     {
@@ -2252,7 +2337,8 @@
         "normativa",
         "corte-costituzionale",
         "sentenze",
-        "scadenza"
+        "scadenza",
+        "beneficiari"
       ],
       "kind": "normativa",
       "score": 58,
@@ -2265,7 +2351,10 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Ordinanza dell'11 maggio 2026 del Giudice di Pace di Varese nel procedimento penale a carico di G.",
+          "Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00115)"
+        ]
       }
     },
     {
@@ -2282,7 +2371,8 @@
         "normativa",
         "corte-costituzionale",
         "sentenze",
-        "scadenza"
+        "scadenza",
+        "beneficiari"
       ],
       "kind": "normativa",
       "score": 58,
@@ -2295,7 +2385,10 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Ordinanza del 4 maggio 2026 del Giudice di Pace di Varese nel procedimento penale a carico di B.",
+          "Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00111)"
+        ]
       }
     },
     {
@@ -2312,7 +2405,8 @@
         "normativa",
         "corte-costituzionale",
         "sentenze",
-        "scadenza"
+        "scadenza",
+        "beneficiari"
       ],
       "kind": "normativa",
       "score": 58,
@@ -2325,7 +2419,10 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
+        "beneficiaries": [
+          "Ordinanza del 4 maggio 2026 del Giudice di Pace di Varese nel procedimento penale a carico di F.",
+          "Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00112)"
+        ]
       }
     },
     {
@@ -2342,7 +2439,8 @@
         "normativa",
         "corte-costituzionale",
         "sentenze",
-        "scadenza"
+        "scadenza",
+        "beneficiari"
       ],
       "kind": "normativa",
       "score": 58,
@@ -2355,223 +2453,9 @@
         "cig": [],
         "cup": [],
         "requirements": [],
-        "beneficiaries": []
-      }
-    },
-    {
-      "id": "51ee408369810ba4",
-      "title": "CORTE SUPREMA DI CASSAZIONE - COMUNICATO",
-      "summary": "Annuncio di una proposta di legge di iniziativa popolare (26A03125)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A03125/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:37.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
-        "italia",
-        "beneficiari",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 50,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
         "beneficiaries": [
-          "CORTE SUPREMA DI CASSAZIONE - COMUNICATO."
-        ]
-      }
-    },
-    {
-      "id": "6ee228edf61af6eb",
-      "title": "MINISTERO DELL'INTERNO - COMUNICATO",
-      "summary": "Fusione per incorporazione della Parrocchia di S. Martino, in Valgrana, della Parrocchia di S. Ambrogio e della Parrocchia di S. Anna, in Castelmagno, della Parrocchia di S. Michele, in Montemale, della Parrocchia di S. Giacomo, della Parrocchia di S. Giovanni Battista, della Parrocchia di S. Pietro in Vincoli e della Parrocchia di S. Lucia, in Monterosso Grana e della Parrocchia di S. Ponzio, in Pradleves nella Parrocchia Santa Maria della Valle, in Valgrana. (26A02987)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02987/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:34.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
-        "italia",
-        "beneficiari",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 50,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "MINISTERO DELL'INTERNO - COMUNICATO."
-        ]
-      }
-    },
-    {
-      "id": "d991c49dc48e387c",
-      "title": "MINISTERO DELL'INTERNO - COMUNICATO",
-      "summary": "Riconoscimento della personalita' giuridica della Fondazione di religione «Fondazione Caritas Veronese», in Verona. (26A02985)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02985/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:33.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
-        "italia",
-        "beneficiari",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 50,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "MINISTERO DELL'INTERNO - COMUNICATO."
-        ]
-      }
-    },
-    {
-      "id": "0cb1249e8f02c1fc",
-      "title": "MINISTERO DELL'INTERNO - COMUNICATO",
-      "summary": "Fusione per incorporazione della Parrocchia S. Bernardo nella Parrocchia Santi Ambrogio e Antonio, entrambe in Casnate con Bernate, con contestuale mutamento della denominazione in Parrocchia Santi Antonio e Bernardo. (26A02986)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02986/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:33.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
-        "italia",
-        "beneficiari",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 50,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "MINISTERO DELL'INTERNO - COMUNICATO."
-        ]
-      }
-    },
-    {
-      "id": "33d0ac86cc84441c",
-      "title": "MINISTERO DELL'INTERNO - COMUNICATO",
-      "summary": "Riconoscimento della personalita' giuridica del Santuario Diocesano di Santa Lucia - Divina Misericordia, in Caserta, frazione Centurano. (26A02975)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02975/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:29.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
-        "italia",
-        "beneficiari",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 50,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "MINISTERO DELL'INTERNO - COMUNICATO."
-        ]
-      }
-    },
-    {
-      "id": "a06bd438c7d9f60c",
-      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
-      "summary": "Autorizzazione all'importazione parallela del medicinale per uso umano «Ryaltris» (26A02961)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02961/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:24.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
-        "italia",
-        "beneficiari",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 50,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "AGENZIA ITALIANA DEL FARMACO - COMUNICATO."
-        ]
-      }
-    },
-    {
-      "id": "201f82d51a215fe7",
-      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
-      "summary": "Autorizzazione all'importazione parallela del medicinale per uso umano «Tecentriq» (26A02962)",
-      "url": "http://www.gazzettaufficiale.it/eli/id/2026/06/17/26A02962/SG",
-      "channel": "normativa",
-      "sourceId": "guri-sg",
-      "sourceName": "Gazzetta Ufficiale - Serie Generale",
-      "publishedAt": "2026-06-17T17:32:24.000Z",
-      "tags": [
-        "guri",
-        "normativa",
-        "leggi",
-        "decreti",
-        "italia",
-        "beneficiari",
-        "comuni"
-      ],
-      "kind": "normativa",
-      "score": 50,
-      "fields": {
-        "deadlines": [],
-        "amounts": [],
-        "cig": [],
-        "cup": [],
-        "requirements": [],
-        "beneficiaries": [
-          "AGENZIA ITALIANA DEL FARMACO - COMUNICATO."
+          "Ordinanza del 4 maggio 2026 del Giudice di Pace di Varese nel procedimento penale a carico di S.",
+          "Processo penale - Dibattimento - Procedimento davanti al giudice di pace - Rinnovazione dell'esame testimoniale in caso di mutamento del giudice nel corso del dibattimento - Verbale d'udienza - Redazione, di regola, solo in forma riassuntiva - Omessa previsione che il giudice di pace, in assenza di videoregistrazione, possa valutare la concreta necessita' .........(26C00113)"
         ]
       }
     }

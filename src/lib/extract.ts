@@ -3,7 +3,7 @@ import type { ExtractedFields } from "@/lib/types";
 const CIG_RE = /\b(?:CIG[:\s-]*)?([A-Z0-9]{10})\b/g;
 const CUP_RE = /\b(?:CUP[:\s-]*)?([A-Z][0-9A-Z]{14})\b/g;
 const EURO_RE = /(?:€|EUR|euro)\s?[\d.]+(?:,\d{2})?|[\d.]+(?:,\d{2})?\s?(?:€|euro|EUR)/gi;
-const DATE_RE = /\b(?:\d{1,2}[/-]\d{1,2}[/-]\d{2,4}|\d{1,2}\s+(?:gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\s+\d{4})\b/gi;
+const DATE_RE = /\b(?:\d{1,2}[/-]\d{1,2}[/-]\d{2,4}|\d{1,2}\s+(?:gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre|january|february|march|april|may|june|july|august|september|october|november|december)\s+\d{4})\b/gi;
 
 const REQUIREMENT_TERMS = [
   "requisiti",
@@ -15,6 +15,12 @@ const REQUIREMENT_TERMS = [
   "certificazione",
   "esperienza",
   "operatori economici",
+  "requirements",
+  "eligibility",
+  "eligible",
+  "submission",
+  "application",
+  "applicants",
 ];
 
 const BENEFICIARY_TERMS = [
@@ -24,6 +30,17 @@ const BENEFICIARY_TERMS = [
   "soggetti ammessi",
   "microimprese",
   "pmi",
+  "smes",
+  "startups",
+  "startup",
+  "public administrations",
+  "pa",
+  "academia",
+  "research organisations",
+  "research organizations",
+  "universities",
+  "companies",
+  "industry",
   "enti locali",
   "comuni",
   "aziende sanitarie",
@@ -55,7 +72,18 @@ export function fieldsToTags(fields: ExtractedFields) {
 
 function extractDeadlineSentences(text: string) {
   const dateMatches = extractMatches(text, DATE_RE);
-  const deadlineSentences = extractSentencesByTerms(text, ["scadenza", "termine", "entro", "presentazione", "ore"]);
+  const deadlineSentences = extractSentencesByTerms(text, [
+    "scadenza",
+    "termine",
+    "entro",
+    "presentazione",
+    "ore",
+    "deadline",
+    "closing date",
+    "opening date",
+    "submission",
+    "apply",
+  ]);
   return [...dateMatches, ...deadlineSentences].slice(0, 8);
 }
 
